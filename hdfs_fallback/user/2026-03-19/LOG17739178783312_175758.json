@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739178783312",
+  "timestamp": "2026-03-19T17:57:58.998648",
+  "user": {
+    "id": 2,
+    "username": "user2",
+    "name": "V\u0169 Th\u1ecb Linh",
+    "email": "user2@gmail.com",
+    "phone": "0499652999",
+    "age": 54,
+    "address": "386 L\u00ea L\u1ee3i, Ph\u00fa Nhu\u1eadn",
+    "district": "Ph\u00fa Nhu\u1eadn",
+    "balance": 1472,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_82342",
+    "device": "desktop",
+    "ip": "75.82.156.75"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737955701432",
+  "timestamp": "2026-03-18T07:59:30.789286",
+  "user": {
+    "id": 18361,
+    "username": "user18361",
+    "name": "Nguy\u1ec5n Lan Nam",
+    "email": "user18361@yahoo.com",
+    "phone": "0482145207",
+    "age": 38,
+    "address": "356 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, T\u00e2n Ph\u00fa",
+    "district": "T\u00e2n Ph\u00fa",
+    "balance": 565,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_62776",
+    "device": "desktop",
+    "ip": "65.233.114.76"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

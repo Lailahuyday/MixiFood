@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737950732102",
+  "timestamp": "2026-03-18T07:51:13.614760",
+  "user": {
+    "id": 32251,
+    "username": "user32251",
+    "name": "Tr\u1ea7n \u0110\u1ee9c Nam",
+    "email": "user32251@hotmail.com",
+    "phone": "0760027492",
+    "age": 48,
+    "address": "384 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 7",
+    "district": "Qu\u1eadn 7",
+    "balance": 3519,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_83300",
+    "device": "mobile",
+    "ip": "76.72.39.208"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

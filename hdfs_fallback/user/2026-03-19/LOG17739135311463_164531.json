@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739135311463",
+  "timestamp": "2026-03-19T16:45:31.962949",
+  "user": {
+    "id": 40355,
+    "username": "user40355",
+    "name": "Ho\u00e0ng H\u1ed3ng D\u0169ng",
+    "email": "user40355@hotmail.com",
+    "phone": "0817332406",
+    "age": 49,
+    "address": "257 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 4",
+    "district": "Qu\u1eadn 4",
+    "balance": 2650,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_17959",
+    "device": "tablet",
+    "ip": "227.210.89.186"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

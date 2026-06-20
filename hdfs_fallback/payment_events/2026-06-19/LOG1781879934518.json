@@ -1,0 +1,39 @@
+{
+  "log_id": "LOG17818799341352",
+  "timestamp": "2026-06-19T21:38:54.504410",
+  "user": {
+    "id": 17324,
+    "username": "user17324",
+    "name": "L\u00ea H\u01b0\u01a1ng Ch\u00e2u",
+    "email": "user17324@gmail.com",
+    "phone": "0797192008",
+    "age": 50,
+    "address": "327 L\u00ea L\u1ee3i, Qu\u1eadn 3",
+    "district": "Qu\u1eadn 3",
+    "balance": 831,
+    "membership_points": 5
+  },
+  "action": "checkout",
+  "product": {
+    "id": 7,
+    "name": "M\u00ec X\u00e0o Th\u1ecbt Gh\u1eb9",
+    "price": 128.0,
+    "category": "food",
+    "stock_before": 28,
+    "stock_after": 28
+  },
+  "quantity": 1,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Kh\u00f4ng \u0111\u1ee7 \u0111i\u1ec3m",
+    "points_required": 6,
+    "points_available": 5
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781879934510"
+}

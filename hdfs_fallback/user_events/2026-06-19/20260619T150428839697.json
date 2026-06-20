@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818811663080",
+  "timestamp": "2026-06-19T21:59:26.571900",
+  "user": {
+    "id": 19012,
+    "username": "user19012",
+    "name": "Lê Minh Bình",
+    "email": "user19012@gmail.com",
+    "phone": "0561362181",
+    "age": 68,
+    "address": "398 Hai Bà Trưng, Củ Chi",
+    "district": "Củ Chi",
+    "balance": 2995,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_55608",
+    "device": "tablet",
+    "ip": "25.30.94.214"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "user_events_0_209_1781881466793"
+}

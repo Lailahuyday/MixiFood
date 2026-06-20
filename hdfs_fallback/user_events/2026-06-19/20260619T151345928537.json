@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818820255975",
+  "timestamp": "2026-06-19T22:13:45.890763",
+  "user": {
+    "id": 1291,
+    "username": "user1291",
+    "name": "Phạm Hồng Khánh",
+    "email": "user1291@gmail.com",
+    "phone": "0591320756",
+    "age": 45,
+    "address": "235 Phạm Ngũ Lão, Quận 10",
+    "district": "Quận 10",
+    "balance": 1651,
+    "membership_points": 6
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_36722",
+    "device": "desktop",
+    "ip": "235.47.13.193"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "user_events_0_222_1781882025895"
+}

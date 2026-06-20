@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739134743038",
+  "timestamp": "2026-03-19T16:44:34.827574",
+  "user": {
+    "id": 24127,
+    "username": "user24127",
+    "name": "Phan Thanh Mai",
+    "email": "user24127@gmail.com",
+    "phone": "0569010065",
+    "age": 69,
+    "address": "464 Nguy\u1ec5n Hu\u1ec7, T\u00e2n B\u00ecnh",
+    "district": "T\u00e2n B\u00ecnh",
+    "balance": 4070,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_63003",
+    "device": "mobile",
+    "ip": "50.73.234.207"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

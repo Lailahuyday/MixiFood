@@ -1,0 +1,39 @@
+{
+  "log_id": "LOG17819393085497",
+  "timestamp": "2026-06-20T14:08:28.509755",
+  "user": {
+    "id": 27358,
+    "username": "user27358",
+    "name": "Phạm Thị Linh",
+    "email": "user27358@yahoo.com",
+    "phone": "0526342042",
+    "age": 66,
+    "address": "314 Trần Hưng Đạo, Thủ Đức",
+    "district": "Thủ Đức",
+    "balance": 1320,
+    "membership_points": 8
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 5,
+    "name": "Gỏi Cá Hồi Chiên Giòn",
+    "price": 144.0,
+    "category": "food",
+    "stock_before": 15,
+    "stock_after": 15
+  },
+  "quantity": 5,
+  "status": "success",
+  "additional_data": {
+    "quantity": 5,
+    "unit_price": 144.0,
+    "subtotal": 720.0,
+    "available_stock": 15
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "product_events_0_334_1781939308544"
+}

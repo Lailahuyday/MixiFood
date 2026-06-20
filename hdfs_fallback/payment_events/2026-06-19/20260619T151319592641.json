@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818819988422",
+  "timestamp": "2026-06-19T22:13:18.248840",
+  "user": {
+    "id": 30831,
+    "username": "user30831",
+    "name": "Lê Lan Bình",
+    "email": "user30831@yahoo.com",
+    "phone": "0557402388",
+    "age": 26,
+    "address": "248 Nguyễn Huệ, Hóc Môn",
+    "district": "Hóc Môn",
+    "balance": 4956,
+    "membership_points": 2
+  },
+  "action": "checkout",
+  "product": {
+    "id": 5,
+    "name": "Gỏi Cá Hồi Chiên Giòn",
+    "price": 144.0,
+    "category": "food",
+    "stock_before": 16,
+    "stock_after": 16
+  },
+  "quantity": 3,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Chỉ được dùng điểm khi mua 1 sản phẩm",
+    "quantity": 3
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "payment_events_0_50_1781881999562"
+}

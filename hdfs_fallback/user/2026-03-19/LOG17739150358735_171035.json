@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739150358735",
+  "timestamp": "2026-03-19T17:10:35.450444",
+  "user": {
+    "id": 27137,
+    "username": "user27137",
+    "name": "Hu\u1ef3nh Minh Nam",
+    "email": "user27137@gmail.com",
+    "phone": "0789272272",
+    "age": 66,
+    "address": "29 L\u00ea L\u1ee3i, Nh\u00e0 B\u00e8",
+    "district": "Nh\u00e0 B\u00e8",
+    "balance": 2596,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_15512",
+    "device": "mobile",
+    "ip": "11.182.134.230"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

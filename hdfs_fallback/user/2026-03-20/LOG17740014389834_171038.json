@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740014389834",
+  "timestamp": "2026-03-20T17:10:38.879106",
+  "user": {
+    "id": 611,
+    "username": "user611",
+    "name": "Tr\u1ea7n H\u01b0\u01a1ng Linh",
+    "email": "user611@hotmail.com",
+    "phone": "0627011370",
+    "age": 60,
+    "address": "302 Ph\u1ea1m Ng\u0169 L\u00e3o, Qu\u1eadn 8",
+    "district": "Qu\u1eadn 8",
+    "balance": 1980,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_49444",
+    "device": "desktop",
+    "ip": "189.47.208.50"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

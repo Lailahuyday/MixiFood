@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739157955485",
+  "timestamp": "2026-03-19T17:23:15.856690",
+  "user": {
+    "id": 35490,
+    "username": "user35490",
+    "name": "B\u00f9i Lan Nam",
+    "email": "user35490@gmail.com",
+    "phone": "0420761519",
+    "age": 28,
+    "address": "243 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 8",
+    "district": "Qu\u1eadn 8",
+    "balance": 1958,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_58871",
+    "device": "tablet",
+    "ip": "193.16.166.79"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

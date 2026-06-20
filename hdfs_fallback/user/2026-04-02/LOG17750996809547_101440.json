@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17750996809547",
+  "timestamp": "2026-04-02T10:14:40.160118",
+  "user": {
+    "id": 19018,
+    "username": "user19018",
+    "name": "B\u00f9i H\u1ea3i H\u00e0",
+    "email": "user19018@gmail.com",
+    "phone": "0655872093",
+    "age": 46,
+    "address": "282 Ph\u1ea1m Ng\u0169 L\u00e3o, Qu\u1eadn 4",
+    "district": "Qu\u1eadn 4",
+    "balance": 393,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_50631",
+    "device": "tablet",
+    "ip": "139.91.19.180"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

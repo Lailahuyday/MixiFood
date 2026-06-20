@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17818796922681",
+  "timestamp": "2026-06-19T21:34:52.618164",
+  "user": {
+    "id": 9986,
+    "username": "user9986",
+    "name": "Lê Minh Nam",
+    "email": "user9986@hotmail.com",
+    "phone": "0773258854",
+    "age": 40,
+    "address": "296 Nguyễn Huệ, Bình Chánh",
+    "district": "Bình Chánh",
+    "balance": 2226,
+    "membership_points": 6
+  },
+  "action": "checkout",
+  "product": {
+    "id": 8,
+    "name": "Cơm Bò Xào",
+    "price": 86.0,
+    "category": "food",
+    "stock_before": 14,
+    "stock_after": 14
+  },
+  "quantity": 2,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Chỉ được dùng điểm khi mua 1 sản phẩm",
+    "quantity": 2
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

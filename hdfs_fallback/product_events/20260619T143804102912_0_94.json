@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17818798491178",
+  "timestamp": "2026-06-19T21:37:29.943458",
+  "user": {
+    "id": 19483,
+    "username": "user19483",
+    "name": "Huỳnh Lan Châu",
+    "email": "user19483@hotmail.com",
+    "phone": "0381959724",
+    "age": 42,
+    "address": "74 Hai Bà Trưng, Quận 12",
+    "district": "Quận 12",
+    "balance": 3943,
+    "membership_points": 2
+  },
+  "action": "view",
+  "product": {
+    "id": 13,
+    "name": "Oolong Xoài",
+    "price": 67.0,
+    "category": "drink",
+    "stock_before": 8,
+    "stock_after": 8
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 113,
+    "from_page": "search",
+    "device": "tablet"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

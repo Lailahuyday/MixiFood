@@ -1,0 +1,50 @@
+{
+  "log_id": "LOG17818797031478",
+  "timestamp": "2026-06-19T21:35:03.178782",
+  "user": {
+    "id": 34895,
+    "username": "user34895",
+    "name": "Lê Thị Phong",
+    "email": "user34895@yahoo.com",
+    "phone": "0469682848",
+    "age": 32,
+    "address": "39 Lê Lợi, Tân Phú",
+    "district": "Tân Phú",
+    "balance": 23,
+    "membership_points": 6
+  },
+  "action": "checkout",
+  "product": {
+    "id": 9,
+    "name": "Cua Cà Ri Kiểu Thái",
+    "price": 268.0,
+    "category": "food",
+    "stock_before": 22,
+    "stock_after": 18
+  },
+  "quantity": 4,
+  "status": "success",
+  "additional_data": {
+    "payment_method": "CurrentAccount",
+    "balance_before": 1041,
+    "balance_after": 23,
+    "points_earned": 4,
+    "points_after": 6,
+    "discount": 53.6,
+    "subtotal": 1072.0,
+    "final_total": 1018.4,
+    "items": [
+      {
+        "product_id": 9,
+        "product_name": "Cua Cà Ri Kiểu Thái",
+        "quantity": 4,
+        "price": 268.0
+      }
+    ]
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

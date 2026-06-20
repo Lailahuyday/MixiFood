@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737949039503",
+  "timestamp": "2026-03-18T07:48:23.834266",
+  "user": {
+    "id": 41575,
+    "username": "user41575",
+    "name": "Nguy\u1ec5n Lan Linh",
+    "email": "user41575@yahoo.com",
+    "phone": "0598681988",
+    "age": 44,
+    "address": "23 Nguy\u1ec5n Hu\u1ec7, Qu\u1eadn 10",
+    "district": "Qu\u1eadn 10",
+    "balance": 515,
+    "membership_points": 6
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_61013",
+    "device": "desktop",
+    "ip": "10.206.41.75"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

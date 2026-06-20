@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17737969012052",
+  "timestamp": "2026-03-18T08:21:41.540833",
+  "user": {
+    "id": 29366,
+    "username": "user29366",
+    "name": "L\u00ea \u0110\u1ee9c D\u0169ng",
+    "email": "user29366@gmail.com",
+    "phone": "0414359775",
+    "age": 64,
+    "address": "399 Hai B\u00e0 Tr\u01b0ng, G\u00f2 V\u1ea5p",
+    "district": "G\u00f2 V\u1ea5p",
+    "balance": 2266,
+    "membership_points": 3
+  },
+  "action": "view",
+  "product": {
+    "id": 30,
+    "name": "b\u00e1nh cu\u1ed1n cao b\u1eb1ng",
+    "price": 68.0,
+    "category": "food",
+    "stock_before": 82,
+    "stock_after": 82
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 56,
+    "from_page": "home",
+    "device": "tablet"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

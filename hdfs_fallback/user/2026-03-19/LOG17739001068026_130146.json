@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739001068026",
+  "timestamp": "2026-03-19T13:01:46.007468",
+  "user": {
+    "id": 1,
+    "username": "user1",
+    "name": "Hu\u1ef3nh Minh Linh",
+    "email": "user1@hotmail.com",
+    "phone": "0597936258",
+    "age": 36,
+    "address": "143 Hai B\u00e0 Tr\u01b0ng, B\u00ecnh T\u00e2n",
+    "district": "B\u00ecnh T\u00e2n",
+    "balance": 3688,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_18947",
+    "device": "mobile",
+    "ip": "134.102.212.220"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

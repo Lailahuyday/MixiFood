@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739057124792",
+  "timestamp": "2026-03-19T14:35:12.631725",
+  "user": {
+    "id": 25191,
+    "username": "user25191",
+    "name": "\u0110\u1eb7ng H\u1ed3ng D\u0169ng",
+    "email": "user25191@yahoo.com",
+    "phone": "0718865326",
+    "age": 52,
+    "address": "115 Nguy\u1ec5n Hu\u1ec7, B\u00ecnh Th\u1ea1nh",
+    "district": "B\u00ecnh Th\u1ea1nh",
+    "balance": 4003,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_80260",
+    "device": "mobile",
+    "ip": "134.80.234.250"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

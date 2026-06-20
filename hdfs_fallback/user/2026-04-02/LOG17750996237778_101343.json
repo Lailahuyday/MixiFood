@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17750996237778",
+  "timestamp": "2026-04-02T10:13:43.905158",
+  "user": {
+    "id": 4039,
+    "username": "user4039",
+    "name": "Phan Thanh Phong",
+    "email": "user4039@hotmail.com",
+    "phone": "0895019847",
+    "age": 44,
+    "address": "65 Ph\u1ea1m Ng\u0169 L\u00e3o, B\u00ecnh Ch\u00e1nh",
+    "district": "B\u00ecnh Ch\u00e1nh",
+    "balance": 4142,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_57592",
+    "device": "desktop",
+    "ip": "33.61.101.94"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

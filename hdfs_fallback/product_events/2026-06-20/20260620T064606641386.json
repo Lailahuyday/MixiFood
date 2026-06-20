@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17819379665078",
+  "timestamp": "2026-06-20T13:46:06.617559",
+  "user": {
+    "id": 33535,
+    "username": "user33535",
+    "name": "Nguyễn Thanh Châu",
+    "email": "user33535@hotmail.com",
+    "phone": "0417892734",
+    "age": 67,
+    "address": "479 Hai Bà Trưng, Bình Tân",
+    "district": "Bình Tân",
+    "balance": 655,
+    "membership_points": 1
+  },
+  "action": "view",
+  "product": {
+    "id": 14,
+    "name": "Trà Hoa Cúc",
+    "price": 60.0,
+    "category": "drink",
+    "stock_before": 28,
+    "stock_after": 28
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 56,
+    "from_page": "category",
+    "device": "mobile"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "product_events_0_298_1781937966640"
+}

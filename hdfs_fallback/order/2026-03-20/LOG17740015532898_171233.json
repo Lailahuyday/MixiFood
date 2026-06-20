@@ -1,0 +1,50 @@
+{
+  "log_id": "LOG17740015532898",
+  "timestamp": "2026-03-20T17:12:33.793682",
+  "user": {
+    "id": 37153,
+    "username": "user37153",
+    "name": "Phan H\u1ed3ng B\u00ecnh",
+    "email": "user37153@yahoo.com",
+    "phone": "0850015436",
+    "age": 24,
+    "address": "220 L\u00ea L\u1ee3i, T\u00e2n B\u00ecnh",
+    "district": "T\u00e2n B\u00ecnh",
+    "balance": 4462,
+    "membership_points": 4
+  },
+  "action": "checkout",
+  "product": {
+    "id": 17,
+    "name": "G\u00e0 Kh\u00f4ng X\u01b0\u01a1ng Chi\u00ean",
+    "price": 68.0,
+    "category": "fastfood",
+    "stock_before": 71,
+    "stock_after": 69
+  },
+  "quantity": 2,
+  "status": "success",
+  "additional_data": {
+    "payment_method": "CurrentAccount",
+    "balance_before": 4598,
+    "balance_after": 4462,
+    "points_earned": 2,
+    "points_after": 4,
+    "discount": 0,
+    "subtotal": 136.0,
+    "final_total": 136.0,
+    "items": [
+      {
+        "product_id": 17,
+        "product_name": "G\u00e0 Kh\u00f4ng X\u01b0\u01a1ng Chi\u00ean",
+        "quantity": 2,
+        "price": 68.0
+      }
+    ]
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740015086100",
+  "timestamp": "2026-03-20T17:11:48.619728",
+  "user": {
+    "id": 4921,
+    "username": "user4921",
+    "name": "Tr\u1ea7n H\u1ea3i An",
+    "email": "user4921@yahoo.com",
+    "phone": "0634717392",
+    "age": 26,
+    "address": "448 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, B\u00ecnh Th\u1ea1nh",
+    "district": "B\u00ecnh Th\u1ea1nh",
+    "balance": 1537,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_93181",
+    "device": "mobile",
+    "ip": "129.0.130.186"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

@@ -1,0 +1,126 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="upload-container">
+    <h2><i class="fas fa-qrcode"></i> Upload mã QR</h2>
+    
+    <form method="post" enctype="multipart/form-data" class="upload-form">
+        {% csrf_token %}
+        
+        {% if form.non_field_errors %}
+        <div class="error-message">
+            {% for error in form.non_field_errors %}
+                {{ error }}
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <div class="form-group">
+            {{ form.qr_code.label_tag }}
+            {{ form.qr_code }}
+            {% if form.qr_code.help_text %}
+            <small class="help-text">{{ form.qr_code.help_text }}</small>
+            {% endif %}
+            {% if form.qr_code.errors %}
+            <div class="error-message">
+                {% for error in form.qr_code.errors %}
+                    {{ error }}
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+
+        <button type="submit" class="upload-button">
+            <i class="fas fa-upload"></i> Upload mã QR
+        </button>
+    </form>
+
+    <div class="back-link">
+        <a href="{% url 'deposit' %}">
+            <i class="fas fa-arrow-left"></i> Quay lại trang nạp tiền
+        </a>
+    </div>
+</div>
+
+<style>
+.upload-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.upload-container h2 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.upload-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.help-text {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.error-message {
+    color: #e74c3c;
+    font-size: 0.9em;
+    margin-top: 0.3rem;
+}
+
+.upload-button {
+    background: #2ecc71;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.upload-button:hover {
+    background: #27ae60;
+}
+
+.back-link {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.back-link a {
+    color: #7f8c8d;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.back-link a:hover {
+    color: #2c3e50;
+}
+</style>
+{% endblock %} 

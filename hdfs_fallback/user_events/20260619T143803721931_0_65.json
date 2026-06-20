@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818795706691",
+  "timestamp": "2026-06-19T21:32:50.875942",
+  "user": {
+    "id": 14161,
+    "username": "user14161",
+    "name": "Phan Thanh An",
+    "email": "user14161@gmail.com",
+    "phone": "0319602380",
+    "age": 62,
+    "address": "417 Hai Bà Trưng, Quận 6",
+    "district": "Quận 6",
+    "balance": 1428,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_98820",
+    "device": "desktop",
+    "ip": "42.201.51.125"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

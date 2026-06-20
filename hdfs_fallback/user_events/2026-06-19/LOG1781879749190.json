@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818797496611",
+  "timestamp": "2026-06-19T21:35:49.174727",
+  "user": {
+    "id": 8398,
+    "username": "user8398",
+    "name": "Nguy\u1ec5n Lan Nam",
+    "email": "user8398@yahoo.com",
+    "phone": "0739947352",
+    "age": 42,
+    "address": "466 Nguy\u1ec5n Hu\u1ec7, Qu\u1eadn 2",
+    "district": "Qu\u1eadn 2",
+    "balance": 1806,
+    "membership_points": 6
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_44837",
+    "device": "desktop",
+    "ip": "110.183.167.33"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781879749178"
+}

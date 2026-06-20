@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17740014421351",
+  "timestamp": "2026-03-20T17:10:42.912365",
+  "user": {
+    "id": 30540,
+    "username": "user30540",
+    "name": "Hu\u1ef3nh Lan An",
+    "email": "user30540@gmail.com",
+    "phone": "0956044227",
+    "age": 55,
+    "address": "286 Ph\u1ea1m Ng\u0169 L\u00e3o, Ph\u00fa Nhu\u1eadn",
+    "district": "Ph\u00fa Nhu\u1eadn",
+    "balance": 3856,
+    "membership_points": 5
+  },
+  "action": "checkout",
+  "product": {
+    "id": 8,
+    "name": "C\u01a1m B\u00f2 X\u00e0o",
+    "price": 86.0,
+    "category": "food",
+    "stock_before": 55,
+    "stock_after": 55
+  },
+  "quantity": 1,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Kh\u00f4ng \u0111\u1ee7 \u0111i\u1ec3m",
+    "points_required": 6,
+    "points_available": 5
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

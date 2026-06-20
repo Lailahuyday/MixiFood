@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17819379335893",
+  "timestamp": "2026-06-20T13:45:33.040617",
+  "user": {
+    "id": 36956,
+    "username": "user36956",
+    "name": "Lê Đức Châu",
+    "email": "user36956@hotmail.com",
+    "phone": "0316688566",
+    "age": 70,
+    "address": "267 Lê Lợi, Quận 11",
+    "district": "Quận 11",
+    "balance": 4409,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_55686",
+    "device": "desktop",
+    "ip": "174.24.130.21"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "user_events_0_269_1781937933057"
+}

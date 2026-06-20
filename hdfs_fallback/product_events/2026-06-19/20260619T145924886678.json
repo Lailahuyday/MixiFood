@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818811454160",
+  "timestamp": "2026-06-19T21:59:05.445389",
+  "user": {
+    "id": 44655,
+    "username": "user44655",
+    "name": "Bùi Thanh Châu",
+    "email": "user44655@yahoo.com",
+    "phone": "0312485702",
+    "age": 26,
+    "address": "49 Phạm Ngũ Lão, Củ Chi",
+    "district": "Củ Chi",
+    "balance": 2576,
+    "membership_points": 7
+  },
+  "action": "view",
+  "product": {
+    "id": 13,
+    "name": "Oolong Xoài",
+    "price": 67.0,
+    "category": "drink",
+    "stock_before": 0,
+    "stock_after": 0
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 73,
+    "from_page": "search",
+    "device": "tablet"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "product_events_0_166_1781881162824"
+}

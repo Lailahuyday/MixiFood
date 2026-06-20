@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17819380625461",
+  "timestamp": "2026-06-20T13:47:42.619694",
+  "user": {
+    "id": 30944,
+    "username": "user30944",
+    "name": "Bùi Lan Nam",
+    "email": "user30944@yahoo.com",
+    "phone": "0787950608",
+    "age": 22,
+    "address": "243 Phạm Ngũ Lão, Quận 2",
+    "district": "Quận 2",
+    "balance": 2916,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_38271",
+    "device": "mobile",
+    "ip": "252.28.48.14"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "user_events_0_289_1781938062628"
+}

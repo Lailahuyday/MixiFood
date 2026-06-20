@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17750996778272",
+  "timestamp": "2026-04-02T10:14:37.411698",
+  "user": {
+    "id": 15,
+    "username": "user15",
+    "name": "Phan H\u1ea3i H\u00e0",
+    "email": "user15@gmail.com",
+    "phone": "0645110566",
+    "age": 41,
+    "address": "381 Nguy\u1ec5n Hu\u1ec7, T\u00e2n B\u00ecnh",
+    "district": "T\u00e2n B\u00ecnh",
+    "balance": 1725,
+    "membership_points": 5
+  },
+  "action": "checkout",
+  "product": {
+    "id": 5,
+    "name": "G\u1ecfi C\u00e1 H\u1ed3i Chi\u00ean Gi\u00f2n",
+    "price": 144.0,
+    "category": "food",
+    "stock_before": 54,
+    "stock_after": 54
+  },
+  "quantity": 3,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Ch\u1ec9 \u0111\u01b0\u1ee3c d\u00f9ng \u0111i\u1ec3m khi mua 1 s\u1ea3n ph\u1ea9m",
+    "quantity": 3
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

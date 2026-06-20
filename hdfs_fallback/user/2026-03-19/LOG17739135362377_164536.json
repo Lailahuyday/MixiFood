@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739135362377",
+  "timestamp": "2026-03-19T16:45:36.669609",
+  "user": {
+    "id": 15566,
+    "username": "user15566",
+    "name": "Nguy\u1ec5n Tu\u1ea5n Ch\u00e2u",
+    "email": "user15566@gmail.com",
+    "phone": "0798272904",
+    "age": 61,
+    "address": "119 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 12",
+    "district": "Qu\u1eadn 12",
+    "balance": 1630,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_59467",
+    "device": "desktop",
+    "ip": "38.97.97.99"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

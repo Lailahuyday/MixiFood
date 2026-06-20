@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818814598498",
+  "timestamp": "2026-06-19T22:04:19.962632",
+  "user": {
+    "id": 34542,
+    "username": "user34542",
+    "name": "Huỳnh Lan Nam",
+    "email": "user34542@hotmail.com",
+    "phone": "0682500272",
+    "age": 47,
+    "address": "389 Trần Hưng Đạo, Thủ Đức",
+    "district": "Thủ Đức",
+    "balance": 95,
+    "membership_points": 8
+  },
+  "action": "view",
+  "product": {
+    "id": 30,
+    "name": "bánh cuốn cao bằng",
+    "price": 68.0,
+    "category": "food",
+    "stock_before": 1,
+    "stock_after": 1
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 13,
+    "from_page": "search",
+    "device": "tablet"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  },
+  "event_id": "product_events_0_184_1781881520830"
+}

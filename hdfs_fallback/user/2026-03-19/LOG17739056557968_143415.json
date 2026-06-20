@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739056557968",
+  "timestamp": "2026-03-19T14:34:15.473592",
+  "user": {
+    "id": 45657,
+    "username": "user45657",
+    "name": "V\u0169 \u0110\u1ee9c D\u0169ng",
+    "email": "user45657@gmail.com",
+    "phone": "0641942743",
+    "age": 64,
+    "address": "241 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Nh\u00e0 B\u00e8",
+    "district": "Nh\u00e0 B\u00e8",
+    "balance": 4293,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_50611",
+    "device": "desktop",
+    "ip": "184.240.106.62"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

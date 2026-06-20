@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17750994876116",
+  "timestamp": "2026-04-02T10:11:27.370621",
+  "user": {
+    "id": 14955,
+    "username": "user14955",
+    "name": "Tr\u1ea7n H\u1ea3i B\u00ecnh",
+    "email": "user14955@yahoo.com",
+    "phone": "0890496784",
+    "age": 35,
+    "address": "347 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 6",
+    "district": "Qu\u1eadn 6",
+    "balance": 2577,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_60701",
+    "device": "tablet",
+    "ip": "230.212.5.210"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

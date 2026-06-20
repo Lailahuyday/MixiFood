@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739178844125",
+  "timestamp": "2026-03-19T17:58:04.872052",
+  "user": {
+    "id": 4057,
+    "username": "user4057",
+    "name": "Ph\u1ea1m H\u1ea3i Kh\u00e1nh",
+    "email": "user4057@hotmail.com",
+    "phone": "0415958182",
+    "age": 65,
+    "address": "230 Ph\u1ea1m Ng\u0169 L\u00e3o, Qu\u1eadn 12",
+    "district": "Qu\u1eadn 12",
+    "balance": 815,
+    "membership_points": 6
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_77000",
+    "device": "tablet",
+    "ip": "200.66.147.73"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

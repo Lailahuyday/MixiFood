@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17819379782187",
+  "timestamp": "2026-06-20T13:46:18.960340",
+  "user": {
+    "id": 42130,
+    "username": "user42130",
+    "name": "Nguyễn Văn An",
+    "email": "user42130@gmail.com",
+    "phone": "0692699042",
+    "age": 59,
+    "address": "70 Phạm Ngũ Lão, Hóc Môn",
+    "district": "Hóc Môn",
+    "balance": 1606,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_70914",
+    "device": "mobile",
+    "ip": "106.93.12.75"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "user_events_0_281_1781937978969"
+}

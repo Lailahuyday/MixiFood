@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739001291183",
+  "timestamp": "2026-03-19T13:02:09.394633",
+  "user": {
+    "id": 47859,
+    "username": "user47859",
+    "name": "Ho\u00e0ng Lan Kh\u00e1nh",
+    "email": "user47859@yahoo.com",
+    "phone": "0490816233",
+    "age": 69,
+    "address": "132 Hai B\u00e0 Tr\u01b0ng, H\u00f3c M\u00f4n",
+    "district": "H\u00f3c M\u00f4n",
+    "balance": 2306,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_88379",
+    "device": "desktop",
+    "ip": "21.108.100.91"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

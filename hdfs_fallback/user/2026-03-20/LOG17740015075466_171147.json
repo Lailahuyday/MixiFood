@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740015075466",
+  "timestamp": "2026-03-20T17:11:47.249685",
+  "user": {
+    "id": 27486,
+    "username": "user27486",
+    "name": "Hu\u1ef3nh Tu\u1ea5n Phong",
+    "email": "user27486@gmail.com",
+    "phone": "0920219276",
+    "age": 52,
+    "address": "400 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, C\u1ea7n Gi\u1edd",
+    "district": "C\u1ea7n Gi\u1edd",
+    "balance": 3235,
+    "membership_points": 0
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_67965",
+    "device": "mobile",
+    "ip": "18.191.107.112"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

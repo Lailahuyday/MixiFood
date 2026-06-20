@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17819390505755",
+  "timestamp": "2026-06-20T14:04:10.843107",
+  "user": {
+    "id": 38947,
+    "username": "user38947",
+    "name": "Tr\u1ea7n V\u0103n Nam",
+    "email": "user38947@gmail.com",
+    "phone": "0921618845",
+    "age": 65,
+    "address": "427 L\u00ea L\u1ee3i, B\u00ecnh T\u00e2n",
+    "district": "B\u00ecnh T\u00e2n",
+    "balance": 4258,
+    "membership_points": 0
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_59279",
+    "device": "mobile",
+    "ip": "25.162.43.191"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781939050876"
+}

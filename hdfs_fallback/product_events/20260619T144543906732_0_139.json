@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17818803437703",
+  "timestamp": "2026-06-19T21:45:43.900044",
+  "user": {
+    "id": 1986,
+    "username": "user1986",
+    "name": "Bùi Minh Khánh",
+    "email": "user1986@yahoo.com",
+    "phone": "0781034406",
+    "age": 26,
+    "address": "276 Trần Hưng Đạo, Quận 12",
+    "district": "Quận 12",
+    "balance": 3626,
+    "membership_points": 5
+  },
+  "action": "view",
+  "product": {
+    "id": 18,
+    "name": "Gà Popcorn",
+    "price": 89.0,
+    "category": "fastfood",
+    "stock_before": 14,
+    "stock_after": 14
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 65,
+    "from_page": "home",
+    "device": "mobile"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

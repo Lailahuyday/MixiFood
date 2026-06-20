@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17740014794051",
+  "timestamp": "2026-03-20T17:11:19.290409",
+  "user": {
+    "id": 4793,
+    "username": "user4793",
+    "name": "V\u0169 Minh Phong",
+    "email": "user4793@yahoo.com",
+    "phone": "0513816787",
+    "age": 50,
+    "address": "422 L\u00ea L\u1ee3i, Ph\u00fa Nhu\u1eadn",
+    "district": "Ph\u00fa Nhu\u1eadn",
+    "balance": 3289,
+    "membership_points": 4
+  },
+  "action": "view",
+  "product": {
+    "id": 14,
+    "name": "Tr\u00e0 Hoa C\u00fac",
+    "price": 60.0,
+    "category": "drink",
+    "stock_before": 74,
+    "stock_after": 74
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 33,
+    "from_page": "search",
+    "device": "mobile"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

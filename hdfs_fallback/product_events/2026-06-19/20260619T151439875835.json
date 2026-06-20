@@ -1,0 +1,39 @@
+{
+  "log_id": "LOG17818820792176",
+  "timestamp": "2026-06-19T22:14:39.838245",
+  "user": {
+    "id": 2866,
+    "username": "user2866",
+    "name": "Trần Hương Hà",
+    "email": "user2866@gmail.com",
+    "phone": "0884486821",
+    "age": 25,
+    "address": "139 Trần Hưng Đạo, Quận 5",
+    "district": "Quận 5",
+    "balance": 3682,
+    "membership_points": 2
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 17,
+    "name": "Gà Không Xương Chiên",
+    "price": 68.0,
+    "category": "fastfood",
+    "stock_before": 13,
+    "stock_after": 13
+  },
+  "quantity": 5,
+  "status": "success",
+  "additional_data": {
+    "quantity": 5,
+    "unit_price": 68.0,
+    "subtotal": 340.0,
+    "available_stock": 13
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "product_events_0_228_1781882079847"
+}

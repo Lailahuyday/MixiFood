@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739178914437",
+  "timestamp": "2026-03-19T17:58:11.244911",
+  "user": {
+    "id": 3,
+    "username": "user3",
+    "name": "Tr\u1ea7n H\u1ed3ng Linh",
+    "email": "user3@hotmail.com",
+    "phone": "0843993108",
+    "age": 66,
+    "address": "86 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 12",
+    "district": "Qu\u1eadn 12",
+    "balance": 19,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_63408",
+    "device": "tablet",
+    "ip": "132.39.191.244"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

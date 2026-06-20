@@ -1,0 +1,105 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="{% static 'accounts/register.css' %}">
+</head>
+<body>
+    <div class="register-container">
+        <h2>Đăng nhập</h2>
+        <form method="post">
+            {% csrf_token %}
+            <input type="text" name="username" placeholder="Tên đăng nhập" required>
+            <input type="password" name="password" placeholder="Mật khẩu" required>
+            <button type="submit">Đăng nhập</button>
+        <div class="social-login">
+            <p>Hoặc đăng nhập bằng:</p>
+            <div id="g_id_onload"
+                 data-client_id="YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com"
+                 data-context="signin"
+                 data-ux_mode="popup"
+                 data-callback="handleGoogleSignIn"
+                 data-auto_prompt="false">
+            </div>
+            <div class="g_id_signin"
+                 data-type="standard"
+                 data-shape="rectangular"
+                 data-theme="outline"
+                 data-text="signin_with"
+                 data-size="large"
+                 data-logo_alignment="left">
+            </div>
+            
+            <button onclick="loginWithFacebook()" class="fb-btn">
+                <i class="fab fa-facebook"></i> Facebook
+            </button>
+        </div>
+
+        {% if messages %}
+            <ul>
+                {% for message in messages %}
+                    <li style="color:red">{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script>
+        function handleGoogleSignIn(response) {
+            console.log("Google Token:", response.credential);
+            sendTokenToService('google', response.credential);
+        }
+
+        function sendTokenToService(provider, token) {
+            fetch("{% url 'social_login_callback' %}", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    "X-CSRFToken": "{{ csrf_token }}"
+                },
+                body: JSON.stringify({
+                    provider: provider,
+                    token: token
+                })
+            })
+            .then(res => res.json())
+            .then(data => {
+                if (data.status === 'success') {
+                    window.location.href = data.redirect;
+                } else {
+                    alert("Lỗi đăng nhập: " + data.message);
+                }
+            })
+            .catch(err => console.error("Error:", err));
+        }
+
+        // Mock Facebook Login (Cần thêm SDK Facebook thật nếu muốn chạy)
+        function loginWithFacebook() {
+            alert("Vui lòng cấu hình Facebook App ID trong .env và tích hợp SDK để sử dụng.");
+        }
+    </script>
+
+    <style>
+        .social-login {
+            margin-top: 20px;
+            text-align: center;
+            border-top: 1px solid #eee;
+            padding-top: 15px;
+        }
+        .fb-btn {
+            margin-top: 10px;
+            background-color: #1877f2;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-weight: bold;
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818799089045",
+  "timestamp": "2026-06-19T21:38:28.421943",
+  "user": {
+    "id": 4071,
+    "username": "user4071",
+    "name": "Vũ Văn Mai",
+    "email": "user4071@yahoo.com",
+    "phone": "0472741818",
+    "age": 34,
+    "address": "30 Lê Lợi, Củ Chi",
+    "district": "Củ Chi",
+    "balance": 3047,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_21036",
+    "device": "mobile",
+    "ip": "72.173.57.249"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

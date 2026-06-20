@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818798044535",
+  "timestamp": "2026-06-19T21:36:44.245415",
+  "user": {
+    "id": 47957,
+    "username": "user47957",
+    "name": "Vũ Tuấn Mai",
+    "email": "user47957@gmail.com",
+    "phone": "0346437181",
+    "age": 45,
+    "address": "385 Lê Lợi, Hóc Môn",
+    "district": "Hóc Môn",
+    "balance": 1556,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_12970",
+    "device": "tablet",
+    "ip": "103.242.208.15"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

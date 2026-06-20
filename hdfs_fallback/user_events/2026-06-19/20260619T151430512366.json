@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818820704871",
+  "timestamp": "2026-06-19T22:14:30.472969",
+  "user": {
+    "id": 18008,
+    "username": "user18008",
+    "name": "Vũ Tuấn Nam",
+    "email": "user18008@gmail.com",
+    "phone": "0477341483",
+    "age": 21,
+    "address": "172 Phạm Ngũ Lão, Quận 8",
+    "district": "Quận 8",
+    "balance": 3439,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_41005",
+    "device": "desktop",
+    "ip": "107.254.28.146"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "user_events_0_236_1781882070481"
+}

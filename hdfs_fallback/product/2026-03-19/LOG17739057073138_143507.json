@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17739057073138",
+  "timestamp": "2026-03-19T14:35:07.344032",
+  "user": {
+    "id": 32938,
+    "username": "user32938",
+    "name": "Nguy\u1ec5n Thanh Linh",
+    "email": "user32938@hotmail.com",
+    "phone": "0355249599",
+    "age": 37,
+    "address": "409 Nguy\u1ec5n Hu\u1ec7, Qu\u1eadn 8",
+    "district": "Qu\u1eadn 8",
+    "balance": 3534,
+    "membership_points": 5
+  },
+  "action": "view",
+  "product": {
+    "id": 8,
+    "name": "C\u01a1m B\u00f2 X\u00e0o",
+    "price": 86.0,
+    "category": "food",
+    "stock_before": 78,
+    "stock_after": 78
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 61,
+    "from_page": "search",
+    "device": "mobile"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

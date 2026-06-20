@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739179478143",
+  "timestamp": "2026-03-19T17:59:07.273989",
+  "user": {
+    "id": 3978,
+    "username": "user3978",
+    "name": "Ho\u00e0ng H\u1ea3i D\u0169ng",
+    "email": "user3978@hotmail.com",
+    "phone": "0822006471",
+    "age": 20,
+    "address": "158 L\u00ea L\u1ee3i, Ph\u00fa Nhu\u1eadn",
+    "district": "Ph\u00fa Nhu\u1eadn",
+    "balance": 3512,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_95017",
+    "device": "tablet",
+    "ip": "166.3.79.182"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

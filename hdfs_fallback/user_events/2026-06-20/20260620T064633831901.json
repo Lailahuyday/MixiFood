@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17819379936194",
+  "timestamp": "2026-06-20T13:46:33.817576",
+  "user": {
+    "id": 34425,
+    "username": "user34425",
+    "name": "Bùi Tuấn Mai",
+    "email": "user34425@gmail.com",
+    "phone": "0854089384",
+    "age": 27,
+    "address": "96 Lê Lợi, Quận 2",
+    "district": "Quận 2",
+    "balance": 1852,
+    "membership_points": 0
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_73989",
+    "device": "mobile",
+    "ip": "125.237.249.27"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "user_events_0_284_1781937993831"
+}

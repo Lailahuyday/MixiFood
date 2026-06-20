@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740014634190",
+  "timestamp": "2026-03-20T17:11:03.790123",
+  "user": {
+    "id": 31730,
+    "username": "user31730",
+    "name": "Phan \u0110\u1ee9c Mai",
+    "email": "user31730@gmail.com",
+    "phone": "0762079168",
+    "age": 24,
+    "address": "360 L\u00ea L\u1ee3i, Qu\u1eadn 7",
+    "district": "Qu\u1eadn 7",
+    "balance": 4861,
+    "membership_points": 6
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_72938",
+    "device": "tablet",
+    "ip": "103.227.33.56"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

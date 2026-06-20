@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818820603189",
+  "timestamp": "2026-06-19T22:14:20.282239",
+  "user": {
+    "id": 1957,
+    "username": "user1957",
+    "name": "Phan Tu\u1ea5n Kh\u00e1nh",
+    "email": "user1957@yahoo.com",
+    "phone": "0471204567",
+    "age": 31,
+    "address": "95 Hai B\u00e0 Tr\u01b0ng, H\u00f3c M\u00f4n",
+    "district": "H\u00f3c M\u00f4n",
+    "balance": 3274,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_93693",
+    "device": "tablet",
+    "ip": "224.46.227.210"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781882060286"
+}

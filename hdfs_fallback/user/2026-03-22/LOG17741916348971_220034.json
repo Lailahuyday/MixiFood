@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17741916348971",
+  "timestamp": "2026-03-22T22:00:34.189273",
+  "user": {
+    "id": 20,
+    "username": "user20",
+    "name": "Ph\u1ea1m Lan Linh",
+    "email": "user20@hotmail.com",
+    "phone": "0472511603",
+    "age": 56,
+    "address": "67 Hai B\u00e0 Tr\u01b0ng, C\u1ee7 Chi",
+    "district": "C\u1ee7 Chi",
+    "balance": 1952,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_32289",
+    "device": "mobile",
+    "ip": "208.239.184.171"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

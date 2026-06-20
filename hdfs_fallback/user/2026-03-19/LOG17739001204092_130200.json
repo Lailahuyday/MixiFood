@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739001204092",
+  "timestamp": "2026-03-19T13:02:00.450786",
+  "user": {
+    "id": 6775,
+    "username": "user6775",
+    "name": "B\u00f9i H\u01b0\u01a1ng Linh",
+    "email": "user6775@yahoo.com",
+    "phone": "0314298651",
+    "age": 45,
+    "address": "100 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, G\u00f2 V\u1ea5p",
+    "district": "G\u00f2 V\u1ea5p",
+    "balance": 2576,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_27252",
+    "device": "mobile",
+    "ip": "4.54.208.237"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

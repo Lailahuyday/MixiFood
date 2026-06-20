@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737955814091",
+  "timestamp": "2026-03-18T07:59:41.256359",
+  "user": {
+    "id": 3292,
+    "username": "user3292",
+    "name": "V\u0169 H\u1ed3ng Linh",
+    "email": "user3292@hotmail.com",
+    "phone": "0732041174",
+    "age": 62,
+    "address": "282 Ph\u1ea1m Ng\u0169 L\u00e3o, G\u00f2 V\u1ea5p",
+    "district": "G\u00f2 V\u1ea5p",
+    "balance": 2567,
+    "membership_points": 0
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_31470",
+    "device": "mobile",
+    "ip": "2.48.180.120"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

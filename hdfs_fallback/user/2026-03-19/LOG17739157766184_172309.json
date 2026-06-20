@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739157766184",
+  "timestamp": "2026-03-19T17:22:56.319789",
+  "user": {
+    "id": 25632,
+    "username": "user25632",
+    "name": "Nguy\u1ec5n H\u01b0\u01a1ng D\u0169ng",
+    "email": "user25632@hotmail.com",
+    "phone": "0774261440",
+    "age": 44,
+    "address": "438 Hai B\u00e0 Tr\u01b0ng, H\u00f3c M\u00f4n",
+    "district": "H\u00f3c M\u00f4n",
+    "balance": 1856,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_19216",
+    "device": "tablet",
+    "ip": "10.88.229.45"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

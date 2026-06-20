@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17750994515267",
+  "timestamp": "2026-04-02T10:10:51.355839",
+  "user": {
+    "id": 38655,
+    "username": "user38655",
+    "name": "Hu\u1ef3nh Tu\u1ea5n Mai",
+    "email": "user38655@gmail.com",
+    "phone": "0543596249",
+    "age": 46,
+    "address": "55 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 6",
+    "district": "Qu\u1eadn 6",
+    "balance": 2859,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_77509",
+    "device": "mobile",
+    "ip": "234.24.94.129"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

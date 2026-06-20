@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739159404401",
+  "timestamp": "2026-03-19T17:25:40.103028",
+  "user": {
+    "id": 17660,
+    "username": "user17660",
+    "name": "L\u00ea Thanh Ch\u00e2u",
+    "email": "user17660@hotmail.com",
+    "phone": "0450538756",
+    "age": 43,
+    "address": "285 Nguy\u1ec5n Hu\u1ec7, Qu\u1eadn 1",
+    "district": "Qu\u1eadn 1",
+    "balance": 3981,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_13651",
+    "device": "desktop",
+    "ip": "54.224.108.211"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

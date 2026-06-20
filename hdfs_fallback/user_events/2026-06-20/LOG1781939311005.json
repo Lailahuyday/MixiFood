@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17819393107239",
+  "timestamp": "2026-06-20T14:08:30.542923",
+  "user": {
+    "id": 11123,
+    "username": "user11123",
+    "name": "Tr\u1ea7n V\u0103n H\u00e0",
+    "email": "user11123@yahoo.com",
+    "phone": "0431201081",
+    "age": 24,
+    "address": "67 Nguy\u1ec5n Hu\u1ec7, Qu\u1eadn 2",
+    "district": "Qu\u1eadn 2",
+    "balance": 1160,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_23757",
+    "device": "mobile",
+    "ip": "160.48.122.172"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781939310597"
+}

@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737964007212",
+  "timestamp": "2026-03-18T08:13:20.854302",
+  "user": {
+    "id": 34708,
+    "username": "user34708",
+    "name": "B\u00f9i Th\u1ecb B\u00ecnh",
+    "email": "user34708@hotmail.com",
+    "phone": "0761845318",
+    "age": 55,
+    "address": "197 L\u00ea L\u1ee3i, Qu\u1eadn 4",
+    "district": "Qu\u1eadn 4",
+    "balance": 1978,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_47414",
+    "device": "desktop",
+    "ip": "60.144.88.197"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

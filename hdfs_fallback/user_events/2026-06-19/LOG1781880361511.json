@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818803611135",
+  "timestamp": "2026-06-19T21:46:01.503170",
+  "user": {
+    "id": 30305,
+    "username": "user30305",
+    "name": "Tr\u1ea7n H\u1ed3ng Kh\u00e1nh",
+    "email": "user30305@gmail.com",
+    "phone": "0367647376",
+    "age": 27,
+    "address": "133 L\u00ea L\u1ee3i, Qu\u1eadn 11",
+    "district": "Qu\u1eadn 11",
+    "balance": 3865,
+    "membership_points": 0
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_81539",
+    "device": "desktop",
+    "ip": "41.141.18.196"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781880361506"
+}

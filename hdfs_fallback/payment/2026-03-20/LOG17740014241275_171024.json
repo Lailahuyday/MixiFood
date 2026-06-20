@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17740014241275",
+  "timestamp": "2026-03-20T17:10:24.625803",
+  "user": {
+    "id": 9118,
+    "username": "user9118",
+    "name": "B\u00f9i Thanh Mai",
+    "email": "user9118@hotmail.com",
+    "phone": "0426483003",
+    "age": 19,
+    "address": "107 L\u00ea L\u1ee3i, C\u1ee7 Chi",
+    "district": "C\u1ee7 Chi",
+    "balance": 129,
+    "membership_points": 5
+  },
+  "action": "checkout",
+  "product": {
+    "id": 17,
+    "name": "G\u00e0 Kh\u00f4ng X\u01b0\u01a1ng Chi\u00ean",
+    "price": 68.0,
+    "category": "fastfood",
+    "stock_before": 71,
+    "stock_after": 71
+  },
+  "quantity": 4,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Ch\u1ec9 \u0111\u01b0\u1ee3c d\u00f9ng \u0111i\u1ec3m khi mua 1 s\u1ea3n ph\u1ea9m",
+    "quantity": 4
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

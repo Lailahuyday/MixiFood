@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739157788625",
+  "timestamp": "2026-03-19T17:22:58.257930",
+  "user": {
+    "id": 19639,
+    "username": "user19639",
+    "name": "Ho\u00e0ng V\u0103n D\u0169ng",
+    "email": "user19639@yahoo.com",
+    "phone": "0531522539",
+    "age": 22,
+    "address": "428 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 4",
+    "district": "Qu\u1eadn 4",
+    "balance": 3404,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_88528",
+    "device": "mobile",
+    "ip": "223.115.178.114"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

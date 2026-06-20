@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818811557385",
+  "timestamp": "2026-06-19T21:59:15.497515",
+  "user": {
+    "id": 7,
+    "username": "user7",
+    "name": "Phan Thanh Dũng",
+    "email": "user7@gmail.com",
+    "phone": "0984111690",
+    "age": 60,
+    "address": "192 Trần Hưng Đạo, Hóc Môn",
+    "district": "Hóc Môn",
+    "balance": 4763,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_31046",
+    "device": "mobile",
+    "ip": "143.3.97.251"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "user_events_0_207_1781881462687"
+}

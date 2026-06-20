@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818797582079",
+  "timestamp": "2026-06-19T21:35:58.611735",
+  "user": {
+    "id": 38753,
+    "username": "user38753",
+    "name": "Đặng Hải Bình",
+    "email": "user38753@hotmail.com",
+    "phone": "0620585936",
+    "age": 42,
+    "address": "54 Hai Bà Trưng, Thủ Đức",
+    "district": "Thủ Đức",
+    "balance": 3617,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_56467",
+    "device": "tablet",
+    "ip": "147.0.165.98"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

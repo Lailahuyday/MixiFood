@@ -1,0 +1,50 @@
+{
+  "log_id": "LOG17739178955826",
+  "timestamp": "2026-03-19T17:58:15.611013",
+  "user": {
+    "id": 4,
+    "username": "user4",
+    "name": "Nguy\u1ec5n Lan Mai",
+    "email": "user4@hotmail.com",
+    "phone": "0522944703",
+    "age": 29,
+    "address": "313 Nguy\u1ec5n Hu\u1ec7, B\u00ecnh Th\u1ea1nh",
+    "district": "B\u00ecnh Th\u1ea1nh",
+    "balance": 1685,
+    "membership_points": 11
+  },
+  "action": "checkout",
+  "product": {
+    "id": 11,
+    "name": "N\u01b0\u1edbc S\u1ea3 M\u00e2t Ong",
+    "price": 49.0,
+    "category": "drink",
+    "stock_before": 32,
+    "stock_after": 27
+  },
+  "quantity": 5,
+  "status": "success",
+  "additional_data": {
+    "payment_method": "CurrentAccount",
+    "balance_before": 1930,
+    "balance_after": 1685,
+    "points_earned": 5,
+    "points_after": 11,
+    "discount": 0,
+    "subtotal": 245.0,
+    "final_total": 245.0,
+    "items": [
+      {
+        "product_id": 11,
+        "product_name": "N\u01b0\u1edbc S\u1ea3 M\u00e2t Ong",
+        "quantity": 5,
+        "price": 49.0
+      }
+    ]
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

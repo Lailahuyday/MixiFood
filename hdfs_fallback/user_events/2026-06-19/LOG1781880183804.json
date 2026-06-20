@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818801839441",
+  "timestamp": "2026-06-19T21:43:03.797063",
+  "user": {
+    "id": 49429,
+    "username": "user49429",
+    "name": "L\u00ea Lan B\u00ecnh",
+    "email": "user49429@hotmail.com",
+    "phone": "0561319092",
+    "age": 22,
+    "address": "91 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 2",
+    "district": "Qu\u1eadn 2",
+    "balance": 635,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_70669",
+    "device": "mobile",
+    "ip": "68.8.76.254"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781880183801"
+}

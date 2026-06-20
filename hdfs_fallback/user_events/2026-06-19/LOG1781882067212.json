@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818820673193",
+  "timestamp": "2026-06-19T22:14:27.203804",
+  "user": {
+    "id": 25374,
+    "username": "user25374",
+    "name": "Phan Thanh An",
+    "email": "user25374@hotmail.com",
+    "phone": "0841806453",
+    "age": 67,
+    "address": "449 Ph\u1ea1m Ng\u0169 L\u00e3o, Th\u1ee7 \u0110\u1ee9c",
+    "district": "Th\u1ee7 \u0110\u1ee9c",
+    "balance": 2365,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_53937",
+    "device": "mobile",
+    "ip": "128.241.86.171"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781882067207"
+}

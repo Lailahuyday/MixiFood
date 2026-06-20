@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17740014748373",
+  "timestamp": "2026-03-20T17:11:14.075679",
+  "user": {
+    "id": 19283,
+    "username": "user19283",
+    "name": "L\u00ea H\u1ed3ng D\u0169ng",
+    "email": "user19283@yahoo.com",
+    "phone": "0929587036",
+    "age": 20,
+    "address": "264 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 4",
+    "district": "Qu\u1eadn 4",
+    "balance": 3509,
+    "membership_points": 0
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 9,
+    "name": "Cua C\u00e0 Ri Ki\u1ec3u Th\u00e1i",
+    "price": 268.0,
+    "category": "food",
+    "stock_before": 57,
+    "stock_after": 57
+  },
+  "quantity": 3,
+  "status": "success",
+  "additional_data": {
+    "quantity": 3,
+    "unit_price": 268.0,
+    "subtotal": 804.0,
+    "available_stock": 57
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

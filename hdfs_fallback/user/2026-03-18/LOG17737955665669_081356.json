@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737955665669",
+  "timestamp": "2026-03-18T07:59:26.762037",
+  "user": {
+    "id": 42401,
+    "username": "user42401",
+    "name": "Hu\u1ef3nh Thanh D\u0169ng",
+    "email": "user42401@yahoo.com",
+    "phone": "0644967165",
+    "age": 43,
+    "address": "38 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 7",
+    "district": "Qu\u1eadn 7",
+    "balance": 3575,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_75057",
+    "device": "mobile",
+    "ip": "158.8.204.5"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

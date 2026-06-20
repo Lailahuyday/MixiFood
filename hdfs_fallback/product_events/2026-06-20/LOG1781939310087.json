@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17819393093838",
+  "timestamp": "2026-06-20T14:08:29.528465",
+  "user": {
+    "id": 18908,
+    "username": "user18908",
+    "name": "L\u00ea \u0110\u1ee9c H\u00e0",
+    "email": "user18908@hotmail.com",
+    "phone": "0856504325",
+    "age": 25,
+    "address": "79 L\u00ea L\u1ee3i, Qu\u1eadn 10",
+    "district": "Qu\u1eadn 10",
+    "balance": 4587,
+    "membership_points": 4
+  },
+  "action": "view",
+  "product": {
+    "id": 10,
+    "name": "Tr\u00e0 Cam Th\u1ea3o M\u1ed9c",
+    "price": 49.0,
+    "category": "drink",
+    "stock_before": 10,
+    "stock_after": 10
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 117,
+    "from_page": "home",
+    "device": "desktop"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781939309555"
+}

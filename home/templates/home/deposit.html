@@ -1,0 +1,151 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="deposit-container">
+    <h2><i class="fas fa-wallet"></i> Nạp tiền vào tài khoản</h2>
+    
+    <div class="current-balance">
+        <p>Số dư hiện tại: <strong>{{ user.balance|floatformat:0 }}K</strong></p>
+    </div>
+
+    <div class="qr-section">
+        <div class="qr-info">
+            <h3>Quét mã QR để nạp tiền</h3>
+            <p>Ngân hàng: <strong>Techcombank</strong></p>
+            <p>Số tài khoản: <strong>7777 277 277</strong></p>
+            <p>Chủ tài khoản: <strong>NGUYEN GIA HUY</strong></p>
+            <p>Nội dung chuyển khoản: <strong>{{ user.username }} nạp tiền vào web minato</strong></p>
+        </div>
+        <div class="qr-code">
+            <img src="{% static 'home/images/bank.png' %}" alt="QR Code" class="qr-image">
+        </div>
+        <div class="note">
+            <p><i class="fas fa-info-circle"></i> Lưu ý:</p>
+            <ul>
+                <li>Vui lòng chuyển khoản đúng số tiền bạn muốn nạp</li>
+                <li>Nội dung chuyển khoản:[tên đăng nhập] Donate</li>
+                <li>Số tiền sẽ được cập nhật tự động sau khi chuyển khoản thành công</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="back-link">
+        <a href="{% url 'user_profile' %}">
+            <i class="fas fa-arrow-left"></i> Quay lại trang cá nhân
+        </a>
+    </div>
+</div>
+
+<style>
+.deposit-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.deposit-container h2 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.current-balance {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 5px;
+}
+
+.current-balance strong {
+    color: #27ae60;
+    font-size: 1.2em;
+}
+
+.qr-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.qr-info {
+    text-align: center;
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.qr-info h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.qr-info p {
+    margin: 0.5rem 0;
+}
+
+.qr-info strong {
+    color: #3498db;
+}
+
+.qr-code {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.qr-image {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.note {
+    background: #fff3cd;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.note p {
+    color: #856404;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.note ul {
+    margin: 0;
+    padding-left: 1.5rem;
+    color: #856404;
+}
+
+.note li {
+    margin: 0.3rem 0;
+}
+
+.back-link {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.back-link a {
+    color: #7f8c8d;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.back-link a:hover {
+    color: #2c3e50;
+}
+</style>
+{% endblock %} 

@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739162894761",
+  "timestamp": "2026-03-19T17:31:29.340666",
+  "user": {
+    "id": 39154,
+    "username": "user39154",
+    "name": "Ph\u1ea1m Thanh Phong",
+    "email": "user39154@gmail.com",
+    "phone": "0528314683",
+    "age": 20,
+    "address": "94 Ph\u1ea1m Ng\u0169 L\u00e3o, T\u00e2n B\u00ecnh",
+    "district": "T\u00e2n B\u00ecnh",
+    "balance": 2737,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_72917",
+    "device": "desktop",
+    "ip": "251.101.50.116"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

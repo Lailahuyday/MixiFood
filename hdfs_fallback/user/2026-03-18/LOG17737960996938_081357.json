@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737960996938",
+  "timestamp": "2026-03-18T08:08:19.843572",
+  "user": {
+    "id": 6332,
+    "username": "user6332",
+    "name": "V\u0169 H\u1ea3i D\u0169ng",
+    "email": "user6332@gmail.com",
+    "phone": "0685958958",
+    "age": 44,
+    "address": "467 L\u00ea L\u1ee3i, Qu\u1eadn 8",
+    "district": "Qu\u1eadn 8",
+    "balance": 2671,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_28417",
+    "device": "tablet",
+    "ip": "177.203.211.106"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

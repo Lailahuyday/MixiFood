@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740013794799",
+  "timestamp": "2026-03-20T17:09:39.914127",
+  "user": {
+    "id": 31594,
+    "username": "user31594",
+    "name": "V\u0169 \u0110\u1ee9c D\u0169ng",
+    "email": "user31594@hotmail.com",
+    "phone": "0369220364",
+    "age": 68,
+    "address": "216 L\u00ea L\u1ee3i, Qu\u1eadn 5",
+    "district": "Qu\u1eadn 5",
+    "balance": 4383,
+    "membership_points": 6
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_75912",
+    "device": "desktop",
+    "ip": "15.214.48.60"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

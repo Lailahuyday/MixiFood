@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17737964377149",
+  "timestamp": "2026-03-18T08:13:57.819696",
+  "user": {
+    "id": 44364,
+    "username": "user44364",
+    "name": "V\u0169 \u0110\u1ee9c D\u0169ng",
+    "email": "user44364@yahoo.com",
+    "phone": "0722091127",
+    "age": 37,
+    "address": "127 Ph\u1ea1m Ng\u0169 L\u00e3o, Qu\u1eadn 12",
+    "district": "Qu\u1eadn 12",
+    "balance": 3842,
+    "membership_points": 4
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 11,
+    "name": "N\u01b0\u1edbc S\u1ea3 M\u00e2t Ong",
+    "price": 49.0,
+    "category": "drink",
+    "stock_before": 74,
+    "stock_after": 74
+  },
+  "quantity": 1,
+  "status": "success",
+  "additional_data": {
+    "quantity": 1,
+    "unit_price": 49.0,
+    "subtotal": 49.0,
+    "available_stock": 74
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

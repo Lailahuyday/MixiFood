@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818803743078",
+  "timestamp": "2026-06-19T21:46:14.606502",
+  "user": {
+    "id": 27042,
+    "username": "user27042",
+    "name": "B\u00f9i Th\u1ecb H\u00e0",
+    "email": "user27042@hotmail.com",
+    "phone": "0544924830",
+    "age": 48,
+    "address": "30 L\u00ea L\u1ee3i, Qu\u1eadn 8",
+    "district": "Qu\u1eadn 8",
+    "balance": 4212,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_58617",
+    "device": "tablet",
+    "ip": "54.193.52.110"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781880374610"
+}

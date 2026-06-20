@@ -1,0 +1,46 @@
+{
+  "log_id": "LOG17739179006247",
+  "timestamp": "2026-03-19T17:58:20.817742",
+  "user": {
+    "id": 33758,
+    "username": "user33758",
+    "name": "Phan \u0110\u1ee9c Kh\u00e1nh",
+    "email": "user33758@gmail.com",
+    "phone": "0847080818",
+    "age": 34,
+    "address": "112 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, C\u1ea7n Gi\u1edd",
+    "district": "C\u1ea7n Gi\u1edd",
+    "balance": 203,
+    "membership_points": 7
+  },
+  "action": "checkout",
+  "product": {
+    "id": 5,
+    "name": "G\u1ecfi C\u00e1 H\u1ed3i Chi\u00ean Gi\u00f2n",
+    "price": 144.0,
+    "category": "food",
+    "stock_before": 67,
+    "stock_after": 67
+  },
+  "quantity": 4,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "CurrentAccount",
+    "reason": "Kh\u00f4ng \u0111\u1ee7 ti\u1ec1n",
+    "required": 576,
+    "available": 203,
+    "items": [
+      {
+        "product_id": 5,
+        "product_name": "G\u1ecfi C\u00e1 H\u1ed3i Chi\u00ean Gi\u00f2n",
+        "quantity": 4,
+        "price": 144.0
+      }
+    ]
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

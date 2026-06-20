@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17818803515794",
+  "timestamp": "2026-06-19T21:45:51.182563",
+  "user": {
+    "id": 34094,
+    "username": "user34094",
+    "name": "Phan Văn Khánh",
+    "email": "user34094@hotmail.com",
+    "phone": "0995584155",
+    "age": 68,
+    "address": "154 Lê Lợi, Quận 8",
+    "district": "Quận 8",
+    "balance": 3052,
+    "membership_points": 3
+  },
+  "action": "view",
+  "product": {
+    "id": 17,
+    "name": "Gà Không Xương Chiên",
+    "price": 68.0,
+    "category": "fastfood",
+    "stock_before": 14,
+    "stock_after": 14
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 6,
+    "from_page": "home",
+    "device": "mobile"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

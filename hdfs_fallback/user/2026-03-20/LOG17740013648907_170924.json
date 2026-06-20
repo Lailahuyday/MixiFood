@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740013648907",
+  "timestamp": "2026-03-20T17:09:24.157916",
+  "user": {
+    "id": 6238,
+    "username": "user6238",
+    "name": "B\u00f9i Minh Mai",
+    "email": "user6238@hotmail.com",
+    "phone": "0818334084",
+    "age": 59,
+    "address": "360 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, C\u1ee7 Chi",
+    "district": "C\u1ee7 Chi",
+    "balance": 1395,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_96408",
+    "device": "tablet",
+    "ip": "92.111.163.225"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

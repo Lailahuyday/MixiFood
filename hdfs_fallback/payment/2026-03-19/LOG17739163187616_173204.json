@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17739163187616",
+  "timestamp": "2026-03-19T17:31:58.959111",
+  "user": {
+    "id": 30303,
+    "username": "user30303",
+    "name": "B\u00f9i H\u1ea3i An",
+    "email": "user30303@hotmail.com",
+    "phone": "0785320688",
+    "age": 57,
+    "address": "106 Hai B\u00e0 Tr\u01b0ng, T\u00e2n B\u00ecnh",
+    "district": "T\u00e2n B\u00ecnh",
+    "balance": 177,
+    "membership_points": 1
+  },
+  "action": "checkout",
+  "product": {
+    "id": 17,
+    "name": "G\u00e0 Kh\u00f4ng X\u01b0\u01a1ng Chi\u00ean",
+    "price": 68.0,
+    "category": "fastfood",
+    "stock_before": 80,
+    "stock_after": 80
+  },
+  "quantity": 1,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Kh\u00f4ng \u0111\u1ee7 \u0111i\u1ec3m",
+    "points_required": 6,
+    "points_available": 1
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "log_id": "LOG17739162963716",
+  "timestamp": "2026-03-19T17:31:36.930836",
+  "user": {
+    "id": 447,
+    "username": "user447",
+    "name": "Ph\u1ea1m Lan Phong",
+    "email": "user447@hotmail.com",
+    "phone": "0395292851",
+    "age": 25,
+    "address": "208 Nguy\u1ec5n Hu\u1ec7, T\u00e2n B\u00ecnh",
+    "district": "T\u00e2n B\u00ecnh",
+    "balance": 341,
+    "membership_points": 3
+  },
+  "action": "checkout",
+  "product": {
+    "id": 13,
+    "name": "Oolong Xo\u00e0i",
+    "price": 67.0,
+    "category": "drink",
+    "stock_before": 60,
+    "stock_after": 57
+  },
+  "quantity": 3,
+  "status": "success",
+  "additional_data": {
+    "payment_method": "CurrentAccount",
+    "balance_before": 542,
+    "balance_after": 341,
+    "points_earned": 3,
+    "points_after": 3,
+    "discount": 0,
+    "subtotal": 201.0,
+    "final_total": 201.0,
+    "items": [
+      {
+        "product_id": 13,
+        "product_name": "Oolong Xo\u00e0i",
+        "quantity": 3,
+        "price": 67.0
+      }
+    ]
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

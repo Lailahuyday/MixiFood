@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17739001211002",
+  "timestamp": "2026-03-19T13:02:01.650875",
+  "user": {
+    "id": 25952,
+    "username": "user25952",
+    "name": "Hu\u1ef3nh Th\u1ecb Phong",
+    "email": "user25952@hotmail.com",
+    "phone": "0625605427",
+    "age": 44,
+    "address": "292 Hai B\u00e0 Tr\u01b0ng, Ph\u00fa Nhu\u1eadn",
+    "district": "Ph\u00fa Nhu\u1eadn",
+    "balance": 995,
+    "membership_points": 7
+  },
+  "action": "checkout",
+  "product": {
+    "id": 30,
+    "name": "b\u00e1nh cu\u1ed1n cao b\u1eb1ng",
+    "price": 68.0,
+    "category": "food",
+    "stock_before": 79,
+    "stock_after": 79
+  },
+  "quantity": 4,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Ch\u1ec9 \u0111\u01b0\u1ee3c d\u00f9ng \u0111i\u1ec3m khi mua 1 s\u1ea3n ph\u1ea9m",
+    "quantity": 4
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

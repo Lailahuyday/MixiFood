@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818804066257",
+  "timestamp": "2026-06-19T21:46:46.879345",
+  "user": {
+    "id": 31532,
+    "username": "user31532",
+    "name": "V\u0169 V\u0103n Phong",
+    "email": "user31532@gmail.com",
+    "phone": "0860099358",
+    "age": 42,
+    "address": "206 Ph\u1ea1m Ng\u0169 L\u00e3o, Qu\u1eadn 7",
+    "district": "Qu\u1eadn 7",
+    "balance": 4273,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_31756",
+    "device": "mobile",
+    "ip": "255.197.103.138"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781880406886"
+}

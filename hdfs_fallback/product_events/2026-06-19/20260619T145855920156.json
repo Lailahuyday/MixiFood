@@ -1,0 +1,39 @@
+{
+  "log_id": "LOG17818811252083",
+  "timestamp": "2026-06-19T21:58:45.784698",
+  "user": {
+    "id": 16819,
+    "username": "user16819",
+    "name": "Hoàng Lan Mai",
+    "email": "user16819@gmail.com",
+    "phone": "0963926725",
+    "age": 67,
+    "address": "137 Lê Lợi, Quận 8",
+    "district": "Quận 8",
+    "balance": 1785,
+    "membership_points": 1
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 5,
+    "name": "Gỏi Cá Hồi Chiên Giòn",
+    "price": 144.0,
+    "category": "food",
+    "stock_before": 16,
+    "stock_after": 16
+  },
+  "quantity": 5,
+  "status": "success",
+  "additional_data": {
+    "quantity": 5,
+    "unit_price": 144.0,
+    "subtotal": 720.0,
+    "available_stock": 16
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "product_events_0_159_1781881133872"
+}

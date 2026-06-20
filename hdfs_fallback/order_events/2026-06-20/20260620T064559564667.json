@@ -1,0 +1,51 @@
+{
+  "log_id": "LOG17819379595352",
+  "timestamp": "2026-06-20T13:45:59.549116",
+  "user": {
+    "id": 47625,
+    "username": "user47625",
+    "name": "Lê Hồng An",
+    "email": "user47625@yahoo.com",
+    "phone": "0381237669",
+    "age": 56,
+    "address": "109 Trần Hưng Đạo, Bình Chánh",
+    "district": "Bình Chánh",
+    "balance": 1319,
+    "membership_points": 6
+  },
+  "action": "checkout",
+  "product": {
+    "id": 30,
+    "name": "bánh cuốn cao bằng",
+    "price": 68.0,
+    "category": "food",
+    "stock_before": 1,
+    "stock_after": -3
+  },
+  "quantity": 4,
+  "status": "success",
+  "additional_data": {
+    "payment_method": "CurrentAccount",
+    "balance_before": 1591,
+    "balance_after": 1319,
+    "points_earned": 4,
+    "points_after": 6,
+    "discount": 0,
+    "subtotal": 272.0,
+    "final_total": 272.0,
+    "items": [
+      {
+        "product_id": 30,
+        "product_name": "bánh cuốn cao bằng",
+        "quantity": 4,
+        "price": 68.0
+      }
+    ]
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "order_events_0_56_1781937959564"
+}

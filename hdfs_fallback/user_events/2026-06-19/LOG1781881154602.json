@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818811546828",
+  "timestamp": "2026-06-19T21:59:14.371691",
+  "user": {
+    "id": 43554,
+    "username": "user43554",
+    "name": "Ho\u00e0ng \u0110\u1ee9c D\u0169ng",
+    "email": "user43554@hotmail.com",
+    "phone": "0441680298",
+    "age": 51,
+    "address": "20 Ph\u1ea1m Ng\u0169 L\u00e3o, B\u00ecnh Th\u1ea1nh",
+    "district": "B\u00ecnh Th\u1ea1nh",
+    "balance": 2257,
+    "membership_points": 6
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_90612",
+    "device": "mobile",
+    "ip": "153.249.219.254"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781881154491"
+}

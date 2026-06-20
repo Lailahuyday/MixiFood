@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818811834982",
+  "timestamp": "2026-06-19T21:59:43.130752",
+  "user": {
+    "id": 11,
+    "username": "user11",
+    "name": "Phạm Đức Mai",
+    "email": "user11@gmail.com",
+    "phone": "0377275926",
+    "age": 64,
+    "address": "189 Lê Lợi, Quận 8",
+    "district": "Quận 8",
+    "balance": 3772,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_68381",
+    "device": "mobile",
+    "ip": "135.172.135.178"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "user_events_0_214_1781881477079"
+}

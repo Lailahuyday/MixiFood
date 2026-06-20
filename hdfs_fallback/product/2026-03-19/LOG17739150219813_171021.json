@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17739150219813",
+  "timestamp": "2026-03-19T17:10:21.426420",
+  "user": {
+    "id": 19595,
+    "username": "user19595",
+    "name": "Phan Minh Ch\u00e2u",
+    "email": "user19595@yahoo.com",
+    "phone": "0444974372",
+    "age": 67,
+    "address": "456 Nguy\u1ec5n Hu\u1ec7, C\u1ee7 Chi",
+    "district": "C\u1ee7 Chi",
+    "balance": 880,
+    "membership_points": 0
+  },
+  "action": "view",
+  "product": {
+    "id": 17,
+    "name": "G\u00e0 Kh\u00f4ng X\u01b0\u01a1ng Chi\u00ean",
+    "price": 68.0,
+    "category": "fastfood",
+    "stock_before": 80,
+    "stock_after": 80
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 84,
+    "from_page": "search",
+    "device": "tablet"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

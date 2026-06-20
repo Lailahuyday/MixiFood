@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818797387452",
+  "timestamp": "2026-06-19T21:35:38.426238",
+  "user": {
+    "id": 21452,
+    "username": "user21452",
+    "name": "Vũ Văn Phong",
+    "email": "user21452@gmail.com",
+    "phone": "0899896508",
+    "age": 18,
+    "address": "248 Trần Hưng Đạo, Gò Vấp",
+    "district": "Gò Vấp",
+    "balance": 3423,
+    "membership_points": 8
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 17,
+    "name": "Gà Không Xương Chiên",
+    "price": 68.0,
+    "category": "fastfood",
+    "stock_before": 29,
+    "stock_after": 29
+  },
+  "quantity": 1,
+  "status": "success",
+  "additional_data": {
+    "quantity": 1,
+    "unit_price": 68.0,
+    "subtotal": 68.0,
+    "available_stock": 29
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

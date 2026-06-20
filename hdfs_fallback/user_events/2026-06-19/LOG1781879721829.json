@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818797219392",
+  "timestamp": "2026-06-19T21:35:21.795243",
+  "user": {
+    "id": 38787,
+    "username": "user38787",
+    "name": "Tr\u1ea7n H\u1ed3ng B\u00ecnh",
+    "email": "user38787@hotmail.com",
+    "phone": "0796263624",
+    "age": 54,
+    "address": "351 L\u00ea L\u1ee3i, T\u00e2n Ph\u00fa",
+    "district": "T\u00e2n Ph\u00fa",
+    "balance": 3248,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_57218",
+    "device": "desktop",
+    "ip": "109.140.119.151"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781879721814"
+}

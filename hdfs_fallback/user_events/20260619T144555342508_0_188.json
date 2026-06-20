@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818803555021",
+  "timestamp": "2026-06-19T21:45:55.337579",
+  "user": {
+    "id": 3057,
+    "username": "user3057",
+    "name": "Hoàng Hải Hà",
+    "email": "user3057@hotmail.com",
+    "phone": "0367639063",
+    "age": 62,
+    "address": "376 Nguyễn Huệ, Tân Phú",
+    "district": "Tân Phú",
+    "balance": 1019,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_13785",
+    "device": "mobile",
+    "ip": "253.17.74.40"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

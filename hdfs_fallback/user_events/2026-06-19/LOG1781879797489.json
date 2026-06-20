@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818797975634",
+  "timestamp": "2026-06-19T21:36:37.482934",
+  "user": {
+    "id": 38277,
+    "username": "user38277",
+    "name": "Phan Tu\u1ea5n Linh",
+    "email": "user38277@yahoo.com",
+    "phone": "0313596406",
+    "age": 18,
+    "address": "331 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 3",
+    "district": "Qu\u1eadn 3",
+    "balance": 212,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_86057",
+    "device": "mobile",
+    "ip": "184.8.189.43"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  },
+  "event_id": "LOG_1781879797487"
+}

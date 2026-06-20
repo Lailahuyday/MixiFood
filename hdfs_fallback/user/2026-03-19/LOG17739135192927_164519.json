@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739135192927",
+  "timestamp": "2026-03-19T16:45:19.789105",
+  "user": {
+    "id": 8134,
+    "username": "user8134",
+    "name": "Hu\u1ef3nh V\u0103n Mai",
+    "email": "user8134@hotmail.com",
+    "phone": "0448544135",
+    "age": 41,
+    "address": "343 L\u00ea L\u1ee3i, B\u00ecnh T\u00e2n",
+    "district": "B\u00ecnh T\u00e2n",
+    "balance": 3741,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_86291",
+    "device": "tablet",
+    "ip": "221.45.156.50"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

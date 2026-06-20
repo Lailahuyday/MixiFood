@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818796874086",
+  "timestamp": "2026-06-19T21:34:47.279324",
+  "user": {
+    "id": 37396,
+    "username": "user37396",
+    "name": "Phạm Thanh Dũng",
+    "email": "user37396@gmail.com",
+    "phone": "0625124980",
+    "age": 27,
+    "address": "176 Hai Bà Trưng, Bình Thạnh",
+    "district": "Bình Thạnh",
+    "balance": 3919,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_19786",
+    "device": "tablet",
+    "ip": "161.213.117.31"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

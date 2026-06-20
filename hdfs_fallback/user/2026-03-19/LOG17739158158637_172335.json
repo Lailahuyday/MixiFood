@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739158158637",
+  "timestamp": "2026-03-19T17:23:35.547782",
+  "user": {
+    "id": 48480,
+    "username": "user48480",
+    "name": "L\u00ea Lan Ch\u00e2u",
+    "email": "user48480@gmail.com",
+    "phone": "0926828799",
+    "age": 51,
+    "address": "93 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 9",
+    "district": "Qu\u1eadn 9",
+    "balance": 896,
+    "membership_points": 0
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_82166",
+    "device": "tablet",
+    "ip": "19.43.215.23"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

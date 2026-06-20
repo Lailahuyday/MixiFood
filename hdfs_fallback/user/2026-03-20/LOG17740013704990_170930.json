@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740013704990",
+  "timestamp": "2026-03-20T17:09:30.171003",
+  "user": {
+    "id": 29565,
+    "username": "user29565",
+    "name": "V\u0169 Tu\u1ea5n B\u00ecnh",
+    "email": "user29565@hotmail.com",
+    "phone": "0785401455",
+    "age": 66,
+    "address": "429 Nguy\u1ec5n Hu\u1ec7, Qu\u1eadn 6",
+    "district": "Qu\u1eadn 6",
+    "balance": 2888,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_62934",
+    "device": "tablet",
+    "ip": "27.32.55.96"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17819379522338",
+  "timestamp": "2026-06-20T13:45:52.830756",
+  "user": {
+    "id": 4,
+    "username": "user4",
+    "name": "Huỳnh Thanh Châu",
+    "email": "user4@gmail.com",
+    "phone": "0952908155",
+    "age": 54,
+    "address": "493 Lê Lợi, Quận 4",
+    "district": "Quận 4",
+    "balance": 4323,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_21206",
+    "device": "desktop",
+    "ip": "225.144.237.236"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "user_events_0_273_1781937952845"
+}

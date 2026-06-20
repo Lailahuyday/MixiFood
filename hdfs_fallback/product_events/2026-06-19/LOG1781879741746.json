@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818797412184",
+  "timestamp": "2026-06-19T21:35:41.737773",
+  "user": {
+    "id": 29185,
+    "username": "user29185",
+    "name": "Phan \u0110\u1ee9c B\u00ecnh",
+    "email": "user29185@hotmail.com",
+    "phone": "0877107869",
+    "age": 42,
+    "address": "296 Nguy\u1ec5n Hu\u1ec7, T\u00e2n Ph\u00fa",
+    "district": "T\u00e2n Ph\u00fa",
+    "balance": 4796,
+    "membership_points": 4
+  },
+  "action": "view",
+  "product": {
+    "id": 3,
+    "name": "N\u1ecdng Heo 1 N\u1eafng V\u00e0 X\u00f4i",
+    "price": 78.0,
+    "category": "food",
+    "stock_before": 6,
+    "stock_after": 6
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 92,
+    "from_page": "home",
+    "device": "tablet"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781879741744"
+}

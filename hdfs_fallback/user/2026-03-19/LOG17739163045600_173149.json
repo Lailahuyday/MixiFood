@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739163045600",
+  "timestamp": "2026-03-19T17:31:44.871573",
+  "user": {
+    "id": 10852,
+    "username": "user10852",
+    "name": "Phan H\u1ed3ng Kh\u00e1nh",
+    "email": "user10852@yahoo.com",
+    "phone": "0314424781",
+    "age": 66,
+    "address": "371 L\u00ea L\u1ee3i, H\u00f3c M\u00f4n",
+    "district": "H\u00f3c M\u00f4n",
+    "balance": 2593,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_34114",
+    "device": "mobile",
+    "ip": "122.201.151.91"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

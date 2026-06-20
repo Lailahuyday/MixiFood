@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737969077457",
+  "timestamp": "2026-03-18T08:21:47.550468",
+  "user": {
+    "id": 27262,
+    "username": "user27262",
+    "name": "V\u0169 \u0110\u1ee9c Phong",
+    "email": "user27262@yahoo.com",
+    "phone": "0359101746",
+    "age": 19,
+    "address": "463 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 12",
+    "district": "Qu\u1eadn 12",
+    "balance": 1883,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_89103",
+    "device": "tablet",
+    "ip": "133.138.243.166"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

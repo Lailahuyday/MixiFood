@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739134529902",
+  "timestamp": "2026-03-19T16:44:12.195879",
+  "user": {
+    "id": 5269,
+    "username": "user5269",
+    "name": "V\u0169 V\u0103n Kh\u00e1nh",
+    "email": "user5269@hotmail.com",
+    "phone": "0833995199",
+    "age": 62,
+    "address": "182 Nguy\u1ec5n Hu\u1ec7, Qu\u1eadn 2",
+    "district": "Qu\u1eadn 2",
+    "balance": 2416,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_73008",
+    "device": "mobile",
+    "ip": "58.243.77.115"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

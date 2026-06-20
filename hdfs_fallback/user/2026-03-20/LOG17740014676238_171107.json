@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740014676238",
+  "timestamp": "2026-03-20T17:11:07.294124",
+  "user": {
+    "id": 4171,
+    "username": "user4171",
+    "name": "Ph\u1ea1m Lan Linh",
+    "email": "user4171@yahoo.com",
+    "phone": "0922947934",
+    "age": 40,
+    "address": "39 Ph\u1ea1m Ng\u0169 L\u00e3o, Qu\u1eadn 9",
+    "district": "Qu\u1eadn 9",
+    "balance": 3406,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_62190",
+    "device": "tablet",
+    "ip": "213.191.174.91"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818820405912",
+  "timestamp": "2026-06-19T22:14:00.784431",
+  "user": {
+    "id": 35070,
+    "username": "user35070",
+    "name": "Bùi Thanh Dũng",
+    "email": "user35070@hotmail.com",
+    "phone": "0477624359",
+    "age": 70,
+    "address": "192 Nguyễn Huệ, Quận 9",
+    "district": "Quận 9",
+    "balance": 1965,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_81003",
+    "device": "mobile",
+    "ip": "229.126.205.14"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "user_events_0_225_1781882040788"
+}

@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17739057684543",
+  "timestamp": "2026-03-19T14:36:08.145655",
+  "user": {
+    "id": 21119,
+    "username": "user21119",
+    "name": "Tr\u1ea7n V\u0103n An",
+    "email": "user21119@gmail.com",
+    "phone": "0885571692",
+    "age": 26,
+    "address": "479 L\u00ea L\u1ee3i, B\u00ecnh Ch\u00e1nh",
+    "district": "B\u00ecnh Ch\u00e1nh",
+    "balance": 208,
+    "membership_points": 7
+  },
+  "action": "checkout",
+  "product": {
+    "id": 10,
+    "name": "Tr\u00e0 Cam Th\u1ea3o M\u1ed9c",
+    "price": 49.0,
+    "category": "drink",
+    "stock_before": 69,
+    "stock_after": 69
+  },
+  "quantity": 2,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Ch\u1ec9 \u0111\u01b0\u1ee3c d\u00f9ng \u0111i\u1ec3m khi mua 1 s\u1ea3n ph\u1ea9m",
+    "quantity": 2
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

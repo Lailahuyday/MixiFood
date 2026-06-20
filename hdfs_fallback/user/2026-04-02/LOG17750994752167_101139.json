@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17750994752167",
+  "timestamp": "2026-04-02T10:11:15.634089",
+  "user": {
+    "id": 8,
+    "username": "user8",
+    "name": "Hu\u1ef3nh H\u1ed3ng Ch\u00e2u",
+    "email": "user8@yahoo.com",
+    "phone": "0865218838",
+    "age": 18,
+    "address": "434 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Th\u1ee7 \u0110\u1ee9c",
+    "district": "Th\u1ee7 \u0110\u1ee9c",
+    "balance": 767,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_13517",
+    "device": "mobile",
+    "ip": "112.27.134.72"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

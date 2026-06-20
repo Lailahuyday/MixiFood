@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818820418713",
+  "timestamp": "2026-06-19T22:14:01.831321",
+  "user": {
+    "id": 48910,
+    "username": "user48910",
+    "name": "Hu\u1ef3nh Lan Kh\u00e1nh",
+    "email": "user48910@hotmail.com",
+    "phone": "0720707192",
+    "age": 56,
+    "address": "296 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, B\u00ecnh T\u00e2n",
+    "district": "B\u00ecnh T\u00e2n",
+    "balance": 1829,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_73072",
+    "device": "tablet",
+    "ip": "209.7.162.214"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781882041834"
+}

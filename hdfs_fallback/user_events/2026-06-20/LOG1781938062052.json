@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17819380616954",
+  "timestamp": "2026-06-20T13:47:41.958236",
+  "user": {
+    "id": 15123,
+    "username": "user15123",
+    "name": "Phan \u0110\u1ee9c Nam",
+    "email": "user15123@yahoo.com",
+    "phone": "0620008110",
+    "age": 35,
+    "address": "382 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 12",
+    "district": "Qu\u1eadn 12",
+    "balance": 2177,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_91384",
+    "device": "desktop",
+    "ip": "213.55.161.5"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781938062049"
+}

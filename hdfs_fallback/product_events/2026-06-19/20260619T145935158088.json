@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818811533397",
+  "timestamp": "2026-06-19T21:59:13.802318",
+  "user": {
+    "id": 24381,
+    "username": "user24381",
+    "name": "Lê Văn Châu",
+    "email": "user24381@hotmail.com",
+    "phone": "0880793417",
+    "age": 69,
+    "address": "64 Phạm Ngũ Lão, Quận 12",
+    "district": "Quận 12",
+    "balance": 4846,
+    "membership_points": 1
+  },
+  "action": "view",
+  "product": {
+    "id": 15,
+    "name": "Phô Mai Que",
+    "price": 68.0,
+    "category": "fastfood",
+    "stock_before": 9,
+    "stock_after": 9
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 63,
+    "from_page": "search",
+    "device": "mobile"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "product_events_0_171_1781881173110"
+}

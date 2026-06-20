@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739158803036",
+  "timestamp": "2026-03-19T17:24:40.138516",
+  "user": {
+    "id": 10139,
+    "username": "user10139",
+    "name": "L\u00ea V\u0103n Ch\u00e2u",
+    "email": "user10139@yahoo.com",
+    "phone": "0736384568",
+    "age": 61,
+    "address": "340 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 10",
+    "district": "Qu\u1eadn 10",
+    "balance": 3221,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_48359",
+    "device": "mobile",
+    "ip": "217.166.247.227"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

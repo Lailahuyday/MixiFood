@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17819380487494",
+  "timestamp": "2026-06-20T13:47:28.987584",
+  "user": {
+    "id": 30646,
+    "username": "user30646",
+    "name": "Phan Th\u1ecb Kh\u00e1nh",
+    "email": "user30646@gmail.com",
+    "phone": "0812704605",
+    "age": 26,
+    "address": "49 L\u00ea L\u1ee3i, Qu\u1eadn 3",
+    "district": "Qu\u1eadn 3",
+    "balance": 390,
+    "membership_points": 5
+  },
+  "action": "view",
+  "product": {
+    "id": 7,
+    "name": "M\u00ec X\u00e0o Th\u1ecbt Gh\u1eb9",
+    "price": 128.0,
+    "category": "food",
+    "stock_before": 11,
+    "stock_after": 11
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 6,
+    "from_page": "search",
+    "device": "mobile"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  },
+  "event_id": "LOG_1781938049103"
+}

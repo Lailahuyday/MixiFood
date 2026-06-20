@@ -1,0 +1,39 @@
+{
+  "log_id": "LOG17819390483628",
+  "timestamp": "2026-06-20T14:04:08.289060",
+  "user": {
+    "id": 28219,
+    "username": "user28219",
+    "name": "Phạm Hương Hà",
+    "email": "user28219@gmail.com",
+    "phone": "0566432633",
+    "age": 51,
+    "address": "464 Hai Bà Trưng, Tân Bình",
+    "district": "Tân Bình",
+    "balance": 176,
+    "membership_points": 8
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 15,
+    "name": "Phô Mai Que",
+    "price": 68.0,
+    "category": "fastfood",
+    "stock_before": 5,
+    "stock_after": 5
+  },
+  "quantity": 3,
+  "status": "success",
+  "additional_data": {
+    "quantity": 3,
+    "unit_price": 68.0,
+    "subtotal": 204.0,
+    "available_stock": 5
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  },
+  "event_id": "product_events_0_329_1781939048295"
+}

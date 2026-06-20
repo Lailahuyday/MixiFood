@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737950718562",
+  "timestamp": "2026-03-18T07:51:11.736653",
+  "user": {
+    "id": 2830,
+    "username": "user2830",
+    "name": "V\u0169 H\u1ed3ng B\u00ecnh",
+    "email": "user2830@hotmail.com",
+    "phone": "0915553609",
+    "age": 34,
+    "address": "419 Nguy\u1ec5n Hu\u1ec7, H\u00f3c M\u00f4n",
+    "district": "H\u00f3c M\u00f4n",
+    "balance": 3113,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_89446",
+    "device": "mobile",
+    "ip": "70.9.119.93"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

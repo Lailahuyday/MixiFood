@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739158731134",
+  "timestamp": "2026-03-19T17:24:33.843519",
+  "user": {
+    "id": 15955,
+    "username": "user15955",
+    "name": "Phan Thanh Ch\u00e2u",
+    "email": "user15955@yahoo.com",
+    "phone": "0748385715",
+    "age": 36,
+    "address": "84 L\u00ea L\u1ee3i, Qu\u1eadn 9",
+    "district": "Qu\u1eadn 9",
+    "balance": 315,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_27833",
+    "device": "mobile",
+    "ip": "39.65.246.150"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

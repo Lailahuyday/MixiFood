@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737963924562",
+  "timestamp": "2026-03-18T08:13:12.589866",
+  "user": {
+    "id": 48140,
+    "username": "user48140",
+    "name": "L\u00ea \u0110\u1ee9c Linh",
+    "email": "user48140@hotmail.com",
+    "phone": "0811099906",
+    "age": 18,
+    "address": "171 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 1",
+    "district": "Qu\u1eadn 1",
+    "balance": 3041,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_17079",
+    "device": "mobile",
+    "ip": "12.114.108.134"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

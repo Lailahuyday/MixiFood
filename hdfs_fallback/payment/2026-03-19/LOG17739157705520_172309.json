@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17739157705520",
+  "timestamp": "2026-03-19T17:22:50.509598",
+  "user": {
+    "id": 16471,
+    "username": "user16471",
+    "name": "B\u00f9i Minh Phong",
+    "email": "user16471@gmail.com",
+    "phone": "0859348181",
+    "age": 65,
+    "address": "12 Hai B\u00e0 Tr\u01b0ng, B\u00ecnh Ch\u00e1nh",
+    "district": "B\u00ecnh Ch\u00e1nh",
+    "balance": 3900,
+    "membership_points": 3
+  },
+  "action": "checkout",
+  "product": {
+    "id": 7,
+    "name": "M\u00ec X\u00e0o Th\u1ecbt Gh\u1eb9",
+    "price": 128.0,
+    "category": "food",
+    "stock_before": 70,
+    "stock_after": 70
+  },
+  "quantity": 3,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Ch\u1ec9 \u0111\u01b0\u1ee3c d\u00f9ng \u0111i\u1ec3m khi mua 1 s\u1ea3n ph\u1ea9m",
+    "quantity": 3
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

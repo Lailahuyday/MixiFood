@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739181011846",
+  "timestamp": "2026-03-19T18:01:41.047360",
+  "user": {
+    "id": 25275,
+    "username": "user25275",
+    "name": "Tr\u1ea7n Minh Phong",
+    "email": "user25275@hotmail.com",
+    "phone": "0784473709",
+    "age": 20,
+    "address": "372 L\u00ea L\u1ee3i, H\u00f3c M\u00f4n",
+    "district": "H\u00f3c M\u00f4n",
+    "balance": 2068,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_84610",
+    "device": "mobile",
+    "ip": "124.82.166.30"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

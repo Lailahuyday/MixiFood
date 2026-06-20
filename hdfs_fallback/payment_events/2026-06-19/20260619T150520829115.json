@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818814725573",
+  "timestamp": "2026-06-19T22:04:32.982090",
+  "user": {
+    "id": 27424,
+    "username": "user27424",
+    "name": "Đặng Tuấn Dũng",
+    "email": "user27424@gmail.com",
+    "phone": "0324497451",
+    "age": 42,
+    "address": "427 Hai Bà Trưng, Quận 5",
+    "district": "Quận 5",
+    "balance": 1947,
+    "membership_points": 4
+  },
+  "action": "checkout",
+  "product": {
+    "id": 9,
+    "name": "Cua Cà Ri Kiểu Thái",
+    "price": 268.0,
+    "category": "food",
+    "stock_before": 14,
+    "stock_after": 14
+  },
+  "quantity": 4,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Chỉ được dùng điểm khi mua 1 sản phẩm",
+    "quantity": 4
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "payment_events_0_49_1781881518771"
+}

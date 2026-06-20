@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739179226996",
+  "timestamp": "2026-03-19T17:58:42.226543",
+  "user": {
+    "id": 49200,
+    "username": "user49200",
+    "name": "Phan \u0110\u1ee9c An",
+    "email": "user49200@gmail.com",
+    "phone": "0691285223",
+    "age": 54,
+    "address": "341 L\u00ea L\u1ee3i, B\u00ecnh T\u00e2n",
+    "district": "B\u00ecnh T\u00e2n",
+    "balance": 1844,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_48153",
+    "device": "mobile",
+    "ip": "50.112.77.87"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

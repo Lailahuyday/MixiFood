@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818811288072",
+  "timestamp": "2026-06-19T21:58:48.880576",
+  "user": {
+    "id": 2,
+    "username": "user2",
+    "name": "Lê Thị Dũng",
+    "email": "user2@yahoo.com",
+    "phone": "0571914025",
+    "age": 23,
+    "address": "237 Phạm Ngũ Lão, Gò Vấp",
+    "district": "Gò Vấp",
+    "balance": 696,
+    "membership_points": 0
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_65417",
+    "device": "mobile",
+    "ip": "206.244.229.51"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "user_events_0_201_1781881137977"
+}

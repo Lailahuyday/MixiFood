@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818811339466",
+  "timestamp": "2026-06-19T21:58:53.412132",
+  "user": {
+    "id": 35962,
+    "username": "user35962",
+    "name": "Phạm Văn Hà",
+    "email": "user35962@yahoo.com",
+    "phone": "0560305295",
+    "age": 68,
+    "address": "242 Lê Lợi, Quận 3",
+    "district": "Quận 3",
+    "balance": 1492,
+    "membership_points": 4
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 30,
+    "name": "bánh cuốn cao bằng",
+    "price": 68.0,
+    "category": "food",
+    "stock_before": 1,
+    "stock_after": 1
+  },
+  "quantity": 3,
+  "status": "failed",
+  "additional_data": {
+    "reason": "Hết hàng",
+    "requested": 3,
+    "available": 1
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "product_events_0_162_1781881150359"
+}

@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737969149692",
+  "timestamp": "2026-03-18T08:21:54.310002",
+  "user": {
+    "id": 17502,
+    "username": "user17502",
+    "name": "Hu\u1ef3nh V\u0103n H\u00e0",
+    "email": "user17502@yahoo.com",
+    "phone": "0738210079",
+    "age": 26,
+    "address": "265 Ph\u1ea1m Ng\u0169 L\u00e3o, B\u00ecnh Th\u1ea1nh",
+    "district": "B\u00ecnh Th\u1ea1nh",
+    "balance": 4781,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_54371",
+    "device": "desktop",
+    "ip": "237.97.229.143"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818820039518",
+  "timestamp": "2026-06-19T22:13:23.345358",
+  "user": {
+    "id": 49574,
+    "username": "user49574",
+    "name": "Lê Lan Hà",
+    "email": "user49574@gmail.com",
+    "phone": "0794525023",
+    "age": 58,
+    "address": "405 Hai Bà Trưng, Quận 9",
+    "district": "Quận 9",
+    "balance": 3419,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_24493",
+    "device": "mobile",
+    "ip": "205.82.132.166"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "user_events_0_219_1781882003350"
+}

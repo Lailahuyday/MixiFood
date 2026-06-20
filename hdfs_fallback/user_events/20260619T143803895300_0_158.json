@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818798142390",
+  "timestamp": "2026-06-19T21:36:54.931666",
+  "user": {
+    "id": 6075,
+    "username": "user6075",
+    "name": "Hoàng Minh Mai",
+    "email": "user6075@yahoo.com",
+    "phone": "0931364759",
+    "age": 62,
+    "address": "64 Lê Lợi, Bình Tân",
+    "district": "Bình Tân",
+    "balance": 4997,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_75256",
+    "device": "desktop",
+    "ip": "250.164.43.35"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

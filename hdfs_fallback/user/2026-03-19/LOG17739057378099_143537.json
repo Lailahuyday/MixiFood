@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739057378099",
+  "timestamp": "2026-03-19T14:35:37.718551",
+  "user": {
+    "id": 9707,
+    "username": "user9707",
+    "name": "L\u00ea Thanh Ch\u00e2u",
+    "email": "user9707@gmail.com",
+    "phone": "0426780757",
+    "age": 65,
+    "address": "381 L\u00ea L\u1ee3i, C\u1ee7 Chi",
+    "district": "C\u1ee7 Chi",
+    "balance": 3237,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_12796",
+    "device": "mobile",
+    "ip": "200.218.236.141"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740014866419",
+  "timestamp": "2026-03-20T17:11:26.209204",
+  "user": {
+    "id": 29796,
+    "username": "user29796",
+    "name": "Ho\u00e0ng H\u1ed3ng D\u0169ng",
+    "email": "user29796@gmail.com",
+    "phone": "0477598032",
+    "age": 62,
+    "address": "187 Hai B\u00e0 Tr\u01b0ng, C\u1ee7 Chi",
+    "district": "C\u1ee7 Chi",
+    "balance": 430,
+    "membership_points": 6
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_62144",
+    "device": "desktop",
+    "ip": "26.186.19.147"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

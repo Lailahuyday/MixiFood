@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818803603100",
+  "timestamp": "2026-06-19T21:46:00.234552",
+  "user": {
+    "id": 44274,
+    "username": "user44274",
+    "name": "Ho\u00e0ng Th\u1ecb Linh",
+    "email": "user44274@gmail.com",
+    "phone": "0837887142",
+    "age": 22,
+    "address": "107 Nguy\u1ec5n Hu\u1ec7, Nh\u00e0 B\u00e8",
+    "district": "Nh\u00e0 B\u00e8",
+    "balance": 4599,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_61070",
+    "device": "mobile",
+    "ip": "72.236.240.224"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781880360239"
+}

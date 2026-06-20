@@ -1,0 +1,50 @@
+{
+  "log_id": "LOG17737950692238",
+  "timestamp": "2026-03-18T07:51:09.373742",
+  "user": {
+    "id": 8917,
+    "username": "user8917",
+    "name": "B\u00f9i H\u01b0\u01a1ng An",
+    "email": "user8917@yahoo.com",
+    "phone": "0597914343",
+    "age": 34,
+    "address": "179 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, C\u1ea7n Gi\u1edd",
+    "district": "C\u1ea7n Gi\u1edd",
+    "balance": 3414,
+    "membership_points": 3
+  },
+  "action": "checkout",
+  "product": {
+    "id": 30,
+    "name": "b\u00e1nh cu\u1ed1n cao b\u1eb1ng",
+    "price": 68.0,
+    "category": "food",
+    "stock_before": 84,
+    "stock_after": 82
+  },
+  "quantity": 2,
+  "status": "success",
+  "additional_data": {
+    "payment_method": "CurrentAccount",
+    "balance_before": 3550,
+    "balance_after": 3414,
+    "points_earned": 2,
+    "points_after": 3,
+    "discount": 0,
+    "subtotal": 136.0,
+    "final_total": 136.0,
+    "items": [
+      {
+        "product_id": 30,
+        "product_name": "b\u00e1nh cu\u1ed1n cao b\u1eb1ng",
+        "quantity": 2,
+        "price": 68.0
+      }
+    ]
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

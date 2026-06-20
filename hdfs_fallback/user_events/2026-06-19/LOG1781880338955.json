@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818803387374",
+  "timestamp": "2026-06-19T21:45:38.944553",
+  "user": {
+    "id": 2707,
+    "username": "user2707",
+    "name": "Ph\u1ea1m Th\u1ecb Nam",
+    "email": "user2707@yahoo.com",
+    "phone": "0520075071",
+    "age": 24,
+    "address": "12 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 11",
+    "district": "Qu\u1eadn 11",
+    "balance": 4696,
+    "membership_points": 0
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_66000",
+    "device": "desktop",
+    "ip": "249.85.163.70"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781880338951"
+}

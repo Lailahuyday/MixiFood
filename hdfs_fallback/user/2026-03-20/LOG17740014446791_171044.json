@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740014446791",
+  "timestamp": "2026-03-20T17:10:44.582793",
+  "user": {
+    "id": 12,
+    "username": "user12",
+    "name": "Phan Minh Mai",
+    "email": "user12@hotmail.com",
+    "phone": "0773635188",
+    "age": 43,
+    "address": "411 Nguy\u1ec5n Hu\u1ec7, Qu\u1eadn 6",
+    "district": "Qu\u1eadn 6",
+    "balance": 4068,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_62464",
+    "device": "tablet",
+    "ip": "195.129.81.60"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

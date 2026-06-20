@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818820275139",
+  "timestamp": "2026-06-19T22:13:47.261074",
+  "user": {
+    "id": 22344,
+    "username": "user22344",
+    "name": "Đặng Thị Nam",
+    "email": "user22344@yahoo.com",
+    "phone": "0530340297",
+    "age": 55,
+    "address": "212 Trần Hưng Đạo, Quận 10",
+    "district": "Quận 10",
+    "balance": 338,
+    "membership_points": 5
+  },
+  "action": "view",
+  "product": {
+    "id": 14,
+    "name": "Trà Hoa Cúc",
+    "price": 60.0,
+    "category": "drink",
+    "stock_before": 31,
+    "stock_after": 31
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 40,
+    "from_page": "home",
+    "device": "mobile"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  },
+  "event_id": "product_events_0_208_1781882027265"
+}

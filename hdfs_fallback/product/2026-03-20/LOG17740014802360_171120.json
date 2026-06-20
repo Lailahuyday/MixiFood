@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17740014802360",
+  "timestamp": "2026-03-20T17:11:20.803647",
+  "user": {
+    "id": 49801,
+    "username": "user49801",
+    "name": "Ho\u00e0ng H\u01b0\u01a1ng Linh",
+    "email": "user49801@hotmail.com",
+    "phone": "0912195618",
+    "age": 39,
+    "address": "341 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 3",
+    "district": "Qu\u1eadn 3",
+    "balance": 3324,
+    "membership_points": 2
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 8,
+    "name": "C\u01a1m B\u00f2 X\u00e0o",
+    "price": 86.0,
+    "category": "food",
+    "stock_before": 55,
+    "stock_after": 55
+  },
+  "quantity": 5,
+  "status": "success",
+  "additional_data": {
+    "quantity": 5,
+    "unit_price": 86.0,
+    "subtotal": 430.0,
+    "available_stock": 55
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

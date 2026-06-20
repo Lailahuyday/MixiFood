@@ -1,0 +1,50 @@
+{
+  "log_id": "LOG17739056956269",
+  "timestamp": "2026-03-19T14:34:55.288110",
+  "user": {
+    "id": 41862,
+    "username": "user41862",
+    "name": "L\u00ea \u0110\u1ee9c Linh",
+    "email": "user41862@hotmail.com",
+    "phone": "0362584390",
+    "age": 24,
+    "address": "471 Ph\u1ea1m Ng\u0169 L\u00e3o, Qu\u1eadn 4",
+    "district": "Qu\u1eadn 4",
+    "balance": 3842,
+    "membership_points": 6
+  },
+  "action": "checkout",
+  "product": {
+    "id": 9,
+    "name": "Cua C\u00e0 Ri Ki\u1ec3u Th\u00e1i",
+    "price": 268.0,
+    "category": "food",
+    "stock_before": 75,
+    "stock_after": 73
+  },
+  "quantity": 2,
+  "status": "success",
+  "additional_data": {
+    "payment_method": "CurrentAccount",
+    "balance_before": 4378,
+    "balance_after": 3842,
+    "points_earned": 2,
+    "points_after": 6,
+    "discount": 0,
+    "subtotal": 536.0,
+    "final_total": 536.0,
+    "items": [
+      {
+        "product_id": 9,
+        "product_name": "Cua C\u00e0 Ri Ki\u1ec3u Th\u00e1i",
+        "quantity": 2,
+        "price": 268.0
+      }
+    ]
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

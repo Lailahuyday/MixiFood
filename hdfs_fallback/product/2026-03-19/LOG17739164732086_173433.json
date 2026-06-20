@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17739164732086",
+  "timestamp": "2026-03-19T17:34:33.113389",
+  "user": {
+    "id": 11744,
+    "username": "user11744",
+    "name": "\u0110\u1eb7ng H\u01b0\u01a1ng H\u00e0",
+    "email": "user11744@gmail.com",
+    "phone": "0921002763",
+    "age": 33,
+    "address": "345 L\u00ea L\u1ee3i, Qu\u1eadn 4",
+    "district": "Qu\u1eadn 4",
+    "balance": 170,
+    "membership_points": 2
+  },
+  "action": "view",
+  "product": {
+    "id": 5,
+    "name": "G\u1ecfi C\u00e1 H\u1ed3i Chi\u00ean Gi\u00f2n",
+    "price": 144.0,
+    "category": "food",
+    "stock_before": 67,
+    "stock_after": 67
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 16,
+    "from_page": "category",
+    "device": "mobile"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

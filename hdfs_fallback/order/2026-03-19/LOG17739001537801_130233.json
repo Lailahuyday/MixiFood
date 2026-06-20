@@ -1,0 +1,50 @@
+{
+  "log_id": "LOG17739001537801",
+  "timestamp": "2026-03-19T13:02:33.848035",
+  "user": {
+    "id": 46107,
+    "username": "user46107",
+    "name": "Hu\u1ef3nh V\u0103n Nam",
+    "email": "user46107@yahoo.com",
+    "phone": "0794364693",
+    "age": 63,
+    "address": "388 Ph\u1ea1m Ng\u0169 L\u00e3o, Ph\u00fa Nhu\u1eadn",
+    "district": "Ph\u00fa Nhu\u1eadn",
+    "balance": 4408,
+    "membership_points": 11
+  },
+  "action": "checkout",
+  "product": {
+    "id": 16,
+    "name": "Th\u1ecbt B\u00f2 N\u01b0\u1edbng",
+    "price": 88.0,
+    "category": "fastfood",
+    "stock_before": 86,
+    "stock_after": 82
+  },
+  "quantity": 4,
+  "status": "success",
+  "additional_data": {
+    "payment_method": "CurrentAccount",
+    "balance_before": 4760,
+    "balance_after": 4408,
+    "points_earned": 4,
+    "points_after": 11,
+    "discount": 0,
+    "subtotal": 352.0,
+    "final_total": 352.0,
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Th\u1ecbt B\u00f2 N\u01b0\u1edbng",
+        "quantity": 4,
+        "price": 88.0
+      }
+    ]
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

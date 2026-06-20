@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17818796596580",
+  "timestamp": "2026-06-19T21:34:19.168001",
+  "user": {
+    "id": 35444,
+    "username": "user35444",
+    "name": "Phan Lan Dũng",
+    "email": "user35444@gmail.com",
+    "phone": "0378374463",
+    "age": 31,
+    "address": "449 Lê Lợi, Quận 12",
+    "district": "Quận 12",
+    "balance": 1185,
+    "membership_points": 3
+  },
+  "action": "view",
+  "product": {
+    "id": 3,
+    "name": "Nọng Heo 1 Nắng Và Xôi",
+    "price": 78.0,
+    "category": "food",
+    "stock_before": 6,
+    "stock_after": 6
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 21,
+    "from_page": "search",
+    "device": "mobile"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

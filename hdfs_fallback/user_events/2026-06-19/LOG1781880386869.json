@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818803865320",
+  "timestamp": "2026-06-19T21:46:26.761677",
+  "user": {
+    "id": 27272,
+    "username": "user27272",
+    "name": "Nguy\u1ec5n V\u0103n Phong",
+    "email": "user27272@gmail.com",
+    "phone": "0757410807",
+    "age": 50,
+    "address": "27 Hai B\u00e0 Tr\u01b0ng, T\u00e2n Ph\u00fa",
+    "district": "T\u00e2n Ph\u00fa",
+    "balance": 902,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_74476",
+    "device": "tablet",
+    "ip": "224.115.31.130"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781880386866"
+}

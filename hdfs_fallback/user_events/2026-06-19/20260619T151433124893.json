@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818820739915",
+  "timestamp": "2026-06-19T22:14:33.072214",
+  "user": {
+    "id": 14,
+    "username": "user14",
+    "name": "Bùi Hải Hà",
+    "email": "user14@hotmail.com",
+    "phone": "0372548918",
+    "age": 68,
+    "address": "352 Hai Bà Trưng, Quận 12",
+    "district": "Quận 12",
+    "balance": 1506,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_41551",
+    "device": "mobile",
+    "ip": "149.177.16.216"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "user_events_0_238_1781882073080"
+}

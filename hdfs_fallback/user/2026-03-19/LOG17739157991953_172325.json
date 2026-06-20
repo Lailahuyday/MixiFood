@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739157991953",
+  "timestamp": "2026-03-19T17:23:19.660529",
+  "user": {
+    "id": 31489,
+    "username": "user31489",
+    "name": "Tr\u1ea7n H\u1ea3i Kh\u00e1nh",
+    "email": "user31489@yahoo.com",
+    "phone": "0566777434",
+    "age": 32,
+    "address": "252 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, G\u00f2 V\u1ea5p",
+    "district": "G\u00f2 V\u1ea5p",
+    "balance": 1813,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_50174",
+    "device": "tablet",
+    "ip": "233.61.245.173"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

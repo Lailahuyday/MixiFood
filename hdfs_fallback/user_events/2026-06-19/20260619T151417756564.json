@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818820571491",
+  "timestamp": "2026-06-19T22:14:17.712197",
+  "user": {
+    "id": 27620,
+    "username": "user27620",
+    "name": "Trần Thị Mai",
+    "email": "user27620@yahoo.com",
+    "phone": "0826337631",
+    "age": 65,
+    "address": "234 Nguyễn Huệ, Cần Giờ",
+    "district": "Cần Giờ",
+    "balance": 4181,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_80338",
+    "device": "tablet",
+    "ip": "86.196.117.46"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "user_events_0_231_1781882057734"
+}

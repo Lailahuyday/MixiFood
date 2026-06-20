@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818798326248",
+  "timestamp": "2026-06-19T21:37:12.082077",
+  "user": {
+    "id": 39884,
+    "username": "user39884",
+    "name": "Bùi Tuấn Mai",
+    "email": "user39884@yahoo.com",
+    "phone": "0477955158",
+    "age": 36,
+    "address": "18 Trần Hưng Đạo, Hóc Môn",
+    "district": "Hóc Môn",
+    "balance": 2329,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_28877",
+    "device": "desktop",
+    "ip": "165.189.62.155"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

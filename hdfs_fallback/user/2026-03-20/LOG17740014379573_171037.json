@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740014379573",
+  "timestamp": "2026-03-20T17:10:37.691927",
+  "user": {
+    "id": 3631,
+    "username": "user3631",
+    "name": "Ho\u00e0ng Minh Phong",
+    "email": "user3631@gmail.com",
+    "phone": "0429052596",
+    "age": 25,
+    "address": "421 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 6",
+    "district": "Qu\u1eadn 6",
+    "balance": 1912,
+    "membership_points": 6
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_78840",
+    "device": "tablet",
+    "ip": "60.200.145.14"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

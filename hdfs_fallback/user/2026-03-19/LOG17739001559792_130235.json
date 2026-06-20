@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739001559792",
+  "timestamp": "2026-03-19T13:02:35.775274",
+  "user": {
+    "id": 30908,
+    "username": "user30908",
+    "name": "\u0110\u1eb7ng H\u1ed3ng Mai",
+    "email": "user30908@yahoo.com",
+    "phone": "0525058298",
+    "age": 36,
+    "address": "26 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, G\u00f2 V\u1ea5p",
+    "district": "G\u00f2 V\u1ea5p",
+    "balance": 2584,
+    "membership_points": 6
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_42876",
+    "device": "mobile",
+    "ip": "95.55.171.151"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

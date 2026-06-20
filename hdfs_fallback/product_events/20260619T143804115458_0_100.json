@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17818798629219",
+  "timestamp": "2026-06-19T21:37:42.255880",
+  "user": {
+    "id": 49203,
+    "username": "user49203",
+    "name": "Huỳnh Lan Hà",
+    "email": "user49203@gmail.com",
+    "phone": "0551249924",
+    "age": 37,
+    "address": "394 Trần Hưng Đạo, Gò Vấp",
+    "district": "Gò Vấp",
+    "balance": 4337,
+    "membership_points": 7
+  },
+  "action": "view",
+  "product": {
+    "id": 16,
+    "name": "Thịt Bò Nướng",
+    "price": 88.0,
+    "category": "fastfood",
+    "stock_before": 32,
+    "stock_after": 32
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 89,
+    "from_page": "category",
+    "device": "tablet"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

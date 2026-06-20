@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818795724072",
+  "timestamp": "2026-06-19T21:32:52.002568",
+  "user": {
+    "id": 21984,
+    "username": "user21984",
+    "name": "Vũ Văn Nam",
+    "email": "user21984@hotmail.com",
+    "phone": "0731345341",
+    "age": 49,
+    "address": "259 Nguyễn Huệ, Quận 12",
+    "district": "Quận 12",
+    "balance": 2667,
+    "membership_points": 3
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 10,
+    "name": "Trà Cam Thảo Mộc",
+    "price": 49.0,
+    "category": "drink",
+    "stock_before": 21,
+    "stock_after": 21
+  },
+  "quantity": 1,
+  "status": "success",
+  "additional_data": {
+    "quantity": 1,
+    "unit_price": 49.0,
+    "subtotal": 49.0,
+    "available_stock": 21
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

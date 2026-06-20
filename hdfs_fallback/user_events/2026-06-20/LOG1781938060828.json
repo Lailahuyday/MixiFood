@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17819380608010",
+  "timestamp": "2026-06-20T13:47:40.439582",
+  "user": {
+    "id": 45075,
+    "username": "user45075",
+    "name": "Hu\u1ef3nh Minh Mai",
+    "email": "user45075@gmail.com",
+    "phone": "0442774838",
+    "age": 48,
+    "address": "404 Nguy\u1ec5n Hu\u1ec7, Qu\u1eadn 6",
+    "district": "Qu\u1eadn 6",
+    "balance": 2818,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_85077",
+    "device": "mobile",
+    "ip": "50.87.198.173"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781938060539"
+}

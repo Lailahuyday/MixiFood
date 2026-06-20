@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17739056825852",
+  "timestamp": "2026-03-19T14:34:42.232045",
+  "user": {
+    "id": 6,
+    "username": "user6",
+    "name": "Phan Lan An",
+    "email": "user6@gmail.com",
+    "phone": "0896419712",
+    "age": 61,
+    "address": "378 L\u00ea L\u1ee3i, Qu\u1eadn 1",
+    "district": "Qu\u1eadn 1",
+    "balance": 2845,
+    "membership_points": 0
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 3,
+    "name": "N\u1ecdng Heo 1 N\u1eafng V\u00e0 X\u00f4i",
+    "price": 78.0,
+    "category": "food",
+    "stock_before": 79,
+    "stock_after": 79
+  },
+  "quantity": 3,
+  "status": "success",
+  "additional_data": {
+    "quantity": 3,
+    "unit_price": 78.0,
+    "subtotal": 234.0,
+    "available_stock": 79
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739179415978",
+  "timestamp": "2026-03-19T17:59:01.102705",
+  "user": {
+    "id": 34944,
+    "username": "user34944",
+    "name": "Nguy\u1ec5n H\u1ed3ng An",
+    "email": "user34944@hotmail.com",
+    "phone": "0798176034",
+    "age": 57,
+    "address": "468 Hai B\u00e0 Tr\u01b0ng, T\u00e2n B\u00ecnh",
+    "district": "T\u00e2n B\u00ecnh",
+    "balance": 4671,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_61653",
+    "device": "desktop",
+    "ip": "19.183.135.45"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

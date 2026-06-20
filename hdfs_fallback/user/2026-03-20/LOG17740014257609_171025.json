@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740014257609",
+  "timestamp": "2026-03-20T17:10:25.394390",
+  "user": {
+    "id": 26599,
+    "username": "user26599",
+    "name": "V\u0169 V\u0103n Mai",
+    "email": "user26599@hotmail.com",
+    "phone": "0594609032",
+    "age": 49,
+    "address": "291 Nguy\u1ec5n Hu\u1ec7, Qu\u1eadn 9",
+    "district": "Qu\u1eadn 9",
+    "balance": 721,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_72569",
+    "device": "desktop",
+    "ip": "120.4.206.34"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

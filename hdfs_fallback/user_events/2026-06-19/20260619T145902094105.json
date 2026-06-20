@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818811303890",
+  "timestamp": "2026-06-19T21:58:50.642209",
+  "user": {
+    "id": 47623,
+    "username": "user47623",
+    "name": "Huỳnh Thanh Linh",
+    "email": "user47623@yahoo.com",
+    "phone": "0868254961",
+    "age": 61,
+    "address": "254 Nguyễn Huệ, Gò Vấp",
+    "district": "Gò Vấp",
+    "balance": 474,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_32189",
+    "device": "mobile",
+    "ip": "12.136.90.149"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  },
+  "event_id": "user_events_0_202_1781881140035"
+}

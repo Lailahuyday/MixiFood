@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739158031045",
+  "timestamp": "2026-03-19T17:23:23.550994",
+  "user": {
+    "id": 36324,
+    "username": "user36324",
+    "name": "V\u0169 H\u1ed3ng Linh",
+    "email": "user36324@hotmail.com",
+    "phone": "0594002356",
+    "age": 37,
+    "address": "205 Hai B\u00e0 Tr\u01b0ng, T\u00e2n B\u00ecnh",
+    "district": "T\u00e2n B\u00ecnh",
+    "balance": 4016,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_54350",
+    "device": "mobile",
+    "ip": "38.1.106.1"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

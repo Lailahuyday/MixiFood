@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818797137082",
+  "timestamp": "2026-06-19T21:35:13.922903",
+  "user": {
+    "id": 12791,
+    "username": "user12791",
+    "name": "Trần Minh Linh",
+    "email": "user12791@hotmail.com",
+    "phone": "0458464160",
+    "age": 20,
+    "address": "454 Phạm Ngũ Lão, Tân Phú",
+    "district": "Tân Phú",
+    "balance": 4403,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_79308",
+    "device": "desktop",
+    "ip": "156.36.217.9"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

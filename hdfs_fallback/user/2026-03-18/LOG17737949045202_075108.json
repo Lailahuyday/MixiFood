@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737949045202",
+  "timestamp": "2026-03-18T07:48:24.898057",
+  "user": {
+    "id": 33648,
+    "username": "user33648",
+    "name": "B\u00f9i Th\u1ecb Ch\u00e2u",
+    "email": "user33648@gmail.com",
+    "phone": "0350331818",
+    "age": 69,
+    "address": "119 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 8",
+    "district": "Qu\u1eadn 8",
+    "balance": 4391,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_84053",
+    "device": "mobile",
+    "ip": "77.79.3.254"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

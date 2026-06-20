@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737961012061",
+  "timestamp": "2026-03-18T08:08:21.298547",
+  "user": {
+    "id": 18639,
+    "username": "user18639",
+    "name": "\u0110\u1eb7ng H\u1ed3ng D\u0169ng",
+    "email": "user18639@hotmail.com",
+    "phone": "0434098633",
+    "age": 23,
+    "address": "400 L\u00ea L\u1ee3i, Nh\u00e0 B\u00e8",
+    "district": "Nh\u00e0 B\u00e8",
+    "balance": 1144,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_95738",
+    "device": "tablet",
+    "ip": "18.205.226.197"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

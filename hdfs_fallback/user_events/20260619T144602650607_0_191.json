@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818803626960",
+  "timestamp": "2026-06-19T21:46:02.646471",
+  "user": {
+    "id": 13863,
+    "username": "user13863",
+    "name": "Huỳnh Lan Bình",
+    "email": "user13863@hotmail.com",
+    "phone": "0757036464",
+    "age": 31,
+    "address": "31 Nguyễn Huệ, Gò Vấp",
+    "district": "Gò Vấp",
+    "balance": 4628,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_46719",
+    "device": "desktop",
+    "ip": "221.49.201.225"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

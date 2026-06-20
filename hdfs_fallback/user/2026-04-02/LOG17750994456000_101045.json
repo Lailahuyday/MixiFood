@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17750994456000",
+  "timestamp": "2026-04-02T10:10:45.931243",
+  "user": {
+    "id": 27337,
+    "username": "user27337",
+    "name": "L\u00ea H\u1ed3ng Phong",
+    "email": "user27337@hotmail.com",
+    "phone": "0859592814",
+    "age": 28,
+    "address": "472 Hai B\u00e0 Tr\u01b0ng, B\u00ecnh T\u00e2n",
+    "district": "B\u00ecnh T\u00e2n",
+    "balance": 4034,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_88895",
+    "device": "desktop",
+    "ip": "117.153.93.19"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

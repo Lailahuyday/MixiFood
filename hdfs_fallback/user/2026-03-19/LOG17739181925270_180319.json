@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739181925270",
+  "timestamp": "2026-03-19T18:03:12.958367",
+  "user": {
+    "id": 8667,
+    "username": "user8667",
+    "name": "\u0110\u1eb7ng Thanh Kh\u00e1nh",
+    "email": "user8667@gmail.com",
+    "phone": "0864984604",
+    "age": 45,
+    "address": "373 Ph\u1ea1m Ng\u0169 L\u00e3o, C\u1ee7 Chi",
+    "district": "C\u1ee7 Chi",
+    "balance": 1334,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_13945",
+    "device": "mobile",
+    "ip": "167.71.31.63"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

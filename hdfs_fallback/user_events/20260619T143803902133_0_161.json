@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818798439140",
+  "timestamp": "2026-06-19T21:37:23.243856",
+  "user": {
+    "id": 19,
+    "username": "user19",
+    "name": "Huỳnh Văn Nam",
+    "email": "user19@yahoo.com",
+    "phone": "0960028197",
+    "age": 29,
+    "address": "445 Hai Bà Trưng, Quận 12",
+    "district": "Quận 12",
+    "balance": 173,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_13095",
+    "device": "desktop",
+    "ip": "153.235.102.165"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

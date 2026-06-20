@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739158713569",
+  "timestamp": "2026-03-19T17:24:31.739261",
+  "user": {
+    "id": 11871,
+    "username": "user11871",
+    "name": "Tr\u1ea7n Lan D\u0169ng",
+    "email": "user11871@gmail.com",
+    "phone": "0334511871",
+    "age": 21,
+    "address": "417 L\u00ea L\u1ee3i, H\u00f3c M\u00f4n",
+    "district": "H\u00f3c M\u00f4n",
+    "balance": 3994,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_38500",
+    "device": "tablet",
+    "ip": "101.184.190.12"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

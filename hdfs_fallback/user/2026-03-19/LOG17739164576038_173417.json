@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739164576038",
+  "timestamp": "2026-03-19T17:34:17.908215",
+  "user": {
+    "id": 4,
+    "username": "user4",
+    "name": "Tr\u1ea7n Th\u1ecb Phong",
+    "email": "user4@gmail.com",
+    "phone": "0364073273",
+    "age": 30,
+    "address": "69 L\u00ea L\u1ee3i, Ph\u00fa Nhu\u1eadn",
+    "district": "Ph\u00fa Nhu\u1eadn",
+    "balance": 4074,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_75694",
+    "device": "tablet",
+    "ip": "227.21.228.236"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

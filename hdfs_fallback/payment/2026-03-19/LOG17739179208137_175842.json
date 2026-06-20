@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17739179208137",
+  "timestamp": "2026-03-19T17:58:40.955630",
+  "user": {
+    "id": 34485,
+    "username": "user34485",
+    "name": "L\u00ea Tu\u1ea5n Kh\u00e1nh",
+    "email": "user34485@gmail.com",
+    "phone": "0596985219",
+    "age": 56,
+    "address": "462 L\u00ea L\u1ee3i, B\u00ecnh T\u00e2n",
+    "district": "B\u00ecnh T\u00e2n",
+    "balance": 4297,
+    "membership_points": 3
+  },
+  "action": "checkout",
+  "product": {
+    "id": 8,
+    "name": "C\u01a1m B\u00f2 X\u00e0o",
+    "price": 86.0,
+    "category": "food",
+    "stock_before": 58,
+    "stock_after": 58
+  },
+  "quantity": 5,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Ch\u1ec9 \u0111\u01b0\u1ee3c d\u00f9ng \u0111i\u1ec3m khi mua 1 s\u1ea3n ph\u1ea9m",
+    "quantity": 5
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

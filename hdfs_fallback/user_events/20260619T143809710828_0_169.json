@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818798891649",
+  "timestamp": "2026-06-19T21:38:09.703731",
+  "user": {
+    "id": 27148,
+    "username": "user27148",
+    "name": "Vũ Thị Bình",
+    "email": "user27148@yahoo.com",
+    "phone": "0430050843",
+    "age": 34,
+    "address": "454 Phạm Ngũ Lão, Quận 3",
+    "district": "Quận 3",
+    "balance": 2876,
+    "membership_points": 6
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_98081",
+    "device": "desktop",
+    "ip": "119.105.144.161"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

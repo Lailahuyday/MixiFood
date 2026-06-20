@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17740013735731",
+  "timestamp": "2026-03-20T17:09:33.288704",
+  "user": {
+    "id": 15937,
+    "username": "user15937",
+    "name": "Hu\u1ef3nh Th\u1ecb Linh",
+    "email": "user15937@hotmail.com",
+    "phone": "0930448683",
+    "age": 41,
+    "address": "249 Hai B\u00e0 Tr\u01b0ng, Nh\u00e0 B\u00e8",
+    "district": "Nh\u00e0 B\u00e8",
+    "balance": 1423,
+    "membership_points": 5
+  },
+  "action": "view",
+  "product": {
+    "id": 15,
+    "name": "Ph\u00f4 Mai Que",
+    "price": 68.0,
+    "category": "fastfood",
+    "stock_before": 62,
+    "stock_after": 62
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 85,
+    "from_page": "category",
+    "device": "mobile"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

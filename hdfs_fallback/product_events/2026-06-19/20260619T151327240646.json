@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818820072144",
+  "timestamp": "2026-06-19T22:13:27.216006",
+  "user": {
+    "id": 34636,
+    "username": "user34636",
+    "name": "Đặng Văn Linh",
+    "email": "user34636@yahoo.com",
+    "phone": "0662012582",
+    "age": 50,
+    "address": "470 Trần Hưng Đạo, Quận 4",
+    "district": "Quận 4",
+    "balance": 2079,
+    "membership_points": 1
+  },
+  "action": "view",
+  "product": {
+    "id": 8,
+    "name": "Cơm Bò Xào",
+    "price": 86.0,
+    "category": "food",
+    "stock_before": 11,
+    "stock_after": 11
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 76,
+    "from_page": "search",
+    "device": "desktop"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "product_events_0_199_1781882007220"
+}

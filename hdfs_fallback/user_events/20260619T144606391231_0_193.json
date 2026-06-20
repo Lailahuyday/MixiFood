@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818803666620",
+  "timestamp": "2026-06-19T21:46:06.387051",
+  "user": {
+    "id": 16839,
+    "username": "user16839",
+    "name": "Phan Hương Dũng",
+    "email": "user16839@yahoo.com",
+    "phone": "0528741994",
+    "age": 42,
+    "address": "80 Nguyễn Huệ, Củ Chi",
+    "district": "Củ Chi",
+    "balance": 2295,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_73206",
+    "device": "tablet",
+    "ip": "122.146.158.178"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

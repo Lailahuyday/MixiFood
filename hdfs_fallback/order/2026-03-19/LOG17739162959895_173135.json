@@ -1,0 +1,50 @@
+{
+  "log_id": "LOG17739162959895",
+  "timestamp": "2026-03-19T17:31:35.946950",
+  "user": {
+    "id": 23682,
+    "username": "user23682",
+    "name": "\u0110\u1eb7ng V\u0103n Ch\u00e2u",
+    "email": "user23682@yahoo.com",
+    "phone": "0814180815",
+    "age": 34,
+    "address": "267 Hai B\u00e0 Tr\u01b0ng, T\u00e2n B\u00ecnh",
+    "district": "T\u00e2n B\u00ecnh",
+    "balance": 1093,
+    "membership_points": 4
+  },
+  "action": "checkout",
+  "product": {
+    "id": 8,
+    "name": "C\u01a1m B\u00f2 X\u00e0o",
+    "price": 86.0,
+    "category": "food",
+    "stock_before": 67,
+    "stock_after": 66
+  },
+  "quantity": 1,
+  "status": "success",
+  "additional_data": {
+    "payment_method": "CurrentAccount",
+    "balance_before": 1179,
+    "balance_after": 1093,
+    "points_earned": 1,
+    "points_after": 4,
+    "discount": 0,
+    "subtotal": 86.0,
+    "final_total": 86.0,
+    "items": [
+      {
+        "product_id": 8,
+        "product_name": "C\u01a1m B\u00f2 X\u00e0o",
+        "quantity": 1,
+        "price": 86.0
+      }
+    ]
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

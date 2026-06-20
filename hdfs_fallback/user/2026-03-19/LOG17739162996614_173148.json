@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739162996614",
+  "timestamp": "2026-03-19T17:31:39.533214",
+  "user": {
+    "id": 30175,
+    "username": "user30175",
+    "name": "Nguy\u1ec5n \u0110\u1ee9c Ch\u00e2u",
+    "email": "user30175@gmail.com",
+    "phone": "0634042218",
+    "age": 55,
+    "address": "195 Nguy\u1ec5n Hu\u1ec7, C\u1ea7n Gi\u1edd",
+    "district": "C\u1ea7n Gi\u1edd",
+    "balance": 1584,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_60837",
+    "device": "tablet",
+    "ip": "26.28.110.2"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

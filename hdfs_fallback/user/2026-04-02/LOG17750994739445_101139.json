@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17750994739445",
+  "timestamp": "2026-04-02T10:11:13.016730",
+  "user": {
+    "id": 7,
+    "username": "user7",
+    "name": "Ho\u00e0ng H\u1ed3ng Linh",
+    "email": "user7@yahoo.com",
+    "phone": "0726008381",
+    "age": 32,
+    "address": "98 Nguy\u1ec5n Hu\u1ec7, Nh\u00e0 B\u00e8",
+    "district": "Nh\u00e0 B\u00e8",
+    "balance": 538,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_28129",
+    "device": "tablet",
+    "ip": "38.254.46.102"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

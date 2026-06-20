@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818801821028",
+  "timestamp": "2026-06-19T21:43:02.224343",
+  "user": {
+    "id": 2,
+    "username": "user2",
+    "name": "Phan Thị Phong",
+    "email": "user2@yahoo.com",
+    "phone": "0468432783",
+    "age": 28,
+    "address": "62 Phạm Ngũ Lão, Hóc Môn",
+    "district": "Hóc Môn",
+    "balance": 1861,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_88563",
+    "device": "desktop",
+    "ip": "122.73.42.57"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

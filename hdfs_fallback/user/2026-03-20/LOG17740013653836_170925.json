@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740013653836",
+  "timestamp": "2026-03-20T17:09:25.828434",
+  "user": {
+    "id": 27172,
+    "username": "user27172",
+    "name": "Hu\u1ef3nh H\u1ed3ng Linh",
+    "email": "user27172@hotmail.com",
+    "phone": "0880201343",
+    "age": 53,
+    "address": "96 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, T\u00e2n Ph\u00fa",
+    "district": "T\u00e2n Ph\u00fa",
+    "balance": 4694,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_24265",
+    "device": "desktop",
+    "ip": "252.234.18.235"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

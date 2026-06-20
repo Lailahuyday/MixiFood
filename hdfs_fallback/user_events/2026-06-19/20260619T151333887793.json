@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818820131581",
+  "timestamp": "2026-06-19T22:13:33.840956",
+  "user": {
+    "id": 3,
+    "username": "user3",
+    "name": "Vũ Đức An",
+    "email": "user3@hotmail.com",
+    "phone": "0337668211",
+    "age": 23,
+    "address": "10 Phạm Ngũ Lão, Bình Thạnh",
+    "district": "Bình Thạnh",
+    "balance": 2284,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_57864",
+    "device": "tablet",
+    "ip": "108.178.104.127"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "user_events_0_220_1781882013845"
+}

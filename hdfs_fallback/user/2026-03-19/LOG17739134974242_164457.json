@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739134974242",
+  "timestamp": "2026-03-19T16:44:57.295622",
+  "user": {
+    "id": 28800,
+    "username": "user28800",
+    "name": "Nguy\u1ec5n Lan B\u00ecnh",
+    "email": "user28800@hotmail.com",
+    "phone": "0730027388",
+    "age": 21,
+    "address": "490 Ph\u1ea1m Ng\u0169 L\u00e3o, G\u00f2 V\u1ea5p",
+    "district": "G\u00f2 V\u1ea5p",
+    "balance": 3854,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_53343",
+    "device": "tablet",
+    "ip": "69.47.244.242"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

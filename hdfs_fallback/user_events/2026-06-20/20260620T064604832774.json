@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17819379641346",
+  "timestamp": "2026-06-20T13:46:04.802808",
+  "user": {
+    "id": 4503,
+    "username": "user4503",
+    "name": "Hoàng Hải Khánh",
+    "email": "user4503@hotmail.com",
+    "phone": "0575848432",
+    "age": 55,
+    "address": "145 Trần Hưng Đạo, Quận 9",
+    "district": "Quận 9",
+    "balance": 1369,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_42134",
+    "device": "tablet",
+    "ip": "170.74.144.51"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "user_events_0_276_1781937964832"
+}

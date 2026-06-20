@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818811199128",
+  "timestamp": "2026-06-19T21:58:39.344432",
+  "user": {
+    "id": 38603,
+    "username": "user38603",
+    "name": "L\u00ea Lan Linh",
+    "email": "user38603@yahoo.com",
+    "phone": "0671162800",
+    "age": 31,
+    "address": "494 L\u00ea L\u1ee3i, Qu\u1eadn 3",
+    "district": "Qu\u1eadn 3",
+    "balance": 2888,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_26155",
+    "device": "tablet",
+    "ip": "110.131.116.67"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781881119419"
+}

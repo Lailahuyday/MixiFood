@@ -1,0 +1,50 @@
+{
+  "log_id": "LOG17818803674114",
+  "timestamp": "2026-06-19T21:46:07.024355",
+  "user": {
+    "id": 41622,
+    "username": "user41622",
+    "name": "Phan Văn Linh",
+    "email": "user41622@hotmail.com",
+    "phone": "0866336391",
+    "age": 19,
+    "address": "452 Phạm Ngũ Lão, Thủ Đức",
+    "district": "Thủ Đức",
+    "balance": 3289,
+    "membership_points": 9
+  },
+  "action": "checkout",
+  "product": {
+    "id": 5,
+    "name": "Gỏi Cá Hồi Chiên Giòn",
+    "price": 144.0,
+    "category": "food",
+    "stock_before": 22,
+    "stock_after": 19
+  },
+  "quantity": 3,
+  "status": "success",
+  "additional_data": {
+    "payment_method": "CurrentAccount",
+    "balance_before": 3721,
+    "balance_after": 3289,
+    "points_earned": 3,
+    "points_after": 9,
+    "discount": 0,
+    "subtotal": 432.0,
+    "final_total": 432.0,
+    "items": [
+      {
+        "product_id": 5,
+        "product_name": "Gỏi Cá Hồi Chiên Giòn",
+        "quantity": 3,
+        "price": 144.0
+      }
+    ]
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818803966967",
+  "timestamp": "2026-06-19T21:46:36.391089",
+  "user": {
+    "id": 19222,
+    "username": "user19222",
+    "name": "Ph\u1ea1m Thanh Mai",
+    "email": "user19222@yahoo.com",
+    "phone": "0751841202",
+    "age": 41,
+    "address": "79 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 6",
+    "district": "Qu\u1eadn 6",
+    "balance": 1216,
+    "membership_points": 1
+  },
+  "action": "view",
+  "product": {
+    "id": 30,
+    "name": "b\u00e1nh cu\u1ed1n cao b\u1eb1ng",
+    "price": 68.0,
+    "category": "food",
+    "stock_before": 1,
+    "stock_after": 1
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 115,
+    "from_page": "home",
+    "device": "desktop"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781880396396"
+}

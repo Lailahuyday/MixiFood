@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17819380506536",
+  "timestamp": "2026-06-20T13:47:30.081805",
+  "user": {
+    "id": 7102,
+    "username": "user7102",
+    "name": "Phan Văn An",
+    "email": "user7102@hotmail.com",
+    "phone": "0879114471",
+    "age": 53,
+    "address": "237 Hai Bà Trưng, Quận 1",
+    "district": "Quận 1",
+    "balance": 1472,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_68483",
+    "device": "mobile",
+    "ip": "40.211.171.149"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "user_events_0_286_1781938050142"
+}

@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17750996354987",
+  "timestamp": "2026-04-02T10:13:55.662628",
+  "user": {
+    "id": 37246,
+    "username": "user37246",
+    "name": "Phan H\u01b0\u01a1ng Nam",
+    "email": "user37246@yahoo.com",
+    "phone": "0463663329",
+    "age": 19,
+    "address": "95 Nguy\u1ec5n Hu\u1ec7, Qu\u1eadn 7",
+    "district": "Qu\u1eadn 7",
+    "balance": 3829,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_14321",
+    "device": "mobile",
+    "ip": "101.201.84.18"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

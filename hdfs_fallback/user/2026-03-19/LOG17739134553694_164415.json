@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739134553694",
+  "timestamp": "2026-03-19T16:44:15.038141",
+  "user": {
+    "id": 28338,
+    "username": "user28338",
+    "name": "Hu\u1ef3nh \u0110\u1ee9c Nam",
+    "email": "user28338@hotmail.com",
+    "phone": "0441826812",
+    "age": 42,
+    "address": "473 L\u00ea L\u1ee3i, T\u00e2n Ph\u00fa",
+    "district": "T\u00e2n Ph\u00fa",
+    "balance": 2445,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_20766",
+    "device": "tablet",
+    "ip": "228.180.227.170"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17739178705909",
+  "timestamp": "2026-03-19T17:57:50.115811",
+  "user": {
+    "id": 20651,
+    "username": "user20651",
+    "name": "Ho\u00e0ng H\u1ea3i B\u00ecnh",
+    "email": "user20651@gmail.com",
+    "phone": "0981290410",
+    "age": 32,
+    "address": "142 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 4",
+    "district": "Qu\u1eadn 4",
+    "balance": 4355,
+    "membership_points": 0
+  },
+  "action": "checkout",
+  "product": {
+    "id": 7,
+    "name": "M\u00ec X\u00e0o Th\u1ecbt Gh\u1eb9",
+    "price": 128.0,
+    "category": "food",
+    "stock_before": 69,
+    "stock_after": 69
+  },
+  "quantity": 3,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Ch\u1ec9 \u0111\u01b0\u1ee3c d\u00f9ng \u0111i\u1ec3m khi mua 1 s\u1ea3n ph\u1ea9m",
+    "quantity": 3
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

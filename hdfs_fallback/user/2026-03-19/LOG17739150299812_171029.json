@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739150299812",
+  "timestamp": "2026-03-19T17:10:29.238559",
+  "user": {
+    "id": 2,
+    "username": "user2",
+    "name": "Phan V\u0103n An",
+    "email": "user2@gmail.com",
+    "phone": "0483723818",
+    "age": 62,
+    "address": "196 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 7",
+    "district": "Qu\u1eadn 7",
+    "balance": 3505,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_83510",
+    "device": "desktop",
+    "ip": "60.46.94.71"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

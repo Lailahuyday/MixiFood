@@ -1,0 +1,71 @@
+version: '3'
+
+services:
+  zookeeper:
+    image: wurstmeister/zookeeper
+    container_name: zookeeper
+    ports:
+      - "2181:2181"
+
+  kafka:
+    image: wurstmeister/kafka
+    container_name: kafka
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
+      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092
+    depends_on:
+      - zookeeper
+
+  # ================= HDFS =================
+  namenode:
+    image: bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
+    container_name: namenode
+    hostname: namenode
+    ports:
+      - "9870:9870"  # Web UI
+      - "9000:9000"  # RPC
+    environment:
+      - CLUSTER_NAME=test
+      - CORE_CONF_fs_defaultFS=hdfs://namenode:9000
+      - HDFS_CONF_dfs_namenode_name_dir=/hadoop/dfs/name
+      - HDFS_CONF_dfs_replication=1
+      - HDFS_CONF_dfs_permissions.enabled=false
+      - HDFS_CONF_dfs_webhdfs.enabled=true
+      - HDFS_CONF_dfs_namenode.http-address=0.0.0.0:9870
+      - HDFS_CONF_dfs_namenode.rpc-address=0.0.0.0:9000
+    volumes:
+      - namenode:/hadoop/dfs/name
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9870"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  datanode:
+    image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+    container_name: datanode
+    hostname: datanode
+    ports:
+      - "9864:9864"  # Web UI
+    environment:
+      - CLUSTER_NAME=test
+      - CORE_CONF_fs_defaultFS=hdfs://namenode:9000
+      - HDFS_CONF_dfs_datanode_data_dir=/hadoop/dfs/data
+      - HDFS_CONF_dfs_replication=1
+      - HDFS_CONF_dfs_permissions.enabled=false
+      - HDFS_CONF_dfs_datanode.address=0.0.0.0:50010
+      - HDFS_CONF_dfs_datanode.http.address=0.0.0.0:50075
+      - HDFS_CONF_dfs_datanode.ipc.address=0.0.0.0:50020
+      - SERVICE_PRECONDITION=namenode:9870
+    volumes:
+      - datanode:/hadoop/dfs/data
+    depends_on:
+      - namenode
+
+# ================= VOLUMES =================
+volumes:
+  namenode:
+  datanode:

@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17739178655093",
+  "timestamp": "2026-03-19T17:57:45.158642",
+  "user": {
+    "id": 15136,
+    "username": "user15136",
+    "name": "Phan H\u1ea3i Mai",
+    "email": "user15136@yahoo.com",
+    "phone": "0670950418",
+    "age": 42,
+    "address": "44 Nguy\u1ec5n Hu\u1ec7, T\u00e2n B\u00ecnh",
+    "district": "T\u00e2n B\u00ecnh",
+    "balance": 1754,
+    "membership_points": 0
+  },
+  "action": "view",
+  "product": {
+    "id": 16,
+    "name": "Th\u1ecbt B\u00f2 N\u01b0\u1edbng",
+    "price": 88.0,
+    "category": "fastfood",
+    "stock_before": 67,
+    "stock_after": 67
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 83,
+    "from_page": "home",
+    "device": "tablet"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

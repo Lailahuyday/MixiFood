@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17750994777503",
+  "timestamp": "2026-04-02T10:11:17.635693",
+  "user": {
+    "id": 12743,
+    "username": "user12743",
+    "name": "Ho\u00e0ng H\u1ea3i Mai",
+    "email": "user12743@yahoo.com",
+    "phone": "0921354594",
+    "age": 70,
+    "address": "62 Ph\u1ea1m Ng\u0169 L\u00e3o, C\u1ee7 Chi",
+    "district": "C\u1ee7 Chi",
+    "balance": 3086,
+    "membership_points": 6
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_29580",
+    "device": "mobile",
+    "ip": "7.63.177.168"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

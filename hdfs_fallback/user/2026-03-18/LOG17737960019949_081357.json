@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737960019949",
+  "timestamp": "2026-03-18T08:06:41.194580",
+  "user": {
+    "id": 45450,
+    "username": "user45450",
+    "name": "\u0110\u1eb7ng \u0110\u1ee9c Phong",
+    "email": "user45450@hotmail.com",
+    "phone": "0328142759",
+    "age": 44,
+    "address": "68 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 3",
+    "district": "Qu\u1eadn 3",
+    "balance": 4243,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_42468",
+    "device": "tablet",
+    "ip": "239.246.233.152"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

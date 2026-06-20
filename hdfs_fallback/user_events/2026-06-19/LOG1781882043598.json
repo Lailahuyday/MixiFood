@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818820436843",
+  "timestamp": "2026-06-19T22:14:03.585021",
+  "user": {
+    "id": 8,
+    "username": "user8",
+    "name": "V\u0169 H\u01b0\u01a1ng An",
+    "email": "user8@gmail.com",
+    "phone": "0615601048",
+    "age": 47,
+    "address": "375 Nguy\u1ec5n Hu\u1ec7, Qu\u1eadn 9",
+    "district": "Qu\u1eadn 9",
+    "balance": 1622,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_86606",
+    "device": "tablet",
+    "ip": "87.163.186.3"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781882043593"
+}

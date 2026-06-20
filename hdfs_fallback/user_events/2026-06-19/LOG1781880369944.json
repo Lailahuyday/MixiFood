@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818803691979",
+  "timestamp": "2026-06-19T21:46:09.937889",
+  "user": {
+    "id": 48881,
+    "username": "user48881",
+    "name": "Tr\u1ea7n H\u01b0\u01a1ng Mai",
+    "email": "user48881@hotmail.com",
+    "phone": "0615636578",
+    "age": 18,
+    "address": "413 Nguy\u1ec5n Hu\u1ec7, C\u1ee7 Chi",
+    "district": "C\u1ee7 Chi",
+    "balance": 227,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_23200",
+    "device": "desktop",
+    "ip": "163.92.50.121"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  },
+  "event_id": "LOG_1781880369941"
+}

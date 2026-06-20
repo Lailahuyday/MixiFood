@@ -1,0 +1,224 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minato Phố Cổ</title>
+    <link rel="stylesheet" href="{% static 'home/home.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .loyalty-message {
+            background-color: #ddffd3f5; 
+            color: #333;
+            text-align: center; 
+            padding: 18px;  
+            font-size: 16px; 
+            font-weight: bold;  
+            border-radius: 5px;  
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+        }
+        .loyalty-message:hover {
+            background-color: #fd9393; 
+            cursor: pointer;
+        }
+        .add-cart:disabled {
+            background-color: #cccccc !important;
+            cursor: not-allowed !important;
+            opacity: 0.6;
+            transform: none !important;
+            box-shadow: none !important;
+        }
+        .add-cart:disabled:hover {
+            background-color: #cccccc !important;
+            transform: none !important;
+            box-shadow: none !important;
+        }
+        .out-of-stock-badge {
+            color: red;
+            font-size: 14px;
+            margin: 5px 0;
+            font-weight: 500;
+        }
+        .in-stock-badge {
+            color: green;
+            font-size: 14px;
+            margin: 5px 0;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    {% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+            <li class="{{ message.tags }}">{{ message }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <h1><i class="fas fa-utensils"></i>Minato</h1>
+            </div>
+            <nav class="nav-links">
+                <a href="{% url 'home' %}"><i class="fas fa-home"></i> Trang chủ</a>
+                
+                {% if user.is_authenticated %}
+                    <a href="{% url 'user_profile' %}" style="text-decoration: none; color: inherit;">
+                        <i class="fas fa-user"></i> Xin chào, {{ user.username }}
+                    </a>
+                    <a href="{% url 'logout' %}"><i class="fas fa-sign-out-alt"></i> Đăng xuất</a>
+                {% else %}
+                    <a href="{% url 'register' %}"><i class="fas fa-user-plus"></i> Đăng ký</a>
+                    <a href="{% url 'login' %}"><i class="fas fa-sign-in-alt"></i> Đăng nhập</a>
+                {% endif %}
+
+                {% if user.is_authenticated %}
+                    <div class="user-balance">
+                        <i class="fas fa-wallet"></i> Số dư: {{ user.balance|floatformat:0 }}K
+                    </div>
+                    <div class="user-points">
+                        <i class="fas fa-star"></i> Điểm thành viên: {{ user.membership_points }} điểm
+                    </div>
+                {% endif %}
+                
+                <a href="{% url 'cart' %}"><i class="fas fa-shopping-cart"></i> Giỏ hàng</a>
+                <a href="{% url 'order_history' %}"><i class="fas fa-receipt"></i> Lịch sử đơn hàng</a>
+                <a href="https://www.facebook.com/profile.php?id=61570476017510"><i class="fas fa-phone-alt"></i> Hỗ trợ</a>
+            </nav>            
+        </div>
+    </header>
+
+    <main>
+        <section class="loyalty-message">
+            <p>Mua là có điểm ! Tích đủ 6 điểm nhận ưu đãi miễn phí !</p>
+        </section>
+
+        <!-- MÓN ĂN -->
+        <section class="product-list">
+            <h2>🍽️ Món ăn</h2>
+            <div class="products">
+                {% for product in foods %}
+                <div class="product-card {% if product.stock_quantity == 0 %}out-of-stock{% endif %}">
+                    <img src="{{ product.image_url }}" alt="{{ product.name }}">
+                    <div class="product-info">
+                        <h3>{{ product.name }}</h3>
+                        <p class="description">{{ product.description }}</p>
+                        <p class="price">💰 {{ product.price|floatformat:0 }}K</p>
+                        
+                        {% if product.stock_quantity > 0 %}
+                            <p class="in-stock-badge">
+                                <i class="fas fa-check-circle"></i> Còn {{ product.stock_quantity }} món
+                            </p>
+                            <form action="{% url 'add_to_cart' product.id %}" method="post">
+                                {% csrf_token %}
+                                <button type="submit" class="add-cart">
+                                    <i class="fas fa-cart-plus"></i> Thêm vào giỏ
+                                </button>
+                            </form>
+                        {% else %}
+                            <p class="out-of-stock-badge">
+                                <i class="fas fa-times-circle"></i> Tạm hết hàng
+                            </p>
+                            <button class="add-cart" disabled>
+                                <i class="fas fa-ban"></i> Hết món
+                            </button>
+                        {% endif %}
+                    </div>
+                </div>
+                {% empty %}
+                <p>Không có món ăn nào.</p>
+                {% endfor %}
+            </div>
+        </section>
+    
+        <!-- NƯỚC UỐNG -->
+        <section class="product-list">
+            <h2>🥤 Nước uống</h2>
+            <div class="products">
+                {% for product in drinks %}
+                <div class="product-card {% if product.stock_quantity == 0 %}out-of-stock{% endif %}">
+                    <img src="{{ product.image_url }}" alt="{{ product.name }}">
+                    <div class="product-info">
+                        <h3>{{ product.name }}</h3>
+                        <p class="description">{{ product.description }}</p>
+                        <p class="price">💰 {{ product.price|floatformat:0 }}K</p>
+                        
+                        {% if product.stock_quantity > 0 %}
+                            <p class="in-stock-badge">
+                                <i class="fas fa-check-circle"></i> Còn {{ product.stock_quantity }} món
+                            </p>
+                            <form action="{% url 'add_to_cart' product.id %}" method="post">
+                                {% csrf_token %}
+                                <button type="submit" class="add-cart">
+                                    <i class="fas fa-cart-plus"></i> Thêm vào giỏ
+                                </button>
+                            </form>
+                        {% else %}
+                            <p class="out-of-stock-badge">
+                                <i class="fas fa-times-circle"></i> Tạm hết hàng
+                            </p>
+                            <button class="add-cart" disabled>
+                                <i class="fas fa-ban"></i> Hết món
+                            </button>
+                        {% endif %}
+                    </div>
+                </div>
+                {% empty %}
+                <p>Không có nước uống nào.</p>
+                {% endfor %}
+            </div>
+        </section>
+    
+        <!-- THỨC ĂN NHANH -->
+        <section class="product-list">
+            <h2>🍟 Thức ăn nhanh</h2>
+            <div class="products">
+                {% for product in fastfoods %}
+                <div class="product-card {% if product.stock_quantity == 0 %}out-of-stock{% endif %}">
+                    <img src="{{ product.image_url }}" alt="{{ product.name }}">
+                    <div class="product-info">
+                        <h3>{{ product.name }}</h3>
+                        <p class="description">{{ product.description }}</p>
+                        <p class="price">💰 {{ product.price|floatformat:0 }}K</p>
+                        
+                        {% if product.stock_quantity > 0 %}
+                            <p class="in-stock-badge">
+                                <i class="fas fa-check-circle"></i> Còn {{ product.stock_quantity }} món
+                            </p>
+                            <form action="{% url 'add_to_cart' product.id %}" method="post">
+                                {% csrf_token %}
+                                <button type="submit" class="add-cart">
+                                    <i class="fas fa-cart-plus"></i> Thêm vào giỏ
+                                </button>
+                            </form>
+                        {% else %}
+                            <p class="out-of-stock-badge">
+                                <i class="fas fa-times-circle"></i> Tạm hết hàng
+                            </p>
+                            <button class="add-cart" disabled>
+                                <i class="fas fa-ban"></i> Hết món
+                            </button>
+                        {% endif %}
+                    </div>
+                </div>
+                {% empty %}
+                <p>Không có thức ăn nhanh nào.</p>
+                {% endfor %}
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container footer-container">
+            <p>🌍🏠Chi Nhánh Duy Nhất Của Minato : 06 Tân Trào, Tân Phú, Quận 7, Hồ Chí Minh, Việt Nam</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=61570476017510"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.youtube.com/@realdonaldgold"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

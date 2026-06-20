@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17750996821841",
+  "timestamp": "2026-04-02T10:14:42.842571",
+  "user": {
+    "id": 508,
+    "username": "user508",
+    "name": "Tr\u1ea7n Lan Linh",
+    "email": "user508@hotmail.com",
+    "phone": "0333894918",
+    "age": 30,
+    "address": "448 Nguy\u1ec5n Hu\u1ec7, C\u1ea7n Gi\u1edd",
+    "district": "C\u1ea7n Gi\u1edd",
+    "balance": 1146,
+    "membership_points": 2
+  },
+  "action": "view",
+  "product": {
+    "id": 3,
+    "name": "N\u1ecdng Heo 1 N\u1eafng V\u00e0 X\u00f4i",
+    "price": 78.0,
+    "category": "food",
+    "stock_before": 29,
+    "stock_after": 29
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 28,
+    "from_page": "category",
+    "device": "tablet"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17739158472532",
+  "timestamp": "2026-03-19T17:24:07.541264",
+  "user": {
+    "id": 965,
+    "username": "user965",
+    "name": "Ph\u1ea1m Th\u1ecb Linh",
+    "email": "user965@hotmail.com",
+    "phone": "0737348327",
+    "age": 21,
+    "address": "304 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 6",
+    "district": "Qu\u1eadn 6",
+    "balance": 1873,
+    "membership_points": 7
+  },
+  "action": "checkout",
+  "product": {
+    "id": 10,
+    "name": "Tr\u00e0 Cam Th\u1ea3o M\u1ed9c",
+    "price": 49.0,
+    "category": "drink",
+    "stock_before": 61,
+    "stock_after": 61
+  },
+  "quantity": 2,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Ch\u1ec9 \u0111\u01b0\u1ee3c d\u00f9ng \u0111i\u1ec3m khi mua 1 s\u1ea3n ph\u1ea9m",
+    "quantity": 2
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

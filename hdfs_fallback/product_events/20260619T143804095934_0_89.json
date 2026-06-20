@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17818798332562",
+  "timestamp": "2026-06-19T21:37:13.441920",
+  "user": {
+    "id": 40601,
+    "username": "user40601",
+    "name": "Phạm Tuấn Nam",
+    "email": "user40601@yahoo.com",
+    "phone": "0965229482",
+    "age": 47,
+    "address": "46 Nguyễn Huệ, Bình Thạnh",
+    "district": "Bình Thạnh",
+    "balance": 2791,
+    "membership_points": 6
+  },
+  "action": "view",
+  "product": {
+    "id": 9,
+    "name": "Cua Cà Ri Kiểu Thái",
+    "price": 268.0,
+    "category": "food",
+    "stock_before": 22,
+    "stock_after": 22
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 37,
+    "from_page": "search",
+    "device": "desktop"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

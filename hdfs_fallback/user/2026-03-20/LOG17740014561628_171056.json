@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740014561628",
+  "timestamp": "2026-03-20T17:10:56.728197",
+  "user": {
+    "id": 16,
+    "username": "user16",
+    "name": "L\u00ea H\u1ea3i Nam",
+    "email": "user16@gmail.com",
+    "phone": "0553117607",
+    "age": 35,
+    "address": "125 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, G\u00f2 V\u1ea5p",
+    "district": "G\u00f2 V\u1ea5p",
+    "balance": 4846,
+    "membership_points": 6
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_73911",
+    "device": "tablet",
+    "ip": "45.175.83.87"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818799339623",
+  "timestamp": "2026-06-19T21:38:53.233562",
+  "user": {
+    "id": 38065,
+    "username": "user38065",
+    "name": "B\u00f9i V\u0103n Phong",
+    "email": "user38065@gmail.com",
+    "phone": "0576264036",
+    "age": 50,
+    "address": "406 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, G\u00f2 V\u1ea5p",
+    "district": "G\u00f2 V\u1ea5p",
+    "balance": 2764,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_71638",
+    "device": "tablet",
+    "ip": "195.170.230.143"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781879933240"
+}

@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818798213591",
+  "timestamp": "2026-06-19T21:37:01.652704",
+  "user": {
+    "id": 49138,
+    "username": "user49138",
+    "name": "L\u00ea Lan Ch\u00e2u",
+    "email": "user49138@gmail.com",
+    "phone": "0665791236",
+    "age": 38,
+    "address": "157 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, B\u00ecnh Ch\u00e1nh",
+    "district": "B\u00ecnh Ch\u00e1nh",
+    "balance": 874,
+    "membership_points": 0
+  },
+  "action": "view",
+  "product": {
+    "id": 9,
+    "name": "Cua C\u00e0 Ri Ki\u1ec3u Th\u00e1i",
+    "price": 268.0,
+    "category": "food",
+    "stock_before": 22,
+    "stock_after": 22
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 37,
+    "from_page": "category",
+    "device": "mobile"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781879821657"
+}

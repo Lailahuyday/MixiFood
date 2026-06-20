@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818796574807",
+  "timestamp": "2026-06-19T21:34:17.414985",
+  "user": {
+    "id": 27799,
+    "username": "user27799",
+    "name": "Nguy\u1ec5n Lan Kh\u00e1nh",
+    "email": "user27799@hotmail.com",
+    "phone": "0470998010",
+    "age": 32,
+    "address": "313 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 6",
+    "district": "Qu\u1eadn 6",
+    "balance": 3012,
+    "membership_points": 1
+  },
+  "action": "view",
+  "product": {
+    "id": 9,
+    "name": "Cua C\u00e0 Ri Ki\u1ec3u Th\u00e1i",
+    "price": 268.0,
+    "category": "food",
+    "stock_before": 22,
+    "stock_after": 22
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 24,
+    "from_page": "category",
+    "device": "tablet"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781879657423"
+}

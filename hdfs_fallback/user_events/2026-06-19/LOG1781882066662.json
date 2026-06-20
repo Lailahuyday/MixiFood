@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818820664349",
+  "timestamp": "2026-06-19T22:14:26.656317",
+  "user": {
+    "id": 13,
+    "username": "user13",
+    "name": "\u0110\u1eb7ng \u0110\u1ee9c Linh",
+    "email": "user13@gmail.com",
+    "phone": "0681061028",
+    "age": 22,
+    "address": "84 L\u00ea L\u1ee3i, T\u00e2n B\u00ecnh",
+    "district": "T\u00e2n B\u00ecnh",
+    "balance": 4632,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_56456",
+    "device": "desktop",
+    "ip": "127.100.71.18"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781882066660"
+}

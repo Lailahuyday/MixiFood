@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818811574105",
+  "timestamp": "2026-06-19T21:59:17.217080",
+  "user": {
+    "id": 8979,
+    "username": "user8979",
+    "name": "Bùi Hồng Mai",
+    "email": "user8979@gmail.com",
+    "phone": "0371483195",
+    "age": 27,
+    "address": "190 Lê Lợi, Quận 2",
+    "district": "Quận 2",
+    "balance": 3893,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_98902",
+    "device": "mobile",
+    "ip": "241.197.139.125"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "user_events_0_208_1781881464743"
+}

@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739159372889",
+  "timestamp": "2026-03-19T17:25:37.432875",
+  "user": {
+    "id": 45825,
+    "username": "user45825",
+    "name": "\u0110\u1eb7ng \u0110\u1ee9c Ch\u00e2u",
+    "email": "user45825@gmail.com",
+    "phone": "0316550531",
+    "age": 47,
+    "address": "125 Nguy\u1ec5n Hu\u1ec7, B\u00ecnh T\u00e2n",
+    "district": "B\u00ecnh T\u00e2n",
+    "balance": 1612,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_23838",
+    "device": "tablet",
+    "ip": "101.129.53.219"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

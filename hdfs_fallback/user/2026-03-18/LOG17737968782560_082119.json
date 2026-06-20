@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737968782560",
+  "timestamp": "2026-03-18T08:21:18.764903",
+  "user": {
+    "id": 38084,
+    "username": "user38084",
+    "name": "B\u00f9i Minh Phong",
+    "email": "user38084@yahoo.com",
+    "phone": "0460413522",
+    "age": 26,
+    "address": "2 Nguy\u1ec5n Hu\u1ec7, Qu\u1eadn 8",
+    "district": "Qu\u1eadn 8",
+    "balance": 1714,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_81636",
+    "device": "desktop",
+    "ip": "89.106.246.127"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

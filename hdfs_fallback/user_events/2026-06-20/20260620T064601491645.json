@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17819379617443",
+  "timestamp": "2026-06-20T13:46:01.449178",
+  "user": {
+    "id": 15591,
+    "username": "user15591",
+    "name": "Nguyễn Văn Hà",
+    "email": "user15591@gmail.com",
+    "phone": "0380426125",
+    "age": 29,
+    "address": "71 Phạm Ngũ Lão, Quận 3",
+    "district": "Quận 3",
+    "balance": 1792,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_18453",
+    "device": "mobile",
+    "ip": "109.230.125.223"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "user_events_0_274_1781937961491"
+}

@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818814702104",
+  "timestamp": "2026-06-19T22:04:30.238258",
+  "user": {
+    "id": 31347,
+    "username": "user31347",
+    "name": "Trần Minh Phong",
+    "email": "user31347@yahoo.com",
+    "phone": "0625068612",
+    "age": 69,
+    "address": "444 Lê Lợi, Quận 2",
+    "district": "Quận 2",
+    "balance": 1105,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_88544",
+    "device": "desktop",
+    "ip": "237.111.159.108"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "user_events_0_215_1781881510557"
+}

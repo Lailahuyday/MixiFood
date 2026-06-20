@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17818803451715",
+  "timestamp": "2026-06-19T21:45:45.319058",
+  "user": {
+    "id": 6247,
+    "username": "user6247",
+    "name": "Hoàng Thị Phong",
+    "email": "user6247@hotmail.com",
+    "phone": "0482089066",
+    "age": 36,
+    "address": "233 Nguyễn Huệ, Bình Tân",
+    "district": "Bình Tân",
+    "balance": 4181,
+    "membership_points": 8
+  },
+  "action": "view",
+  "product": {
+    "id": 8,
+    "name": "Cơm Bò Xào",
+    "price": 86.0,
+    "category": "food",
+    "stock_before": 14,
+    "stock_after": 14
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 6,
+    "from_page": "search",
+    "device": "mobile"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

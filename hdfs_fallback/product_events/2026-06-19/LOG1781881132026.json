@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818811329535",
+  "timestamp": "2026-06-19T21:58:52.020729",
+  "user": {
+    "id": 33533,
+    "username": "user33533",
+    "name": "Phan Minh Linh",
+    "email": "user33533@hotmail.com",
+    "phone": "0923657370",
+    "age": 38,
+    "address": "2 L\u00ea L\u1ee3i, B\u00ecnh Ch\u00e1nh",
+    "district": "B\u00ecnh Ch\u00e1nh",
+    "balance": 1183,
+    "membership_points": 6
+  },
+  "action": "view",
+  "product": {
+    "id": 5,
+    "name": "G\u1ecfi C\u00e1 H\u1ed3i Chi\u00ean Gi\u00f2n",
+    "price": 144.0,
+    "category": "food",
+    "stock_before": 16,
+    "stock_after": 16
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 23,
+    "from_page": "search",
+    "device": "mobile"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781881132024"
+}

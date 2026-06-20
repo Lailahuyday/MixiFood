@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740015242285",
+  "timestamp": "2026-03-20T17:12:04.925420",
+  "user": {
+    "id": 28,
+    "username": "user28",
+    "name": "V\u0169 Minh Mai",
+    "email": "user28@yahoo.com",
+    "phone": "0551481560",
+    "age": 50,
+    "address": "336 Nguy\u1ec5n Hu\u1ec7, T\u00e2n B\u00ecnh",
+    "district": "T\u00e2n B\u00ecnh",
+    "balance": 1790,
+    "membership_points": 0
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_60574",
+    "device": "tablet",
+    "ip": "168.251.210.188"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

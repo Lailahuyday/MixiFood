@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818799189181",
+  "timestamp": "2026-06-19T21:38:38.075608",
+  "user": {
+    "id": 4,
+    "username": "user4",
+    "name": "L\u00ea H\u01b0\u01a1ng Phong",
+    "email": "user4@yahoo.com",
+    "phone": "0788866375",
+    "age": 62,
+    "address": "140 L\u00ea L\u1ee3i, C\u1ea7n Gi\u1edd",
+    "district": "C\u1ea7n Gi\u1edd",
+    "balance": 12,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_90244",
+    "device": "mobile",
+    "ip": "105.170.213.88"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  },
+  "event_id": "LOG_1781879918080"
+}

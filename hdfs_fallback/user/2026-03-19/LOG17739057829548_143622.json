@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739057829548",
+  "timestamp": "2026-03-19T14:36:22.387762",
+  "user": {
+    "id": 22,
+    "username": "user22",
+    "name": "Ph\u1ea1m \u0110\u1ee9c Kh\u00e1nh",
+    "email": "user22@gmail.com",
+    "phone": "0314060451",
+    "age": 63,
+    "address": "100 Hai B\u00e0 Tr\u01b0ng, T\u00e2n Ph\u00fa",
+    "district": "T\u00e2n Ph\u00fa",
+    "balance": 4970,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_33462",
+    "device": "desktop",
+    "ip": "201.134.41.49"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

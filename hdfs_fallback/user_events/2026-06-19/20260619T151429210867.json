@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818820694740",
+  "timestamp": "2026-06-19T22:14:29.152300",
+  "user": {
+    "id": 19090,
+    "username": "user19090",
+    "name": "Phạm Thị An",
+    "email": "user19090@yahoo.com",
+    "phone": "0697268525",
+    "age": 54,
+    "address": "327 Hai Bà Trưng, Tân Phú",
+    "district": "Tân Phú",
+    "balance": 2866,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_92138",
+    "device": "desktop",
+    "ip": "143.70.75.219"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "user_events_0_235_1781882069160"
+}

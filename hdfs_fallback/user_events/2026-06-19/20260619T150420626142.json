@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818811482710",
+  "timestamp": "2026-06-19T21:59:08.876841",
+  "user": {
+    "id": 10674,
+    "username": "user10674",
+    "name": "Lê Đức Dũng",
+    "email": "user10674@yahoo.com",
+    "phone": "0737788432",
+    "age": 43,
+    "address": "397 Nguyễn Huệ, Quận 7",
+    "district": "Quận 7",
+    "balance": 2837,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_77260",
+    "device": "mobile",
+    "ip": "199.227.176.11"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "user_events_0_205_1781881458579"
+}

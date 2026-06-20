@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739158757140",
+  "timestamp": "2026-03-19T17:24:35.205660",
+  "user": {
+    "id": 39993,
+    "username": "user39993",
+    "name": "B\u00f9i Th\u1ecb Mai",
+    "email": "user39993@hotmail.com",
+    "phone": "0672716346",
+    "age": 69,
+    "address": "268 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 7",
+    "district": "Qu\u1eadn 7",
+    "balance": 1854,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_98442",
+    "device": "mobile",
+    "ip": "234.172.85.69"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

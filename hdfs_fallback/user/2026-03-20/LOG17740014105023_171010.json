@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740014105023",
+  "timestamp": "2026-03-20T17:10:10.186907",
+  "user": {
+    "id": 18616,
+    "username": "user18616",
+    "name": "Ho\u00e0ng \u0110\u1ee9c Nam",
+    "email": "user18616@gmail.com",
+    "phone": "0411317982",
+    "age": 51,
+    "address": "464 Hai B\u00e0 Tr\u01b0ng, Th\u1ee7 \u0110\u1ee9c",
+    "district": "Th\u1ee7 \u0110\u1ee9c",
+    "balance": 2861,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_87632",
+    "device": "mobile",
+    "ip": "170.168.135.209"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

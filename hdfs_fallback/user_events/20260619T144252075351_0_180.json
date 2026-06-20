@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818801723694",
+  "timestamp": "2026-06-19T21:42:52.057382",
+  "user": {
+    "id": 46379,
+    "username": "user46379",
+    "name": "Đặng Văn Bình",
+    "email": "user46379@gmail.com",
+    "phone": "0313867770",
+    "age": 68,
+    "address": "273 Nguyễn Huệ, Quận 2",
+    "district": "Quận 2",
+    "balance": 2917,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_98747",
+    "device": "mobile",
+    "ip": "214.196.92.233"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

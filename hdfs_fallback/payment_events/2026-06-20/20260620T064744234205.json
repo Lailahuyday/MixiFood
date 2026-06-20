@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17819380642382",
+  "timestamp": "2026-06-20T13:47:44.135655",
+  "user": {
+    "id": 20471,
+    "username": "user20471",
+    "name": "Đặng Minh An",
+    "email": "user20471@hotmail.com",
+    "phone": "0868753439",
+    "age": 62,
+    "address": "9 Phạm Ngũ Lão, Bình Thạnh",
+    "district": "Bình Thạnh",
+    "balance": 2268,
+    "membership_points": 4
+  },
+  "action": "checkout",
+  "product": {
+    "id": 14,
+    "name": "Trà Hoa Cúc",
+    "price": 60.0,
+    "category": "drink",
+    "stock_before": 28,
+    "stock_after": 28
+  },
+  "quantity": 5,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Chỉ được dùng điểm khi mua 1 sản phẩm",
+    "quantity": 5
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "payment_events_0_79_1781938064233"
+}

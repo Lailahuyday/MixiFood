@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17750996383564",
+  "timestamp": "2026-04-02T10:13:58.647999",
+  "user": {
+    "id": 19115,
+    "username": "user19115",
+    "name": "Ho\u00e0ng Tu\u1ea5n An",
+    "email": "user19115@hotmail.com",
+    "phone": "0578646009",
+    "age": 68,
+    "address": "233 L\u00ea L\u1ee3i, Qu\u1eadn 1",
+    "district": "Qu\u1eadn 1",
+    "balance": 4574,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_90125",
+    "device": "mobile",
+    "ip": "209.187.182.89"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

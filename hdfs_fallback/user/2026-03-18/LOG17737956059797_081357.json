@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737956059797",
+  "timestamp": "2026-03-18T08:00:05.875794",
+  "user": {
+    "id": 39154,
+    "username": "user39154",
+    "name": "V\u0169 H\u1ea3i Nam",
+    "email": "user39154@gmail.com",
+    "phone": "0740588265",
+    "age": 62,
+    "address": "239 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, G\u00f2 V\u1ea5p",
+    "district": "G\u00f2 V\u1ea5p",
+    "balance": 4744,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_62460",
+    "device": "tablet",
+    "ip": "131.141.43.58"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

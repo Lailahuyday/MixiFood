@@ -1,0 +1,39 @@
+{
+  "log_id": "LOG17819390457578",
+  "timestamp": "2026-06-20T14:04:05.646653",
+  "user": {
+    "id": 13586,
+    "username": "user13586",
+    "name": "Bùi Đức Linh",
+    "email": "user13586@hotmail.com",
+    "phone": "0710153972",
+    "age": 24,
+    "address": "381 Nguyễn Huệ, Quận 11",
+    "district": "Quận 11",
+    "balance": 2854,
+    "membership_points": 4
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 15,
+    "name": "Phô Mai Que",
+    "price": 68.0,
+    "category": "fastfood",
+    "stock_before": 5,
+    "stock_after": 5
+  },
+  "quantity": 4,
+  "status": "success",
+  "additional_data": {
+    "quantity": 4,
+    "unit_price": 68.0,
+    "subtotal": 272.0,
+    "available_stock": 5
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "product_events_0_328_1781939045759"
+}

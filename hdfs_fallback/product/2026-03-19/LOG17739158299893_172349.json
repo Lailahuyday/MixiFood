@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17739158299893",
+  "timestamp": "2026-03-19T17:23:49.540972",
+  "user": {
+    "id": 24001,
+    "username": "user24001",
+    "name": "B\u00f9i Tu\u1ea5n Kh\u00e1nh",
+    "email": "user24001@gmail.com",
+    "phone": "0887723910",
+    "age": 63,
+    "address": "341 L\u00ea L\u1ee3i, C\u1ee7 Chi",
+    "district": "C\u1ee7 Chi",
+    "balance": 431,
+    "membership_points": 3
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 15,
+    "name": "Ph\u00f4 Mai Que",
+    "price": 68.0,
+    "category": "fastfood",
+    "stock_before": 75,
+    "stock_after": 75
+  },
+  "quantity": 4,
+  "status": "success",
+  "additional_data": {
+    "quantity": 4,
+    "unit_price": 68.0,
+    "subtotal": 272.0,
+    "available_stock": 75
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

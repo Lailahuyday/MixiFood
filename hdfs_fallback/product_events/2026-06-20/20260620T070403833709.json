@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17819390431239",
+  "timestamp": "2026-06-20T14:04:03.789290",
+  "user": {
+    "id": 1,
+    "username": "user1",
+    "name": "Đặng Minh Khánh",
+    "email": "user1@hotmail.com",
+    "phone": "0591241234",
+    "age": 21,
+    "address": "93 Hai Bà Trưng, Quận 6",
+    "district": "Quận 6",
+    "balance": 2243,
+    "membership_points": 2
+  },
+  "action": "view",
+  "product": {
+    "id": 9,
+    "name": "Cua Cà Ri Kiểu Thái",
+    "price": 268.0,
+    "category": "food",
+    "stock_before": 14,
+    "stock_after": 14
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 72,
+    "from_page": "home",
+    "device": "tablet"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "product_events_0_326_1781939043833"
+}

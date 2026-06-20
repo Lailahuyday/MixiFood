@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739179527393",
+  "timestamp": "2026-03-19T17:59:12.039523",
+  "user": {
+    "id": 9,
+    "username": "user9",
+    "name": "B\u00f9i Thanh D\u0169ng",
+    "email": "user9@hotmail.com",
+    "phone": "0684333763",
+    "age": 65,
+    "address": "437 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 3",
+    "district": "Qu\u1eadn 3",
+    "balance": 2564,
+    "membership_points": 6
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_47879",
+    "device": "desktop",
+    "ip": "199.86.34.134"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

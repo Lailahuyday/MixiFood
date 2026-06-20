@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739179011551",
+  "timestamp": "2026-03-19T17:58:21.974338",
+  "user": {
+    "id": 3048,
+    "username": "user3048",
+    "name": "\u0110\u1eb7ng Th\u1ecb Mai",
+    "email": "user3048@hotmail.com",
+    "phone": "0454229166",
+    "age": 20,
+    "address": "500 Hai B\u00e0 Tr\u01b0ng, G\u00f2 V\u1ea5p",
+    "district": "G\u00f2 V\u1ea5p",
+    "balance": 166,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_29449",
+    "device": "mobile",
+    "ip": "231.16.103.137"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

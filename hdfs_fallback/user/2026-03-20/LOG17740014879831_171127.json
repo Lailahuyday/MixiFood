@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740014879831",
+  "timestamp": "2026-03-20T17:11:27.896580",
+  "user": {
+    "id": 4378,
+    "username": "user4378",
+    "name": "Nguy\u1ec5n V\u0103n Nam",
+    "email": "user4378@hotmail.com",
+    "phone": "0955952038",
+    "age": 30,
+    "address": "205 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, T\u00e2n Ph\u00fa",
+    "district": "T\u00e2n Ph\u00fa",
+    "balance": 4328,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_43775",
+    "device": "mobile",
+    "ip": "67.110.107.196"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

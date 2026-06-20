@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739150206207",
+  "timestamp": "2026-03-19T17:10:20.553157",
+  "user": {
+    "id": 331,
+    "username": "user331",
+    "name": "L\u00ea Lan Linh",
+    "email": "user331@hotmail.com",
+    "phone": "0988087856",
+    "age": 50,
+    "address": "283 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, T\u00e2n B\u00ecnh",
+    "district": "T\u00e2n B\u00ecnh",
+    "balance": 1754,
+    "membership_points": 6
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_92535",
+    "device": "mobile",
+    "ip": "26.11.172.142"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17739001234227",
+  "timestamp": "2026-03-19T13:02:03.233764",
+  "user": {
+    "id": 19554,
+    "username": "user19554",
+    "name": "Phan Thanh An",
+    "email": "user19554@gmail.com",
+    "phone": "0938549319",
+    "age": 30,
+    "address": "409 Hai B\u00e0 Tr\u01b0ng, Nh\u00e0 B\u00e8",
+    "district": "Nh\u00e0 B\u00e8",
+    "balance": 3794,
+    "membership_points": 3
+  },
+  "action": "view",
+  "product": {
+    "id": 30,
+    "name": "b\u00e1nh cu\u1ed1n cao b\u1eb1ng",
+    "price": 68.0,
+    "category": "food",
+    "stock_before": 79,
+    "stock_after": 79
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 55,
+    "from_page": "search",
+    "device": "tablet"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

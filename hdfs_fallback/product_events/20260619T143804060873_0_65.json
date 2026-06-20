@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818797832100",
+  "timestamp": "2026-06-19T21:36:23.660694",
+  "user": {
+    "id": 47544,
+    "username": "user47544",
+    "name": "Vũ Tuấn Hà",
+    "email": "user47544@hotmail.com",
+    "phone": "0556727002",
+    "age": 18,
+    "address": "184 Trần Hưng Đạo, Bình Tân",
+    "district": "Bình Tân",
+    "balance": 167,
+    "membership_points": 1
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 13,
+    "name": "Oolong Xoài",
+    "price": 67.0,
+    "category": "drink",
+    "stock_before": 8,
+    "stock_after": 8
+  },
+  "quantity": 3,
+  "status": "success",
+  "additional_data": {
+    "quantity": 3,
+    "unit_price": 67.0,
+    "subtotal": 201.0,
+    "available_stock": 8
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

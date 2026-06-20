@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818811478636",
+  "timestamp": "2026-06-19T21:59:07.716410",
+  "user": {
+    "id": 5,
+    "username": "user5",
+    "name": "Huỳnh Đức Phong",
+    "email": "user5@hotmail.com",
+    "phone": "0826252812",
+    "age": 60,
+    "address": "250 Phạm Ngũ Lão, Gò Vấp",
+    "district": "Gò Vấp",
+    "balance": 1229,
+    "membership_points": 5
+  },
+  "action": "view",
+  "product": {
+    "id": 11,
+    "name": "Nước Sả Mât Ong",
+    "price": 49.0,
+    "category": "drink",
+    "stock_before": 1,
+    "stock_after": 1
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 113,
+    "from_page": "home",
+    "device": "tablet"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "product_events_0_168_1781881166940"
+}

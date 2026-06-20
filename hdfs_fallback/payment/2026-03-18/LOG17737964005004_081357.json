@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17737964005004",
+  "timestamp": "2026-03-18T08:13:20.132177",
+  "user": {
+    "id": 2631,
+    "username": "user2631",
+    "name": "Hu\u1ef3nh Thanh Ch\u00e2u",
+    "email": "user2631@yahoo.com",
+    "phone": "0939039231",
+    "age": 61,
+    "address": "491 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 10",
+    "district": "Qu\u1eadn 10",
+    "balance": 4767,
+    "membership_points": 7
+  },
+  "action": "checkout",
+  "product": {
+    "id": 16,
+    "name": "Th\u1ecbt B\u00f2 N\u01b0\u1edbng",
+    "price": 88.0,
+    "category": "fastfood",
+    "stock_before": 86,
+    "stock_after": 86
+  },
+  "quantity": 4,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Ch\u1ec9 \u0111\u01b0\u1ee3c d\u00f9ng \u0111i\u1ec3m khi mua 1 s\u1ea3n ph\u1ea9m",
+    "quantity": 4
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

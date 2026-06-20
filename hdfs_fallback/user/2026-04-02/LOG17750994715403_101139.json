@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17750994715403",
+  "timestamp": "2026-04-02T10:11:11.412516",
+  "user": {
+    "id": 6,
+    "username": "user6",
+    "name": "Ph\u1ea1m Minh Phong",
+    "email": "user6@hotmail.com",
+    "phone": "0935611621",
+    "age": 61,
+    "address": "167 Nguy\u1ec5n Hu\u1ec7, Ph\u00fa Nhu\u1eadn",
+    "district": "Ph\u00fa Nhu\u1eadn",
+    "balance": 3900,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_27397",
+    "device": "mobile",
+    "ip": "47.225.14.184"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

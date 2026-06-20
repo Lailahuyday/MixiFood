@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818796958862",
+  "timestamp": "2026-06-19T21:34:55.234080",
+  "user": {
+    "id": 10730,
+    "username": "user10730",
+    "name": "Ho\u00e0ng Th\u1ecb Linh",
+    "email": "user10730@hotmail.com",
+    "phone": "0589762500",
+    "age": 26,
+    "address": "224 L\u00ea L\u1ee3i, Ph\u00fa Nhu\u1eadn",
+    "district": "Ph\u00fa Nhu\u1eadn",
+    "balance": 3547,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_95413",
+    "device": "mobile",
+    "ip": "172.226.115.210"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781879695239"
+}

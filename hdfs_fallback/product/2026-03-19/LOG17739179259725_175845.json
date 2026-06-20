@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17739179259725",
+  "timestamp": "2026-03-19T17:58:45.141538",
+  "user": {
+    "id": 48675,
+    "username": "user48675",
+    "name": "Nguy\u1ec5n H\u1ea3i D\u0169ng",
+    "email": "user48675@gmail.com",
+    "phone": "0368839756",
+    "age": 31,
+    "address": "122 L\u00ea L\u1ee3i, T\u00e2n B\u00ecnh",
+    "district": "T\u00e2n B\u00ecnh",
+    "balance": 1080,
+    "membership_points": 1
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 13,
+    "name": "Oolong Xo\u00e0i",
+    "price": 67.0,
+    "category": "drink",
+    "stock_before": 57,
+    "stock_after": 57
+  },
+  "quantity": 1,
+  "status": "success",
+  "additional_data": {
+    "quantity": 1,
+    "unit_price": 67.0,
+    "subtotal": 67.0,
+    "available_stock": 57
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

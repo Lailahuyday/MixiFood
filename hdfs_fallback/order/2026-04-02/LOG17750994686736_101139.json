@@ -1,0 +1,50 @@
+{
+  "log_id": "LOG17750994686736",
+  "timestamp": "2026-04-02T10:11:08.018937",
+  "user": {
+    "id": 4371,
+    "username": "user4371",
+    "name": "B\u00f9i Minh Nam",
+    "email": "user4371@hotmail.com",
+    "phone": "0597017979",
+    "age": 24,
+    "address": "10 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 4",
+    "district": "Qu\u1eadn 4",
+    "balance": 893,
+    "membership_points": 8
+  },
+  "action": "checkout",
+  "product": {
+    "id": 11,
+    "name": "N\u01b0\u1edbc S\u1ea3 M\u00e2t Ong",
+    "price": 49.0,
+    "category": "drink",
+    "stock_before": 5,
+    "stock_after": 3
+  },
+  "quantity": 2,
+  "status": "success",
+  "additional_data": {
+    "payment_method": "CurrentAccount",
+    "balance_before": 991,
+    "balance_after": 893,
+    "points_earned": 2,
+    "points_after": 8,
+    "discount": 0,
+    "subtotal": 98.0,
+    "final_total": 98.0,
+    "items": [
+      {
+        "product_id": 11,
+        "product_name": "N\u01b0\u1edbc S\u1ea3 M\u00e2t Ong",
+        "quantity": 2,
+        "price": 49.0
+      }
+    ]
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17818796756964",
+  "timestamp": "2026-06-19T21:34:35.703600",
+  "user": {
+    "id": 8410,
+    "username": "user8410",
+    "name": "Phạm Lan Nam",
+    "email": "user8410@gmail.com",
+    "phone": "0741527665",
+    "age": 55,
+    "address": "150 Trần Hưng Đạo, Tân Phú",
+    "district": "Tân Phú",
+    "balance": 2746,
+    "membership_points": 3
+  },
+  "action": "checkout",
+  "product": {
+    "id": 14,
+    "name": "Trà Hoa Cúc",
+    "price": 60.0,
+    "category": "drink",
+    "stock_before": 39,
+    "stock_after": 39
+  },
+  "quantity": 2,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Chỉ được dùng điểm khi mua 1 sản phẩm",
+    "quantity": 2
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

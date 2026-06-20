@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739134881677",
+  "timestamp": "2026-03-19T16:44:48.253022",
+  "user": {
+    "id": 7,
+    "username": "user7",
+    "name": "\u0110\u1eb7ng Minh Linh",
+    "email": "user7@yahoo.com",
+    "phone": "0887402974",
+    "age": 31,
+    "address": "114 Hai B\u00e0 Tr\u01b0ng, C\u1ee7 Chi",
+    "district": "C\u1ee7 Chi",
+    "balance": 1952,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_73592",
+    "device": "tablet",
+    "ip": "145.33.204.54"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

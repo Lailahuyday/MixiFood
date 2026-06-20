@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17739056784129",
+  "timestamp": "2026-03-19T14:34:38.862565",
+  "user": {
+    "id": 26179,
+    "username": "user26179",
+    "name": "V\u0169 Lan Phong",
+    "email": "user26179@yahoo.com",
+    "phone": "0482377282",
+    "age": 68,
+    "address": "294 Nguy\u1ec5n Hu\u1ec7, Th\u1ee7 \u0110\u1ee9c",
+    "district": "Th\u1ee7 \u0110\u1ee9c",
+    "balance": 4272,
+    "membership_points": 2
+  },
+  "action": "view",
+  "product": {
+    "id": 16,
+    "name": "Th\u1ecbt B\u00f2 N\u01b0\u1edbng",
+    "price": 88.0,
+    "category": "fastfood",
+    "stock_before": 77,
+    "stock_after": 77
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 114,
+    "from_page": "category",
+    "device": "mobile"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

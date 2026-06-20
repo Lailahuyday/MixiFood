@@ -1,0 +1,50 @@
+{
+  "log_id": "LOG17750996704849",
+  "timestamp": "2026-04-02T10:14:30.972331",
+  "user": {
+    "id": 14,
+    "username": "user14",
+    "name": "Ho\u00e0ng V\u0103n Kh\u00e1nh",
+    "email": "user14@hotmail.com",
+    "phone": "0437716296",
+    "age": 41,
+    "address": "346 Nguy\u1ec5n Hu\u1ec7, G\u00f2 V\u1ea5p",
+    "district": "G\u00f2 V\u1ea5p",
+    "balance": 3542,
+    "membership_points": 4
+  },
+  "action": "checkout",
+  "product": {
+    "id": 18,
+    "name": "G\u00e0 Popcorn",
+    "price": 89.0,
+    "category": "fastfood",
+    "stock_before": 42,
+    "stock_after": 40
+  },
+  "quantity": 2,
+  "status": "success",
+  "additional_data": {
+    "payment_method": "CurrentAccount",
+    "balance_before": 3720,
+    "balance_after": 3542,
+    "points_earned": 2,
+    "points_after": 4,
+    "discount": 0,
+    "subtotal": 178.0,
+    "final_total": 178.0,
+    "items": [
+      {
+        "product_id": 18,
+        "product_name": "G\u00e0 Popcorn",
+        "quantity": 2,
+        "price": 89.0
+      }
+    ]
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "log_id": "LOG17737964481063",
+  "timestamp": "2026-03-18T08:14:08.946737",
+  "user": {
+    "id": 17607,
+    "username": "user17607",
+    "name": "Hu\u1ef3nh \u0110\u1ee9c H\u00e0",
+    "email": "user17607@yahoo.com",
+    "phone": "0896722017",
+    "age": 39,
+    "address": "298 L\u00ea L\u1ee3i, Qu\u1eadn 12",
+    "district": "Qu\u1eadn 12",
+    "balance": 4290,
+    "membership_points": 7
+  },
+  "action": "checkout",
+  "product": {
+    "id": 7,
+    "name": "M\u00ec X\u00e0o Th\u1ecbt Gh\u1eb9",
+    "price": 128.0,
+    "category": "food",
+    "stock_before": 78,
+    "stock_after": 77
+  },
+  "quantity": 1,
+  "status": "success",
+  "additional_data": {
+    "payment_method": "CurrentAccount",
+    "balance_before": 4418,
+    "balance_after": 4290,
+    "points_earned": 1,
+    "points_after": 7,
+    "discount": 0,
+    "subtotal": 128.0,
+    "final_total": 128.0,
+    "items": [
+      {
+        "product_id": 7,
+        "product_name": "M\u00ec X\u00e0o Th\u1ecbt Gh\u1eb9",
+        "quantity": 1,
+        "price": 128.0
+      }
+    ]
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

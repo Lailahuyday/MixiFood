@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17739150459193",
+  "timestamp": "2026-03-19T17:10:45.727074",
+  "user": {
+    "id": 5594,
+    "username": "user5594",
+    "name": "B\u00f9i Minh Mai",
+    "email": "user5594@hotmail.com",
+    "phone": "0420898006",
+    "age": 67,
+    "address": "457 L\u00ea L\u1ee3i, C\u1ee7 Chi",
+    "district": "C\u1ee7 Chi",
+    "balance": 3732,
+    "membership_points": 6
+  },
+  "action": "view",
+  "product": {
+    "id": 8,
+    "name": "C\u01a1m B\u00f2 X\u00e0o",
+    "price": 86.0,
+    "category": "food",
+    "stock_before": 72,
+    "stock_after": 72
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 68,
+    "from_page": "search",
+    "device": "tablet"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

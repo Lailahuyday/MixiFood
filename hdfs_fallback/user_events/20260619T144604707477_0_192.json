@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818803643202",
+  "timestamp": "2026-06-19T21:46:04.702465",
+  "user": {
+    "id": 32608,
+    "username": "user32608",
+    "name": "Lê Lan An",
+    "email": "user32608@hotmail.com",
+    "phone": "0933046239",
+    "age": 32,
+    "address": "349 Phạm Ngũ Lão, Quận 3",
+    "district": "Quận 3",
+    "balance": 3664,
+    "membership_points": 0
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_87814",
+    "device": "tablet",
+    "ip": "26.12.67.180"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

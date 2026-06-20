@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17750996546850",
+  "timestamp": "2026-04-02T10:14:14.815899",
+  "user": {
+    "id": 28770,
+    "username": "user28770",
+    "name": "Phan Lan Linh",
+    "email": "user28770@hotmail.com",
+    "phone": "0587290561",
+    "age": 43,
+    "address": "306 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, B\u00ecnh T\u00e2n",
+    "district": "B\u00ecnh T\u00e2n",
+    "balance": 4213,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_68883",
+    "device": "desktop",
+    "ip": "155.61.231.223"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

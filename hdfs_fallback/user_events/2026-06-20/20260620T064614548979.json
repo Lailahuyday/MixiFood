@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17819379745221",
+  "timestamp": "2026-06-20T13:46:14.512089",
+  "user": {
+    "id": 29740,
+    "username": "user29740",
+    "name": "Phạm Tuấn Phong",
+    "email": "user29740@hotmail.com",
+    "phone": "0860159032",
+    "age": 42,
+    "address": "466 Phạm Ngũ Lão, Quận 1",
+    "district": "Quận 1",
+    "balance": 4262,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_21025",
+    "device": "mobile",
+    "ip": "104.15.78.181"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "user_events_0_279_1781937974548"
+}

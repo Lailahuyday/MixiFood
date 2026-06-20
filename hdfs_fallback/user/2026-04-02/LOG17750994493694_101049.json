@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17750994493694",
+  "timestamp": "2026-04-02T10:10:49.644909",
+  "user": {
+    "id": 43338,
+    "username": "user43338",
+    "name": "B\u00f9i \u0110\u1ee9c D\u0169ng",
+    "email": "user43338@yahoo.com",
+    "phone": "0769968602",
+    "age": 42,
+    "address": "71 Hai B\u00e0 Tr\u01b0ng, G\u00f2 V\u1ea5p",
+    "district": "G\u00f2 V\u1ea5p",
+    "balance": 1396,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_57884",
+    "device": "mobile",
+    "ip": "188.184.52.112"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

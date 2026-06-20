@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739159381675",
+  "timestamp": "2026-03-19T17:25:38.786232",
+  "user": {
+    "id": 3998,
+    "username": "user3998",
+    "name": "Ph\u1ea1m \u0110\u1ee9c Ch\u00e2u",
+    "email": "user3998@gmail.com",
+    "phone": "0595387132",
+    "age": 40,
+    "address": "318 Hai B\u00e0 Tr\u01b0ng, T\u00e2n Ph\u00fa",
+    "district": "T\u00e2n Ph\u00fa",
+    "balance": 1077,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_25549",
+    "device": "desktop",
+    "ip": "89.36.168.146"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737964522728",
+  "timestamp": "2026-03-18T08:14:12.411895",
+  "user": {
+    "id": 31419,
+    "username": "user31419",
+    "name": "Ph\u1ea1m Thanh B\u00ecnh",
+    "email": "user31419@hotmail.com",
+    "phone": "0813426848",
+    "age": 37,
+    "address": "97 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, B\u00ecnh T\u00e2n",
+    "district": "B\u00ecnh T\u00e2n",
+    "balance": 2895,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_26636",
+    "device": "tablet",
+    "ip": "14.148.201.1"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

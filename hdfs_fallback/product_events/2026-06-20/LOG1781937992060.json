@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17819379917622",
+  "timestamp": "2026-06-20T13:46:31.241345",
+  "user": {
+    "id": 47832,
+    "username": "user47832",
+    "name": "L\u00ea H\u1ed3ng Linh",
+    "email": "user47832@gmail.com",
+    "phone": "0478816777",
+    "age": 55,
+    "address": "451 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 7",
+    "district": "Qu\u1eadn 7",
+    "balance": 4760,
+    "membership_points": 8
+  },
+  "action": "view",
+  "product": {
+    "id": 7,
+    "name": "M\u00ec X\u00e0o Th\u1ecbt Gh\u1eb9",
+    "price": 128.0,
+    "category": "food",
+    "stock_before": 16,
+    "stock_after": 16
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 26,
+    "from_page": "category",
+    "device": "tablet"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781937991285"
+}

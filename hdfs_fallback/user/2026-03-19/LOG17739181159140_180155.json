@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739181159140",
+  "timestamp": "2026-03-19T18:01:55.690766",
+  "user": {
+    "id": 363,
+    "username": "user363",
+    "name": "Ph\u1ea1m Thanh Nam",
+    "email": "user363@yahoo.com",
+    "phone": "0435517088",
+    "age": 52,
+    "address": "291 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 8",
+    "district": "Qu\u1eadn 8",
+    "balance": 3111,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_34200",
+    "device": "tablet",
+    "ip": "64.76.63.162"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

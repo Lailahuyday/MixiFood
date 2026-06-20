@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17819393107239",
+  "timestamp": "2026-06-20T14:08:30.542923",
+  "user": {
+    "id": 11123,
+    "username": "user11123",
+    "name": "Trần Văn Hà",
+    "email": "user11123@yahoo.com",
+    "phone": "0431201081",
+    "age": 24,
+    "address": "67 Nguyễn Huệ, Quận 2",
+    "district": "Quận 2",
+    "balance": 1160,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_23757",
+    "device": "mobile",
+    "ip": "160.48.122.172"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "user_events_0_293_1781939310595"
+}

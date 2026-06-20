@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739057863722",
+  "timestamp": "2026-03-19T14:36:26.804584",
+  "user": {
+    "id": 24,
+    "username": "user24",
+    "name": "V\u0169 Th\u1ecb Nam",
+    "email": "user24@hotmail.com",
+    "phone": "0848309925",
+    "age": 56,
+    "address": "72 Nguy\u1ec5n Hu\u1ec7, B\u00ecnh T\u00e2n",
+    "district": "B\u00ecnh T\u00e2n",
+    "balance": 4355,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_69558",
+    "device": "mobile",
+    "ip": "97.234.215.103"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818797641633",
+  "timestamp": "2026-06-19T21:36:04.956288",
+  "user": {
+    "id": 32691,
+    "username": "user32691",
+    "name": "Hoàng Minh Nam",
+    "email": "user32691@gmail.com",
+    "phone": "0346354204",
+    "age": 59,
+    "address": "81 Phạm Ngũ Lão, Cần Giờ",
+    "district": "Cần Giờ",
+    "balance": 460,
+    "membership_points": 3
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 30,
+    "name": "bánh cuốn cao bằng",
+    "price": 68.0,
+    "category": "food",
+    "stock_before": 9,
+    "stock_after": 9
+  },
+  "quantity": 1,
+  "status": "success",
+  "additional_data": {
+    "quantity": 1,
+    "unit_price": 68.0,
+    "subtotal": 68.0,
+    "available_stock": 9
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818797245577",
+  "timestamp": "2026-06-19T21:35:24.992589",
+  "user": {
+    "id": 6731,
+    "username": "user6731",
+    "name": "Ph\u1ea1m H\u1ed3ng An",
+    "email": "user6731@gmail.com",
+    "phone": "0763196146",
+    "age": 63,
+    "address": "329 Ph\u1ea1m Ng\u0169 L\u00e3o, T\u00e2n B\u00ecnh",
+    "district": "T\u00e2n B\u00ecnh",
+    "balance": 616,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_32990",
+    "device": "desktop",
+    "ip": "136.55.248.110"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781879724996"
+}

@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818803414197",
+  "timestamp": "2026-06-19T21:45:41.903456",
+  "user": {
+    "id": 27353,
+    "username": "user27353",
+    "name": "Phạm Lan Khánh",
+    "email": "user27353@gmail.com",
+    "phone": "0792705029",
+    "age": 26,
+    "address": "75 Nguyễn Huệ, Quận 8",
+    "district": "Quận 8",
+    "balance": 3282,
+    "membership_points": 7
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 8,
+    "name": "Cơm Bò Xào",
+    "price": 86.0,
+    "category": "food",
+    "stock_before": 14,
+    "stock_after": 14
+  },
+  "quantity": 2,
+  "status": "success",
+  "additional_data": {
+    "quantity": 2,
+    "unit_price": 86.0,
+    "subtotal": 172.0,
+    "available_stock": 14
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

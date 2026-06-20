@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818820954491",
+  "timestamp": "2026-06-19T22:14:55.271835",
+  "user": {
+    "id": 42931,
+    "username": "user42931",
+    "name": "L\u00ea Tu\u1ea5n Mai",
+    "email": "user42931@gmail.com",
+    "phone": "0575414434",
+    "age": 54,
+    "address": "307 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, C\u1ee7 Chi",
+    "district": "C\u1ee7 Chi",
+    "balance": 4745,
+    "membership_points": 1
+  },
+  "action": "checkout",
+  "product": {
+    "id": 3,
+    "name": "N\u1ecdng Heo 1 N\u1eafng V\u00e0 X\u00f4i",
+    "price": 78.0,
+    "category": "food",
+    "stock_before": 1,
+    "stock_after": 1
+  },
+  "quantity": 2,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Ch\u1ec9 \u0111\u01b0\u1ee3c d\u00f9ng \u0111i\u1ec3m khi mua 1 s\u1ea3n ph\u1ea9m",
+    "quantity": 2
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781882095277"
+}

@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17739134869594",
+  "timestamp": "2026-03-19T16:44:46.832381",
+  "user": {
+    "id": 7610,
+    "username": "user7610",
+    "name": "L\u00ea Tu\u1ea5n Kh\u00e1nh",
+    "email": "user7610@yahoo.com",
+    "phone": "0973236374",
+    "age": 65,
+    "address": "252 L\u00ea L\u1ee3i, Qu\u1eadn 2",
+    "district": "Qu\u1eadn 2",
+    "balance": 1305,
+    "membership_points": 5
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 3,
+    "name": "N\u1ecdng Heo 1 N\u1eafng V\u00e0 X\u00f4i",
+    "price": 78.0,
+    "category": "food",
+    "stock_before": 77,
+    "stock_after": 77
+  },
+  "quantity": 2,
+  "status": "success",
+  "additional_data": {
+    "quantity": 2,
+    "unit_price": 78.0,
+    "subtotal": 156.0,
+    "available_stock": 77
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

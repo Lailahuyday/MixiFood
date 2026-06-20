@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739135308624",
+  "timestamp": "2026-03-19T16:45:30.163342",
+  "user": {
+    "id": 49756,
+    "username": "user49756",
+    "name": "Phan \u0110\u1ee9c D\u0169ng",
+    "email": "user49756@hotmail.com",
+    "phone": "0735678165",
+    "age": 59,
+    "address": "200 L\u00ea L\u1ee3i, H\u00f3c M\u00f4n",
+    "district": "H\u00f3c M\u00f4n",
+    "balance": 340,
+    "membership_points": 0
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_64824",
+    "device": "mobile",
+    "ip": "221.251.13.131"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

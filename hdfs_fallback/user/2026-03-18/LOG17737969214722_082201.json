@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737969214722",
+  "timestamp": "2026-03-18T08:22:01.478484",
+  "user": {
+    "id": 44645,
+    "username": "user44645",
+    "name": "B\u00f9i Minh D\u0169ng",
+    "email": "user44645@yahoo.com",
+    "phone": "0551246454",
+    "age": 61,
+    "address": "256 L\u00ea L\u1ee3i, Qu\u1eadn 2",
+    "district": "Qu\u1eadn 2",
+    "balance": 2516,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_59210",
+    "device": "tablet",
+    "ip": "113.84.67.250"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

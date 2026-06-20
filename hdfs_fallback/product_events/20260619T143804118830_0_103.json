@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17818798713026",
+  "timestamp": "2026-06-19T21:37:51.827447",
+  "user": {
+    "id": 41892,
+    "username": "user41892",
+    "name": "Hoàng Đức Bình",
+    "email": "user41892@gmail.com",
+    "phone": "0965219557",
+    "age": 61,
+    "address": "85 Phạm Ngũ Lão, Quận 4",
+    "district": "Quận 4",
+    "balance": 2855,
+    "membership_points": 5
+  },
+  "action": "view",
+  "product": {
+    "id": 18,
+    "name": "Gà Popcorn",
+    "price": 89.0,
+    "category": "fastfood",
+    "stock_before": 23,
+    "stock_after": 23
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 72,
+    "from_page": "search",
+    "device": "desktop"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

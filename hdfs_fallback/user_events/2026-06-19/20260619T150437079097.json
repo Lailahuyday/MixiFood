@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818811827411",
+  "timestamp": "2026-06-19T21:59:42.069115",
+  "user": {
+    "id": 22411,
+    "username": "user22411",
+    "name": "Phan Thanh Phong",
+    "email": "user22411@yahoo.com",
+    "phone": "0748701892",
+    "age": 41,
+    "address": "51 Hai Bà Trưng, Quận 9",
+    "district": "Quận 9",
+    "balance": 1967,
+    "membership_points": 0
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_91745",
+    "device": "tablet",
+    "ip": "212.49.11.161"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "user_events_0_213_1781881475032"
+}

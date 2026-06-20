@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739159571773",
+  "timestamp": "2026-03-19T17:25:57.163843",
+  "user": {
+    "id": 8,
+    "username": "user8",
+    "name": "Nguy\u1ec5n H\u01b0\u01a1ng Kh\u00e1nh",
+    "email": "user8@gmail.com",
+    "phone": "0395100686",
+    "age": 59,
+    "address": "493 L\u00ea L\u1ee3i, B\u00ecnh Ch\u00e1nh",
+    "district": "B\u00ecnh Ch\u00e1nh",
+    "balance": 1259,
+    "membership_points": 0
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_52468",
+    "device": "mobile",
+    "ip": "15.236.205.232"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

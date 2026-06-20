@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17750994421292",
+  "timestamp": "2026-04-02T10:10:42.473163",
+  "user": {
+    "id": 24377,
+    "username": "user24377",
+    "name": "Ho\u00e0ng H\u01b0\u01a1ng Ch\u00e2u",
+    "email": "user24377@gmail.com",
+    "phone": "0387844899",
+    "age": 58,
+    "address": "412 Nguy\u1ec5n Hu\u1ec7, Qu\u1eadn 10",
+    "district": "Qu\u1eadn 10",
+    "balance": 2422,
+    "membership_points": 0
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_71635",
+    "device": "mobile",
+    "ip": "75.251.134.7"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

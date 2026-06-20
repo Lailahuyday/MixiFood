@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739135154653",
+  "timestamp": "2026-03-19T16:45:15.732625",
+  "user": {
+    "id": 28989,
+    "username": "user28989",
+    "name": "B\u00f9i H\u1ea3i D\u0169ng",
+    "email": "user28989@gmail.com",
+    "phone": "0736967447",
+    "age": 44,
+    "address": "431 L\u00ea L\u1ee3i, Qu\u1eadn 2",
+    "district": "Qu\u1eadn 2",
+    "balance": 2697,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_41643",
+    "device": "mobile",
+    "ip": "130.87.240.41"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

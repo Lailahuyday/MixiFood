@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818798044535",
+  "timestamp": "2026-06-19T21:36:44.245415",
+  "user": {
+    "id": 47957,
+    "username": "user47957",
+    "name": "V\u0169 Tu\u1ea5n Mai",
+    "email": "user47957@gmail.com",
+    "phone": "0346437181",
+    "age": 45,
+    "address": "385 L\u00ea L\u1ee3i, H\u00f3c M\u00f4n",
+    "district": "H\u00f3c M\u00f4n",
+    "balance": 1556,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_12970",
+    "device": "tablet",
+    "ip": "103.242.208.15"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781879804251"
+}

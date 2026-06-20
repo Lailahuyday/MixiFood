@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17750995957911",
+  "timestamp": "2026-04-02T10:13:15.431446",
+  "user": {
+    "id": 32851,
+    "username": "user32851",
+    "name": "Ho\u00e0ng \u0110\u1ee9c Linh",
+    "email": "user32851@yahoo.com",
+    "phone": "0960067121",
+    "age": 60,
+    "address": "43 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, H\u00f3c M\u00f4n",
+    "district": "H\u00f3c M\u00f4n",
+    "balance": 2645,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_89650",
+    "device": "mobile",
+    "ip": "153.48.19.195"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17750994432852",
+  "timestamp": "2026-04-02T10:10:43.334957",
+  "user": {
+    "id": 44094,
+    "username": "user44094",
+    "name": "Phan V\u0103n B\u00ecnh",
+    "email": "user44094@yahoo.com",
+    "phone": "0374575895",
+    "age": 26,
+    "address": "154 Nguy\u1ec5n Hu\u1ec7, Qu\u1eadn 12",
+    "district": "Qu\u1eadn 12",
+    "balance": 286,
+    "membership_points": 2
+  },
+  "action": "view",
+  "product": {
+    "id": 5,
+    "name": "G\u1ecfi C\u00e1 H\u1ed3i Chi\u00ean Gi\u00f2n",
+    "price": 144.0,
+    "category": "food",
+    "stock_before": 54,
+    "stock_after": 54
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 60,
+    "from_page": "search",
+    "device": "tablet"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

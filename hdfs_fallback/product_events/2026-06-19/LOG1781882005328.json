@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818820058714",
+  "timestamp": "2026-06-19T22:13:25.309710",
+  "user": {
+    "id": 8465,
+    "username": "user8465",
+    "name": "B\u00f9i Lan B\u00ecnh",
+    "email": "user8465@gmail.com",
+    "phone": "0378600486",
+    "age": 32,
+    "address": "499 Nguy\u1ec5n Hu\u1ec7, Th\u1ee7 \u0110\u1ee9c",
+    "district": "Th\u1ee7 \u0110\u1ee9c",
+    "balance": 4477,
+    "membership_points": 1
+  },
+  "action": "view",
+  "product": {
+    "id": 5,
+    "name": "G\u1ecfi C\u00e1 H\u1ed3i Chi\u00ean Gi\u00f2n",
+    "price": 144.0,
+    "category": "food",
+    "stock_before": 16,
+    "stock_after": 16
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 109,
+    "from_page": "search",
+    "device": "mobile"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781882005319"
+}

@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17819380669249",
+  "timestamp": "2026-06-20T13:47:46.816359",
+  "user": {
+    "id": 401,
+    "username": "user401",
+    "name": "Phan H\u1ea3i Phong",
+    "email": "user401@hotmail.com",
+    "phone": "0424116837",
+    "age": 59,
+    "address": "176 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, B\u00ecnh Ch\u00e1nh",
+    "district": "B\u00ecnh Ch\u00e1nh",
+    "balance": 1118,
+    "membership_points": 8
+  },
+  "action": "view",
+  "product": {
+    "id": 15,
+    "name": "Ph\u00f4 Mai Que",
+    "price": 68.0,
+    "category": "fastfood",
+    "stock_before": 5,
+    "stock_after": 5
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 56,
+    "from_page": "search",
+    "device": "mobile"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781938066856"
+}

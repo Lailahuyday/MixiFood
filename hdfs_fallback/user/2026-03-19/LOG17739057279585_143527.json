@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739057279585",
+  "timestamp": "2026-03-19T14:35:27.796035",
+  "user": {
+    "id": 19924,
+    "username": "user19924",
+    "name": "Tr\u1ea7n Lan Mai",
+    "email": "user19924@yahoo.com",
+    "phone": "0683808270",
+    "age": 52,
+    "address": "263 L\u00ea L\u1ee3i, C\u1ea7n Gi\u1edd",
+    "district": "C\u1ea7n Gi\u1edd",
+    "balance": 3117,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_39622",
+    "device": "mobile",
+    "ip": "86.134.162.12"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

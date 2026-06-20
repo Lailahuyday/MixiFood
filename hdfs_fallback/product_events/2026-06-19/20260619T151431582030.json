@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818820711548",
+  "timestamp": "2026-06-19T22:14:31.552022",
+  "user": {
+    "id": 40325,
+    "username": "user40325",
+    "name": "Phạm Thanh Bình",
+    "email": "user40325@gmail.com",
+    "phone": "0314868702",
+    "age": 24,
+    "address": "332 Phạm Ngũ Lão, Quận 7",
+    "district": "Quận 7",
+    "balance": 147,
+    "membership_points": 1
+  },
+  "action": "view",
+  "product": {
+    "id": 30,
+    "name": "bánh cuốn cao bằng",
+    "price": 68.0,
+    "category": "food",
+    "stock_before": 1,
+    "stock_after": 1
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 98,
+    "from_page": "search",
+    "device": "desktop"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  },
+  "event_id": "product_events_0_224_1781882071557"
+}

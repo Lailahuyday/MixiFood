@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818803626960",
+  "timestamp": "2026-06-19T21:46:02.646471",
+  "user": {
+    "id": 13863,
+    "username": "user13863",
+    "name": "Hu\u1ef3nh Lan B\u00ecnh",
+    "email": "user13863@hotmail.com",
+    "phone": "0757036464",
+    "age": 31,
+    "address": "31 Nguy\u1ec5n Hu\u1ec7, G\u00f2 V\u1ea5p",
+    "district": "G\u00f2 V\u1ea5p",
+    "balance": 4628,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_46719",
+    "device": "desktop",
+    "ip": "221.49.201.225"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781880362650"
+}

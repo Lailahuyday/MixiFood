@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739179351704",
+  "timestamp": "2026-03-19T17:58:55.125799",
+  "user": {
+    "id": 9077,
+    "username": "user9077",
+    "name": "V\u0169 Tu\u1ea5n Phong",
+    "email": "user9077@gmail.com",
+    "phone": "0912019266",
+    "age": 61,
+    "address": "55 Hai B\u00e0 Tr\u01b0ng, B\u00ecnh Th\u1ea1nh",
+    "district": "B\u00ecnh Th\u1ea1nh",
+    "balance": 579,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_87920",
+    "device": "desktop",
+    "ip": "18.182.216.30"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

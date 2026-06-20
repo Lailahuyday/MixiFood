@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17750996145926",
+  "timestamp": "2026-04-02T10:13:34.351460",
+  "user": {
+    "id": 41318,
+    "username": "user41318",
+    "name": "Tr\u1ea7n \u0110\u1ee9c D\u0169ng",
+    "email": "user41318@gmail.com",
+    "phone": "0787016381",
+    "age": 25,
+    "address": "211 L\u00ea L\u1ee3i, Qu\u1eadn 10",
+    "district": "Qu\u1eadn 10",
+    "balance": 189,
+    "membership_points": 2
+  },
+  "action": "checkout",
+  "product": {
+    "id": 18,
+    "name": "G\u00e0 Popcorn",
+    "price": 89.0,
+    "category": "fastfood",
+    "stock_before": 42,
+    "stock_after": 42
+  },
+  "quantity": 2,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Ch\u1ec9 \u0111\u01b0\u1ee3c d\u00f9ng \u0111i\u1ec3m khi mua 1 s\u1ea3n ph\u1ea9m",
+    "quantity": 2
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818797063384",
+  "timestamp": "2026-06-19T21:35:06.527021",
+  "user": {
+    "id": 11578,
+    "username": "user11578",
+    "name": "Hoàng Thanh Phong",
+    "email": "user11578@gmail.com",
+    "phone": "0688791151",
+    "age": 49,
+    "address": "406 Nguyễn Huệ, Nhà Bè",
+    "district": "Nhà Bè",
+    "balance": 2937,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_76446",
+    "device": "tablet",
+    "ip": "197.56.127.101"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

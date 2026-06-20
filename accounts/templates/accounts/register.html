@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký - Minato</title>
+    <link rel="stylesheet" href="{% static 'home/home.css' %}">
+    <link rel="stylesheet" href="{% static 'accounts/register.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <h1><i class="fas fa-utensils"></i> Minato</h1>
+            </div>
+            <nav class="nav-links">
+                <a href="{% url 'home' %}"><i class="fas fa-home"></i> Trang chủ</a>
+                <a href="{% url 'register' %}"><i class="fas fa-user-plus"></i> Đăng ký</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="register-container">
+        <h2>Đăng ký tài khoản</h2>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Đăng ký</button>
+        </form>
+    </div>
+</body>
+</html>

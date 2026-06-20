@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739135119761",
+  "timestamp": "2026-03-19T16:45:11.404787",
+  "user": {
+    "id": 2765,
+    "username": "user2765",
+    "name": "\u0110\u1eb7ng H\u01b0\u01a1ng Mai",
+    "email": "user2765@gmail.com",
+    "phone": "0494031758",
+    "age": 41,
+    "address": "269 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 5",
+    "district": "Qu\u1eadn 5",
+    "balance": 2921,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_11666",
+    "device": "mobile",
+    "ip": "149.105.92.93"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

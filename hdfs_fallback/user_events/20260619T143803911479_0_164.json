@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818798582524",
+  "timestamp": "2026-06-19T21:37:38.615653",
+  "user": {
+    "id": 48824,
+    "username": "user48824",
+    "name": "Lê Hải Châu",
+    "email": "user48824@yahoo.com",
+    "phone": "0675015014",
+    "age": 34,
+    "address": "380 Nguyễn Huệ, Bình Thạnh",
+    "district": "Bình Thạnh",
+    "balance": 1616,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_60244",
+    "device": "desktop",
+    "ip": "48.134.254.174"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

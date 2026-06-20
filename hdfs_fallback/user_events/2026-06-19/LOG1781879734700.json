@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818797344719",
+  "timestamp": "2026-06-19T21:35:34.686260",
+  "user": {
+    "id": 20842,
+    "username": "user20842",
+    "name": "B\u00f9i Tu\u1ea5n D\u0169ng",
+    "email": "user20842@yahoo.com",
+    "phone": "0981839095",
+    "age": 59,
+    "address": "445 Nguy\u1ec5n Hu\u1ec7, Ph\u00fa Nhu\u1eadn",
+    "district": "Ph\u00fa Nhu\u1eadn",
+    "balance": 4904,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_29409",
+    "device": "tablet",
+    "ip": "44.29.238.148"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781879734694"
+}

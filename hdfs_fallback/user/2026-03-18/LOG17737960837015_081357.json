@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737960837015",
+  "timestamp": "2026-03-18T08:08:03.379773",
+  "user": {
+    "id": 7129,
+    "username": "user7129",
+    "name": "Tr\u1ea7n Th\u1ecb H\u00e0",
+    "email": "user7129@yahoo.com",
+    "phone": "0491889319",
+    "age": 69,
+    "address": "75 Ph\u1ea1m Ng\u0169 L\u00e3o, B\u00ecnh Th\u1ea1nh",
+    "district": "B\u00ecnh Th\u1ea1nh",
+    "balance": 3872,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_37634",
+    "device": "mobile",
+    "ip": "46.209.253.80"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17739157944955",
+  "timestamp": "2026-03-19T17:23:14.012029",
+  "user": {
+    "id": 48054,
+    "username": "user48054",
+    "name": "B\u00f9i Minh D\u0169ng",
+    "email": "user48054@hotmail.com",
+    "phone": "0561357857",
+    "age": 61,
+    "address": "87 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 8",
+    "district": "Qu\u1eadn 8",
+    "balance": 313,
+    "membership_points": 5
+  },
+  "action": "view",
+  "product": {
+    "id": 30,
+    "name": "b\u00e1nh cu\u1ed1n cao b\u1eb1ng",
+    "price": 68.0,
+    "category": "food",
+    "stock_before": 69,
+    "stock_after": 69
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 113,
+    "from_page": "search",
+    "device": "desktop"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

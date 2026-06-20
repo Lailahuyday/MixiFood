@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739179055028",
+  "timestamp": "2026-03-19T17:58:25.005718",
+  "user": {
+    "id": 49120,
+    "username": "user49120",
+    "name": "\u0110\u1eb7ng Minh D\u0169ng",
+    "email": "user49120@yahoo.com",
+    "phone": "0462921790",
+    "age": 38,
+    "address": "339 Nguy\u1ec5n Hu\u1ec7, Qu\u1eadn 6",
+    "district": "Qu\u1eadn 6",
+    "balance": 1225,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_63890",
+    "device": "desktop",
+    "ip": "80.244.106.66"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

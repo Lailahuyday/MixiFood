@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818820753213",
+  "timestamp": "2026-06-19T22:14:35.692513",
+  "user": {
+    "id": 46852,
+    "username": "user46852",
+    "name": "Phan Thanh D\u0169ng",
+    "email": "user46852@gmail.com",
+    "phone": "0759309801",
+    "age": 31,
+    "address": "180 Nguy\u1ec5n Hu\u1ec7, C\u1ee7 Chi",
+    "district": "C\u1ee7 Chi",
+    "balance": 189,
+    "membership_points": 6
+  },
+  "action": "view",
+  "product": {
+    "id": 3,
+    "name": "N\u1ecdng Heo 1 N\u1eafng V\u00e0 X\u00f4i",
+    "price": 78.0,
+    "category": "food",
+    "stock_before": 1,
+    "stock_after": 1
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 54,
+    "from_page": "search",
+    "device": "mobile"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  },
+  "event_id": "LOG_1781882075697"
+}

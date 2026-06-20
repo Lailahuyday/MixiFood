@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17740015148615",
+  "timestamp": "2026-03-20T17:11:54.399471",
+  "user": {
+    "id": 23046,
+    "username": "user23046",
+    "name": "Ho\u00e0ng Minh Nam",
+    "email": "user23046@hotmail.com",
+    "phone": "0776593997",
+    "age": 37,
+    "address": "84 Ph\u1ea1m Ng\u0169 L\u00e3o, Qu\u1eadn 8",
+    "district": "Qu\u1eadn 8",
+    "balance": 269,
+    "membership_points": 0
+  },
+  "action": "view",
+  "product": {
+    "id": 16,
+    "name": "Th\u1ecbt B\u00f2 N\u01b0\u1edbng",
+    "price": 88.0,
+    "category": "fastfood",
+    "stock_before": 55,
+    "stock_after": 55
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 8,
+    "from_page": "category",
+    "device": "tablet"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818795602457",
+  "timestamp": "2026-06-19T21:32:40.793804",
+  "user": {
+    "id": 3,
+    "username": "user3",
+    "name": "Nguy\u1ec5n Thanh D\u0169ng",
+    "email": "user3@hotmail.com",
+    "phone": "0643315162",
+    "age": 54,
+    "address": "201 L\u00ea L\u1ee3i, B\u00ecnh Th\u1ea1nh",
+    "district": "B\u00ecnh Th\u1ea1nh",
+    "balance": 1935,
+    "membership_points": 3
+  },
+  "action": "checkout",
+  "product": {
+    "id": 7,
+    "name": "M\u00ec X\u00e0o Th\u1ecbt Gh\u1eb9",
+    "price": 128.0,
+    "category": "food",
+    "stock_before": 30,
+    "stock_after": 30
+  },
+  "quantity": 5,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Ch\u1ec9 \u0111\u01b0\u1ee3c d\u00f9ng \u0111i\u1ec3m khi mua 1 s\u1ea3n ph\u1ea9m",
+    "quantity": 5
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781879560803"
+}

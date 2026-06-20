@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818798904759",
+  "timestamp": "2026-06-19T21:38:10.733279",
+  "user": {
+    "id": 33039,
+    "username": "user33039",
+    "name": "Ph\u1ea1m Minh An",
+    "email": "user33039@gmail.com",
+    "phone": "0818261052",
+    "age": 66,
+    "address": "499 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 12",
+    "district": "Qu\u1eadn 12",
+    "balance": 1649,
+    "membership_points": 0
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_46418",
+    "device": "desktop",
+    "ip": "169.255.45.210"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781879890738"
+}

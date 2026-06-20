@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818814646481",
+  "timestamp": "2026-06-19T22:04:24.256908",
+  "user": {
+    "id": 33015,
+    "username": "user33015",
+    "name": "Hu\u1ef3nh Lan H\u00e0",
+    "email": "user33015@gmail.com",
+    "phone": "0511614357",
+    "age": 25,
+    "address": "214 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 6",
+    "district": "Qu\u1eadn 6",
+    "balance": 3655,
+    "membership_points": 1
+  },
+  "action": "checkout",
+  "product": {
+    "id": 8,
+    "name": "C\u01a1m B\u00f2 X\u00e0o",
+    "price": 86.0,
+    "category": "food",
+    "stock_before": 11,
+    "stock_after": 11
+  },
+  "quantity": 2,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Ch\u1ec9 \u0111\u01b0\u1ee3c d\u00f9ng \u0111i\u1ec3m khi mua 1 s\u1ea3n ph\u1ea9m",
+    "quantity": 2
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781881464262"
+}

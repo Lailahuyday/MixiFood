@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740015246063",
+  "timestamp": "2026-03-20T17:12:04.360578",
+  "user": {
+    "id": 40952,
+    "username": "user40952",
+    "name": "Nguy\u1ec5n Tu\u1ea5n Linh",
+    "email": "user40952@gmail.com",
+    "phone": "0735835104",
+    "age": 18,
+    "address": "497 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 4",
+    "district": "Qu\u1eadn 4",
+    "balance": 1484,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_62841",
+    "device": "desktop",
+    "ip": "177.242.176.105"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

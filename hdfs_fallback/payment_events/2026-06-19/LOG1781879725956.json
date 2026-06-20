@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818797253791",
+  "timestamp": "2026-06-19T21:35:25.948632",
+  "user": {
+    "id": 41317,
+    "username": "user41317",
+    "name": "Ph\u1ea1m Lan An",
+    "email": "user41317@hotmail.com",
+    "phone": "0954320437",
+    "age": 56,
+    "address": "291 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 4",
+    "district": "Qu\u1eadn 4",
+    "balance": 4866,
+    "membership_points": 0
+  },
+  "action": "checkout",
+  "product": {
+    "id": 17,
+    "name": "G\u00e0 Kh\u00f4ng X\u01b0\u01a1ng Chi\u00ean",
+    "price": 68.0,
+    "category": "fastfood",
+    "stock_before": 29,
+    "stock_after": 29
+  },
+  "quantity": 4,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Ch\u1ec9 \u0111\u01b0\u1ee3c d\u00f9ng \u0111i\u1ec3m khi mua 1 s\u1ea3n ph\u1ea9m",
+    "quantity": 4
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781879725953"
+}

@@ -1,0 +1,50 @@
+{
+  "log_id": "LOG17818798375470",
+  "timestamp": "2026-06-19T21:37:17.982710",
+  "user": {
+    "id": 13871,
+    "username": "user13871",
+    "name": "Phạm Hải Châu",
+    "email": "user13871@hotmail.com",
+    "phone": "0873519004",
+    "age": 60,
+    "address": "356 Phạm Ngũ Lão, Quận 12",
+    "district": "Quận 12",
+    "balance": 3458,
+    "membership_points": 11
+  },
+  "action": "checkout",
+  "product": {
+    "id": 16,
+    "name": "Thịt Bò Nướng",
+    "price": 88.0,
+    "category": "fastfood",
+    "stock_before": 32,
+    "stock_after": 27
+  },
+  "quantity": 5,
+  "status": "success",
+  "additional_data": {
+    "payment_method": "CurrentAccount",
+    "balance_before": 3898,
+    "balance_after": 3458,
+    "points_earned": 5,
+    "points_after": 11,
+    "discount": 0,
+    "subtotal": 440.0,
+    "final_total": 440.0,
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Thịt Bò Nướng",
+        "quantity": 5,
+        "price": 88.0
+      }
+    ]
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

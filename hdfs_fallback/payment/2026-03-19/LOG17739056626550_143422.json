@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17739056626550",
+  "timestamp": "2026-03-19T14:34:22.433756",
+  "user": {
+    "id": 11921,
+    "username": "user11921",
+    "name": "Tr\u1ea7n H\u01b0\u01a1ng Kh\u00e1nh",
+    "email": "user11921@yahoo.com",
+    "phone": "0359069160",
+    "age": 60,
+    "address": "212 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, G\u00f2 V\u1ea5p",
+    "district": "G\u00f2 V\u1ea5p",
+    "balance": 4187,
+    "membership_points": 4
+  },
+  "action": "checkout",
+  "product": {
+    "id": 11,
+    "name": "N\u01b0\u1edbc S\u1ea3 M\u00e2t Ong",
+    "price": 49.0,
+    "category": "drink",
+    "stock_before": 61,
+    "stock_after": 61
+  },
+  "quantity": 1,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Kh\u00f4ng \u0111\u1ee7 \u0111i\u1ec3m",
+    "points_required": 6,
+    "points_available": 4
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

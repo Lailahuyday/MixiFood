@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737960976840",
+  "timestamp": "2026-03-18T08:08:17.102180",
+  "user": {
+    "id": 3,
+    "username": "user3",
+    "name": "Ho\u00e0ng H\u1ea3i Mai",
+    "email": "user3@hotmail.com",
+    "phone": "0787312185",
+    "age": 41,
+    "address": "317 L\u00ea L\u1ee3i, Qu\u1eadn 10",
+    "district": "Qu\u1eadn 10",
+    "balance": 3474,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_56024",
+    "device": "desktop",
+    "ip": "186.19.252.162"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

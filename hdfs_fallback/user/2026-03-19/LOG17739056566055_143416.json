@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739056566055",
+  "timestamp": "2026-03-19T14:34:16.660321",
+  "user": {
+    "id": 40692,
+    "username": "user40692",
+    "name": "Phan \u0110\u1ee9c Ch\u00e2u",
+    "email": "user40692@yahoo.com",
+    "phone": "0818325003",
+    "age": 57,
+    "address": "383 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 5",
+    "district": "Qu\u1eadn 5",
+    "balance": 1983,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_20870",
+    "device": "desktop",
+    "ip": "180.133.67.234"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

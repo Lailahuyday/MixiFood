@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818820234189",
+  "timestamp": "2026-06-19T22:13:43.364466",
+  "user": {
+    "id": 48982,
+    "username": "user48982",
+    "name": "Hoàng Hương Phong",
+    "email": "user48982@hotmail.com",
+    "phone": "0930396970",
+    "age": 52,
+    "address": "412 Nguyễn Huệ, Nhà Bè",
+    "district": "Nhà Bè",
+    "balance": 4872,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_14052",
+    "device": "tablet",
+    "ip": "157.249.183.167"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "user_events_0_221_1781882023369"
+}

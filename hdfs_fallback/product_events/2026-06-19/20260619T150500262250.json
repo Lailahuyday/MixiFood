@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818811707891",
+  "timestamp": "2026-06-19T21:59:30.408444",
+  "user": {
+    "id": 15960,
+    "username": "user15960",
+    "name": "Đặng Thị Phong",
+    "email": "user15960@yahoo.com",
+    "phone": "0644315132",
+    "age": 41,
+    "address": "467 Hai Bà Trưng, Quận 12",
+    "district": "Quận 12",
+    "balance": 2681,
+    "membership_points": 8
+  },
+  "action": "view",
+  "product": {
+    "id": 10,
+    "name": "Trà Cam Thảo Mộc",
+    "price": 49.0,
+    "category": "drink",
+    "stock_before": 15,
+    "stock_after": 15
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 105,
+    "from_page": "search",
+    "device": "desktop"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "product_events_0_178_1781881498199"
+}

@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818820464313",
+  "timestamp": "2026-06-19T22:14:06.258286",
+  "user": {
+    "id": 46528,
+    "username": "user46528",
+    "name": "Đặng Thị Khánh",
+    "email": "user46528@hotmail.com",
+    "phone": "0714420980",
+    "age": 46,
+    "address": "9 Trần Hưng Đạo, Bình Thạnh",
+    "district": "Bình Thạnh",
+    "balance": 2414,
+    "membership_points": 0
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_17380",
+    "device": "mobile",
+    "ip": "152.73.167.51"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "user_events_0_229_1781882046272"
+}

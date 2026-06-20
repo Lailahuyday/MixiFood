@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818795657908",
+  "timestamp": "2026-06-19T21:32:45.600202",
+  "user": {
+    "id": 4,
+    "username": "user4",
+    "name": "Phan Minh Khánh",
+    "email": "user4@yahoo.com",
+    "phone": "0865445230",
+    "age": 54,
+    "address": "137 Phạm Ngũ Lão, Bình Chánh",
+    "district": "Bình Chánh",
+    "balance": 163,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_95273",
+    "device": "desktop",
+    "ip": "88.229.213.62"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

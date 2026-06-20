@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818811663080",
+  "timestamp": "2026-06-19T21:59:26.571900",
+  "user": {
+    "id": 19012,
+    "username": "user19012",
+    "name": "L\u00ea Minh B\u00ecnh",
+    "email": "user19012@gmail.com",
+    "phone": "0561362181",
+    "age": 68,
+    "address": "398 Hai B\u00e0 Tr\u01b0ng, C\u1ee7 Chi",
+    "district": "C\u1ee7 Chi",
+    "balance": 2995,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_55608",
+    "device": "tablet",
+    "ip": "25.30.94.214"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781881166574"
+}

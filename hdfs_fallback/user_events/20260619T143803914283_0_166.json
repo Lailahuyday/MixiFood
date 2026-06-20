@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818798679203",
+  "timestamp": "2026-06-19T21:37:47.982870",
+  "user": {
+    "id": 24945,
+    "username": "user24945",
+    "name": "Bùi Hương Bình",
+    "email": "user24945@hotmail.com",
+    "phone": "0342710037",
+    "age": 43,
+    "address": "214 Lê Lợi, Quận 10",
+    "district": "Quận 10",
+    "balance": 79,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_44960",
+    "device": "tablet",
+    "ip": "102.95.52.212"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17739158064183",
+  "timestamp": "2026-03-19T17:23:26.867463",
+  "user": {
+    "id": 3054,
+    "username": "user3054",
+    "name": "Ho\u00e0ng Lan H\u00e0",
+    "email": "user3054@gmail.com",
+    "phone": "0994702407",
+    "age": 57,
+    "address": "426 L\u00ea L\u1ee3i, Qu\u1eadn 10",
+    "district": "Qu\u1eadn 10",
+    "balance": 4282,
+    "membership_points": 1
+  },
+  "action": "view",
+  "product": {
+    "id": 15,
+    "name": "Ph\u00f4 Mai Que",
+    "price": 68.0,
+    "category": "fastfood",
+    "stock_before": 75,
+    "stock_after": 75
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 45,
+    "from_page": "category",
+    "device": "tablet"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

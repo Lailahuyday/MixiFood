@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17740013815054",
+  "timestamp": "2026-03-20T17:09:41.858155",
+  "user": {
+    "id": 14743,
+    "username": "user14743",
+    "name": "\u0110\u1eb7ng Tu\u1ea5n Phong",
+    "email": "user14743@gmail.com",
+    "phone": "0319549345",
+    "age": 50,
+    "address": "93 Hai B\u00e0 Tr\u01b0ng, Th\u1ee7 \u0110\u1ee9c",
+    "district": "Th\u1ee7 \u0110\u1ee9c",
+    "balance": 3116,
+    "membership_points": 2
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 18,
+    "name": "G\u00e0 Popcorn",
+    "price": 89.0,
+    "category": "fastfood",
+    "stock_before": 60,
+    "stock_after": 60
+  },
+  "quantity": 1,
+  "status": "success",
+  "additional_data": {
+    "quantity": 1,
+    "unit_price": 89.0,
+    "subtotal": 89.0,
+    "available_stock": 60
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

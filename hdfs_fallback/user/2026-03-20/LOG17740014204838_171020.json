@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740014204838",
+  "timestamp": "2026-03-20T17:10:20.404163",
+  "user": {
+    "id": 28421,
+    "username": "user28421",
+    "name": "Tr\u1ea7n Thanh D\u0169ng",
+    "email": "user28421@hotmail.com",
+    "phone": "0827002443",
+    "age": 20,
+    "address": "235 Nguy\u1ec5n Hu\u1ec7, T\u00e2n B\u00ecnh",
+    "district": "T\u00e2n B\u00ecnh",
+    "balance": 24,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_55430",
+    "device": "desktop",
+    "ip": "121.110.58.91"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

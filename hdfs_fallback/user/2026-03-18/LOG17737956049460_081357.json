@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737956049460",
+  "timestamp": "2026-03-18T08:00:04.150986",
+  "user": {
+    "id": 6212,
+    "username": "user6212",
+    "name": "\u0110\u1eb7ng Lan B\u00ecnh",
+    "email": "user6212@hotmail.com",
+    "phone": "0991990106",
+    "age": 38,
+    "address": "219 Nguy\u1ec5n Hu\u1ec7, Qu\u1eadn 8",
+    "district": "Qu\u1eadn 8",
+    "balance": 4393,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_89947",
+    "device": "tablet",
+    "ip": "62.146.25.88"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17739158178613",
+  "timestamp": "2026-03-19T17:23:37.984160",
+  "user": {
+    "id": 10720,
+    "username": "user10720",
+    "name": "Nguy\u1ec5n Minh Mai",
+    "email": "user10720@yahoo.com",
+    "phone": "0794987486",
+    "age": 38,
+    "address": "315 L\u00ea L\u1ee3i, Qu\u1eadn 3",
+    "district": "Qu\u1eadn 3",
+    "balance": 1116,
+    "membership_points": 0
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 10,
+    "name": "Tr\u00e0 Cam Th\u1ea3o M\u1ed9c",
+    "price": 49.0,
+    "category": "drink",
+    "stock_before": 61,
+    "stock_after": 61
+  },
+  "quantity": 1,
+  "status": "success",
+  "additional_data": {
+    "quantity": 1,
+    "unit_price": 49.0,
+    "subtotal": 49.0,
+    "available_stock": 61
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

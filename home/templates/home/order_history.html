@@ -1,0 +1,45 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'home/order_history.css' %}">
+
+<h2>Lịch sử đơn hàng của bạn</h2>
+
+{% if orders %}
+  {% for order in orders %}
+    <div class="order-box">
+      <h3>Đơn hàng #{{ order.id }}</h3>
+
+      <p><strong>Khách hàng:</strong> {{ order.user.name|default:order.user.username }}</p>
+      <p><strong>Địa chỉ:</strong> {{ order.user.address|default:"Chưa cập nhật" }}</p>
+      <p><strong>SĐT:</strong> {{ order.user.phone|default:"Chưa cập nhật" }}</p>
+
+      <ul>
+        {% for item in order.orderitem_set.all %}
+          <li>{{ item.product.name }} - x{{ item.quantity }}</li>
+        {% endfor %}
+      </ul>
+
+      <p><strong>Giảm giá:</strong> {{ order.discount }}%</p>
+
+      <!-- Hiển thị Tổng tiền theo phương thức thanh toán -->
+      {% for payment in payments %}
+        {% if payment.order == order %}
+          {% if payment.payment_method == 'Membership' %}
+            <p class="total-payment"><strong>Tổng tiền đã thanh toán:</strong> 0K</p>
+          {% else %}
+            <p class="total-payment"><strong>Tổng tiền đã thanh toán:</strong> {{ payment.amount|floatformat:0 }}K</p>
+          {% endif %}
+          
+          <p><strong>Phương thức thanh toán:</strong> {{ payment.payment_method }}</p>
+        {% endif %}
+      {% endfor %}
+
+      <hr>
+    </div>
+  {% endfor %}
+{% else %}
+  <p>Bạn chưa có đơn hàng nào đã thanh toán.</p>
+{% endif %}
+
+<div class="button-container">
+  <a href="{% url 'home' %}" class="back-button">← Quay lại trang chủ</a>
+</div>

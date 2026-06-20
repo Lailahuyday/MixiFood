@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737955843466",
+  "timestamp": "2026-03-18T07:59:44.944304",
+  "user": {
+    "id": 3600,
+    "username": "user3600",
+    "name": "\u0110\u1eb7ng H\u1ed3ng Ch\u00e2u",
+    "email": "user3600@yahoo.com",
+    "phone": "0717213255",
+    "age": 41,
+    "address": "434 Ph\u1ea1m Ng\u0169 L\u00e3o, Qu\u1eadn 2",
+    "district": "Qu\u1eadn 2",
+    "balance": 4283,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_38112",
+    "device": "mobile",
+    "ip": "153.32.132.66"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818811239833",
+  "timestamp": "2026-06-19T21:58:43.324935",
+  "user": {
+    "id": 40920,
+    "username": "user40920",
+    "name": "\u0110\u1eb7ng Thanh B\u00ecnh",
+    "email": "user40920@yahoo.com",
+    "phone": "0786373678",
+    "age": 24,
+    "address": "221 Ph\u1ea1m Ng\u0169 L\u00e3o, Qu\u1eadn 5",
+    "district": "Qu\u1eadn 5",
+    "balance": 2483,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_52721",
+    "device": "tablet",
+    "ip": "205.254.230.37"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781881123330"
+}

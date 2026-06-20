@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739134655659",
+  "timestamp": "2026-03-19T16:44:25.584316",
+  "user": {
+    "id": 24187,
+    "username": "user24187",
+    "name": "Ho\u00e0ng H\u1ed3ng D\u0169ng",
+    "email": "user24187@yahoo.com",
+    "phone": "0323006831",
+    "age": 38,
+    "address": "486 L\u00ea L\u1ee3i, H\u00f3c M\u00f4n",
+    "district": "H\u00f3c M\u00f4n",
+    "balance": 310,
+    "membership_points": 0
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_60703",
+    "device": "mobile",
+    "ip": "50.98.152.177"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

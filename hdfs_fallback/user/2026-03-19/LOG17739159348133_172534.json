@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739159348133",
+  "timestamp": "2026-03-19T17:25:34.696422",
+  "user": {
+    "id": 15719,
+    "username": "user15719",
+    "name": "Tr\u1ea7n Th\u1ecb Linh",
+    "email": "user15719@yahoo.com",
+    "phone": "0566274786",
+    "age": 45,
+    "address": "333 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 8",
+    "district": "Qu\u1eadn 8",
+    "balance": 4921,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_80145",
+    "device": "tablet",
+    "ip": "95.93.134.32"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

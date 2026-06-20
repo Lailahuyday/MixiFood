@@ -1,0 +1,39 @@
+{
+  "log_id": "LOG17819379472171",
+  "timestamp": "2026-06-20T13:45:47.855178",
+  "user": {
+    "id": 3,
+    "username": "user3",
+    "name": "Nguyễn Thanh Bình",
+    "email": "user3@gmail.com",
+    "phone": "0989662943",
+    "age": 22,
+    "address": "52 Phạm Ngũ Lão, Củ Chi",
+    "district": "Củ Chi",
+    "balance": 1348,
+    "membership_points": 3
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 14,
+    "name": "Trà Hoa Cúc",
+    "price": 60.0,
+    "category": "drink",
+    "stock_before": 28,
+    "stock_after": 28
+  },
+  "quantity": 1,
+  "status": "success",
+  "additional_data": {
+    "quantity": 1,
+    "unit_price": 60.0,
+    "subtotal": 60.0,
+    "available_stock": 28
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "product_events_0_288_1781937947875"
+}

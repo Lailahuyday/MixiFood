@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818797729864",
+  "timestamp": "2026-06-19T21:36:12.289894",
+  "user": {
+    "id": 3239,
+    "username": "user3239",
+    "name": "B\u00f9i Minh Mai",
+    "email": "user3239@yahoo.com",
+    "phone": "0820399982",
+    "age": 31,
+    "address": "232 Hai B\u00e0 Tr\u01b0ng, H\u00f3c M\u00f4n",
+    "district": "H\u00f3c M\u00f4n",
+    "balance": 3782,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_66138",
+    "device": "desktop",
+    "ip": "64.210.231.127"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781879772295"
+}

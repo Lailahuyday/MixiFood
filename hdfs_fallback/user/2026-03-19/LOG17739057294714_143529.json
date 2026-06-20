@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739057294714",
+  "timestamp": "2026-03-19T14:35:29.894978",
+  "user": {
+    "id": 25143,
+    "username": "user25143",
+    "name": "Hu\u1ef3nh H\u1ed3ng B\u00ecnh",
+    "email": "user25143@hotmail.com",
+    "phone": "0837101239",
+    "age": 24,
+    "address": "412 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, T\u00e2n Ph\u00fa",
+    "district": "T\u00e2n Ph\u00fa",
+    "balance": 2374,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_31230",
+    "device": "tablet",
+    "ip": "84.172.192.32"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

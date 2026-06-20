@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17737964624723",
+  "timestamp": "2026-03-18T08:14:22.701517",
+  "user": {
+    "id": 49028,
+    "username": "user49028",
+    "name": "Hu\u1ef3nh Thanh B\u00ecnh",
+    "email": "user49028@yahoo.com",
+    "phone": "0373252799",
+    "age": 48,
+    "address": "177 L\u00ea L\u1ee3i, B\u00ecnh T\u00e2n",
+    "district": "B\u00ecnh T\u00e2n",
+    "balance": 220,
+    "membership_points": 7
+  },
+  "action": "view",
+  "product": {
+    "id": 7,
+    "name": "M\u00ec X\u00e0o Th\u1ecbt Gh\u1eb9",
+    "price": 128.0,
+    "category": "food",
+    "stock_before": 78,
+    "stock_after": 78
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 63,
+    "from_page": "search",
+    "device": "tablet"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

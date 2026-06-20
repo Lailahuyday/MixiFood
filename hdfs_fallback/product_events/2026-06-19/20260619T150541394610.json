@@ -1,0 +1,39 @@
+{
+  "log_id": "LOG17818814743150",
+  "timestamp": "2026-06-19T22:04:34.487452",
+  "user": {
+    "id": 27115,
+    "username": "user27115",
+    "name": "Bùi Minh Bình",
+    "email": "user27115@yahoo.com",
+    "phone": "0375698369",
+    "age": 52,
+    "address": "211 Nguyễn Huệ, Quận 4",
+    "district": "Quận 4",
+    "balance": 3266,
+    "membership_points": 1
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 9,
+    "name": "Cua Cà Ri Kiểu Thái",
+    "price": 268.0,
+    "category": "food",
+    "stock_before": 14,
+    "stock_after": 14
+  },
+  "quantity": 3,
+  "status": "success",
+  "additional_data": {
+    "quantity": 3,
+    "unit_price": 268.0,
+    "subtotal": 804.0,
+    "available_stock": 14
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "product_events_0_193_1781881539348"
+}

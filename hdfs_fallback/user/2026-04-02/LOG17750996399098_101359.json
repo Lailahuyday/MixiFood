@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17750996399098",
+  "timestamp": "2026-04-02T10:13:59.597862",
+  "user": {
+    "id": 5556,
+    "username": "user5556",
+    "name": "Tr\u1ea7n H\u1ea3i Nam",
+    "email": "user5556@gmail.com",
+    "phone": "0382580618",
+    "age": 30,
+    "address": "102 Hai B\u00e0 Tr\u01b0ng, C\u1ea7n Gi\u1edd",
+    "district": "C\u1ea7n Gi\u1edd",
+    "balance": 1969,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_73583",
+    "device": "tablet",
+    "ip": "98.74.209.85"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737955911580",
+  "timestamp": "2026-03-18T07:59:51.484743",
+  "user": {
+    "id": 33354,
+    "username": "user33354",
+    "name": "Ho\u00e0ng Thanh Nam",
+    "email": "user33354@yahoo.com",
+    "phone": "0558140382",
+    "age": 60,
+    "address": "170 L\u00ea L\u1ee3i, Qu\u1eadn 9",
+    "district": "Qu\u1eadn 9",
+    "balance": 3456,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_15527",
+    "device": "tablet",
+    "ip": "136.45.231.25"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

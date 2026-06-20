@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739134389800",
+  "timestamp": "2026-03-19T16:43:58.726975",
+  "user": {
+    "id": 32730,
+    "username": "user32730",
+    "name": "Ho\u00e0ng Th\u1ecb H\u00e0",
+    "email": "user32730@hotmail.com",
+    "phone": "0974349174",
+    "age": 21,
+    "address": "324 L\u00ea L\u1ee3i, Qu\u1eadn 5",
+    "district": "Qu\u1eadn 5",
+    "balance": 2498,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_77393",
+    "device": "tablet",
+    "ip": "135.241.142.183"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

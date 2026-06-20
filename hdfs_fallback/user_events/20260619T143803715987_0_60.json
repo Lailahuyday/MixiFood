@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818795524010",
+  "timestamp": "2026-06-19T21:32:32.851579",
+  "user": {
+    "id": 8800,
+    "username": "user8800",
+    "name": "Lê Tuấn Châu",
+    "email": "user8800@gmail.com",
+    "phone": "0987224666",
+    "age": 25,
+    "address": "115 Nguyễn Huệ, Quận 6",
+    "district": "Quận 6",
+    "balance": 25,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_10055",
+    "device": "tablet",
+    "ip": "155.207.170.87"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818798939752",
+  "timestamp": "2026-06-19T21:38:13.789789",
+  "user": {
+    "id": 43092,
+    "username": "user43092",
+    "name": "Lê Hương Linh",
+    "email": "user43092@gmail.com",
+    "phone": "0384719345",
+    "age": 57,
+    "address": "161 Trần Hưng Đạo, Hóc Môn",
+    "district": "Hóc Môn",
+    "balance": 4038,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_37244",
+    "device": "desktop",
+    "ip": "115.239.17.148"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

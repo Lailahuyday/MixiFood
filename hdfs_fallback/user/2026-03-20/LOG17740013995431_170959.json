@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740013995431",
+  "timestamp": "2026-03-20T17:09:59.560240",
+  "user": {
+    "id": 35315,
+    "username": "user35315",
+    "name": "Ph\u1ea1m Th\u1ecb Kh\u00e1nh",
+    "email": "user35315@yahoo.com",
+    "phone": "0419750983",
+    "age": 70,
+    "address": "421 L\u00ea L\u1ee3i, C\u1ea7n Gi\u1edd",
+    "district": "C\u1ea7n Gi\u1edd",
+    "balance": 1632,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_13195",
+    "device": "mobile",
+    "ip": "207.48.151.248"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818797058134",
+  "timestamp": "2026-06-19T21:35:05.805493",
+  "user": {
+    "id": 16045,
+    "username": "user16045",
+    "name": "Tr\u1ea7n H\u01b0\u01a1ng D\u0169ng",
+    "email": "user16045@gmail.com",
+    "phone": "0882418499",
+    "age": 21,
+    "address": "97 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, G\u00f2 V\u1ea5p",
+    "district": "G\u00f2 V\u1ea5p",
+    "balance": 3542,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_66505",
+    "device": "mobile",
+    "ip": "46.196.222.22"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781879705810"
+}

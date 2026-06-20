@@ -1,0 +1,39 @@
+{
+  "log_id": "LOG17819393198846",
+  "timestamp": "2026-06-20T14:08:39.841704",
+  "user": {
+    "id": 19634,
+    "username": "user19634",
+    "name": "Bùi Hương An",
+    "email": "user19634@yahoo.com",
+    "phone": "0492659108",
+    "age": 48,
+    "address": "5 Nguyễn Huệ, Quận 4",
+    "district": "Quận 4",
+    "balance": 4109,
+    "membership_points": 2
+  },
+  "action": "checkout",
+  "product": {
+    "id": 9,
+    "name": "Cua Cà Ri Kiểu Thái",
+    "price": 268.0,
+    "category": "food",
+    "stock_before": 14,
+    "stock_after": 14
+  },
+  "quantity": 1,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Không đủ điểm",
+    "points_required": 6,
+    "points_available": 2
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "payment_events_0_81_1781939319886"
+}

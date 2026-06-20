@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818811685367",
+  "timestamp": "2026-06-19T21:59:28.558348",
+  "user": {
+    "id": 9,
+    "username": "user9",
+    "name": "Nguyễn Đức Phong",
+    "email": "user9@gmail.com",
+    "phone": "0826041803",
+    "age": 34,
+    "address": "468 Trần Hưng Đạo, Nhà Bè",
+    "district": "Nhà Bè",
+    "balance": 2801,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_75411",
+    "device": "tablet",
+    "ip": "243.250.158.106"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "user_events_0_211_1781881470910"
+}

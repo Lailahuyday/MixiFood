@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737969184990",
+  "timestamp": "2026-03-18T08:21:58.704295",
+  "user": {
+    "id": 5,
+    "username": "user5",
+    "name": "\u0110\u1eb7ng H\u1ed3ng An",
+    "email": "user5@yahoo.com",
+    "phone": "0818596553",
+    "age": 45,
+    "address": "483 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 5",
+    "district": "Qu\u1eadn 5",
+    "balance": 119,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_49087",
+    "device": "tablet",
+    "ip": "240.65.72.100"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

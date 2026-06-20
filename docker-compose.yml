@@ -1,0 +1,257 @@
+version: '3.8'
+
+services:
+  # ================= INFRASTRUCTURE =================
+  zookeeper:
+    image: wurstmeister/zookeeper
+    container_name: mixi-zookeeper
+    ports:
+      - "2181:2181"
+    networks:
+      - mixi-network
+
+  kafka:
+    image: wurstmeister/kafka
+    container_name: mixi-kafka
+    ports:
+      - "9092:9092"
+      - "9093:9093"
+    environment:
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT
+      KAFKA_LISTENERS: INSIDE://0.0.0.0:9092,OUTSIDE://0.0.0.0:9093
+      KAFKA_ADVERTISED_LISTENERS: INSIDE://kafka:9092,OUTSIDE://localhost:9093
+      KAFKA_INTER_BROKER_LISTENER_NAME: INSIDE
+    depends_on:
+      - zookeeper
+    networks:
+      - mixi-network
+
+  mysql:
+    image: mysql:8.0
+    container_name: mixi-mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - mixi-network
+
+  redis:
+    image: redis:alpine
+    container_name: mixi-redis
+    ports:
+      - "6379:6379"
+    networks:
+      - mixi-network
+
+  namenode:
+    image: bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
+    container_name: mixi-namenode
+    hostname: namenode
+    ports:
+      - "9870:9870"
+      - "9000:9000"
+    environment:
+      - CLUSTER_NAME=mixi-cluster
+      - CORE_CONF_fs_defaultFS=hdfs://namenode:9000
+      - HDFS_CONF_dfs_namenode_name_dir=/hadoop/dfs/name
+      - HDFS_CONF_dfs_replication=1
+      - HDFS_CONF_dfs_permissions.enabled=false
+      - HDFS_CONF_dfs_webhdfs.enabled=true
+    volumes:
+      - namenode_data:/hadoop/dfs/name
+    networks:
+      - mixi-network
+
+  datanode:
+    image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+    container_name: mixi-datanode
+    hostname: datanode
+    ports:
+      - "9864:9864"
+    environment:
+      - CLUSTER_NAME=mixi-cluster
+      - CORE_CONF_fs_defaultFS=hdfs://namenode:9000
+      - HDFS_CONF_dfs_datanode_data_dir=/hadoop/dfs/data
+      - HDFS_CONF_dfs_replication=1
+      - HDFS_CONF_dfs_permissions.enabled=false
+    volumes:
+      - datanode_data:/hadoop/dfs/data
+    depends_on:
+      - namenode
+    networks:
+      - mixi-network
+
+  # ================= GATEWAY =================
+  gateway:
+    image: nginx:alpine
+    container_name: mixi-gateway
+    ports:
+      - "80:80"
+    volumes:
+      - ./infrastructure/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - auth-service
+      - catalog-service
+      - ingestion-service
+    networks:
+      - mixi-network
+
+  # ================= MICROSERVICES =================
+  auth-service:
+    build: 
+      context: ./services/auth-service
+      dockerfile: Dockerfile
+    container_name: mixi-auth-service
+    restart: unless-stopped
+    ports:
+      - "8001:8001"
+    environment:
+      - DATABASE_URL=mysql+pymysql://${MYSQL_USER}:${MYSQL_PASSWORD}@mysql:3306/${MYSQL_DATABASE}
+      - SECRET_KEY=${SECRET_KEY:-your-secret-key-change-in-production}
+      - GOOGLE_CLIENT_ID=${GOOGLE_CLIENT_ID:-}
+      - GOOGLE_CLIENT_SECRET=${GOOGLE_CLIENT_SECRET:-}
+      - FACEBOOK_CLIENT_ID=${FACEBOOK_CLIENT_ID:-}
+      - FACEBOOK_CLIENT_SECRET=${FACEBOOK_CLIENT_SECRET:-}
+    depends_on:
+      - mysql
+    networks:
+      - mixi-network
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8001/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  catalog-service:
+    build:
+      context: ./services/catalog-service
+      dockerfile: Dockerfile
+    container_name: mixi-catalog-service
+    restart: unless-stopped
+    ports:
+      - "8002:8002"
+    environment:
+      - DATABASE_URL=mysql+pymysql://${MYSQL_USER}:${MYSQL_PASSWORD}@mysql:3306/${MYSQL_DATABASE}
+    depends_on:
+      - mysql
+    networks:
+      - mixi-network
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8002/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  ingestion-service:
+    build:
+      context: ./services/ingestion-service
+      dockerfile: Dockerfile
+    container_name: mixi-ingestion-service
+    restart: unless-stopped
+    ports:
+      - "8003:8003"
+    environment:
+      - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
+      - SECRET_KEY=${SECRET_KEY:-your-secret-key-change-in-production}
+    depends_on:
+      - kafka
+    networks:
+      - mixi-network
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8003/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  analytics-service:
+    build:
+      context: ./services/analytics-service
+      dockerfile: Dockerfile
+    container_name: mixi-analytics-service
+    restart: unless-stopped
+    ports:
+      - "8004:8004"
+    environment:
+      - DATABASE_URL=mysql+pymysql://${MYSQL_USER}:${MYSQL_PASSWORD}@mysql:3306/${MYSQL_DATABASE}
+      - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
+    depends_on:
+      - mysql
+      - kafka
+    networks:
+      - mixi-network
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8004/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  etl-service:
+    build:
+      context: ./services/etl-service
+      dockerfile: Dockerfile
+    container_name: mixi-etl-service
+    restart: unless-stopped
+    environment:
+      - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
+      - MYSQL_HOST=mysql
+      - MYSQL_USER=${MYSQL_USER:-root}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD:-68686868}
+      - MYSQL_DATABASE=${MYSQL_DATABASE:-food}
+      - HDFS_NAMENODE_URL=http://namenode:9870
+      - HDFS_USER=root
+      - LOCAL_FALLBACK_DIR=/app/hdfs_fallback
+    volumes:
+      - ./hdfs_fallback:/app/hdfs_fallback
+    depends_on:
+      - kafka
+      - mysql
+      - namenode
+    networks:
+      - mixi-network
+
+  # ================= WEB FRONTEND (DJANGO) =================
+  web-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mixi-web-service
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - DEBUG=True
+      - MYSQL_HOST=mysql
+      - MYSQL_NAME=${MYSQL_DATABASE:-food}
+      - MYSQL_USER=${MYSQL_USER:-root}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD:-68686868}
+      - MYSQL_PORT=3306
+      - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
+      - CATALOG_SERVICE_URL=http://catalog-service:8002
+      - AUTH_SERVICE_URL=http://auth-service:8001
+    depends_on:
+      - mysql
+      - kafka
+      - gateway
+    networks:
+      - mixi-network
+
+networks:
+  mixi-network:
+    driver: bridge
+
+volumes:
+  mysql_data:
+  namenode_data:
+  datanode_data:

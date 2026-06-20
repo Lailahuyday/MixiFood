@@ -1,0 +1,106 @@
+{% load static %}
+{% load cart_filters %}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng - Minato</title>
+    <link rel="stylesheet" href="{% static 'home/cart.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>🛒 Giỏ hàng của bạn</h1>
+
+        <!-- Hiển thị thông báo -->
+        {% if messages %}
+            <div class="messages-container">
+                <ul class="messages">
+                    {% for message in messages %}
+                        <li class="{{ message.tags }}">{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
+
+        {% if order_items %}
+            <div class="cart-table-container">
+                <table class="cart-table">
+                    <thead>
+                        <tr>
+                            <th class="product-col">Món ăn</th>
+                            <th class="price-col">Giá</th>
+                            <th class="quantity-col">Số lượng</th>
+                            <th class="total-col">Thành tiền</th>
+                            <th class="action-col">Giảm số lượng</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in order_items %}
+                            <tr class="cart-item">
+                                <td class="product-name">{{ item.product.name }}</td>
+                                <td class="product-price">{{ item.product.price|floatformat:0 }}K</td>
+                                <td class="product-quantity">{{ item.quantity }}</td>
+                                <td class="product-total">{{ item.product.price|multiply:item.quantity|floatformat:0 }}K</td>
+                                <td class="product-actions">
+                                    <form method="POST" action="{% url 'decrease_quantity' item.id %}" class="quantity-form">
+                                        {% csrf_token %}
+                                        <button type="submit" class="remove-btn">–</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Tổng tiền và thanh toán -->
+            <div class="checkout-section">
+                <div class="summary">
+                    <h3 class="subtotal">Tổng tiền: {{ total|floatformat:0 }}K</h3>
+                    {% if discount > 0 %}
+                        <h4 class="discount">Giảm giá: -{{ discount|floatformat:0 }}K (5%)</h4>
+                    {% endif %}
+                    <h2 class="final-total">Thanh toán: {{ final_total|floatformat:0 }}K</h2>
+                </div>
+
+                <!-- Form thanh toán -->
+                <div class="payment-section">
+                    <form method="post" action="{% url 'checkout' %}">
+                        {% csrf_token %}
+                        <label for="payment_method">Chọn phương thức thanh toán:</label>
+                        <select name="payment_method" id="payment_method">
+                            <option value="CurrentAccount">Tài khoản hiện có</option>
+                            <option value="Membership">Điểm thành viên</option>
+                        </select>
+                        <button type="submit">Thanh toán</button>
+                    </form>
+
+                </div>
+            </div>
+            <div class="discount-notice">
+                <p><i class="fas fa-gift"></i> Ưu đãi: Đơn hàng trên 800K sẽ được <strong>giảm 5%</strong> tự động khi thanh toán!</p>
+            </div>
+
+            <!-- Hiển thị điểm thành viên và số sản phẩm cần mua thêm -->
+            <div class="membership-points">
+                <p>✨ Bạn có {{ membership_points }} điểm thành viên!</p>
+                {% if products_left > 0 %}
+                    <p>✨ Mua thêm {{ products_left }} sản phẩm nữa để nhận ưu đãi miễn phí 1 món!</p>
+                {% else %}
+                    <p>🎉 Bạn đã có đủ điểm để nhận ưu đãi miễn phí!</p>
+                {% endif %}
+            </div>
+
+            <div class="continue-shopping">
+                <a href="{% url 'home' %}" class="back-btn">⬅️ Tiếp tục mua hàng</a>
+            </div>
+        {% else %}
+            <div class="empty-cart">
+                <p>Giỏ hàng trống!</p>
+                <a href="{% url 'home' %}" class="back-btn">⬅️ Quay lại mua hàng</a>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>

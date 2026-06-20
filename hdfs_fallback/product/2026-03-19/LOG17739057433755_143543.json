@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17739057433755",
+  "timestamp": "2026-03-19T14:35:43.382421",
+  "user": {
+    "id": 20648,
+    "username": "user20648",
+    "name": "\u0110\u1eb7ng Tu\u1ea5n Linh",
+    "email": "user20648@hotmail.com",
+    "phone": "0814965887",
+    "age": 46,
+    "address": "229 Hai B\u00e0 Tr\u01b0ng, T\u00e2n Ph\u00fa",
+    "district": "T\u00e2n Ph\u00fa",
+    "balance": 3012,
+    "membership_points": 8
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 16,
+    "name": "Th\u1ecbt B\u00f2 N\u01b0\u1edbng",
+    "price": 88.0,
+    "category": "fastfood",
+    "stock_before": 77,
+    "stock_after": 77
+  },
+  "quantity": 1,
+  "status": "success",
+  "additional_data": {
+    "quantity": 1,
+    "unit_price": 88.0,
+    "subtotal": 88.0,
+    "available_stock": 77
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

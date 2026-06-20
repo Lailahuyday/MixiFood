@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818799037970",
+  "timestamp": "2026-06-19T21:38:23.873380",
+  "user": {
+    "id": 662,
+    "username": "user662",
+    "name": "Hoàng Hồng An",
+    "email": "user662@gmail.com",
+    "phone": "0975063145",
+    "age": 32,
+    "address": "239 Nguyễn Huệ, Quận 7",
+    "district": "Quận 7",
+    "balance": 2405,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_48104",
+    "device": "desktop",
+    "ip": "56.80.139.64"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

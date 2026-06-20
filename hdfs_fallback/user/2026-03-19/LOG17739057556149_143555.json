@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739057556149",
+  "timestamp": "2026-03-19T14:35:55.326435",
+  "user": {
+    "id": 38629,
+    "username": "user38629",
+    "name": "Tr\u1ea7n Minh Ch\u00e2u",
+    "email": "user38629@gmail.com",
+    "phone": "0688244908",
+    "age": 27,
+    "address": "21 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 1",
+    "district": "Qu\u1eadn 1",
+    "balance": 3154,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_53102",
+    "device": "desktop",
+    "ip": "165.94.104.60"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

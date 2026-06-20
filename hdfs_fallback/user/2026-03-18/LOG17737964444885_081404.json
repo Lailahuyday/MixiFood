@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737964444885",
+  "timestamp": "2026-03-18T08:14:04.555253",
+  "user": {
+    "id": 519,
+    "username": "user519",
+    "name": "Phan H\u1ea3i Nam",
+    "email": "user519@yahoo.com",
+    "phone": "0371669097",
+    "age": 42,
+    "address": "447 L\u00ea L\u1ee3i, Qu\u1eadn 5",
+    "district": "Qu\u1eadn 5",
+    "balance": 4120,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_67926",
+    "device": "tablet",
+    "ip": "61.240.51.47"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

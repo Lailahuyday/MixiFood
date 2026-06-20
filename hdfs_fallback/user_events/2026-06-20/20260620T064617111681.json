@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17819379777932",
+  "timestamp": "2026-06-20T13:46:17.062624",
+  "user": {
+    "id": 19054,
+    "username": "user19054",
+    "name": "Nguyễn Hồng Châu",
+    "email": "user19054@hotmail.com",
+    "phone": "0987975006",
+    "age": 40,
+    "address": "311 Lê Lợi, Phú Nhuận",
+    "district": "Phú Nhuận",
+    "balance": 1985,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_44466",
+    "device": "desktop",
+    "ip": "133.42.59.161"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "user_events_0_280_1781937977110"
+}

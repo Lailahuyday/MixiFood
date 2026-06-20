@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739179151880",
+  "timestamp": "2026-03-19T17:58:35.972522",
+  "user": {
+    "id": 40996,
+    "username": "user40996",
+    "name": "Nguy\u1ec5n H\u01b0\u01a1ng Kh\u00e1nh",
+    "email": "user40996@yahoo.com",
+    "phone": "0390621603",
+    "age": 43,
+    "address": "267 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Ph\u00fa Nhu\u1eadn",
+    "district": "Ph\u00fa Nhu\u1eadn",
+    "balance": 1671,
+    "membership_points": 0
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_23361",
+    "device": "tablet",
+    "ip": "70.110.31.247"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

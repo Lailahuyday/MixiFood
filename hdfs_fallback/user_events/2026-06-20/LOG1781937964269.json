@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17819379647798",
+  "timestamp": "2026-06-20T13:46:04.168463",
+  "user": {
+    "id": 20970,
+    "username": "user20970",
+    "name": "Tr\u1ea7n Minh Mai",
+    "email": "user20970@yahoo.com",
+    "phone": "0998101248",
+    "age": 47,
+    "address": "122 L\u00ea L\u1ee3i, C\u1ee7 Chi",
+    "district": "C\u1ee7 Chi",
+    "balance": 1615,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_68593",
+    "device": "mobile",
+    "ip": "163.168.186.62"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781937964183"
+}

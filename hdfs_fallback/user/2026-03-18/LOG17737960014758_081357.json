@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737960014758",
+  "timestamp": "2026-03-18T08:06:41.719244",
+  "user": {
+    "id": 7686,
+    "username": "user7686",
+    "name": "Phan Tu\u1ea5n H\u00e0",
+    "email": "user7686@hotmail.com",
+    "phone": "0565403780",
+    "age": 65,
+    "address": "364 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 5",
+    "district": "Qu\u1eadn 5",
+    "balance": 2309,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_15519",
+    "device": "mobile",
+    "ip": "23.249.16.4"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

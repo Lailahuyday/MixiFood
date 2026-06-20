@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17818796812922",
+  "timestamp": "2026-06-19T21:34:41.307505",
+  "user": {
+    "id": 10094,
+    "username": "user10094",
+    "name": "Đặng Đức Khánh",
+    "email": "user10094@yahoo.com",
+    "phone": "0485761540",
+    "age": 51,
+    "address": "41 Trần Hưng Đạo, Quận 4",
+    "district": "Quận 4",
+    "balance": 2342,
+    "membership_points": 1
+  },
+  "action": "checkout",
+  "product": {
+    "id": 11,
+    "name": "Nước Sả Mât Ong",
+    "price": 49.0,
+    "category": "drink",
+    "stock_before": 1,
+    "stock_after": 1
+  },
+  "quantity": 5,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Chỉ được dùng điểm khi mua 1 sản phẩm",
+    "quantity": 5
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17739179175055",
+  "timestamp": "2026-03-19T17:58:37.724255",
+  "user": {
+    "id": 2113,
+    "username": "user2113",
+    "name": "Phan Thanh B\u00ecnh",
+    "email": "user2113@hotmail.com",
+    "phone": "0818970824",
+    "age": 45,
+    "address": "270 Ph\u1ea1m Ng\u0169 L\u00e3o, Qu\u1eadn 12",
+    "district": "Qu\u1eadn 12",
+    "balance": 14,
+    "membership_points": 8
+  },
+  "action": "view",
+  "product": {
+    "id": 9,
+    "name": "Cua C\u00e0 Ri Ki\u1ec3u Th\u00e1i",
+    "price": 268.0,
+    "category": "food",
+    "stock_before": 61,
+    "stock_after": 61
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 81,
+    "from_page": "category",
+    "device": "tablet"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

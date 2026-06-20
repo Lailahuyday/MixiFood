@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17750996079577",
+  "timestamp": "2026-04-02T10:13:27.217914",
+  "user": {
+    "id": 17833,
+    "username": "user17833",
+    "name": "Tr\u1ea7n V\u0103n An",
+    "email": "user17833@hotmail.com",
+    "phone": "0666465337",
+    "age": 70,
+    "address": "335 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, B\u00ecnh T\u00e2n",
+    "district": "B\u00ecnh T\u00e2n",
+    "balance": 139,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_36579",
+    "device": "tablet",
+    "ip": "135.211.49.194"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

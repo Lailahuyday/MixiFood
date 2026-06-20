@@ -1,0 +1,50 @@
+{
+  "log_id": "LOG17737955492508",
+  "timestamp": "2026-03-18T07:59:09.611299",
+  "user": {
+    "id": 36330,
+    "username": "user36330",
+    "name": "Phan H\u1ed3ng H\u00e0",
+    "email": "user36330@gmail.com",
+    "phone": "0652674590",
+    "age": 22,
+    "address": "269 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 5",
+    "district": "Qu\u1eadn 5",
+    "balance": 2274,
+    "membership_points": 7
+  },
+  "action": "checkout",
+  "product": {
+    "id": 5,
+    "name": "G\u1ecfi C\u00e1 H\u1ed3i Chi\u00ean Gi\u00f2n",
+    "price": 144.0,
+    "category": "food",
+    "stock_before": 81,
+    "stock_after": 80
+  },
+  "quantity": 1,
+  "status": "success",
+  "additional_data": {
+    "payment_method": "CurrentAccount",
+    "balance_before": 2418,
+    "balance_after": 2274,
+    "points_earned": 1,
+    "points_after": 7,
+    "discount": 0,
+    "subtotal": 144.0,
+    "final_total": 144.0,
+    "items": [
+      {
+        "product_id": 5,
+        "product_name": "G\u1ecfi C\u00e1 H\u1ed3i Chi\u00ean Gi\u00f2n",
+        "quantity": 1,
+        "price": 144.0
+      }
+    ]
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

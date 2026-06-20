@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818820386698",
+  "timestamp": "2026-06-19T22:13:58.916912",
+  "user": {
+    "id": 3399,
+    "username": "user3399",
+    "name": "Hu\u1ef3nh Thanh Linh",
+    "email": "user3399@yahoo.com",
+    "phone": "0412236592",
+    "age": 63,
+    "address": "139 Nguy\u1ec5n Hu\u1ec7, Qu\u1eadn 10",
+    "district": "Qu\u1eadn 10",
+    "balance": 1170,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_30576",
+    "device": "mobile",
+    "ip": "32.159.90.111"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781882038920"
+}

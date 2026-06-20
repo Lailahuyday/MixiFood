@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17819379348134",
+  "timestamp": "2026-06-20T13:45:34.301433",
+  "user": {
+    "id": 45342,
+    "username": "user45342",
+    "name": "B\u00f9i Lan D\u0169ng",
+    "email": "user45342@hotmail.com",
+    "phone": "0682681842",
+    "age": 50,
+    "address": "234 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 10",
+    "district": "Qu\u1eadn 10",
+    "balance": 98,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_65440",
+    "device": "mobile",
+    "ip": "180.169.145.151"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  },
+  "event_id": "LOG_1781937934314"
+}

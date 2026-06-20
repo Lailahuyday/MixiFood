@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818795577331",
+  "timestamp": "2026-06-19T21:32:37.573728",
+  "user": {
+    "id": 11332,
+    "username": "user11332",
+    "name": "Phạm Thanh An",
+    "email": "user11332@hotmail.com",
+    "phone": "0384145549",
+    "age": 35,
+    "address": "166 Hai Bà Trưng, Quận 8",
+    "district": "Quận 8",
+    "balance": 369,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_44393",
+    "device": "mobile",
+    "ip": "12.152.123.198"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

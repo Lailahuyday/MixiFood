@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818814671380",
+  "timestamp": "2026-06-19T22:04:27.257251",
+  "user": {
+    "id": 1,
+    "username": "user1",
+    "name": "Ph\u1ea1m H\u1ea3i An",
+    "email": "user1@yahoo.com",
+    "phone": "0432712945",
+    "age": 19,
+    "address": "242 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 10",
+    "district": "Qu\u1eadn 10",
+    "balance": 4453,
+    "membership_points": 7
+  },
+  "action": "checkout",
+  "product": {
+    "id": 15,
+    "name": "Ph\u00f4 Mai Que",
+    "price": 68.0,
+    "category": "fastfood",
+    "stock_before": 9,
+    "stock_after": 9
+  },
+  "quantity": 4,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Ch\u1ec9 \u0111\u01b0\u1ee3c d\u00f9ng \u0111i\u1ec3m khi mua 1 s\u1ea3n ph\u1ea9m",
+    "quantity": 4
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781881467261"
+}

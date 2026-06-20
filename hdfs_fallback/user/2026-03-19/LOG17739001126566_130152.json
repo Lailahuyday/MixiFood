@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739001126566",
+  "timestamp": "2026-03-19T13:01:52.783876",
+  "user": {
+    "id": 46426,
+    "username": "user46426",
+    "name": "B\u00f9i H\u01b0\u01a1ng Ch\u00e2u",
+    "email": "user46426@yahoo.com",
+    "phone": "0819459267",
+    "age": 21,
+    "address": "427 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 3",
+    "district": "Qu\u1eadn 3",
+    "balance": 1144,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_91246",
+    "device": "tablet",
+    "ip": "83.68.103.101"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17750996038899",
+  "timestamp": "2026-04-02T10:13:23.247079",
+  "user": {
+    "id": 39011,
+    "username": "user39011",
+    "name": "Phan H\u01b0\u01a1ng Linh",
+    "email": "user39011@hotmail.com",
+    "phone": "0566013994",
+    "age": 49,
+    "address": "49 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 11",
+    "district": "Qu\u1eadn 11",
+    "balance": 2176,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_60425",
+    "device": "tablet",
+    "ip": "88.9.171.77"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

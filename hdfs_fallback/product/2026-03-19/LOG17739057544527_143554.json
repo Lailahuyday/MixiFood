@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17739057544527",
+  "timestamp": "2026-03-19T14:35:54.517188",
+  "user": {
+    "id": 33653,
+    "username": "user33653",
+    "name": "Phan \u0110\u1ee9c Ch\u00e2u",
+    "email": "user33653@yahoo.com",
+    "phone": "0535398489",
+    "age": 66,
+    "address": "286 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, B\u00ecnh Ch\u00e1nh",
+    "district": "B\u00ecnh Ch\u00e1nh",
+    "balance": 270,
+    "membership_points": 6
+  },
+  "action": "view",
+  "product": {
+    "id": 14,
+    "name": "Tr\u00e0 Hoa C\u00fac",
+    "price": 60.0,
+    "category": "drink",
+    "stock_before": 81,
+    "stock_after": 81
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 10,
+    "from_page": "search",
+    "device": "tablet"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

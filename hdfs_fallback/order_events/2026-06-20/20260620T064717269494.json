@@ -1,0 +1,51 @@
+{
+  "log_id": "LOG17819380378846",
+  "timestamp": "2026-06-20T13:47:17.233608",
+  "user": {
+    "id": 8351,
+    "username": "user8351",
+    "name": "Hoàng Tuấn Hà",
+    "email": "user8351@yahoo.com",
+    "phone": "0966526708",
+    "age": 19,
+    "address": "36 Trần Hưng Đạo, Quận 11",
+    "district": "Quận 11",
+    "balance": 318,
+    "membership_points": 8
+  },
+  "action": "checkout",
+  "product": {
+    "id": 3,
+    "name": "Nọng Heo 1 Nắng Và Xôi",
+    "price": 78.0,
+    "category": "food",
+    "stock_before": 1,
+    "stock_after": 0
+  },
+  "quantity": 1,
+  "status": "success",
+  "additional_data": {
+    "payment_method": "CurrentAccount",
+    "balance_before": 396,
+    "balance_after": 318,
+    "points_earned": 1,
+    "points_after": 8,
+    "discount": 0,
+    "subtotal": 78.0,
+    "final_total": 78.0,
+    "items": [
+      {
+        "product_id": 3,
+        "product_name": "Nọng Heo 1 Nắng Và Xôi",
+        "quantity": 1,
+        "price": 78.0
+      }
+    ]
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  },
+  "event_id": "order_events_0_59_1781938037268"
+}

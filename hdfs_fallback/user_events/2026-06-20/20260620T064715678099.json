@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17819380331464",
+  "timestamp": "2026-06-20T13:47:13.652801",
+  "user": {
+    "id": 3506,
+    "username": "user3506",
+    "name": "Lê Hồng Phong",
+    "email": "user3506@yahoo.com",
+    "phone": "0435830320",
+    "age": 21,
+    "address": "73 Lê Lợi, Quận 6",
+    "district": "Quận 6",
+    "balance": 3735,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_56006",
+    "device": "desktop",
+    "ip": "15.136.218.128"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "user_events_0_285_1781938035677"
+}

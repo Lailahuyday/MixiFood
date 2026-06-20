@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17819380616954",
+  "timestamp": "2026-06-20T13:47:41.958236",
+  "user": {
+    "id": 15123,
+    "username": "user15123",
+    "name": "Phan Đức Nam",
+    "email": "user15123@yahoo.com",
+    "phone": "0620008110",
+    "age": 35,
+    "address": "382 Hai Bà Trưng, Quận 12",
+    "district": "Quận 12",
+    "balance": 2177,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_91384",
+    "device": "desktop",
+    "ip": "213.55.161.5"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "user_events_0_288_1781938061992"
+}

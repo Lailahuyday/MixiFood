@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17819379641346",
+  "timestamp": "2026-06-20T13:46:04.802808",
+  "user": {
+    "id": 4503,
+    "username": "user4503",
+    "name": "Ho\u00e0ng H\u1ea3i Kh\u00e1nh",
+    "email": "user4503@hotmail.com",
+    "phone": "0575848432",
+    "age": 55,
+    "address": "145 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 9",
+    "district": "Qu\u1eadn 9",
+    "balance": 1369,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_42134",
+    "device": "tablet",
+    "ip": "170.74.144.51"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781937964832"
+}

@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17818797563001",
+  "timestamp": "2026-06-19T21:35:56.138398",
+  "user": {
+    "id": 15,
+    "username": "user15",
+    "name": "Bùi Lan Phong",
+    "email": "user15@gmail.com",
+    "phone": "0732112686",
+    "age": 49,
+    "address": "105 Hai Bà Trưng, Quận 9",
+    "district": "Quận 9",
+    "balance": 4903,
+    "membership_points": 6
+  },
+  "action": "checkout",
+  "product": {
+    "id": 10,
+    "name": "Trà Cam Thảo Mộc",
+    "price": 49.0,
+    "category": "drink",
+    "stock_before": 21,
+    "stock_after": 21
+  },
+  "quantity": 2,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Chỉ được dùng điểm khi mua 1 sản phẩm",
+    "quantity": 2
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

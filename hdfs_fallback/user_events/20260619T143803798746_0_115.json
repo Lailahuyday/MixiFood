@@ -1,0 +1,6 @@
+{
+  "id": 42,
+  "event": "user_activity",
+  "message": "hello 42",
+  "ts": "2026-06-19T14:35:05.482375Z"
+}

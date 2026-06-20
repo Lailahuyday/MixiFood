@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17750996224621",
+  "timestamp": "2026-04-02T10:13:42.730715",
+  "user": {
+    "id": 24467,
+    "username": "user24467",
+    "name": "L\u00ea H\u1ea3i Linh",
+    "email": "user24467@gmail.com",
+    "phone": "0311134909",
+    "age": 33,
+    "address": "7 L\u00ea L\u1ee3i, B\u00ecnh Th\u1ea1nh",
+    "district": "B\u00ecnh Th\u1ea1nh",
+    "balance": 4840,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_12777",
+    "device": "desktop",
+    "ip": "49.130.249.198"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

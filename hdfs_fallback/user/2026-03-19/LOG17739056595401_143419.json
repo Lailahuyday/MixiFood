@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739056595401",
+  "timestamp": "2026-03-19T14:34:19.420203",
+  "user": {
+    "id": 12356,
+    "username": "user12356",
+    "name": "Ho\u00e0ng \u0110\u1ee9c B\u00ecnh",
+    "email": "user12356@hotmail.com",
+    "phone": "0983382066",
+    "age": 42,
+    "address": "379 L\u00ea L\u1ee3i, Qu\u1eadn 3",
+    "district": "Qu\u1eadn 3",
+    "balance": 712,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_32308",
+    "device": "desktop",
+    "ip": "180.31.141.16"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

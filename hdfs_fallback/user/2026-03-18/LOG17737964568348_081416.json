@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737964568348",
+  "timestamp": "2026-03-18T08:14:16.591824",
+  "user": {
+    "id": 1274,
+    "username": "user1274",
+    "name": "B\u00f9i H\u01b0\u01a1ng An",
+    "email": "user1274@gmail.com",
+    "phone": "0563691287",
+    "age": 32,
+    "address": "79 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 6",
+    "district": "Qu\u1eadn 6",
+    "balance": 3375,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_72791",
+    "device": "desktop",
+    "ip": "145.123.219.210"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

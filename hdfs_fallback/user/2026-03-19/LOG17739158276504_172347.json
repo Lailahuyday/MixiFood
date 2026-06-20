@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739158276504",
+  "timestamp": "2026-03-19T17:23:47.667203",
+  "user": {
+    "id": 41966,
+    "username": "user41966",
+    "name": "B\u00f9i V\u0103n B\u00ecnh",
+    "email": "user41966@yahoo.com",
+    "phone": "0775483536",
+    "age": 67,
+    "address": "399 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, T\u00e2n B\u00ecnh",
+    "district": "T\u00e2n B\u00ecnh",
+    "balance": 3496,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_26847",
+    "device": "tablet",
+    "ip": "27.65.161.32"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

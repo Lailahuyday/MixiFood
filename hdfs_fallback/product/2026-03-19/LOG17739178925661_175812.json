@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17739178925661",
+  "timestamp": "2026-03-19T17:58:12.959769",
+  "user": {
+    "id": 20850,
+    "username": "user20850",
+    "name": "Phan Thanh Kh\u00e1nh",
+    "email": "user20850@gmail.com",
+    "phone": "0762941326",
+    "age": 39,
+    "address": "130 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 6",
+    "district": "Qu\u1eadn 6",
+    "balance": 4915,
+    "membership_points": 1
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 8,
+    "name": "C\u01a1m B\u00f2 X\u00e0o",
+    "price": 86.0,
+    "category": "food",
+    "stock_before": 58,
+    "stock_after": 58
+  },
+  "quantity": 2,
+  "status": "success",
+  "additional_data": {
+    "quantity": 2,
+    "unit_price": 86.0,
+    "subtotal": 172.0,
+    "available_stock": 58
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

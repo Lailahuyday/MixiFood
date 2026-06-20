@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739162927425",
+  "timestamp": "2026-03-19T17:31:32.498557",
+  "user": {
+    "id": 38470,
+    "username": "user38470",
+    "name": "Phan H\u1ed3ng Linh",
+    "email": "user38470@yahoo.com",
+    "phone": "0820452184",
+    "age": 40,
+    "address": "394 Ph\u1ea1m Ng\u0169 L\u00e3o, Qu\u1eadn 1",
+    "district": "Qu\u1eadn 1",
+    "balance": 1751,
+    "membership_points": 0
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_16509",
+    "device": "tablet",
+    "ip": "201.109.42.37"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

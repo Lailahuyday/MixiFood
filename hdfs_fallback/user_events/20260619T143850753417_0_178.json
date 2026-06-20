@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818799267419",
+  "timestamp": "2026-06-19T21:38:46.320073",
+  "user": {
+    "id": 30301,
+    "username": "user30301",
+    "name": "Nguyễn Hồng Hà",
+    "email": "user30301@yahoo.com",
+    "phone": "0818276987",
+    "age": 59,
+    "address": "372 Lê Lợi, Quận 12",
+    "district": "Quận 12",
+    "balance": 1644,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_98568",
+    "device": "tablet",
+    "ip": "142.50.202.194"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

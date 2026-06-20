@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17819393227833",
+  "timestamp": "2026-06-20T14:08:42.975269",
+  "user": {
+    "id": 16574,
+    "username": "user16574",
+    "name": "Hu\u1ef3nh Thanh Mai",
+    "email": "user16574@yahoo.com",
+    "phone": "0816453948",
+    "age": 49,
+    "address": "21 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, B\u00ecnh Ch\u00e1nh",
+    "district": "B\u00ecnh Ch\u00e1nh",
+    "balance": 175,
+    "membership_points": 0
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_23256",
+    "device": "tablet",
+    "ip": "168.175.110.141"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  },
+  "event_id": "LOG_1781939323070"
+}

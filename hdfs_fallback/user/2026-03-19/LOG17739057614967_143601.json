@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739057614967",
+  "timestamp": "2026-03-19T14:36:01.910634",
+  "user": {
+    "id": 26994,
+    "username": "user26994",
+    "name": "L\u00ea Minh Kh\u00e1nh",
+    "email": "user26994@hotmail.com",
+    "phone": "0830165913",
+    "age": 28,
+    "address": "80 L\u00ea L\u1ee3i, B\u00ecnh Ch\u00e1nh",
+    "district": "B\u00ecnh Ch\u00e1nh",
+    "balance": 2546,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_34719",
+    "device": "desktop",
+    "ip": "118.190.172.221"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

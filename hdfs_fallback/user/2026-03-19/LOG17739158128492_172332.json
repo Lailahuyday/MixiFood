@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739158128492",
+  "timestamp": "2026-03-19T17:23:32.556037",
+  "user": {
+    "id": 14874,
+    "username": "user14874",
+    "name": "Phan H\u1ed3ng Kh\u00e1nh",
+    "email": "user14874@hotmail.com",
+    "phone": "0764477272",
+    "age": 58,
+    "address": "3 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 10",
+    "district": "Qu\u1eadn 10",
+    "balance": 3639,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_29108",
+    "device": "desktop",
+    "ip": "236.177.14.187"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

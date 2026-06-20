@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818798111629",
+  "timestamp": "2026-06-19T21:36:51.026177",
+  "user": {
+    "id": 2301,
+    "username": "user2301",
+    "name": "Trần Tuấn Bình",
+    "email": "user2301@gmail.com",
+    "phone": "0977472380",
+    "age": 27,
+    "address": "490 Hai Bà Trưng, Tân Bình",
+    "district": "Tân Bình",
+    "balance": 4407,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_27889",
+    "device": "desktop",
+    "ip": "21.29.155.64"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

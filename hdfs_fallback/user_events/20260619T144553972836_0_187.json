@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818803532296",
+  "timestamp": "2026-06-19T21:45:53.967247",
+  "user": {
+    "id": 39926,
+    "username": "user39926",
+    "name": "Nguyễn Hồng Châu",
+    "email": "user39926@hotmail.com",
+    "phone": "0526249271",
+    "age": 60,
+    "address": "206 Lê Lợi, Quận 8",
+    "district": "Quận 8",
+    "balance": 84,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_91613",
+    "device": "mobile",
+    "ip": "106.111.134.11"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

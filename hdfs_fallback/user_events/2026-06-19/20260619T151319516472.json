@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818819929032",
+  "timestamp": "2026-06-19T22:13:12.854860",
+  "user": {
+    "id": 1,
+    "username": "user1",
+    "name": "Hoàng Đức Khánh",
+    "email": "user1@gmail.com",
+    "phone": "0628191375",
+    "age": 59,
+    "address": "219 Lê Lợi, Quận 4",
+    "district": "Quận 4",
+    "balance": 93,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_47410",
+    "device": "desktop",
+    "ip": "229.46.76.255"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  },
+  "event_id": "user_events_0_217_1781881999472"
+}

@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17750994665945",
+  "timestamp": "2026-04-02T10:11:06.885971",
+  "user": {
+    "id": 19209,
+    "username": "user19209",
+    "name": "Hu\u1ef3nh \u0110\u1ee9c B\u00ecnh",
+    "email": "user19209@yahoo.com",
+    "phone": "0691673480",
+    "age": 44,
+    "address": "47 Hai B\u00e0 Tr\u01b0ng, H\u00f3c M\u00f4n",
+    "district": "H\u00f3c M\u00f4n",
+    "balance": 3961,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_15197",
+    "device": "mobile",
+    "ip": "184.73.135.184"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

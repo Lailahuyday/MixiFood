@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17818803723866",
+  "timestamp": "2026-06-19T21:46:12.320559",
+  "user": {
+    "id": 38745,
+    "username": "user38745",
+    "name": "Vũ Minh An",
+    "email": "user38745@yahoo.com",
+    "phone": "0779696373",
+    "age": 49,
+    "address": "172 Hai Bà Trưng, Quận 6",
+    "district": "Quận 6",
+    "balance": 2790,
+    "membership_points": 2
+  },
+  "action": "checkout",
+  "product": {
+    "id": 5,
+    "name": "Gỏi Cá Hồi Chiên Giòn",
+    "price": 144.0,
+    "category": "food",
+    "stock_before": 22,
+    "stock_after": 22
+  },
+  "quantity": 5,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Chỉ được dùng điểm khi mua 1 sản phẩm",
+    "quantity": 5
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

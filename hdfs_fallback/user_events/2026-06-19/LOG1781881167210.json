@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818811679511",
+  "timestamp": "2026-06-19T21:59:27.205361",
+  "user": {
+    "id": 19355,
+    "username": "user19355",
+    "name": "Nguy\u1ec5n V\u0103n Linh",
+    "email": "user19355@hotmail.com",
+    "phone": "0476594126",
+    "age": 64,
+    "address": "224 L\u00ea L\u1ee3i, B\u00ecnh T\u00e2n",
+    "district": "B\u00ecnh T\u00e2n",
+    "balance": 761,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_47780",
+    "device": "mobile",
+    "ip": "84.82.175.132"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781881167208"
+}

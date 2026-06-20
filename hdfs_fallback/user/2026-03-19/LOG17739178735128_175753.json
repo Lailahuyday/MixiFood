@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739178735128",
+  "timestamp": "2026-03-19T17:57:53.238869",
+  "user": {
+    "id": 3292,
+    "username": "user3292",
+    "name": "Tr\u1ea7n Lan B\u00ecnh",
+    "email": "user3292@yahoo.com",
+    "phone": "0966054124",
+    "age": 19,
+    "address": "293 Nguy\u1ec5n Hu\u1ec7, Qu\u1eadn 6",
+    "district": "Qu\u1eadn 6",
+    "balance": 632,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_13043",
+    "device": "desktop",
+    "ip": "89.133.103.1"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

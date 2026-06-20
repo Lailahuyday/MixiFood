@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818797326060",
+  "timestamp": "2026-06-19T21:35:32.730430",
+  "user": {
+    "id": 21951,
+    "username": "user21951",
+    "name": "\u0110\u1eb7ng Lan Phong",
+    "email": "user21951@yahoo.com",
+    "phone": "0416000688",
+    "age": 39,
+    "address": "60 Hai B\u00e0 Tr\u01b0ng, C\u1ee7 Chi",
+    "district": "C\u1ee7 Chi",
+    "balance": 147,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_22097",
+    "device": "mobile",
+    "ip": "205.242.83.3"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  },
+  "event_id": "LOG_1781879732738"
+}

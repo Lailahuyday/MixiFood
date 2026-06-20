@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818820234189",
+  "timestamp": "2026-06-19T22:13:43.364466",
+  "user": {
+    "id": 48982,
+    "username": "user48982",
+    "name": "Ho\u00e0ng H\u01b0\u01a1ng Phong",
+    "email": "user48982@hotmail.com",
+    "phone": "0930396970",
+    "age": 52,
+    "address": "412 Nguy\u1ec5n Hu\u1ec7, Nh\u00e0 B\u00e8",
+    "district": "Nh\u00e0 B\u00e8",
+    "balance": 4872,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_14052",
+    "device": "tablet",
+    "ip": "157.249.183.167"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781882023369"
+}

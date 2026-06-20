@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17737949027394",
+  "timestamp": "2026-03-18T07:48:22.233824",
+  "user": {
+    "id": 33947,
+    "username": "user33947",
+    "name": "Hu\u1ef3nh H\u1ed3ng Phong",
+    "email": "user33947@gmail.com",
+    "phone": "0636183685",
+    "age": 30,
+    "address": "206 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 8",
+    "district": "Qu\u1eadn 8",
+    "balance": 1704,
+    "membership_points": 1
+  },
+  "action": "checkout",
+  "product": {
+    "id": 17,
+    "name": "G\u00e0 Kh\u00f4ng X\u01b0\u01a1ng Chi\u00ean",
+    "price": 68.0,
+    "category": "fastfood",
+    "stock_before": 96,
+    "stock_after": 96
+  },
+  "quantity": 5,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Ch\u1ec9 \u0111\u01b0\u1ee3c d\u00f9ng \u0111i\u1ec3m khi mua 1 s\u1ea3n ph\u1ea9m",
+    "quantity": 5
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

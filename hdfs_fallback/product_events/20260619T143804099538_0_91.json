@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17818798361571",
+  "timestamp": "2026-06-19T21:37:16.060534",
+  "user": {
+    "id": 14048,
+    "username": "user14048",
+    "name": "Đặng Thanh Mai",
+    "email": "user14048@gmail.com",
+    "phone": "0917443934",
+    "age": 54,
+    "address": "329 Hai Bà Trưng, Cần Giờ",
+    "district": "Cần Giờ",
+    "balance": 1671,
+    "membership_points": 5
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 11,
+    "name": "Nước Sả Mât Ong",
+    "price": 49.0,
+    "category": "drink",
+    "stock_before": 1,
+    "stock_after": 1
+  },
+  "quantity": 3,
+  "status": "failed",
+  "additional_data": {
+    "reason": "Hết hàng",
+    "requested": 3,
+    "available": 1
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

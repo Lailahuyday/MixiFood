@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818796917068",
+  "timestamp": "2026-06-19T21:34:51.005020",
+  "user": {
+    "id": 10620,
+    "username": "user10620",
+    "name": "Phan Hồng Phong",
+    "email": "user10620@yahoo.com",
+    "phone": "0490317338",
+    "age": 53,
+    "address": "29 Lê Lợi, Quận 5",
+    "district": "Quận 5",
+    "balance": 2138,
+    "membership_points": 0
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_72741",
+    "device": "mobile",
+    "ip": "39.71.107.230"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

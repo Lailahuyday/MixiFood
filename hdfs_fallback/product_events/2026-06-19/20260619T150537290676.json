@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818814687660",
+  "timestamp": "2026-06-19T22:04:28.447399",
+  "user": {
+    "id": 15236,
+    "username": "user15236",
+    "name": "Đặng Thị Bình",
+    "email": "user15236@gmail.com",
+    "phone": "0331976009",
+    "age": 60,
+    "address": "99 Trần Hưng Đạo, Thủ Đức",
+    "district": "Thủ Đức",
+    "balance": 2349,
+    "membership_points": 0
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 30,
+    "name": "bánh cuốn cao bằng",
+    "price": 68.0,
+    "category": "food",
+    "stock_before": 1,
+    "stock_after": 1
+  },
+  "quantity": 3,
+  "status": "failed",
+  "additional_data": {
+    "reason": "Hết hàng",
+    "requested": 3,
+    "available": 1
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "product_events_0_191_1781881535226"
+}

@@ -1,0 +1,8 @@
+Django>=5.1.5
+mysqlclient
+djangorestframework
+requests
+python-dotenv
+cryptography
+gunicorn
+kafka-python

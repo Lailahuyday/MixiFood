@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17819379435998",
+  "timestamp": "2026-06-20T13:45:43.207289",
+  "user": {
+    "id": 49434,
+    "username": "user49434",
+    "name": "Nguyễn Thanh Dũng",
+    "email": "user49434@gmail.com",
+    "phone": "0460900159",
+    "age": 21,
+    "address": "34 Phạm Ngũ Lão, Quận 1",
+    "district": "Quận 1",
+    "balance": 4803,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_17116",
+    "device": "tablet",
+    "ip": "9.195.22.105"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "user_events_0_272_1781937943216"
+}

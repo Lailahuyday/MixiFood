@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818820475468",
+  "timestamp": "2026-06-19T22:14:07.859800",
+  "user": {
+    "id": 15685,
+    "username": "user15685",
+    "name": "Nguyễn Đức Bình",
+    "email": "user15685@gmail.com",
+    "phone": "0517675779",
+    "age": 53,
+    "address": "291 Phạm Ngũ Lão, Hóc Môn",
+    "district": "Hóc Môn",
+    "balance": 2270,
+    "membership_points": 3
+  },
+  "action": "checkout",
+  "product": {
+    "id": 15,
+    "name": "Phô Mai Que",
+    "price": 68.0,
+    "category": "fastfood",
+    "stock_before": 9,
+    "stock_after": 9
+  },
+  "quantity": 4,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Chỉ được dùng điểm khi mua 1 sản phẩm",
+    "quantity": 4
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "payment_events_0_56_1781882047863"
+}

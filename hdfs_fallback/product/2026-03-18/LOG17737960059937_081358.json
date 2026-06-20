@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17737960059937",
+  "timestamp": "2026-03-18T08:06:45.491536",
+  "user": {
+    "id": 2,
+    "username": "user2",
+    "name": "V\u0169 H\u01b0\u01a1ng Linh",
+    "email": "user2@gmail.com",
+    "phone": "0558494035",
+    "age": 59,
+    "address": "336 Nguy\u1ec5n Hu\u1ec7, Th\u1ee7 \u0110\u1ee9c",
+    "district": "Th\u1ee7 \u0110\u1ee9c",
+    "balance": 2986,
+    "membership_points": 7
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 5,
+    "name": "G\u1ecfi C\u00e1 H\u1ed3i Chi\u00ean Gi\u00f2n",
+    "price": 144.0,
+    "category": "food",
+    "stock_before": 80,
+    "stock_after": 80
+  },
+  "quantity": 1,
+  "status": "success",
+  "additional_data": {
+    "quantity": 1,
+    "unit_price": 144.0,
+    "subtotal": 144.0,
+    "available_stock": 80
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

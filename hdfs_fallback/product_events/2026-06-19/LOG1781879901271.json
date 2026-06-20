@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818799017312",
+  "timestamp": "2026-06-19T21:38:21.264680",
+  "user": {
+    "id": 36141,
+    "username": "user36141",
+    "name": "B\u00f9i Lan Phong",
+    "email": "user36141@yahoo.com",
+    "phone": "0338643190",
+    "age": 49,
+    "address": "439 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, T\u00e2n B\u00ecnh",
+    "district": "T\u00e2n B\u00ecnh",
+    "balance": 898,
+    "membership_points": 5
+  },
+  "action": "view",
+  "product": {
+    "id": 17,
+    "name": "G\u00e0 Kh\u00f4ng X\u01b0\u01a1ng Chi\u00ean",
+    "price": 68.0,
+    "category": "fastfood",
+    "stock_before": 19,
+    "stock_after": 19
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 81,
+    "from_page": "home",
+    "device": "desktop"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781879901268"
+}

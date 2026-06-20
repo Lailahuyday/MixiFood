@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17819380679996",
+  "timestamp": "2026-06-20T13:47:47.382888",
+  "user": {
+    "id": 34586,
+    "username": "user34586",
+    "name": "Hoàng Thị Phong",
+    "email": "user34586@gmail.com",
+    "phone": "0331489296",
+    "age": 28,
+    "address": "86 Trần Hưng Đạo, Quận 1",
+    "district": "Quận 1",
+    "balance": 4009,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_21834",
+    "device": "desktop",
+    "ip": "85.56.172.252"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "user_events_0_290_1781938067419"
+}

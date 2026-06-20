@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739179197602",
+  "timestamp": "2026-03-19T17:58:39.145042",
+  "user": {
+    "id": 48771,
+    "username": "user48771",
+    "name": "Tr\u1ea7n Th\u1ecb An",
+    "email": "user48771@gmail.com",
+    "phone": "0733906275",
+    "age": 35,
+    "address": "363 Hai B\u00e0 Tr\u01b0ng, B\u00ecnh Ch\u00e1nh",
+    "district": "B\u00ecnh Ch\u00e1nh",
+    "balance": 4540,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_79559",
+    "device": "tablet",
+    "ip": "59.65.217.169"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

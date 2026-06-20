@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737960093183",
+  "timestamp": "2026-03-18T08:06:49.099774",
+  "user": {
+    "id": 3723,
+    "username": "user3723",
+    "name": "\u0110\u1eb7ng Lan D\u0169ng",
+    "email": "user3723@hotmail.com",
+    "phone": "0854614591",
+    "age": 46,
+    "address": "329 Hai B\u00e0 Tr\u01b0ng, Ph\u00fa Nhu\u1eadn",
+    "district": "Ph\u00fa Nhu\u1eadn",
+    "balance": 4045,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_83157",
+    "device": "desktop",
+    "ip": "160.152.88.100"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

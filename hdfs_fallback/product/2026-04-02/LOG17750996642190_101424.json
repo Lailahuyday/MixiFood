@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17750996642190",
+  "timestamp": "2026-04-02T10:14:24.014321",
+  "user": {
+    "id": 11872,
+    "username": "user11872",
+    "name": "V\u0169 V\u0103n Kh\u00e1nh",
+    "email": "user11872@hotmail.com",
+    "phone": "0527596189",
+    "age": 70,
+    "address": "359 L\u00ea L\u1ee3i, Qu\u1eadn 10",
+    "district": "Qu\u1eadn 10",
+    "balance": 4595,
+    "membership_points": 4
+  },
+  "action": "view",
+  "product": {
+    "id": 3,
+    "name": "N\u1ecdng Heo 1 N\u1eafng V\u00e0 X\u00f4i",
+    "price": 78.0,
+    "category": "food",
+    "stock_before": 29,
+    "stock_after": 29
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 120,
+    "from_page": "search",
+    "device": "tablet"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17737968989781",
+  "timestamp": "2026-03-18T08:21:38.106069",
+  "user": {
+    "id": 38640,
+    "username": "user38640",
+    "name": "Phan Tu\u1ea5n D\u0169ng",
+    "email": "user38640@gmail.com",
+    "phone": "0437964121",
+    "age": 29,
+    "address": "131 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 7",
+    "district": "Qu\u1eadn 7",
+    "balance": 4054,
+    "membership_points": 1
+  },
+  "action": "checkout",
+  "product": {
+    "id": 11,
+    "name": "N\u01b0\u1edbc S\u1ea3 M\u00e2t Ong",
+    "price": 49.0,
+    "category": "drink",
+    "stock_before": 74,
+    "stock_after": 74
+  },
+  "quantity": 3,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Ch\u1ec9 \u0111\u01b0\u1ee3c d\u00f9ng \u0111i\u1ec3m khi mua 1 s\u1ea3n ph\u1ea9m",
+    "quantity": 3
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

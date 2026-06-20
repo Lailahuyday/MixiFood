@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818795657908",
+  "timestamp": "2026-06-19T21:32:45.600202",
+  "user": {
+    "id": 4,
+    "username": "user4",
+    "name": "Phan Minh Kh\u00e1nh",
+    "email": "user4@yahoo.com",
+    "phone": "0865445230",
+    "age": 54,
+    "address": "137 Ph\u1ea1m Ng\u0169 L\u00e3o, B\u00ecnh Ch\u00e1nh",
+    "district": "B\u00ecnh Ch\u00e1nh",
+    "balance": 163,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_95273",
+    "device": "desktop",
+    "ip": "88.229.213.62"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  },
+  "event_id": "LOG_1781879565616"
+}

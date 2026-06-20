@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17737964684958",
+  "timestamp": "2026-03-18T08:14:28.164630",
+  "user": {
+    "id": 7,
+    "username": "user7",
+    "name": "Ho\u00e0ng V\u0103n Phong",
+    "email": "user7@hotmail.com",
+    "phone": "0822098477",
+    "age": 18,
+    "address": "276 L\u00ea L\u1ee3i, Qu\u1eadn 6",
+    "district": "Qu\u1eadn 6",
+    "balance": 2255,
+    "membership_points": 6
+  },
+  "action": "view",
+  "product": {
+    "id": 16,
+    "name": "Th\u1ecbt B\u00f2 N\u01b0\u1edbng",
+    "price": 88.0,
+    "category": "fastfood",
+    "stock_before": 86,
+    "stock_after": 86
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 62,
+    "from_page": "search",
+    "device": "desktop"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

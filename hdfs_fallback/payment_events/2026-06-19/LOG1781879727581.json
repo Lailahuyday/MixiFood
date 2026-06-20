@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818797272920",
+  "timestamp": "2026-06-19T21:35:27.574631",
+  "user": {
+    "id": 832,
+    "username": "user832",
+    "name": "Ho\u00e0ng Tu\u1ea5n Ch\u00e2u",
+    "email": "user832@yahoo.com",
+    "phone": "0859867259",
+    "age": 61,
+    "address": "109 Ph\u1ea1m Ng\u0169 L\u00e3o, Th\u1ee7 \u0110\u1ee9c",
+    "district": "Th\u1ee7 \u0110\u1ee9c",
+    "balance": 1051,
+    "membership_points": 5
+  },
+  "action": "checkout",
+  "product": {
+    "id": 30,
+    "name": "b\u00e1nh cu\u1ed1n cao b\u1eb1ng",
+    "price": 68.0,
+    "category": "food",
+    "stock_before": 9,
+    "stock_after": 9
+  },
+  "quantity": 2,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Ch\u1ec9 \u0111\u01b0\u1ee3c d\u00f9ng \u0111i\u1ec3m khi mua 1 s\u1ea3n ph\u1ea9m",
+    "quantity": 2
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781879727579"
+}

@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818820694740",
+  "timestamp": "2026-06-19T22:14:29.152300",
+  "user": {
+    "id": 19090,
+    "username": "user19090",
+    "name": "Ph\u1ea1m Th\u1ecb An",
+    "email": "user19090@yahoo.com",
+    "phone": "0697268525",
+    "age": 54,
+    "address": "327 Hai B\u00e0 Tr\u01b0ng, T\u00e2n Ph\u00fa",
+    "district": "T\u00e2n Ph\u00fa",
+    "balance": 2866,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_92138",
+    "device": "desktop",
+    "ip": "143.70.75.219"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781882069161"
+}

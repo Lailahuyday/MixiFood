@@ -1,0 +1,48 @@
+{
+  "log_id": "LOG17737969277646",
+  "timestamp": "2026-03-18T08:22:07.316071",
+  "user": {
+    "id": 8,
+    "username": "user8",
+    "name": "Tr\u1ea7n \u0110\u1ee9c Ch\u00e2u",
+    "email": "user8@gmail.com",
+    "phone": "0591408645",
+    "age": 59,
+    "address": "233 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 7",
+    "district": "Qu\u1eadn 7",
+    "balance": 769,
+    "membership_points": 2
+  },
+  "action": "checkout",
+  "product": {
+    "id": 11,
+    "name": "N\u01b0\u1edbc S\u1ea3 M\u00e2t Ong",
+    "price": 49.0,
+    "category": "drink",
+    "stock_before": 74,
+    "stock_after": 73
+  },
+  "quantity": 1,
+  "status": "success",
+  "additional_data": {
+    "payment_method": "Membership",
+    "points_used": 6,
+    "points_remaining": 2,
+    "discount": 0,
+    "original_price": 49.0,
+    "final_price": 0,
+    "items": [
+      {
+        "product_id": 11,
+        "product_name": "N\u01b0\u1edbc S\u1ea3 M\u00e2t Ong",
+        "quantity": 1,
+        "price": 49.0
+      }
+    ]
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

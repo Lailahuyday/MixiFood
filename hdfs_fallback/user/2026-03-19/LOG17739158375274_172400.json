@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739158375274",
+  "timestamp": "2026-03-19T17:23:57.077563",
+  "user": {
+    "id": 46830,
+    "username": "user46830",
+    "name": "L\u00ea \u0110\u1ee9c An",
+    "email": "user46830@yahoo.com",
+    "phone": "0659587564",
+    "age": 33,
+    "address": "273 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 12",
+    "district": "Qu\u1eadn 12",
+    "balance": 673,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_22306",
+    "device": "desktop",
+    "ip": "31.27.131.32"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818820948627",
+  "timestamp": "2026-06-19T22:14:54.085943",
+  "user": {
+    "id": 2372,
+    "username": "user2372",
+    "name": "Ph\u1ea1m Lan An",
+    "email": "user2372@gmail.com",
+    "phone": "0883747682",
+    "age": 33,
+    "address": "129 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 6",
+    "district": "Qu\u1eadn 6",
+    "balance": 1232,
+    "membership_points": 5
+  },
+  "action": "view",
+  "product": {
+    "id": 3,
+    "name": "N\u1ecdng Heo 1 N\u1eafng V\u00e0 X\u00f4i",
+    "price": 78.0,
+    "category": "food",
+    "stock_before": 1,
+    "stock_after": 1
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 119,
+    "from_page": "home",
+    "device": "desktop"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781882094089"
+}

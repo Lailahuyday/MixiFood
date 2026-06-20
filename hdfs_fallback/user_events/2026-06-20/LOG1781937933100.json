@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17819379335893",
+  "timestamp": "2026-06-20T13:45:33.040617",
+  "user": {
+    "id": 36956,
+    "username": "user36956",
+    "name": "L\u00ea \u0110\u1ee9c Ch\u00e2u",
+    "email": "user36956@hotmail.com",
+    "phone": "0316688566",
+    "age": 70,
+    "address": "267 L\u00ea L\u1ee3i, Qu\u1eadn 11",
+    "district": "Qu\u1eadn 11",
+    "balance": 4409,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_55686",
+    "device": "desktop",
+    "ip": "174.24.130.21"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781937933066"
+}

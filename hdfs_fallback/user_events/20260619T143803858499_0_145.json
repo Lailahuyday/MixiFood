@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818797937312",
+  "timestamp": "2026-06-19T21:36:33.824614",
+  "user": {
+    "id": 9361,
+    "username": "user9361",
+    "name": "Đặng Minh Hà",
+    "email": "user9361@hotmail.com",
+    "phone": "0674706126",
+    "age": 19,
+    "address": "301 Phạm Ngũ Lão, Quận 3",
+    "district": "Quận 3",
+    "balance": 3305,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_63275",
+    "device": "tablet",
+    "ip": "101.94.143.45"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

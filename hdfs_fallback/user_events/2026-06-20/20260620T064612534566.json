@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17819379728105",
+  "timestamp": "2026-06-20T13:46:12.509157",
+  "user": {
+    "id": 33302,
+    "username": "user33302",
+    "name": "Phan Minh Bình",
+    "email": "user33302@hotmail.com",
+    "phone": "0978163432",
+    "age": 50,
+    "address": "404 Hai Bà Trưng, Quận 6",
+    "district": "Quận 6",
+    "balance": 3044,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_99085",
+    "device": "desktop",
+    "ip": "51.189.249.155"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "user_events_0_278_1781937972534"
+}

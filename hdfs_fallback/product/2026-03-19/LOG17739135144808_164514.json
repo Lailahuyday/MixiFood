@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17739135144808",
+  "timestamp": "2026-03-19T16:45:14.066187",
+  "user": {
+    "id": 869,
+    "username": "user869",
+    "name": "\u0110\u1eb7ng \u0110\u1ee9c H\u00e0",
+    "email": "user869@yahoo.com",
+    "phone": "0821293108",
+    "age": 44,
+    "address": "450 L\u00ea L\u1ee3i, Qu\u1eadn 5",
+    "district": "Qu\u1eadn 5",
+    "balance": 372,
+    "membership_points": 7
+  },
+  "action": "view",
+  "product": {
+    "id": 17,
+    "name": "G\u00e0 Kh\u00f4ng X\u01b0\u01a1ng Chi\u00ean",
+    "price": 68.0,
+    "category": "fastfood",
+    "stock_before": 80,
+    "stock_after": 80
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 108,
+    "from_page": "home",
+    "device": "tablet"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

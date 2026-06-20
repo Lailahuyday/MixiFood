@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739134934831",
+  "timestamp": "2026-03-19T16:44:53.362963",
+  "user": {
+    "id": 18780,
+    "username": "user18780",
+    "name": "Ho\u00e0ng V\u0103n H\u00e0",
+    "email": "user18780@hotmail.com",
+    "phone": "0690753704",
+    "age": 45,
+    "address": "359 L\u00ea L\u1ee3i, Qu\u1eadn 8",
+    "district": "Qu\u1eadn 8",
+    "balance": 2262,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_35328",
+    "device": "desktop",
+    "ip": "189.111.236.30"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

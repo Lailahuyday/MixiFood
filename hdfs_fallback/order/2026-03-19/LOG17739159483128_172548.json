@@ -1,0 +1,50 @@
+{
+  "log_id": "LOG17739159483128",
+  "timestamp": "2026-03-19T17:25:48.047846",
+  "user": {
+    "id": 12705,
+    "username": "user12705",
+    "name": "Nguy\u1ec5n Tu\u1ea5n Mai",
+    "email": "user12705@hotmail.com",
+    "phone": "0565415399",
+    "age": 34,
+    "address": "333 Nguy\u1ec5n Hu\u1ec7, H\u00f3c M\u00f4n",
+    "district": "H\u00f3c M\u00f4n",
+    "balance": 804,
+    "membership_points": 5
+  },
+  "action": "checkout",
+  "product": {
+    "id": 5,
+    "name": "G\u1ecfi C\u00e1 H\u1ed3i Chi\u00ean Gi\u00f2n",
+    "price": 144.0,
+    "category": "food",
+    "stock_before": 70,
+    "stock_after": 67
+  },
+  "quantity": 3,
+  "status": "success",
+  "additional_data": {
+    "payment_method": "CurrentAccount",
+    "balance_before": 1236,
+    "balance_after": 804,
+    "points_earned": 3,
+    "points_after": 5,
+    "discount": 0,
+    "subtotal": 432.0,
+    "final_total": 432.0,
+    "items": [
+      {
+        "product_id": 5,
+        "product_name": "G\u1ecfi C\u00e1 H\u1ed3i Chi\u00ean Gi\u00f2n",
+        "quantity": 3,
+        "price": 144.0
+      }
+    ]
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

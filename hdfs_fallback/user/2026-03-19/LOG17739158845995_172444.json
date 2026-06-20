@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739158845995",
+  "timestamp": "2026-03-19T17:24:44.869928",
+  "user": {
+    "id": 17254,
+    "username": "user17254",
+    "name": "L\u00ea Lan Nam",
+    "email": "user17254@gmail.com",
+    "phone": "0462043738",
+    "age": 66,
+    "address": "38 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, G\u00f2 V\u1ea5p",
+    "district": "G\u00f2 V\u1ea5p",
+    "balance": 1145,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_27685",
+    "device": "desktop",
+    "ip": "47.46.43.246"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

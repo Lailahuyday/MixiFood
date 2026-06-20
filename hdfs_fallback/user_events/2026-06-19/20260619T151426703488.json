@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818820664349",
+  "timestamp": "2026-06-19T22:14:26.656317",
+  "user": {
+    "id": 13,
+    "username": "user13",
+    "name": "Đặng Đức Linh",
+    "email": "user13@gmail.com",
+    "phone": "0681061028",
+    "age": 22,
+    "address": "84 Lê Lợi, Tân Bình",
+    "district": "Tân Bình",
+    "balance": 4632,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_56456",
+    "device": "desktop",
+    "ip": "127.100.71.18"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "user_events_0_233_1781882066661"
+}

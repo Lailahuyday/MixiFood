@@ -1,0 +1,50 @@
+{
+  "log_id": "LOG17750994582391",
+  "timestamp": "2026-04-02T10:10:58.456185",
+  "user": {
+    "id": 41330,
+    "username": "user41330",
+    "name": "Tr\u1ea7n V\u0103n D\u0169ng",
+    "email": "user41330@yahoo.com",
+    "phone": "0912543756",
+    "age": 49,
+    "address": "116 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 1",
+    "district": "Qu\u1eadn 1",
+    "balance": 1492,
+    "membership_points": 9
+  },
+  "action": "checkout",
+  "product": {
+    "id": 17,
+    "name": "G\u00e0 Kh\u00f4ng X\u01b0\u01a1ng Chi\u00ean",
+    "price": 68.0,
+    "category": "fastfood",
+    "stock_before": 48,
+    "stock_after": 46
+  },
+  "quantity": 2,
+  "status": "success",
+  "additional_data": {
+    "payment_method": "CurrentAccount",
+    "balance_before": 1628,
+    "balance_after": 1492,
+    "points_earned": 2,
+    "points_after": 9,
+    "discount": 0,
+    "subtotal": 136.0,
+    "final_total": 136.0,
+    "items": [
+      {
+        "product_id": 17,
+        "product_name": "G\u00e0 Kh\u00f4ng X\u01b0\u01a1ng Chi\u00ean",
+        "quantity": 2,
+        "price": 68.0
+      }
+    ]
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

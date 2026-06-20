@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17739134786845",
+  "timestamp": "2026-03-19T16:44:38.986184",
+  "user": {
+    "id": 3230,
+    "username": "user3230",
+    "name": "\u0110\u1eb7ng Minh Mai",
+    "email": "user3230@yahoo.com",
+    "phone": "0729902965",
+    "age": 45,
+    "address": "480 L\u00ea L\u1ee3i, Qu\u1eadn 8",
+    "district": "Qu\u1eadn 8",
+    "balance": 4420,
+    "membership_points": 7
+  },
+  "action": "view",
+  "product": {
+    "id": 8,
+    "name": "C\u01a1m B\u00f2 X\u00e0o",
+    "price": 86.0,
+    "category": "food",
+    "stock_before": 74,
+    "stock_after": 74
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 72,
+    "from_page": "category",
+    "device": "mobile"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

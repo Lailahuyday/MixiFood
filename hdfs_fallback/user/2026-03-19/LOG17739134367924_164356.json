@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739134367924",
+  "timestamp": "2026-03-19T16:43:56.108725",
+  "user": {
+    "id": 40547,
+    "username": "user40547",
+    "name": "B\u00f9i V\u0103n Linh",
+    "email": "user40547@yahoo.com",
+    "phone": "0339161837",
+    "age": 40,
+    "address": "253 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 5",
+    "district": "Qu\u1eadn 5",
+    "balance": 4675,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_78344",
+    "device": "tablet",
+    "ip": "145.127.21.169"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

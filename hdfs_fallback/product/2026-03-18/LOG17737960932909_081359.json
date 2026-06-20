@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17737960932909",
+  "timestamp": "2026-03-18T08:08:13.262766",
+  "user": {
+    "id": 16614,
+    "username": "user16614",
+    "name": "B\u00f9i Lan Nam",
+    "email": "user16614@gmail.com",
+    "phone": "0515089785",
+    "age": 41,
+    "address": "370 L\u00ea L\u1ee3i, Qu\u1eadn 11",
+    "district": "Qu\u1eadn 11",
+    "balance": 845,
+    "membership_points": 6
+  },
+  "action": "view",
+  "product": {
+    "id": 18,
+    "name": "G\u00e0 Popcorn",
+    "price": 89.0,
+    "category": "fastfood",
+    "stock_before": 79,
+    "stock_after": 79
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 58,
+    "from_page": "search",
+    "device": "mobile"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

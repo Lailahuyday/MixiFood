@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740014333776",
+  "timestamp": "2026-03-20T17:10:33.007210",
+  "user": {
+    "id": 10,
+    "username": "user10",
+    "name": "Nguy\u1ec5n H\u01b0\u01a1ng H\u00e0",
+    "email": "user10@yahoo.com",
+    "phone": "0852163755",
+    "age": 20,
+    "address": "230 Nguy\u1ec5n Hu\u1ec7, T\u00e2n B\u00ecnh",
+    "district": "T\u00e2n B\u00ecnh",
+    "balance": 4363,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_20970",
+    "device": "mobile",
+    "ip": "156.226.117.165"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

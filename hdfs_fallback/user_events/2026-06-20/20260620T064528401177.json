@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17819379287649",
+  "timestamp": "2026-06-20T13:45:28.331262",
+  "user": {
+    "id": 1,
+    "username": "user1",
+    "name": "Bùi Minh Nam",
+    "email": "user1@yahoo.com",
+    "phone": "0968911938",
+    "age": 43,
+    "address": "387 Trần Hưng Đạo, Quận 4",
+    "district": "Quận 4",
+    "balance": 1623,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_49742",
+    "device": "tablet",
+    "ip": "61.237.126.23"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "user_events_0_268_1781937928399"
+}

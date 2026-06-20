@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17818796989115",
+  "timestamp": "2026-06-19T21:34:58.911859",
+  "user": {
+    "id": 9,
+    "username": "user9",
+    "name": "Lê Lan Khánh",
+    "email": "user9@gmail.com",
+    "phone": "0728951289",
+    "age": 48,
+    "address": "291 Hai Bà Trưng, Cần Giờ",
+    "district": "Cần Giờ",
+    "balance": 1208,
+    "membership_points": 6
+  },
+  "action": "checkout",
+  "product": {
+    "id": 17,
+    "name": "Gà Không Xương Chiên",
+    "price": 68.0,
+    "category": "fastfood",
+    "stock_before": 29,
+    "stock_after": 29
+  },
+  "quantity": 2,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Chỉ được dùng điểm khi mua 1 sản phẩm",
+    "quantity": 2
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17739179366828",
+  "timestamp": "2026-03-19T17:58:56.379517",
+  "user": {
+    "id": 12109,
+    "username": "user12109",
+    "name": "B\u00f9i V\u0103n Linh",
+    "email": "user12109@gmail.com",
+    "phone": "0399794434",
+    "age": 49,
+    "address": "357 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Ph\u00fa Nhu\u1eadn",
+    "district": "Ph\u00fa Nhu\u1eadn",
+    "balance": 4194,
+    "membership_points": 7
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 14,
+    "name": "Tr\u00e0 Hoa C\u00fac",
+    "price": 60.0,
+    "category": "drink",
+    "stock_before": 74,
+    "stock_after": 74
+  },
+  "quantity": 1,
+  "status": "success",
+  "additional_data": {
+    "quantity": 1,
+    "unit_price": 60.0,
+    "subtotal": 60.0,
+    "available_stock": 74
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

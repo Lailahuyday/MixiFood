@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739181185433",
+  "timestamp": "2026-03-19T18:01:58.994788",
+  "user": {
+    "id": 25266,
+    "username": "user25266",
+    "name": "B\u00f9i Th\u1ecb D\u0169ng",
+    "email": "user25266@yahoo.com",
+    "phone": "0313054628",
+    "age": 60,
+    "address": "381 Nguy\u1ec5n Hu\u1ec7, Qu\u1eadn 8",
+    "district": "Qu\u1eadn 8",
+    "balance": 3262,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_76711",
+    "device": "desktop",
+    "ip": "43.193.9.144"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

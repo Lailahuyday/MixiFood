@@ -1,0 +1,51 @@
+{
+  "log_id": "LOG17818799122623",
+  "timestamp": "2026-06-19T21:38:32.844913",
+  "user": {
+    "id": 36894,
+    "username": "user36894",
+    "name": "Ph\u1ea1m Minh Phong",
+    "email": "user36894@yahoo.com",
+    "phone": "0912371544",
+    "age": 29,
+    "address": "12 Hai B\u00e0 Tr\u01b0ng, C\u1ea7n Gi\u1edd",
+    "district": "C\u1ea7n Gi\u1edd",
+    "balance": 879,
+    "membership_points": 6
+  },
+  "action": "checkout",
+  "product": {
+    "id": 3,
+    "name": "N\u1ecdng Heo 1 N\u1eafng V\u00e0 X\u00f4i",
+    "price": 78.0,
+    "category": "food",
+    "stock_before": 6,
+    "stock_after": 5
+  },
+  "quantity": 1,
+  "status": "success",
+  "additional_data": {
+    "payment_method": "CurrentAccount",
+    "balance_before": 957,
+    "balance_after": 879,
+    "points_earned": 1,
+    "points_after": 6,
+    "discount": 0,
+    "subtotal": 78.0,
+    "final_total": 78.0,
+    "items": [
+      {
+        "product_id": 3,
+        "product_name": "N\u1ecdng Heo 1 N\u1eafng V\u00e0 X\u00f4i",
+        "quantity": 1,
+        "price": 78.0
+      }
+    ]
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781879912849"
+}

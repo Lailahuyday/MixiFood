@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17818798267131",
+  "timestamp": "2026-06-19T21:37:06.910750",
+  "user": {
+    "id": 9161,
+    "username": "user9161",
+    "name": "Phan Lan Châu",
+    "email": "user9161@hotmail.com",
+    "phone": "0942919345",
+    "age": 36,
+    "address": "147 Trần Hưng Đạo, Tân Bình",
+    "district": "Tân Bình",
+    "balance": 4639,
+    "membership_points": 6
+  },
+  "action": "checkout",
+  "product": {
+    "id": 16,
+    "name": "Thịt Bò Nướng",
+    "price": 88.0,
+    "category": "fastfood",
+    "stock_before": 32,
+    "stock_after": 32
+  },
+  "quantity": 2,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Chỉ được dùng điểm khi mua 1 sản phẩm",
+    "quantity": 2
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

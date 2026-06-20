@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818798393646",
+  "timestamp": "2026-06-19T21:37:19.929776",
+  "user": {
+    "id": 34717,
+    "username": "user34717",
+    "name": "Huỳnh Lan Phong",
+    "email": "user34717@hotmail.com",
+    "phone": "0852068990",
+    "age": 31,
+    "address": "468 Hai Bà Trưng, Gò Vấp",
+    "district": "Gò Vấp",
+    "balance": 1190,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_24783",
+    "device": "mobile",
+    "ip": "40.52.187.72"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

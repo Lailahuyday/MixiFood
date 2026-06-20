@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739158897963",
+  "timestamp": "2026-03-19T17:24:49.879223",
+  "user": {
+    "id": 48173,
+    "username": "user48173",
+    "name": "\u0110\u1eb7ng V\u0103n D\u0169ng",
+    "email": "user48173@yahoo.com",
+    "phone": "0541416674",
+    "age": 35,
+    "address": "180 L\u00ea L\u1ee3i, B\u00ecnh T\u00e2n",
+    "district": "B\u00ecnh T\u00e2n",
+    "balance": 550,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_84389",
+    "device": "desktop",
+    "ip": "189.83.156.226"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

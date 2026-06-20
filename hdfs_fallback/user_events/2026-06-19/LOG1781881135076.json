@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818811352280",
+  "timestamp": "2026-06-19T21:58:55.061040",
+  "user": {
+    "id": 19664,
+    "username": "user19664",
+    "name": "Ho\u00e0ng Minh H\u00e0",
+    "email": "user19664@yahoo.com",
+    "phone": "0825162518",
+    "age": 22,
+    "address": "138 Hai B\u00e0 Tr\u01b0ng, B\u00ecnh T\u00e2n",
+    "district": "B\u00ecnh T\u00e2n",
+    "balance": 272,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_57593",
+    "device": "desktop",
+    "ip": "116.191.218.193"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  },
+  "event_id": "LOG_1781881135070"
+}

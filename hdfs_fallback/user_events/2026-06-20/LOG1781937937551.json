@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17819379371166",
+  "timestamp": "2026-06-20T13:45:37.525618",
+  "user": {
+    "id": 3578,
+    "username": "user3578",
+    "name": "Nguy\u1ec5n Minh Linh",
+    "email": "user3578@hotmail.com",
+    "phone": "0880417944",
+    "age": 54,
+    "address": "387 Hai B\u00e0 Tr\u01b0ng, B\u00ecnh T\u00e2n",
+    "district": "B\u00ecnh T\u00e2n",
+    "balance": 1852,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_48592",
+    "device": "mobile",
+    "ip": "20.21.21.131"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781937937535"
+}

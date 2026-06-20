@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17819379562620",
+  "timestamp": "2026-06-20T13:45:56.463358",
+  "user": {
+    "id": 29611,
+    "username": "user29611",
+    "name": "Bùi Văn Linh",
+    "email": "user29611@yahoo.com",
+    "phone": "0729306773",
+    "age": 40,
+    "address": "463 Phạm Ngũ Lão, Gò Vấp",
+    "district": "Gò Vấp",
+    "balance": 4425,
+    "membership_points": 3
+  },
+  "action": "view",
+  "product": {
+    "id": 5,
+    "name": "Gỏi Cá Hồi Chiên Giòn",
+    "price": 144.0,
+    "category": "food",
+    "stock_before": 16,
+    "stock_after": 16
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 74,
+    "from_page": "search",
+    "device": "mobile"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "product_events_0_292_1781937956476"
+}

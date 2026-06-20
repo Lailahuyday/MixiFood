@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818799066181",
+  "timestamp": "2026-06-19T21:38:26.621932",
+  "user": {
+    "id": 40231,
+    "username": "user40231",
+    "name": "V\u0169 Thanh Mai",
+    "email": "user40231@hotmail.com",
+    "phone": "0877905747",
+    "age": 52,
+    "address": "491 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 3",
+    "district": "Qu\u1eadn 3",
+    "balance": 4142,
+    "membership_points": 1
+  },
+  "action": "view",
+  "product": {
+    "id": 3,
+    "name": "N\u1ecdng Heo 1 N\u1eafng V\u00e0 X\u00f4i",
+    "price": 78.0,
+    "category": "food",
+    "stock_before": 6,
+    "stock_after": 6
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 49,
+    "from_page": "search",
+    "device": "tablet"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781879906626"
+}

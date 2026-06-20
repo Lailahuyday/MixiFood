@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740015197811",
+  "timestamp": "2026-03-20T17:11:59.820260",
+  "user": {
+    "id": 15960,
+    "username": "user15960",
+    "name": "L\u00ea H\u1ea3i Kh\u00e1nh",
+    "email": "user15960@hotmail.com",
+    "phone": "0862640063",
+    "age": 55,
+    "address": "247 Ph\u1ea1m Ng\u0169 L\u00e3o, H\u00f3c M\u00f4n",
+    "district": "H\u00f3c M\u00f4n",
+    "balance": 3633,
+    "membership_points": 6
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_12135",
+    "device": "tablet",
+    "ip": "2.126.58.77"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

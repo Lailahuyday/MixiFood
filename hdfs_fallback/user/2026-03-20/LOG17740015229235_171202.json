@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740015229235",
+  "timestamp": "2026-03-20T17:12:02.234078",
+  "user": {
+    "id": 5630,
+    "username": "user5630",
+    "name": "Nguy\u1ec5n Th\u1ecb Linh",
+    "email": "user5630@gmail.com",
+    "phone": "0651960560",
+    "age": 65,
+    "address": "158 L\u00ea L\u1ee3i, Ph\u00fa Nhu\u1eadn",
+    "district": "Ph\u00fa Nhu\u1eadn",
+    "balance": 963,
+    "membership_points": 0
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_37011",
+    "device": "tablet",
+    "ip": "248.109.99.84"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

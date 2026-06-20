@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740015212137",
+  "timestamp": "2026-03-20T17:12:01.684044",
+  "user": {
+    "id": 49216,
+    "username": "user49216",
+    "name": "Nguy\u1ec5n Lan D\u0169ng",
+    "email": "user49216@yahoo.com",
+    "phone": "0525887380",
+    "age": 49,
+    "address": "210 Ph\u1ea1m Ng\u0169 L\u00e3o, Qu\u1eadn 8",
+    "district": "Qu\u1eadn 8",
+    "balance": 2469,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_26474",
+    "device": "desktop",
+    "ip": "220.200.57.95"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

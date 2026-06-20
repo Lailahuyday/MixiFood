@@ -1,0 +1,51 @@
+{
+  "log_id": "LOG17819380356230",
+  "timestamp": "2026-06-20T13:47:15.404621",
+  "user": {
+    "id": 1,
+    "username": "user1",
+    "name": "Đặng Hồng Phong",
+    "email": "user1@yahoo.com",
+    "phone": "0469438938",
+    "age": 60,
+    "address": "385 Hai Bà Trưng, Nhà Bè",
+    "district": "Nhà Bè",
+    "balance": 4289,
+    "membership_points": 9
+  },
+  "action": "checkout",
+  "product": {
+    "id": 13,
+    "name": "Oolong Xoài",
+    "price": 67.0,
+    "category": "drink",
+    "stock_before": 0,
+    "stock_after": -5
+  },
+  "quantity": 5,
+  "status": "success",
+  "additional_data": {
+    "payment_method": "CurrentAccount",
+    "balance_before": 4624,
+    "balance_after": 4289,
+    "points_earned": 5,
+    "points_after": 9,
+    "discount": 0,
+    "subtotal": 335.0,
+    "final_total": 335.0,
+    "items": [
+      {
+        "product_id": 13,
+        "product_name": "Oolong Xoài",
+        "quantity": 5,
+        "price": 67.0
+      }
+    ]
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "order_events_0_58_1781938035673"
+}

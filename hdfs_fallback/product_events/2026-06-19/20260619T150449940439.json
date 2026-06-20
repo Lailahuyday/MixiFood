@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818811602509",
+  "timestamp": "2026-06-19T21:59:20.759470",
+  "user": {
+    "id": 38575,
+    "username": "user38575",
+    "name": "Đặng Lan Nam",
+    "email": "user38575@hotmail.com",
+    "phone": "0756591469",
+    "age": 70,
+    "address": "105 Lê Lợi, Quận 2",
+    "district": "Quận 2",
+    "balance": 4532,
+    "membership_points": 7
+  },
+  "action": "view",
+  "product": {
+    "id": 9,
+    "name": "Cua Cà Ri Kiểu Thái",
+    "price": 268.0,
+    "category": "food",
+    "stock_before": 14,
+    "stock_after": 14
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 10,
+    "from_page": "category",
+    "device": "desktop"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "product_events_0_173_1781881487882"
+}

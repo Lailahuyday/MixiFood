@@ -1,0 +1,208 @@
+/* Base */
+:root {
+  --primary: #FF6B6B;
+  --secondary: #4ECDC4;
+  --success: #6BCB77;
+  --danger: #EF476F;
+  --warning: #FFD166;
+  --text-dark: #292F36;
+  --background: #F7FFF7;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--background);
+  color: var(--text-dark);
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+/* Tiêu đề */
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: var(--primary);
+}
+
+/* Thông báo */
+.messages-container {
+  margin-bottom: 20px;
+}
+.messages {
+  padding: 0;
+  list-style: none;
+}
+.messages li {
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+.success {
+  background-color: var(--success);
+  color: white;
+}
+.error {
+  background-color: var(--danger);
+  color: white;
+}
+
+/* Bảng giỏ hàng */
+.cart-table-container {
+  overflow-x: auto;
+  margin-bottom: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.cart-table th,
+.cart-table td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+.cart-table th {
+  background-color: var(--primary);
+  color: white;
+}
+.cart-table .product-name {
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Nút giảm */
+.remove-btn {
+  background: var(--danger);
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+.remove-btn:hover {
+  background: #d62839;
+}
+
+/* Checkout section */
+.checkout-section {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.summary,
+.payment-section {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.subtotal,
+.discount,
+.final-total {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+.final-total {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: var(--primary);
+  border-top: 2px dashed var(--secondary);
+  padding-top: 10px;
+}
+
+/* Form thanh toán */
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.payment-form label {
+  font-weight: bold;
+}
+.payment-form select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+.checkout-btn {
+  background: var(--success);
+  color: white;
+  padding: 12px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.checkout-btn:hover {
+  background: #4CAF50;
+}
+
+/* Thông báo khuyến mãi */
+.discount-notice {
+  background: #fff5e0;
+  border-left: 5px solid var(--warning);
+  padding: 15px;
+  border-radius: 8px;
+  margin: 20px 0;
+  font-size: 1rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Điểm thành viên */
+.membership-points {
+  background: #e8f9f4;
+  border-left: 5px solid var(--secondary);
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+  font-size: 1rem;
+  color: #333;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+/* Nút quay lại */
+.back-btn {
+  display: inline-block;
+  background: var(--secondary);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+.back-btn:hover {
+  background: #3DBBB4;
+}
+
+/* Giỏ hàng trống */
+.empty-cart {
+  text-align: center;
+  padding: 50px 0;
+  font-size: 1.3em;
+}
+
+@media (max-width: 768px) {
+  .checkout-section {
+    flex-direction: column;
+  }
+}

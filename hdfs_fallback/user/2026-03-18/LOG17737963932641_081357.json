@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737963932641",
+  "timestamp": "2026-03-18T08:13:13.511822",
+  "user": {
+    "id": 38947,
+    "username": "user38947",
+    "name": "B\u00f9i H\u1ed3ng Kh\u00e1nh",
+    "email": "user38947@yahoo.com",
+    "phone": "0525635120",
+    "age": 53,
+    "address": "453 L\u00ea L\u1ee3i, Qu\u1eadn 3",
+    "district": "Qu\u1eadn 3",
+    "balance": 2713,
+    "membership_points": 6
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_65638",
+    "device": "desktop",
+    "ip": "136.114.230.222"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

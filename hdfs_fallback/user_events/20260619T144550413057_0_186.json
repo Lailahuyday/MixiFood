@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818803506765",
+  "timestamp": "2026-06-19T21:45:50.408753",
+  "user": {
+    "id": 3,
+    "username": "user3",
+    "name": "Huỳnh Hương Nam",
+    "email": "user3@yahoo.com",
+    "phone": "0412746727",
+    "age": 49,
+    "address": "397 Trần Hưng Đạo, Thủ Đức",
+    "district": "Thủ Đức",
+    "balance": 4042,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_56357",
+    "device": "mobile",
+    "ip": "34.232.248.119"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

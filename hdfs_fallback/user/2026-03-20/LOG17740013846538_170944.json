@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740013846538",
+  "timestamp": "2026-03-20T17:09:44.886170",
+  "user": {
+    "id": 20125,
+    "username": "user20125",
+    "name": "Ho\u00e0ng H\u01b0\u01a1ng H\u00e0",
+    "email": "user20125@gmail.com",
+    "phone": "0723336295",
+    "age": 49,
+    "address": "68 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 12",
+    "district": "Qu\u1eadn 12",
+    "balance": 1424,
+    "membership_points": 6
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_49024",
+    "device": "mobile",
+    "ip": "221.45.242.41"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818795586010",
+  "timestamp": "2026-06-19T21:32:38.916430",
+  "user": {
+    "id": 2,
+    "username": "user2",
+    "name": "Ho\u00e0ng Lan D\u0169ng",
+    "email": "user2@hotmail.com",
+    "phone": "0762318795",
+    "age": 60,
+    "address": "495 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 12",
+    "district": "Qu\u1eadn 12",
+    "balance": 1913,
+    "membership_points": 0
+  },
+  "action": "view",
+  "product": {
+    "id": 11,
+    "name": "N\u01b0\u1edbc S\u1ea3 M\u00e2t Ong",
+    "price": 49.0,
+    "category": "drink",
+    "stock_before": 1,
+    "stock_after": 1
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 85,
+    "from_page": "category",
+    "device": "desktop"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781879558922"
+}

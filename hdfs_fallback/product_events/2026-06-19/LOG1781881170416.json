@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818811707891",
+  "timestamp": "2026-06-19T21:59:30.408444",
+  "user": {
+    "id": 15960,
+    "username": "user15960",
+    "name": "\u0110\u1eb7ng Th\u1ecb Phong",
+    "email": "user15960@yahoo.com",
+    "phone": "0644315132",
+    "age": 41,
+    "address": "467 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 12",
+    "district": "Qu\u1eadn 12",
+    "balance": 2681,
+    "membership_points": 8
+  },
+  "action": "view",
+  "product": {
+    "id": 10,
+    "name": "Tr\u00e0 Cam Th\u1ea3o M\u1ed9c",
+    "price": 49.0,
+    "category": "drink",
+    "stock_before": 15,
+    "stock_after": 15
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 105,
+    "from_page": "search",
+    "device": "desktop"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781881170411"
+}

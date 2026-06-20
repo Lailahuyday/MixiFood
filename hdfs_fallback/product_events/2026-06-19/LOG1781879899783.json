@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818798995878",
+  "timestamp": "2026-06-19T21:38:19.776384",
+  "user": {
+    "id": 35077,
+    "username": "user35077",
+    "name": "B\u00f9i V\u0103n B\u00ecnh",
+    "email": "user35077@yahoo.com",
+    "phone": "0653286144",
+    "age": 61,
+    "address": "3 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, T\u00e2n B\u00ecnh",
+    "district": "T\u00e2n B\u00ecnh",
+    "balance": 1486,
+    "membership_points": 0
+  },
+  "action": "view",
+  "product": {
+    "id": 5,
+    "name": "G\u1ecfi C\u00e1 H\u1ed3i Chi\u00ean Gi\u00f2n",
+    "price": 144.0,
+    "category": "food",
+    "stock_before": 22,
+    "stock_after": 22
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 16,
+    "from_page": "search",
+    "device": "tablet"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781879899781"
+}

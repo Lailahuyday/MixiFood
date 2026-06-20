@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818820369098",
+  "timestamp": "2026-06-19T22:13:56.992556",
+  "user": {
+    "id": 38926,
+    "username": "user38926",
+    "name": "Bùi Đức Mai",
+    "email": "user38926@hotmail.com",
+    "phone": "0398502466",
+    "age": 43,
+    "address": "189 Lê Lợi, Bình Thạnh",
+    "district": "Bình Thạnh",
+    "balance": 2645,
+    "membership_points": 0
+  },
+  "action": "view",
+  "product": {
+    "id": 17,
+    "name": "Gà Không Xương Chiên",
+    "price": 68.0,
+    "category": "fastfood",
+    "stock_before": 13,
+    "stock_after": 13
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 10,
+    "from_page": "home",
+    "device": "mobile"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "product_events_0_212_1781882036995"
+}

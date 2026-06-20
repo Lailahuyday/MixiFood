@@ -1,0 +1,50 @@
+{
+  "log_id": "LOG17739181299869",
+  "timestamp": "2026-03-19T18:02:09.036259",
+  "user": {
+    "id": 32998,
+    "username": "user32998",
+    "name": "V\u0169 H\u01b0\u01a1ng H\u00e0",
+    "email": "user32998@yahoo.com",
+    "phone": "0716197688",
+    "age": 22,
+    "address": "81 Nguy\u1ec5n Hu\u1ec7, Qu\u1eadn 1",
+    "district": "Qu\u1eadn 1",
+    "balance": 2071,
+    "membership_points": 4
+  },
+  "action": "checkout",
+  "product": {
+    "id": 11,
+    "name": "N\u01b0\u1edbc S\u1ea3 M\u00e2t Ong",
+    "price": 49.0,
+    "category": "drink",
+    "stock_before": 27,
+    "stock_after": 25
+  },
+  "quantity": 2,
+  "status": "success",
+  "additional_data": {
+    "payment_method": "CurrentAccount",
+    "balance_before": 2169,
+    "balance_after": 2071,
+    "points_earned": 2,
+    "points_after": 4,
+    "discount": 0,
+    "subtotal": 98.0,
+    "final_total": 98.0,
+    "items": [
+      {
+        "product_id": 11,
+        "product_name": "N\u01b0\u1edbc S\u1ea3 M\u00e2t Ong",
+        "quantity": 2,
+        "price": 49.0
+      }
+    ]
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

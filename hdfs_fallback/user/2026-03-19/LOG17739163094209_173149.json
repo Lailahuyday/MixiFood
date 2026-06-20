@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739163094209",
+  "timestamp": "2026-03-19T17:31:49.964180",
+  "user": {
+    "id": 28920,
+    "username": "user28920",
+    "name": "Ho\u00e0ng V\u0103n An",
+    "email": "user28920@yahoo.com",
+    "phone": "0361669035",
+    "age": 23,
+    "address": "21 Hai B\u00e0 Tr\u01b0ng, Th\u1ee7 \u0110\u1ee9c",
+    "district": "Th\u1ee7 \u0110\u1ee9c",
+    "balance": 1940,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_13869",
+    "device": "mobile",
+    "ip": "72.151.81.227"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

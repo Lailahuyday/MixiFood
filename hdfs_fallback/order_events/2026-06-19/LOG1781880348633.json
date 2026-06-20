@@ -1,0 +1,51 @@
+{
+  "log_id": "LOG17818803485525",
+  "timestamp": "2026-06-19T21:45:48.627381",
+  "user": {
+    "id": 8849,
+    "username": "user8849",
+    "name": "L\u00ea V\u0103n B\u00ecnh",
+    "email": "user8849@hotmail.com",
+    "phone": "0859022079",
+    "age": 31,
+    "address": "237 Ph\u1ea1m Ng\u0169 L\u00e3o, G\u00f2 V\u1ea5p",
+    "district": "G\u00f2 V\u1ea5p",
+    "balance": 1987,
+    "membership_points": 8
+  },
+  "action": "checkout",
+  "product": {
+    "id": 3,
+    "name": "N\u1ecdng Heo 1 N\u1eafng V\u00e0 X\u00f4i",
+    "price": 78.0,
+    "category": "food",
+    "stock_before": 3,
+    "stock_after": 1
+  },
+  "quantity": 2,
+  "status": "success",
+  "additional_data": {
+    "payment_method": "CurrentAccount",
+    "balance_before": 2143,
+    "balance_after": 1987,
+    "points_earned": 2,
+    "points_after": 8,
+    "discount": 0,
+    "subtotal": 156.0,
+    "final_total": 156.0,
+    "items": [
+      {
+        "product_id": 3,
+        "product_name": "N\u1ecdng Heo 1 N\u1eafng V\u00e0 X\u00f4i",
+        "quantity": 2,
+        "price": 78.0
+      }
+    ]
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781880348631"
+}

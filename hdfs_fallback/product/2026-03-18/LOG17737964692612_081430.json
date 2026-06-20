@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17737964692612",
+  "timestamp": "2026-03-18T08:14:29.246282",
+  "user": {
+    "id": 43143,
+    "username": "user43143",
+    "name": "Phan H\u1ed3ng Phong",
+    "email": "user43143@gmail.com",
+    "phone": "0595888043",
+    "age": 21,
+    "address": "452 L\u00ea L\u1ee3i, Ph\u00fa Nhu\u1eadn",
+    "district": "Ph\u00fa Nhu\u1eadn",
+    "balance": 3619,
+    "membership_points": 8
+  },
+  "action": "view",
+  "product": {
+    "id": 18,
+    "name": "G\u00e0 Popcorn",
+    "price": 89.0,
+    "category": "fastfood",
+    "stock_before": 79,
+    "stock_after": 79
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 35,
+    "from_page": "home",
+    "device": "mobile"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

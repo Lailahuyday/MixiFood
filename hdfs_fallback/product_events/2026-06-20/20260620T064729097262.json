@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17819380487494",
+  "timestamp": "2026-06-20T13:47:28.987584",
+  "user": {
+    "id": 30646,
+    "username": "user30646",
+    "name": "Phan Thị Khánh",
+    "email": "user30646@gmail.com",
+    "phone": "0812704605",
+    "age": 26,
+    "address": "49 Lê Lợi, Quận 3",
+    "district": "Quận 3",
+    "balance": 390,
+    "membership_points": 5
+  },
+  "action": "view",
+  "product": {
+    "id": 7,
+    "name": "Mì Xào Thịt Ghẹ",
+    "price": 128.0,
+    "category": "food",
+    "stock_before": 11,
+    "stock_after": 11
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 6,
+    "from_page": "search",
+    "device": "mobile"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  },
+  "event_id": "product_events_0_316_1781938049096"
+}

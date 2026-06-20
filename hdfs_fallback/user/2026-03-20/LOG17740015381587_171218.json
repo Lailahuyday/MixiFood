@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740015381587",
+  "timestamp": "2026-03-20T17:12:18.494713",
+  "user": {
+    "id": 26627,
+    "username": "user26627",
+    "name": "Ho\u00e0ng Thanh B\u00ecnh",
+    "email": "user26627@gmail.com",
+    "phone": "0869992450",
+    "age": 40,
+    "address": "37 Hai B\u00e0 Tr\u01b0ng, H\u00f3c M\u00f4n",
+    "district": "H\u00f3c M\u00f4n",
+    "balance": 2515,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_37275",
+    "device": "mobile",
+    "ip": "226.131.111.241"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

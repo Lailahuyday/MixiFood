@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818819947109",
+  "timestamp": "2026-06-19T22:13:14.226324",
+  "user": {
+    "id": 4479,
+    "username": "user4479",
+    "name": "Ho\u00e0ng H\u1ea3i Linh",
+    "email": "user4479@gmail.com",
+    "phone": "0913020124",
+    "age": 64,
+    "address": "324 L\u00ea L\u1ee3i, C\u1ee7 Chi",
+    "district": "C\u1ee7 Chi",
+    "balance": 910,
+    "membership_points": 2
+  },
+  "action": "view",
+  "product": {
+    "id": 9,
+    "name": "Cua C\u00e0 Ri Ki\u1ec3u Th\u00e1i",
+    "price": 268.0,
+    "category": "food",
+    "stock_before": 14,
+    "stock_after": 14
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 33,
+    "from_page": "home",
+    "device": "desktop"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781881994232"
+}

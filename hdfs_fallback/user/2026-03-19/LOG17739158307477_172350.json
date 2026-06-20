@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739158307477",
+  "timestamp": "2026-03-19T17:23:50.933273",
+  "user": {
+    "id": 35928,
+    "username": "user35928",
+    "name": "Tr\u1ea7n Th\u1ecb H\u00e0",
+    "email": "user35928@yahoo.com",
+    "phone": "0331201889",
+    "age": 51,
+    "address": "138 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, C\u1ea7n Gi\u1edd",
+    "district": "C\u1ea7n Gi\u1edd",
+    "balance": 1571,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_84762",
+    "device": "tablet",
+    "ip": "181.104.225.187"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17818796843413",
+  "timestamp": "2026-06-19T21:34:44.120116",
+  "user": {
+    "id": 4753,
+    "username": "user4753",
+    "name": "Bùi Lan Mai",
+    "email": "user4753@gmail.com",
+    "phone": "0755979784",
+    "age": 55,
+    "address": "208 Phạm Ngũ Lão, Bình Thạnh",
+    "district": "Bình Thạnh",
+    "balance": 82,
+    "membership_points": 5
+  },
+  "action": "view",
+  "product": {
+    "id": 8,
+    "name": "Cơm Bò Xào",
+    "price": 86.0,
+    "category": "food",
+    "stock_before": 14,
+    "stock_after": 14
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 48,
+    "from_page": "category",
+    "device": "desktop"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

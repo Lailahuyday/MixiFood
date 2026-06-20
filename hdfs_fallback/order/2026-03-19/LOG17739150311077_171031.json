@@ -1,0 +1,50 @@
+{
+  "log_id": "LOG17739150311077",
+  "timestamp": "2026-03-19T17:10:31.277164",
+  "user": {
+    "id": 21392,
+    "username": "user21392",
+    "name": "Tr\u1ea7n Minh An",
+    "email": "user21392@gmail.com",
+    "phone": "0748107093",
+    "age": 39,
+    "address": "90 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, T\u00e2n Ph\u00fa",
+    "district": "T\u00e2n Ph\u00fa",
+    "balance": 2570,
+    "membership_points": 1
+  },
+  "action": "checkout",
+  "product": {
+    "id": 8,
+    "name": "C\u01a1m B\u00f2 X\u00e0o",
+    "price": 86.0,
+    "category": "food",
+    "stock_before": 72,
+    "stock_after": 71
+  },
+  "quantity": 1,
+  "status": "success",
+  "additional_data": {
+    "payment_method": "CurrentAccount",
+    "balance_before": 2656,
+    "balance_after": 2570,
+    "points_earned": 1,
+    "points_after": 1,
+    "discount": 0,
+    "subtotal": 86.0,
+    "final_total": 86.0,
+    "items": [
+      {
+        "product_id": 8,
+        "product_name": "C\u01a1m B\u00f2 X\u00e0o",
+        "quantity": 1,
+        "price": 86.0
+      }
+    ]
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

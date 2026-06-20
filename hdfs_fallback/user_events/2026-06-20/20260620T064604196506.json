@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17819379647798",
+  "timestamp": "2026-06-20T13:46:04.168463",
+  "user": {
+    "id": 20970,
+    "username": "user20970",
+    "name": "Trần Minh Mai",
+    "email": "user20970@yahoo.com",
+    "phone": "0998101248",
+    "age": 47,
+    "address": "122 Lê Lợi, Củ Chi",
+    "district": "Củ Chi",
+    "balance": 1615,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_68593",
+    "device": "mobile",
+    "ip": "163.168.186.62"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "user_events_0_275_1781937964195"
+}

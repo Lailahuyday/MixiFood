@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818820522083",
+  "timestamp": "2026-06-19T22:14:12.079000",
+  "user": {
+    "id": 42080,
+    "username": "user42080",
+    "name": "Nguy\u1ec5n H\u01b0\u01a1ng Ch\u00e2u",
+    "email": "user42080@gmail.com",
+    "phone": "0422969872",
+    "age": 66,
+    "address": "66 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, T\u00e2n B\u00ecnh",
+    "district": "T\u00e2n B\u00ecnh",
+    "balance": 1744,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_99952",
+    "device": "mobile",
+    "ip": "138.156.189.189"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "LOG_1781882052083"
+}

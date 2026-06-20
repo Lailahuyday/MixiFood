@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737969106314",
+  "timestamp": "2026-03-18T08:21:50.532804",
+  "user": {
+    "id": 49071,
+    "username": "user49071",
+    "name": "Ho\u00e0ng Thanh An",
+    "email": "user49071@gmail.com",
+    "phone": "0317420825",
+    "age": 22,
+    "address": "164 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 10",
+    "district": "Qu\u1eadn 10",
+    "balance": 2768,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_81211",
+    "device": "mobile",
+    "ip": "225.28.30.154"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

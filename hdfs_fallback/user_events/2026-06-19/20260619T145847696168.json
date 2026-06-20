@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818811239833",
+  "timestamp": "2026-06-19T21:58:43.324935",
+  "user": {
+    "id": 40920,
+    "username": "user40920",
+    "name": "Đặng Thanh Bình",
+    "email": "user40920@yahoo.com",
+    "phone": "0786373678",
+    "age": 24,
+    "address": "221 Phạm Ngũ Lão, Quận 5",
+    "district": "Quận 5",
+    "balance": 2483,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_52721",
+    "device": "tablet",
+    "ip": "205.254.230.37"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "user_events_0_200_1781881125661"
+}

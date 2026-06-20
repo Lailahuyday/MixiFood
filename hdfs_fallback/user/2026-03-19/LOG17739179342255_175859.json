@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739179342255",
+  "timestamp": "2026-03-19T17:58:54.122867",
+  "user": {
+    "id": 5157,
+    "username": "user5157",
+    "name": "B\u00f9i Tu\u1ea5n An",
+    "email": "user5157@gmail.com",
+    "phone": "0550375605",
+    "age": 29,
+    "address": "452 Hai B\u00e0 Tr\u01b0ng, G\u00f2 V\u1ea5p",
+    "district": "G\u00f2 V\u1ea5p",
+    "balance": 48,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_10623",
+    "device": "mobile",
+    "ip": "127.222.216.199"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737956092842",
+  "timestamp": "2026-03-18T08:00:09.148790",
+  "user": {
+    "id": 18,
+    "username": "user18",
+    "name": "Ho\u00e0ng Minh Ch\u00e2u",
+    "email": "user18@yahoo.com",
+    "phone": "0548804865",
+    "age": 48,
+    "address": "393 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 3",
+    "district": "Qu\u1eadn 3",
+    "balance": 2238,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_99294",
+    "device": "tablet",
+    "ip": "48.156.205.26"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17750994948079",
+  "timestamp": "2026-04-02T10:11:34.289621",
+  "user": {
+    "id": 9990,
+    "username": "user9990",
+    "name": "L\u00ea \u0110\u1ee9c Linh",
+    "email": "user9990@yahoo.com",
+    "phone": "0887319987",
+    "age": 63,
+    "address": "266 Nguy\u1ec5n Hu\u1ec7, C\u1ee7 Chi",
+    "district": "C\u1ee7 Chi",
+    "balance": 4173,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_70929",
+    "device": "mobile",
+    "ip": "130.243.210.142"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818811212977",
+  "timestamp": "2026-06-19T21:58:41.608078",
+  "user": {
+    "id": 46280,
+    "username": "user46280",
+    "name": "Phan Hồng Linh",
+    "email": "user46280@yahoo.com",
+    "phone": "0755505307",
+    "age": 45,
+    "address": "31 Trần Hưng Đạo, Quận 4",
+    "district": "Quận 4",
+    "balance": 882,
+    "membership_points": 8
+  },
+  "action": "checkout",
+  "product": {
+    "id": 30,
+    "name": "bánh cuốn cao bằng",
+    "price": 68.0,
+    "category": "food",
+    "stock_before": 1,
+    "stock_after": 1
+  },
+  "quantity": 4,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Chỉ được dùng điểm khi mua 1 sản phẩm",
+    "quantity": 4
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  },
+  "event_id": "payment_events_0_41_1781881129755"
+}

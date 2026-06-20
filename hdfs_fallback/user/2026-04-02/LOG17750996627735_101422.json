@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17750996627735",
+  "timestamp": "2026-04-02T10:14:22.342350",
+  "user": {
+    "id": 11,
+    "username": "user11",
+    "name": "Tr\u1ea7n Th\u1ecb Nam",
+    "email": "user11@hotmail.com",
+    "phone": "0726371507",
+    "age": 60,
+    "address": "67 Hai B\u00e0 Tr\u01b0ng, Qu\u1eadn 5",
+    "district": "Qu\u1eadn 5",
+    "balance": 297,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_52291",
+    "device": "desktop",
+    "ip": "201.53.180.181"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

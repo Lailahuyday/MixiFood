@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739157859445",
+  "timestamp": "2026-03-19T17:23:05.336033",
+  "user": {
+    "id": 8192,
+    "username": "user8192",
+    "name": "L\u00ea Th\u1ecb H\u00e0",
+    "email": "user8192@hotmail.com",
+    "phone": "0969644966",
+    "age": 69,
+    "address": "418 Nguy\u1ec5n Hu\u1ec7, T\u00e2n Ph\u00fa",
+    "district": "T\u00e2n Ph\u00fa",
+    "balance": 85,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_51771",
+    "device": "desktop",
+    "ip": "241.235.63.139"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

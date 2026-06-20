@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737969232064",
+  "timestamp": "2026-03-18T08:22:03.396348",
+  "user": {
+    "id": 7,
+    "username": "user7",
+    "name": "L\u00ea H\u1ea3i B\u00ecnh",
+    "email": "user7@yahoo.com",
+    "phone": "0323464010",
+    "age": 44,
+    "address": "30 L\u00ea L\u1ee3i, Qu\u1eadn 2",
+    "district": "Qu\u1eadn 2",
+    "balance": 2711,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_18219",
+    "device": "mobile",
+    "ip": "118.66.113.224"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

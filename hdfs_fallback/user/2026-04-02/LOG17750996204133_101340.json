@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17750996204133",
+  "timestamp": "2026-04-02T10:13:40.924417",
+  "user": {
+    "id": 9527,
+    "username": "user9527",
+    "name": "B\u00f9i Lan Kh\u00e1nh",
+    "email": "user9527@hotmail.com",
+    "phone": "0367378240",
+    "age": 39,
+    "address": "221 L\u00ea L\u1ee3i, Th\u1ee7 \u0110\u1ee9c",
+    "district": "Th\u1ee7 \u0110\u1ee9c",
+    "balance": 697,
+    "membership_points": 7
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_49160",
+    "device": "tablet",
+    "ip": "10.203.15.107"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

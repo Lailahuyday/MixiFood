@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740014505518",
+  "timestamp": "2026-03-20T17:10:50.143977",
+  "user": {
+    "id": 15,
+    "username": "user15",
+    "name": "Nguy\u1ec5n Th\u1ecb D\u0169ng",
+    "email": "user15@hotmail.com",
+    "phone": "0579651072",
+    "age": 39,
+    "address": "157 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Nh\u00e0 B\u00e8",
+    "district": "Nh\u00e0 B\u00e8",
+    "balance": 4852,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_48116",
+    "device": "mobile",
+    "ip": "53.19.187.199"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

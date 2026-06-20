@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17737955967859",
+  "timestamp": "2026-03-18T07:59:56.069557",
+  "user": {
+    "id": 43888,
+    "username": "user43888",
+    "name": "Phan Minh Linh",
+    "email": "user43888@gmail.com",
+    "phone": "0898895762",
+    "age": 35,
+    "address": "84 L\u00ea L\u1ee3i, Qu\u1eadn 2",
+    "district": "Qu\u1eadn 2",
+    "balance": 2297,
+    "membership_points": 6
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 3,
+    "name": "N\u1ecdng Heo 1 N\u1eafng V\u00e0 X\u00f4i",
+    "price": 78.0,
+    "category": "food",
+    "stock_before": 88,
+    "stock_after": 88
+  },
+  "quantity": 1,
+  "status": "success",
+  "additional_data": {
+    "quantity": 1,
+    "unit_price": 78.0,
+    "subtotal": 78.0,
+    "available_stock": 88
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

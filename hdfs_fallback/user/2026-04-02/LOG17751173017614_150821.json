@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17751173017614",
+  "timestamp": "2026-04-02T15:08:21.639418",
+  "user": {
+    "id": 46965,
+    "username": "user46965",
+    "name": "\u0110\u1eb7ng H\u01b0\u01a1ng Phong",
+    "email": "user46965@yahoo.com",
+    "phone": "0654841721",
+    "age": 38,
+    "address": "43 L\u00ea L\u1ee3i, Qu\u1eadn 8",
+    "district": "Qu\u1eadn 8",
+    "balance": 3423,
+    "membership_points": 0
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_42350",
+    "device": "tablet",
+    "ip": "107.108.142.160"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

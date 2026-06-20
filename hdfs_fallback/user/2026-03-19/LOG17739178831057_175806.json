@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739178831057",
+  "timestamp": "2026-03-19T17:58:03.122750",
+  "user": {
+    "id": 44678,
+    "username": "user44678",
+    "name": "Phan H\u1ea3i B\u00ecnh",
+    "email": "user44678@yahoo.com",
+    "phone": "0543789389",
+    "age": 65,
+    "address": "192 Nguy\u1ec5n Hu\u1ec7, G\u00f2 V\u1ea5p",
+    "district": "G\u00f2 V\u1ea5p",
+    "balance": 4947,
+    "membership_points": 6
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_83933",
+    "device": "mobile",
+    "ip": "193.221.4.227"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

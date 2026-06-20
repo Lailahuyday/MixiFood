@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739134629750",
+  "timestamp": "2026-03-19T16:44:22.293579",
+  "user": {
+    "id": 25074,
+    "username": "user25074",
+    "name": "V\u0169 Thanh Mai",
+    "email": "user25074@hotmail.com",
+    "phone": "0495785989",
+    "age": 49,
+    "address": "500 Nguy\u1ec5n Hu\u1ec7, Ph\u00fa Nhu\u1eadn",
+    "district": "Ph\u00fa Nhu\u1eadn",
+    "balance": 689,
+    "membership_points": 0
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_84446",
+    "device": "tablet",
+    "ip": "13.42.178.87"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

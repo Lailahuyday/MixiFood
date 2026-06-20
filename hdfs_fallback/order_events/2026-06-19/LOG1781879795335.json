@@ -1,0 +1,51 @@
+{
+  "log_id": "LOG17818797959986",
+  "timestamp": "2026-06-19T21:36:35.321682",
+  "user": {
+    "id": 8326,
+    "username": "user8326",
+    "name": "B\u00f9i Thanh Kh\u00e1nh",
+    "email": "user8326@hotmail.com",
+    "phone": "0791274892",
+    "age": 39,
+    "address": "369 Hai B\u00e0 Tr\u01b0ng, C\u1ea7n Gi\u1edd",
+    "district": "C\u1ea7n Gi\u1edd",
+    "balance": 3499,
+    "membership_points": 11
+  },
+  "action": "checkout",
+  "product": {
+    "id": 10,
+    "name": "Tr\u00e0 Cam Th\u1ea3o M\u1ed9c",
+    "price": 49.0,
+    "category": "drink",
+    "stock_before": 21,
+    "stock_after": 17
+  },
+  "quantity": 4,
+  "status": "success",
+  "additional_data": {
+    "payment_method": "CurrentAccount",
+    "balance_before": 3695,
+    "balance_after": 3499,
+    "points_earned": 4,
+    "points_after": 11,
+    "discount": 0,
+    "subtotal": 196.0,
+    "final_total": 196.0,
+    "items": [
+      {
+        "product_id": 10,
+        "product_name": "Tr\u00e0 Cam Th\u1ea3o M\u1ed9c",
+        "quantity": 4,
+        "price": 49.0
+      }
+    ]
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781879795330"
+}

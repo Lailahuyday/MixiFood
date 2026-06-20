@@ -1,0 +1,61 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Minato{% endblock %}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="{% static 'home/home.css' %}">
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1><i class="fas fa-utensils"></i>Minato</h1>
+            </div>
+            <nav class="nav-links">
+                <a href="{% url 'home' %}"><i class="fas fa-home"></i> Trang chủ</a>
+                
+                {% if user.is_authenticated %}
+                    <a href="{% url 'user_profile' %}" class="username">
+                        <i class="fas fa-user"></i> Xin chào, {{ user.username }}
+                    </a>
+                    <a href="{% url 'logout' %}"><i class="fas fa-sign-out-alt"></i> Đăng xuất</a>
+                {% else %}
+                    <a href="{% url 'register' %}"><i class="fas fa-user-plus"></i> Đăng ký</a>
+                    <a href="{% url 'login' %}"><i class="fas fa-sign-in-alt"></i> Đăng nhập</a>
+                {% endif %}
+
+                {% if user.is_authenticated %}
+                    <div class="user-balance">
+                        <i class="fas fa-wallet"></i> Số dư: {{ user.balance|floatformat:0 }}K
+                    </div>
+                    <div class="user-points">
+                        <i class="fas fa-star"></i> Điểm thành viên: {{ user.membership_points }} điểm
+                    </div>
+                {% endif %}
+                
+                <a href="{% url 'cart' %}"><i class="fas fa-shopping-cart"></i> Giỏ hàng</a>
+                <a href="{% url 'order_history' %}"><i class="fas fa-receipt"></i> Lịch sử đơn hàng</a>
+                <a href="https://www.facebook.com/profile.php?id=61570476017510"><i class="fas fa-phone-alt"></i> Hỗ trợ</a>
+            </nav>            
+        </div>
+    </header>
+
+    <main>
+        {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+            <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% block content %}{% endblock %}
+    </main>
+
+    {% block extra_js %}{% endblock %}
+</body>
+</html> 

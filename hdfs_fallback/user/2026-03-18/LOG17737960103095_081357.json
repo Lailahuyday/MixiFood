@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17737960103095",
+  "timestamp": "2026-03-18T08:06:50.190161",
+  "user": {
+    "id": 26680,
+    "username": "user26680",
+    "name": "Tr\u1ea7n Th\u1ecb An",
+    "email": "user26680@yahoo.com",
+    "phone": "0617416693",
+    "age": 62,
+    "address": "475 Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Qu\u1eadn 2",
+    "district": "Qu\u1eadn 2",
+    "balance": 754,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_83825",
+    "device": "tablet",
+    "ip": "154.122.137.212"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

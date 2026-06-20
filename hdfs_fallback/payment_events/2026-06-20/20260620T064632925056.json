@@ -1,0 +1,39 @@
+{
+  "log_id": "LOG17819379927803",
+  "timestamp": "2026-06-20T13:46:32.801381",
+  "user": {
+    "id": 33874,
+    "username": "user33874",
+    "name": "Đặng Văn Linh",
+    "email": "user33874@gmail.com",
+    "phone": "0469187884",
+    "age": 59,
+    "address": "349 Hai Bà Trưng, Quận 11",
+    "district": "Quận 11",
+    "balance": 2120,
+    "membership_points": 5
+  },
+  "action": "checkout",
+  "product": {
+    "id": 18,
+    "name": "Gà Popcorn",
+    "price": 89.0,
+    "category": "fastfood",
+    "stock_before": 7,
+    "stock_after": 7
+  },
+  "quantity": 1,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Không đủ điểm",
+    "points_required": 6,
+    "points_available": 5
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "payment_events_0_75_1781937992924"
+}

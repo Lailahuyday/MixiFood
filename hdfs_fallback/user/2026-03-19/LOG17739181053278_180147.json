@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739181053278",
+  "timestamp": "2026-03-19T18:01:45.501292",
+  "user": {
+    "id": 46228,
+    "username": "user46228",
+    "name": "\u0110\u1eb7ng Lan Mai",
+    "email": "user46228@gmail.com",
+    "phone": "0845348266",
+    "age": 51,
+    "address": "201 L\u00ea L\u1ee3i, Nh\u00e0 B\u00e8",
+    "district": "Nh\u00e0 B\u00e8",
+    "balance": 3203,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_57248",
+    "device": "mobile",
+    "ip": "222.94.226.102"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

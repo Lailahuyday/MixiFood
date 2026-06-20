@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17750996497777",
+  "timestamp": "2026-04-02T10:14:09.487649",
+  "user": {
+    "id": 16449,
+    "username": "user16449",
+    "name": "Phan Thanh H\u00e0",
+    "email": "user16449@yahoo.com",
+    "phone": "0687288664",
+    "age": 39,
+    "address": "110 Ph\u1ea1m Ng\u0169 L\u00e3o, B\u00ecnh T\u00e2n",
+    "district": "B\u00ecnh T\u00e2n",
+    "balance": 3931,
+    "membership_points": 8
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_27571",
+    "device": "tablet",
+    "ip": "146.29.251.233"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

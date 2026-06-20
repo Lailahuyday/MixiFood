@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739179309870",
+  "timestamp": "2026-03-19T17:58:50.817502",
+  "user": {
+    "id": 46268,
+    "username": "user46268",
+    "name": "L\u00ea Th\u1ecb Linh",
+    "email": "user46268@yahoo.com",
+    "phone": "0576382547",
+    "age": 52,
+    "address": "94 Nguy\u1ec5n Hu\u1ec7, Qu\u1eadn 9",
+    "district": "Qu\u1eadn 9",
+    "balance": 4576,
+    "membership_points": 4
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_88033",
+    "device": "desktop",
+    "ip": "119.172.175.205"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

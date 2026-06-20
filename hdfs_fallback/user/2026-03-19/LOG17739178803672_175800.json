@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739178803672",
+  "timestamp": "2026-03-19T17:58:00.223502",
+  "user": {
+    "id": 29396,
+    "username": "user29396",
+    "name": "Nguy\u1ec5n H\u01b0\u01a1ng Ch\u00e2u",
+    "email": "user29396@gmail.com",
+    "phone": "0945518708",
+    "age": 38,
+    "address": "263 L\u00ea L\u1ee3i, C\u1ee7 Chi",
+    "district": "C\u1ee7 Chi",
+    "balance": 2129,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_34974",
+    "device": "desktop",
+    "ip": "46.9.173.61"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

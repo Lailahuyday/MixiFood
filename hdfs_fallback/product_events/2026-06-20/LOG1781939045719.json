@@ -1,0 +1,39 @@
+{
+  "log_id": "LOG17819390457578",
+  "timestamp": "2026-06-20T14:04:05.646653",
+  "user": {
+    "id": 13586,
+    "username": "user13586",
+    "name": "B\u00f9i \u0110\u1ee9c Linh",
+    "email": "user13586@hotmail.com",
+    "phone": "0710153972",
+    "age": 24,
+    "address": "381 Nguy\u1ec5n Hu\u1ec7, Qu\u1eadn 11",
+    "district": "Qu\u1eadn 11",
+    "balance": 2854,
+    "membership_points": 4
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 15,
+    "name": "Ph\u00f4 Mai Que",
+    "price": 68.0,
+    "category": "fastfood",
+    "stock_before": 5,
+    "stock_after": 5
+  },
+  "quantity": 4,
+  "status": "success",
+  "additional_data": {
+    "quantity": 4,
+    "unit_price": 68.0,
+    "subtotal": 272.0,
+    "available_stock": 5
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781939045687"
+}

@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17739134837577",
+  "timestamp": "2026-03-19T16:44:43.430285",
+  "user": {
+    "id": 36663,
+    "username": "user36663",
+    "name": "V\u0169 H\u1ea3i Ch\u00e2u",
+    "email": "user36663@gmail.com",
+    "phone": "0996723077",
+    "age": 64,
+    "address": "151 Ph\u1ea1m Ng\u0169 L\u00e3o, C\u1ee7 Chi",
+    "district": "C\u1ee7 Chi",
+    "balance": 4516,
+    "membership_points": 6
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_65708",
+    "device": "mobile",
+    "ip": "109.130.253.143"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

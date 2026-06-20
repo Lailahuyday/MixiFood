@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740013823506",
+  "timestamp": "2026-03-20T17:09:42.640305",
+  "user": {
+    "id": 13548,
+    "username": "user13548",
+    "name": "Tr\u1ea7n H\u01b0\u01a1ng An",
+    "email": "user13548@hotmail.com",
+    "phone": "0866893260",
+    "age": 31,
+    "address": "116 Ph\u1ea1m Ng\u0169 L\u00e3o, C\u1ee7 Chi",
+    "district": "C\u1ee7 Chi",
+    "balance": 3939,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_51432",
+    "device": "mobile",
+    "ip": "159.85.26.167"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

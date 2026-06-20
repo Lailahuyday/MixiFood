@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818799045153",
+  "timestamp": "2026-06-19T21:38:24.806133",
+  "user": {
+    "id": 12512,
+    "username": "user12512",
+    "name": "Ph\u1ea1m H\u1ea3i H\u00e0",
+    "email": "user12512@hotmail.com",
+    "phone": "0877611993",
+    "age": 38,
+    "address": "50 L\u00ea L\u1ee3i, Qu\u1eadn 4",
+    "district": "Qu\u1eadn 4",
+    "balance": 3157,
+    "membership_points": 3
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "google",
+    "session_id": "session_11314",
+    "device": "desktop",
+    "ip": "52.81.118.6"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781879904809"
+}

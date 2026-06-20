@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17818803817178",
+  "timestamp": "2026-06-19T21:46:21.498660",
+  "user": {
+    "id": 5958,
+    "username": "user5958",
+    "name": "L\u00ea V\u0103n Kh\u00e1nh",
+    "email": "user5958@gmail.com",
+    "phone": "0630867735",
+    "age": 35,
+    "address": "381 L\u00ea L\u1ee3i, Qu\u1eadn 5",
+    "district": "Qu\u1eadn 5",
+    "balance": 3311,
+    "membership_points": 1
+  },
+  "action": "checkout",
+  "product": {
+    "id": 5,
+    "name": "G\u1ecfi C\u00e1 H\u1ed3i Chi\u00ean Gi\u00f2n",
+    "price": 144.0,
+    "category": "food",
+    "stock_before": 22,
+    "stock_after": 22
+  },
+  "quantity": 5,
+  "status": "failed",
+  "additional_data": {
+    "payment_method": "Membership",
+    "reason": "Ch\u1ec9 \u0111\u01b0\u1ee3c d\u00f9ng \u0111i\u1ec3m khi mua 1 s\u1ea3n ph\u1ea9m",
+    "quantity": 5
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781880381502"
+}

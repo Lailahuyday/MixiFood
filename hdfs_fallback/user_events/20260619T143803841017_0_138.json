@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818797344719",
+  "timestamp": "2026-06-19T21:35:34.686260",
+  "user": {
+    "id": 20842,
+    "username": "user20842",
+    "name": "Bùi Tuấn Dũng",
+    "email": "user20842@yahoo.com",
+    "phone": "0981839095",
+    "age": 59,
+    "address": "445 Nguyễn Huệ, Phú Nhuận",
+    "district": "Phú Nhuận",
+    "balance": 4904,
+    "membership_points": 5
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_29409",
+    "device": "tablet",
+    "ip": "44.29.238.148"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

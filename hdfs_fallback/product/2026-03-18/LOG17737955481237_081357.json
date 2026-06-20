@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17737955481237",
+  "timestamp": "2026-03-18T07:59:08.951382",
+  "user": {
+    "id": 8,
+    "username": "user8",
+    "name": "Hu\u1ef3nh Minh Mai",
+    "email": "user8@yahoo.com",
+    "phone": "0328618023",
+    "age": 54,
+    "address": "397 L\u00ea L\u1ee3i, G\u00f2 V\u1ea5p",
+    "district": "G\u00f2 V\u1ea5p",
+    "balance": 3152,
+    "membership_points": 2
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 17,
+    "name": "G\u00e0 Kh\u00f4ng X\u01b0\u01a1ng Chi\u00ean",
+    "price": 68.0,
+    "category": "fastfood",
+    "stock_before": 96,
+    "stock_after": 96
+  },
+  "quantity": 5,
+  "status": "success",
+  "additional_data": {
+    "quantity": 5,
+    "unit_price": 68.0,
+    "subtotal": 340.0,
+    "available_stock": 96
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

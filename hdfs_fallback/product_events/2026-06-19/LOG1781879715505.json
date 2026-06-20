@@ -1,0 +1,39 @@
+{
+  "log_id": "LOG17818797151934",
+  "timestamp": "2026-06-19T21:35:15.496436",
+  "user": {
+    "id": 21690,
+    "username": "user21690",
+    "name": "Ho\u00e0ng Minh Nam",
+    "email": "user21690@gmail.com",
+    "phone": "0365775061",
+    "age": 52,
+    "address": "436 Nguy\u1ec5n Hu\u1ec7, H\u00f3c M\u00f4n",
+    "district": "H\u00f3c M\u00f4n",
+    "balance": 4917,
+    "membership_points": 1
+  },
+  "action": "add_to_cart",
+  "product": {
+    "id": 9,
+    "name": "Cua C\u00e0 Ri Ki\u1ec3u Th\u00e1i",
+    "price": 268.0,
+    "category": "food",
+    "stock_before": 22,
+    "stock_after": 22
+  },
+  "quantity": 5,
+  "status": "success",
+  "additional_data": {
+    "quantity": 5,
+    "unit_price": 268.0,
+    "subtotal": 1340.0,
+    "available_stock": 22
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781879715502"
+}

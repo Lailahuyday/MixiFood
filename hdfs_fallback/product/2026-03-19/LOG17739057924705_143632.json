@@ -1,0 +1,37 @@
+{
+  "log_id": "LOG17739057924705",
+  "timestamp": "2026-03-19T14:36:32.633796",
+  "user": {
+    "id": 2827,
+    "username": "user2827",
+    "name": "Phan H\u1ed3ng B\u00ecnh",
+    "email": "user2827@yahoo.com",
+    "phone": "0585695141",
+    "age": 35,
+    "address": "400 Nguy\u1ec5n Hu\u1ec7, Ph\u00fa Nhu\u1eadn",
+    "district": "Ph\u00fa Nhu\u1eadn",
+    "balance": 465,
+    "membership_points": 6
+  },
+  "action": "view",
+  "product": {
+    "id": 17,
+    "name": "G\u00e0 Kh\u00f4ng X\u01b0\u01a1ng Chi\u00ean",
+    "price": 68.0,
+    "category": "fastfood",
+    "stock_before": 80,
+    "stock_after": 80
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 43,
+    "from_page": "search",
+    "device": "desktop"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  }
+}

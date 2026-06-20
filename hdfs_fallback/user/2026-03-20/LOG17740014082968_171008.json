@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17740014082968",
+  "timestamp": "2026-03-20T17:10:08.467991",
+  "user": {
+    "id": 6,
+    "username": "user6",
+    "name": "L\u00ea H\u1ea3i H\u00e0",
+    "email": "user6@gmail.com",
+    "phone": "0968463588",
+    "age": 41,
+    "address": "3 L\u00ea L\u1ee3i, Qu\u1eadn 2",
+    "district": "Qu\u1eadn 2",
+    "balance": 1966,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_40517",
+    "device": "tablet",
+    "ip": "112.118.133.167"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "regular"
+  }
+}

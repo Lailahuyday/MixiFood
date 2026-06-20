@@ -1,0 +1,31 @@
+{
+  "log_id": "LOG17818798443506",
+  "timestamp": "2026-06-19T21:37:24.778701",
+  "user": {
+    "id": 20131,
+    "username": "user20131",
+    "name": "Trần Thị Châu",
+    "email": "user20131@yahoo.com",
+    "phone": "0748840266",
+    "age": 23,
+    "address": "412 Phạm Ngũ Lão, Bình Thạnh",
+    "district": "Bình Thạnh",
+    "balance": 3260,
+    "membership_points": 2
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "facebook",
+    "session_id": "session_98043",
+    "device": "mobile",
+    "ip": "71.17.40.246"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  }
+}

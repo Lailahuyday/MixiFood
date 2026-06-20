@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818820455727",
+  "timestamp": "2026-06-19T22:14:05.363313",
+  "user": {
+    "id": 9015,
+    "username": "user9015",
+    "name": "Phan Thanh Ch\u00e2u",
+    "email": "user9015@gmail.com",
+    "phone": "0876950394",
+    "age": 64,
+    "address": "360 Ph\u1ea1m Ng\u0169 L\u00e3o, B\u00ecnh Th\u1ea1nh",
+    "district": "B\u00ecnh Th\u1ea1nh",
+    "balance": 4537,
+    "membership_points": 6
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_15888",
+    "device": "tablet",
+    "ip": "79.148.47.108"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "vip"
+  },
+  "event_id": "LOG_1781882045368"
+}

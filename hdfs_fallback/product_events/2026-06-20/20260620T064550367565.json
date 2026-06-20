@@ -1,0 +1,38 @@
+{
+  "log_id": "LOG17819379507810",
+  "timestamp": "2026-06-20T13:45:50.337209",
+  "user": {
+    "id": 19863,
+    "username": "user19863",
+    "name": "Phan Tuấn Hà",
+    "email": "user19863@yahoo.com",
+    "phone": "0577428215",
+    "age": 51,
+    "address": "398 Lê Lợi, Tân Phú",
+    "district": "Tân Phú",
+    "balance": 413,
+    "membership_points": 5
+  },
+  "action": "view",
+  "product": {
+    "id": 13,
+    "name": "Oolong Xoài",
+    "price": 67.0,
+    "category": "drink",
+    "stock_before": 0,
+    "stock_after": 0
+  },
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "view_duration": 65,
+    "from_page": "category",
+    "device": "tablet"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  },
+  "event_id": "product_events_0_289_1781937950367"
+}

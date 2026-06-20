@@ -1,0 +1,32 @@
+{
+  "log_id": "LOG17818797095082",
+  "timestamp": "2026-06-19T21:35:09.760976",
+  "user": {
+    "id": 33550,
+    "username": "user33550",
+    "name": "\u0110\u1eb7ng Th\u1ecb An",
+    "email": "user33550@hotmail.com",
+    "phone": "0790650371",
+    "age": 34,
+    "address": "477 Hai B\u00e0 Tr\u01b0ng, G\u00f2 V\u1ea5p",
+    "district": "G\u00f2 V\u1ea5p",
+    "balance": 311,
+    "membership_points": 1
+  },
+  "action": "login",
+  "product": null,
+  "quantity": null,
+  "status": "success",
+  "additional_data": {
+    "login_method": "password",
+    "session_id": "session_76201",
+    "device": "tablet",
+    "ip": "142.10.74.121"
+  },
+  "metadata": {
+    "source": "log_generator",
+    "version": "2.0",
+    "user_segment": "new"
+  },
+  "event_id": "LOG_1781879709766"
+}
