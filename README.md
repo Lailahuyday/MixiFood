@@ -1,224 +1,316 @@
-# 🚀 MIXI: E-commerce Microservices Data Pipeline
+# MIXI: Hệ thống thu thập log theo thời gian thực
 
-**MIXI** là hệ thống thương mại điện tử chạy trên kiến trúc **microservices** với luồng dữ liệu thời gian thực.
-Hệ thống tích hợp Kafka làm message broker, MySQL làm cơ sở dữ liệu nghiệp vụ và Hadoop HDFS làm lớp lưu trữ log thô.
+**MIXI** là dự án mô phỏng hệ thống thu thập dữ liệu log theo luồng (Streaming Acquisition) cho bài toán dữ liệu lớn.
 
----
+Luồng chính:
 
-## 🌟 Tổng quan
+**Producer (`log_generator.py`) → Kafka (4 topic) → Consumer (`consumer_test.py` hoặc `etl-service`) → HDFS / `hdfs_fallback/`**
 
-MIXI gồm:
-- Django `web-service` làm frontend chính, hiển thị giỏ hàng, đơn hàng và các tính năng cơ bản của e-commerce.
-- Các microservice FastAPI để xử lý xác thực, catalog sản phẩm, ingest event, ETL và analytics.
-- Kafka dùng để truyền tải sự kiện giữa dịch vụ và pipeline xử lý.
-- MySQL lưu trữ dữ liệu nghiệp vụ chính như user, sản phẩm, đơn hàng và lịch sử hoạt động.
-- Hadoop HDFS lưu trữ log thô của sự kiện để phục vụ phân tích và xử lý lịch sử.
-- Nếu HDFS không ghi được, pipeline sẽ dùng thư mục `hdfs_fallback/` làm dự phòng local.
+Ngoài pipeline streaming, repo còn có Django web và một số microservice FastAPI (auth, catalog, ingestion, analytics) chạy trong Docker Compose.
 
 ---
 
-## 🧩 Các thành phần chính
+## Tổng quan kiến trúc
 
-| Thành phần | Chức năng |
+| Thành phần | Vai trò |
 | :--- | :--- |
-| `web-service` | Django frontend hiển thị UI, gọi API đến các dịch vụ backend |
-| `auth-service` | Xác thực, đăng ký, đăng nhập, JWT |
-| `catalog-service` | Quản lý sản phẩm, category, tồn kho |
-| `ingestion-service` | Nhận event từ web/app và gửi vào Kafka |
-| `etl-service` | Tiêu thụ Kafka, ghi MySQL, ghi HDFS hoặc fallback local |
-| `analytics-service` | API báo cáo, truy vấn chỉ số kinh doanh |
-| `kafka` | Broker message Kafka với listener host `localhost:9093` và nội bộ `kafka:9092` |
+| `log_generator.py` | Producer chạy trên host: mô phỏng log realtime, gửi Kafka, ghi MySQL |
+| `consumer_test.py` | Consumer chạy trên host: đọc Kafka, ghi HDFS hoặc fallback local |
+| `etl-service` | Consumer chạy trong Docker: đọc Kafka, ghi HDFS/fallback và ghi MySQL |
+| `ingestion-service` | API FastAPI nhận event qua HTTP và gửi vào Kafka (tùy chọn) |
+| `kafka` | Message broker, listener nội bộ `kafka:9092`, listener host `localhost:9093` |
 | `zookeeper` | Quản lý Kafka |
-| `mysql` | MySQL 8.0 cho dữ liệu nghiệp vụ |
-| `redis` | Bộ nhớ đệm và session |
-| `namenode` | HDFS NameNode, cung cấp WebHDFS |
-| `datanode` | HDFS DataNode, lưu trữ block và nhận upload từ redirect WebHDFS |
+| `mysql` | MySQL 8.0, host port `3307` → container `3306` |
+| `namenode` / `datanode` | HDFS, WebHDFS UI tại `http://localhost:9870` |
+| `web-service` | Django frontend + admin |
+| `auth-service` | JWT / OAuth (Django gọi khi đăng nhập social) |
+| `catalog-service` | API quản lý sản phẩm (FastAPI, độc lập) |
+| `analytics-service` | API thống kê **mock** (chưa đọc MySQL/Kafka thật) |
+| `gateway` | Nginx reverse proxy tới các service |
 
 ---
 
-## ✅ Tính năng hiện có
+## Luồng dữ liệu streaming (phần cốt lõi đồ án)
 
-- Hệ thống Django + FastAPI chạy trong Docker Compose.
-- Kafka phân luồng sự kiện theo nhiều topic: `user_events`, `product_events`, `order_events`, `payment_events`.
-- `log_generator.py` tạo event giả, gửi Kafka và ghi log vào MySQL.
-- `consumer_test.py` đọc Kafka, ghi file log vào HDFS, fallback về `hdfs_fallback/` khi HDFS không khả dụng.
-- Django admin có thể quản lý User, Product, Order, OrderItem và Payment.
-- URL admin Django: `/admin/`.
-- HDFS WebHDFS được cấu hình để cho phép tạo file từ host Docker.
-- Port mappings cho phép truy cập từ host: Kafka `9093`, MySQL `3307`, Redis `6379`, HDFS NameNode `9870`, DataNode `9864`, và frontend/service ports.
+### 1. Sinh log (Producer)
 
----
+`log_generator.py` chạy vòng lặp liên tục:
 
-## 🔄 Luồng hoạt động người dùng và admin
+- Mô phỏng user giả (tên, email, địa chỉ, balance, membership…)
+- Lấy sản phẩm thật từ MySQL bảng `home_product`
+- Random các action: `login`, `view`, `add_to_cart`, `checkout`
+- Đóng gói JSON log (có `log_id`, `timestamp`, `user`, `product`, `action`, `status`, …)
+- Gửi vào Kafka topic tương ứng
+- Ghi bản ghi tóm tắt vào MySQL bảng `user_activity_log`
 
-### 1. User events
+**Phân luồng topic:**
 
-Người dùng trên frontend có thể tạo ra các event chính sau:
-- `login`: đăng nhập / đăng ký
-- `view`: xem chi tiết sản phẩm
-- `add_to_cart`: thêm sản phẩm vào giỏ hàng
-- `checkout`: thanh toán đơn hàng
-- `search` / `browse`: duyệt danh mục, tìm kiếm sản phẩm (với dữ liệu đầu vào được mô phỏng bởi generator)
+| Action | Kafka topic |
+| :--- | :--- |
+| `login` | `user_events` |
+| `view`, `add_to_cart` | `product_events` |
+| `checkout` (thành công) | `order_events` |
+| `checkout` (thất bại / payment) | `payment_events` |
 
-Các event này được gửi vào Kafka và lưu đồng thời vào MySQL để phục vụ giao diện và lịch sử.
+**Lưu ý:** `search` / `browse` không phải action riêng; chỉ xuất hiện như metadata `from_page` trong event `view`.
 
-### 2. Admin events
+### 2. Kafka (Message broker)
 
-Admin hoạt động qua Django admin tại `http://localhost:8000/admin/` và có thể tạo ra / sửa / xóa các loại nghiệp vụ:
-- `Manage User`: tạo, sửa thông tin, xem balance, membership, trạng thái tài khoản.
-- `Manage Product`: thêm mới sản phẩm, cập nhật giá, tồn kho, thông tin category.
-- `Manage Order`: kiểm tra đơn hàng, trạng thái đơn, tổng tiền, chi tiết item.
-- `Manage Payment`: xem trạng thái thanh toán, phương thức và lịch sử giao dịch.
+Kafka có 2 listener:
 
-Những thao tác này lưu trực tiếp vào MySQL. Admin dùng Django admin để giám sát dữ liệu nghiệp vụ, không phải luồng Kafka.
+- **Trong Docker network:** `kafka:9092` (dùng bởi `etl-service`, `ingestion-service`, …)
+- **Từ máy host:** `localhost:9093` (dùng bởi `log_generator.py`, `consumer_test.py`)
 
-### 3. Sinh event ngẫu nhiên mô phỏng khách hàng
+4 topic được cấu hình partitions và retention trong `kafka_config.py`, áp dụng bằng script `create_kafka_topics.ps1`.
 
-`log_generator.py` là công cụ tạo event giả cho hệ sinh thái big data:
-- tạo người dùng giả với tên, email, địa chỉ, balance, membership.
-- lấy sản phẩm real từ bảng `home_product` trong MySQL.
-- sinh ngẫu nhiên các event `login`, `view`, `add_to_cart`, `checkout`.
-- gửi event vào Kafka topic tương ứng:
-  - `user_events`
-  - `product_events`
-  - `order_events`
-  - `payment_events`
-- ghi cùng event vào MySQL table `user_activity_log`.
+### 3. Thu thập và lưu trữ (Consumer)
 
-### 4. Mục đích mô phỏng
+Có **2 consumer** (chọn một trong hai khi demo):
 
-Mục tiêu của generator là tạo ra dữ liệu khách hàng giả để:
-- thử luồng dữ liệu thời gian thực trên Kafka
-- kiểm tra khả năng nhập liệu của ETL pipeline
-- tạo dữ liệu log thô để lưu trữ trong HDFS
-- mô phỏng một hệ sinh thái big data với event streaming và storage
+#### A. `consumer_test.py` (chạy trên host)
 
-## 🔄 Luồng dữ liệu chi tiết (Workflow)
-
-### 1. Sinh sự kiện
-
-- `log_generator.py` tạo event giả dựa trên sản phẩm và người dùng.
-- Events có thể là `login`, `view`, `add_to_cart`, `checkout`.
-- Mỗi event được gửi tới Kafka topic tương ứng và đồng thời ghi vào MySQL.
-
-### 2. Đẩy event vào Kafka
-
-- `ingestion-service` (hoặc `log_generator.py`) gửi event vào Kafka.
-- Kafka có 2 listener:
-  - Nội bộ giữa container: `kafka:9092`
-  - Host máy local: `localhost:9093`
-- `log_generator.py` chạy từ host nên dùng `localhost:9093`.
-
-### 3. Tiêu thụ event trong ETL
-
-- `consumer_test.py` hoặc `etl-service` đọc từ các topic Kafka:
-  - `user_events`
-  - `product_events`
-  - `order_events`
-  - `payment_events`
+- Subscribe 4 topic Kafka
 - Với mỗi message:
-  - Chuẩn hóa thành JSON
-  - Thêm `event_id`
-  - Tạo HDFS path dạng `/logs/<topic>/<YYYY-MM-DD>/<event_id>.json`
+  - Bổ sung `event_id` nếu thiếu
+  - Ghi JSON lên HDFS qua WebHDFS
+  - Nếu HDFS lỗi → ghi vào `hdfs_fallback/`
+- **Không ghi MySQL** (MySQL do producer ghi)
 
-### 4. Ghi vào HDFS hoặc fallback
+#### B. `etl-service` (chạy trong Docker)
 
-- Nếu HDFS NameNode và DataNode khả dụng, consumer dùng WebHDFS `CREATE`.
-- HDFS trả về redirect `307` tới DataNode.
-- `consumer_test.py` xử lý redirect và đổi hostname DataNode sang `localhost:9864` khi cần.
-- Nếu ghi HDFS thành công:
-  - File được lưu vào HDFS path `/logs/...`
-  - Log hiển thị: `Wrote to HDFS: /logs/...`
-- Nếu HDFS không ghi được:
-  - File được lưu local vào `hdfs_fallback/<topic>/<YYYY-MM-DD>/<timestamp>.json`
-  - Log hiển thị: `Wrote fallback local file: ...`
+- Subscribe 4 topic Kafka (consumer group `etl_group`)
+- Ghi HDFS hoặc fallback local
+- Có logic ghi MySQL (schema phẳng `user_id`, `product_id` — phù hợp event từ `ingestion-service` hơn event từ `log_generator`)
 
-### 5. Lưu trữ nghiệp vụ
+### 4. Ghi HDFS (WebHDFS 2 bước)
 
-- Cùng lúc event được viết MySQL bằng `insert_activity_log()` trong `log_generator.py`.
-- MySQL chứa bảng `user_activity_log` và các bảng nghiệp vụ của Django.
-- Dữ liệu chính được dùng cho giao diện, báo cáo và truy vấn.
+1. Consumer gửi `op=CREATE` tới Namenode → nhận redirect `307`
+2. Consumer PUT dữ liệu lên Datanode
 
----
+`consumer_test.py` đổi hostname `datanode` → `localhost` trong URL redirect để ghi từ máy Windows.
 
-## 🧠 Quy trình hoạt động chi tiết
+**Đường dẫn file trên HDFS:**
 
-### A. Khởi động hệ thống
+```
+/logs/<topic>/<YYYY-MM-DD>/<event_id>.json
+```
 
-1. Chạy `docker compose up --build -d`
-2. Docker tạo và kết nối dịch vụ vào mạng `mixi-network`
-3. Kafka, Zookeeper, MySQL, Redis, HDFS, gateway, API services và web-service đều up
+Ví dụ:
 
-### B. Giao tiếp giữa dịch vụ
+```
+/logs/user_events/2026-03-20/LOG17740174261939_213706.json
+/logs/product_events/2026-03-20/LOG17740174273277_213707.json
+```
 
-- `web-service` gọi API nội bộ tới `auth-service`, `catalog-service`, `ingestion-service`.
-- `ingestion-service` viết event vào Kafka nội bộ `kafka:9092`.
-- `etl-service` đọc Kafka nội bộ và ghi HDFS nội bộ qua `namenode:9870`.
-- `analytics-service` đọc từ MySQL và Kafka để trả báo cáo.
+> Topic ở đây là **tên đầy đủ** (`user_events`), không rút gọn thành `user`.
 
-### C. HDFS Fallback
+### 5. Fallback local
 
-- `etl-service` và `consumer_test.py` được cấu hình `HDFS_USER=root`.
-- Khi HDFS không sẵn sàng, thư mục `hdfs_fallback/` được tạo tự động.
-- `hdfs_fallback/` là nơi chứa bản sao log JSON local để không mất dữ liệu khi HDFS lỗi.
-- Đây không phải là HDFS thực sự mà chỉ là cơ chế dự phòng.
+Khi HDFS không ghi được, file JSON được lưu tại:
 
-### D. Kiểm tra trạng thái
+```
+hdfs_fallback/<topic>/<YYYY-MM-DD>/<timestamp>.json
+```
 
-- Kiểm tra HDFS NameNode UI: `http://localhost:9870`
-- Kiểm tra DataNode status: `http://localhost:9864` (qua host mapping)
-- Kiểm tra Kafka broker bằng `localhost:9093`
-- Kiểm tra MySQL bằng `localhost:3307`
-- Kiểm tra các service FastAPI:
-  - `http://localhost:8001` (auth)
-  - `http://localhost:8002` (catalog)
-  - `http://localhost:8003` (ingestion)
-  - `http://localhost:8004` (analytics)
-- Kiểm tra Django frontend: `http://localhost:8000`
+Đây là cơ chế dự phòng để pipeline streaming **không mất dữ liệu** khi HDFS gặp sự cố.
 
 ---
 
-## 📌 Hướng dẫn chạy nhanh
+## Cấu hình Kafka topic
 
-### 1. Khởi động toàn bộ stack
+File `kafka_config.py` khai báo:
+
+| Topic | Partitions | Retention |
+| :--- | :---: | :---: |
+| `user_events` | 3 | 7 ngày |
+| `product_events` | 2 | 7 ngày |
+| `order_events` | 3 | 30 ngày |
+| `payment_events` | 2 | 30 ngày |
+
+Tạo và cấu hình topic (chạy sau khi Kafka đã up):
+
+```powershell
+.\create_kafka_topics.ps1
+```
+
+Script sẽ tạo topic, tăng partitions nếu cần, set `retention.ms` và in `--describe` để minh chứng.
+
+---
+
+## Hướng dẫn chạy
+
+### Yêu cầu
+
+- Docker Desktop
+- Python 3.10+ (venv)
+- PowerShell
+
+### 1. Tạo file `.env` ở thư mục gốc
+
+Docker Compose cần các biến môi trường. Tạo file `.env`:
+
+```env
+MYSQL_ROOT_PASSWORD=68686868
+MYSQL_DATABASE=food
+MYSQL_USER=root
+MYSQL_PASSWORD=68686868
+SECRET_KEY=your-secret-key-change-in-production
+```
+
+### 2. Khởi động hạ tầng
 
 ```powershell
 docker compose up --build -d
 ```
 
-### 2. Chạy generator event từ host
+Đợi các service healthy (đặc biệt `mixi-namenode`, `mixi-datanode`, `mixi-kafka`, `mixi-mysql`).
+
+### 3. Tạo Kafka topic
 
 ```powershell
-python log_generator.py
+.\create_kafka_topics.ps1
 ```
 
-### 3. Chạy consumer kiểm tra HDFS / fallback
+### 4. Chạy consumer (terminal 1)
 
 ```powershell
+.\venv\Scripts\activate
 python consumer_test.py
 ```
 
----
+### 5. Chạy producer (terminal 2)
 
-## 🧪 Mục tiêu kiểm thử
+```powershell
+.\venv\Scripts\activate
+python log_generator.py
+```
 
-- Kiểm tra Kafka đang nhận event trên `localhost:9093`.
-- Kiểm tra MySQL host `127.0.0.1:3307` với database `food`.
-- Kiểm tra `consumer_test.py` có thể kết nối HDFS NameNode và DataNode.
-- Kiểm tra `hdfs_fallback/` có file khi HDFS không ghi được.
-- Kiểm tra UI Django và các API FastAPI hoạt động.
+### 6. Kiểm tra kết quả
 
----
+- **Console consumer:** thấy `Wrote to HDFS: /logs/...` hoặc `Wrote fallback local file: ...`
+- **HDFS UI:** `http://localhost:9870` → Browse → `/logs/user_events/2026-03-20/`
+- **Fallback local:** thư mục `hdfs_fallback/` trong repo
 
-## 📁 Lưu ý cấu trúc repo
+**Xem file HDFS trên trình duyệt:** nếu link redirect sang `http://datanode:9864/...` bị lỗi DNS, thêm vào `C:\Windows\System32\drivers\etc\hosts`:
 
-- `hdfs_fallback/`: dự phòng local nếu HDFS fails.
-- `docker-compose.yml`: cấu trúc Docker toàn hệ thống.
-- `log_generator.py`: tạo event giả, gửi Kafka, ghi MySQL.
-- `consumer_test.py`: consumer Kafka + ghi HDFS / fallback.
-- `mixi/`: cấu hình Django.
-- `home/`, `accounts/`: app Django.
-- `services/`: chứa các dịch vụ FastAPI.
+```
+127.0.0.1 datanode
+127.0.0.1 namenode
+```
 
 ---
 
+## Port và endpoint
+
+| Dịch vụ | URL / Port |
+| :--- | :--- |
+| Django web | `http://localhost:8000` |
+| Django admin | `http://localhost:8000/admin/` |
+| Gateway (Nginx) | `http://localhost:80` |
+| Auth service | `http://localhost:8001` |
+| Catalog service | `http://localhost:8002` |
+| Ingestion service | `http://localhost:8003` |
+| Analytics service | `http://localhost:8004` |
+| Kafka (host) | `localhost:9093` |
+| MySQL (host) | `127.0.0.1:3307` |
+| HDFS Namenode UI | `http://localhost:9870` |
+| HDFS Datanode | `http://localhost:9864` |
+| Redis | `localhost:6379` |
+
+---
+
+## Các thành phần phụ (ngoài pipeline streaming)
+
+### Django web + admin
+
+- Frontend e-commerce cơ bản (giỏ hàng, đơn hàng, …)
+- Admin quản lý User, Product, Order, Payment trực tiếp trên MySQL
+- **Admin không đi qua Kafka**
+
+### Auth service
+
+- Django `accounts/views.py` gọi `auth-service` khi đăng nhập social (Google/Facebook)
+- Các phần còn lại của web chủ yếu dùng Django ORM trực tiếp
+
+### Ingestion service (tùy chọn)
+
+API nhận event qua HTTP và gửi vào Kafka:
+
+```
+POST http://localhost:8003/api/events/ingest
+```
+
+Schema event khác với `log_generator.py` (dùng `event_id`, `user_id` phẳng). Phù hợp khi tích hợp app thật sau này.
+
+### Analytics service
+
+Hiện chỉ trả **dữ liệu mock/random**, chưa kết nối MySQL hay Kafka.
+
+### ETL service (Docker)
+
+Chạy tự động khi `docker compose up`. Nếu demo bằng `consumer_test.py` trên host, cả hai consumer có thể cùng đọc Kafka (khác consumer group) — cân nhắc tắt `etl-service` nếu chỉ muốn demo một luồng.
+
+---
+
+## Cấu trúc thư mục
+
+```
+mixi/
+├── docker-compose.yml          # Hạ tầng Docker
+├── kafka_config.py             # Cấu hình Kafka topic
+├── create_kafka_topics.ps1       # Script tạo/cấu hình topic
+├── log_generator.py            # Producer mô phỏng log
+├── consumer_test.py            # Consumer ghi HDFS/fallback
+├── hdfs_fallback/              # Dự phòng local khi HDFS lỗi
+├── mixi/                       # Django settings
+├── home/, accounts/            # Django apps
+├── services/
+│   ├── auth-service/
+│   ├── catalog-service/
+│   ├── ingestion-service/
+│   ├── etl-service/
+│   └── analytics-service/
+└── infrastructure/nginx/       # Cấu hình gateway
+```
+
+---
+
+## Kiểm thử nhanh
+
+- [ ] `docker ps` — tất cả container `mixi-*` đang Up
+- [ ] `create_kafka_topics.ps1` — topic có đúng partitions/retention
+- [ ] `log_generator.py` — console in log gửi Kafka
+- [ ] `consumer_test.py` — thấy `Wrote to HDFS: /logs/...`
+- [ ] HDFS UI — có file JSON trong `/logs/<topic>/<ngày>/`
+- [ ] MySQL — bảng `user_activity_log` có bản ghi mới (do generator ghi)
+
+---
+
+## Lưu ý khi demo / báo cáo
+
+1. **Luồng chính cần trình bày:** Producer → Kafka → Consumer → HDFS (+ fallback).
+2. **MySQL trong pipeline:** do `log_generator.py` ghi khi sinh log; `consumer_test.py` không ghi MySQL.
+3. **Đường dẫn HDFS** dùng tên topic đầy đủ (`user_events`, không phải `user`).
+4. **Analytics service** hiện là mock — không nên mô tả là đọc dữ liệu thật từ Kafka/MySQL.
+5. Nếu HDFS datanode bị lỗi clusterID, reset volume:
+
+```powershell
+docker compose down -v
+docker compose up -d
+```
+
+6. `log_generator.py` kết nối MySQL tại `127.0.0.1` (port mặc định 3306). MySQL Docker map ra host port **3307** — nếu generator không connect được, chỉnh thêm `port=3307` trong file hoặc dùng MySQL local trên 3306.
+
+---
+
+## Đối chiếu yêu cầu đề tài Streaming Acquisition
+
+| Yêu cầu | Trạng thái |
+| :--- | :---: |
+| Mô phỏng dữ liệu log theo thời gian thực | ✅ |
+| Cấu hình Kafka topic (partitions, retention) | ✅ |
+| Thu thập liên tục và ghi vào HDFS | ✅ |
+| Cung cấp dữ liệu đầu ra cho nhóm Lưu trữ/Xử lý | ✅ |
+
+Đầu ra chính: file JSON trên HDFS tại `/logs/<topic>/<YYYY-MM-DD>/`.  
+Đầu ra dự phòng: `hdfs_fallback/<topic>/<YYYY-MM-DD>/`.
