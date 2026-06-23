@@ -156,12 +156,12 @@ hdfs_fallback/<topic>/<YYYY-MM-DD>/<timestamp>.json
 
 ```
 ┌─────────────────┐     ┌──────────────────────────────────┐     ┌─────────────────┐
-│ log_generator   │────▶│           Apache Kafka             │────▶│ consumer_test   │
-│   (Producer)    │     │  user_events    │ product_events   │     │   (Consumer)    │
-│                 │     │  order_events   │ payment_events   │     │                 │
+│ log_generator   │───▶│           Apache Kafka            │───▶│ consumer_test   │
+│   (Producer)    │     │  user_events    │ product_events │     │   (Consumer)    │
+│                 │     │  order_events   │ payment_event  │     │                 │
 └────────┬────────┘     └──────────────────────────────────┘     └────────┬────────┘
-         │                                                                  │
-         ▼                                                                  ▼
+         │                                                                │
+         ▼                                                                ▼
 ┌─────────────────┐                                              ┌─────────────────┐
 │     MySQL       │                                              │      HDFS       │
 │ user_activity_  │                                              │  /logs/<topic>/ │
